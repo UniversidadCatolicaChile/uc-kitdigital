@@ -1,0 +1,90 @@
+.uc-btn {
+  position: relative;
+  line-height: 1;
+  border: none;
+  color: $mainblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @extend %smallradius;
+  .material-icons {
+    vertical-align: middle;
+    &.rounded-background {
+      background-color: $mainblue;
+      color: #fff;
+      border-radius: 50%;
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
+  &.inline-btn {
+    display: inline-flex;
+  }
+  &.primary {
+    padding: 12px 16px;
+    text-align: left;
+    width: 100%;
+    @extend %primaryshadow;
+    @extend %primaryborder;
+    @extend %link;
+  }
+  &.secondary {
+    padding: 24px 16px;
+    border-radius: 0 4px 4px 0;
+    border-left: 2px solid $yellow;
+    width: 100%;
+    @extend %link;
+    @extend %primaryshadow;
+    @extend %primaryborder;
+    .material-icons {
+      font-size: 16px;
+    }
+  }
+  &.admission {
+    border: 2px solid $yellow;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    .material-icons {
+      font-size: 10px;
+    }
+  }
+  &.filter {
+    padding: 8px;
+    color: #000;
+    @extend %primaryborder;
+    @extend %primaryshadow;
+    @extend %mediumradius;
+    .material-icons {
+      font-size: 12px;
+      vertical-align: middle;
+    }
+  }
+  &.bordered {
+    padding: 20px;
+    @extend %secondaryborder;
+    &.large {
+      padding: 20px 40px;
+    }
+  }
+  &.btn-list {
+    width: 100%;
+    padding: 11px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    border-bottom: 1px solid $lightgraya;
+    border-radius: 0;
+    &:first-child {
+      border-top: 1px solid $lightgraya;
+    }
+    .material-icons {
+      color: $mainblue;
+      &.rounded-background {
+        color: #fff;
+      }
+    }
+  }
+}

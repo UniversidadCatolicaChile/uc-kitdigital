@@ -1,0 +1,26 @@
+.uc-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  border-bottom: 2px solid $lightgraya;
+  color: $lightgraya;
+  .uc-tab-item {
+    color: $darkgray;
+    &.active, &:hover {
+      color: #000;
+      .uc-tab-link {
+        text-decoration: none;
+        border-bottom: 2px solid $mainblue;
+      }
+    }
+  }
+  .uc-tab-link {
+    font-size: 16px;
+    padding: 16px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: -2px;
+  }
+}

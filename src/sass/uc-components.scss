@@ -7,6 +7,15 @@
 @import "~bootstrap/scss/grid";
 
 // import local scss files
+@import 'mixins';
 @import 'color';
-@import 'typography';
 @import 'spacing';
+@import 'typography';
+@import 'borders';
+@import 'shadows';
+
+// import components scss
+@import 'components/buttons';
+@import 'components/card';
+@import 'components/tabs';
+@import 'components/breadcrumb';
