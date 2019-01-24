@@ -50,6 +50,11 @@
 .mb-160, .my-160 {
   margin-bottom: 160px;
 }
+.mt-auto {
+  margin-top: auto;
+}
+
+// todo: continuar margin: auto;
 
 @for $i from 1 through 12 {
   .p-#{$i*4} {

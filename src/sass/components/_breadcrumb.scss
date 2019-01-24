@@ -1,8 +1,24 @@
 .uc-breadcrumb {
   padding: 0;
-  list-style-type: none;
+  font-size: 14px;
   display: flex;
+  align-items: center;
+  list-style-type: none;
   .uc-breadcrumb-item {
-    
+    margin-right: 8px;
+    color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    // todo: normar color
+    a {
+      padding-right: 8px;
+    }
+    .material-icons {
+      color: $mainblue;
+    }
+    &.current {
+      font-weight: 700;
+      color: #000;
+    }
   }
 }

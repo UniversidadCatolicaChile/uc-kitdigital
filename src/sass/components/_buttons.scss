@@ -26,14 +26,14 @@
     width: 100%;
     @extend %primaryshadow;
     @extend %primaryborder;
-    @extend %link;
+    @extend %uc-link;
   }
   &.secondary {
     padding: 24px 16px;
     border-radius: 0 4px 4px 0;
     border-left: 2px solid $yellow;
     width: 100%;
-    @extend %link;
+    @extend %uc-link;
     @extend %primaryshadow;
     @extend %primaryborder;
     .material-icons {

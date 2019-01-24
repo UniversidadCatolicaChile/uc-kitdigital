@@ -8,12 +8,19 @@
   color: $lightgraya;
   .uc-tab-item {
     color: $darkgray;
+    transition: background-color 100ms ease;
     &.active, &:hover {
       color: #000;
       .uc-tab-link {
         text-decoration: none;
         border-bottom: 2px solid $mainblue;
       }
+    }
+    &:active {
+      background-color: $lightgrayc;
+    }
+    .uc-tab-link:hover {
+      color: $darkgray;
     }
   }
   .uc-tab-link {

@@ -1,0 +1,23 @@
+.uc-card {
+  border: 1px solid #EAEAEA;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  @extend %primaryshadow;
+  @extend %smallradius;
+  .card-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .uc-tag.fixed-tag {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+  }
+  &.same-height {
+    height: 100%;
+  }
+}
