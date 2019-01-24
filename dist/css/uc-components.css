@@ -2487,6 +2487,26 @@ p.condensed {
   flex-direction: row;
 }
 
+.uc-card.special-card {
+  background-color: #F6F6F6;
+  transition: 100ms ease;
+  cursor: pointer;
+}
+
+.uc-card.special-card:hover {
+  background-color: #0176DE;
+  text-decoration: none;
+  color: #fff;
+}
+
+.uc-card.special-card:hover .text-divider.primary {
+  background-color: #fff;
+}
+
+a.uc-card:hover {
+  color: inherit;
+}
+
 .uc-tabs {
   display: flex;
   flex-wrap: wrap;

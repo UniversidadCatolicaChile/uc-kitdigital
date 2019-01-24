@@ -23,4 +23,23 @@
   &.horizontal-card {
     flex-direction: row;
   }
+  &.special-card {
+    background-color: $lightgrayc;
+    transition: 100ms ease;
+    cursor: pointer;
+    &:hover {
+      background-color: $mainblue;
+      text-decoration: none;
+      color: #fff;
+      .text-divider.primary {
+        background-color: #fff;
+      }
+    }
+  }
+}
+// todo: mejorar esto
+a.uc-card {
+  &:hover {
+    color: inherit;
+  }
 }
