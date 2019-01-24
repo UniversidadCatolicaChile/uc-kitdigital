@@ -2310,6 +2310,7 @@ p.condensed {
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 1px;
+  align-self: flex-start;
 }
 
 .text-left {
@@ -2479,6 +2480,10 @@ p.condensed {
 
 .uc-card.same-height {
   height: 100%;
+}
+
+.uc-card.horizontal-card {
+  flex-direction: row;
 }
 
 .uc-tabs {

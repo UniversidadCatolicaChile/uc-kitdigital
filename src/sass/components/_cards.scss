@@ -20,4 +20,7 @@
   &.same-height {
     height: 100%;
   }
+  &.horizontal-card {
+    flex-direction: row;
+  }
 }
