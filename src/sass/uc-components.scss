@@ -1,3 +1,12 @@
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1246px
+);
+$grid-gutter-width: 32px;
+// todo: trasladar esto a archivo de variables
+
 // import bootstrap grid
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";

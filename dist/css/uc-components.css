@@ -426,8 +426,8 @@ template {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -452,14 +452,14 @@ template {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1246px;
   }
 }
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -467,8 +467,8 @@ template {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -16px;
+  margin-left: -16px;
 }
 
 .no-gutters {
@@ -554,8 +554,8 @@ template {
 .col-1 {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .col {
@@ -2273,7 +2273,8 @@ p.condensed {
 .uc-quote {
   font-family: "Roboto Slab", serif;
   font-size: 24px;
-  line-height: 1.3;
+  line-height: 1.33333;
+  letter-spacing: 0.18px;
 }
 
 .uc-quote.large {
@@ -2518,6 +2519,10 @@ p.condensed {
 
 .uc-tabs .uc-tab-item .uc-tab-link:hover {
   color: #CDCACA;
+}
+
+.uc-tabs .uc-tab-item.active .uc-tab-link:hover {
+  color: #000;
 }
 
 .uc-tabs .uc-tab-link {
