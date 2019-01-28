@@ -137,6 +137,7 @@ p, %paragraph {
   line-height: 1.1;
   letter-spacing: 1px;
   align-self: flex-start;
+  z-index: 2;
 }
 
 // todo: mover utilities a archivo propio
@@ -162,4 +163,9 @@ p, %paragraph {
   &.primary {
     background-color: $mainblue;
   }
+}
+
+*:focus {
+  outline: 2px solid rgba($mainblue, .7);
+  outline-offset: 2px;
 }

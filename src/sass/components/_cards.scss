@@ -4,6 +4,7 @@
   flex-direction: column;
   overflow: hidden;
   position: relative;
+  background-color: #fff;
   @extend %primaryshadow;
   @extend %smallradius;
   .card-body {
@@ -34,6 +35,62 @@
       .text-divider.primary {
         background-color: #fff;
       }
+    }
+  }
+  &.background-image-card {
+    min-height: 530px;
+    .card-image {
+      position: absolute;
+      height: 100%;
+      width: auto;
+      top: 0;
+      left: 0;
+    }
+    .uc-card, .uc-tag {
+      z-index: 2;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 50%;
+      bottom: 0;
+      left: 0;
+      background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(96%,#08275c));
+      background-image: linear-gradient(-180deg,transparent,#08275c 96%);
+    }
+  }
+  &.event-card {
+    overflow: visible;
+    margin-bottom: 24px;
+    .schedule-card {
+      position: absolute;
+      background-color: #fff;
+      border-top: 4px solid $mainblue;
+      display: flex;
+      padding: 4px 12px;
+      top: -24px;
+      left: 24px;
+      align-items: center;
+      border-radius: 0 0 4px 4px;
+      @extend %primaryshadow;
+      @extend %primaryborder;
+      // todo: mover card fecha dejando sólo la posicion en esta parte
+      .day {
+        font-size: 34px;
+        font-weight: bold;
+        line-height: 1.1;
+        margin-right: 12px;
+      }
+      .month {
+        font-size: 17px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+    }
+    .schedule-content {
+      margin-top: 20px;
     }
   }
 }

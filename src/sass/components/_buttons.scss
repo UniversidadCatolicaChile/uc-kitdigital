@@ -6,8 +6,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: background-color .2s ease;
   @extend %smallradius;
   .material-icons {
+    color: $mainblue;
     vertical-align: middle;
     &.rounded-background {
       background-color: $mainblue;
@@ -27,17 +29,30 @@
     @extend %primaryshadow;
     @extend %primaryborder;
     @extend %uc-link;
+    &:hover {
+      border-color: $mainblue;
+      text-decoration: none;
+    }
+    &:active {
+      background-color: $lightgrayc;
+    }
   }
   &.secondary {
     padding: 24px 16px;
     border-radius: 0 4px 4px 0;
     border-left: 2px solid $yellow;
     width: 100%;
+    color: #000;
     @extend %uc-link;
     @extend %primaryshadow;
     @extend %primaryborder;
     .material-icons {
       font-size: 16px;
+    }
+    &:hover {
+      text-decoration: none;
+      border: 1px solid $yellow;
+      border-left: 2px solid $yellow;
     }
   }
   &.admission {
@@ -50,6 +65,11 @@
     .material-icons {
       font-size: 10px;
     }
+    &:hover {
+      text-decoration: none;
+      color: $mainblue;
+      background-color: #fff;
+    }
   }
   &.filter {
     padding: 8px;
@@ -61,12 +81,24 @@
       font-size: 12px;
       vertical-align: middle;
     }
+    &:hover {
+      text-decoration: none;
+      background-color: $lightgrayc;
+    }
   }
   &.bordered {
     padding: 20px;
     @extend %secondaryborder;
     &.large {
       padding: 20px 40px;
+    }
+    &:hover {
+      background-color: $mainblue;
+      color: #fff;
+      text-decoration: none;
+      .material-icons {
+        color: #fff;
+      }
     }
   }
   &.btn-list {
@@ -77,6 +109,10 @@
     color: #000;
     border-bottom: 1px solid $lightgraya;
     border-radius: 0;
+    &:hover {
+      text-decoration: none;
+      background-color: $lightgrayc;
+    }
     &:first-child {
       border-top: 1px solid $lightgraya;
     }

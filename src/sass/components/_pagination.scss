@@ -1,0 +1,38 @@
+.uc-pagination {
+  display: flex;
+  .btn-prev, .btn-next {
+    background-color: transparent;
+    color: #4A4A4A;
+    border: 0;
+    padding: 0;
+    line-height: 1;
+  }
+  .uc-pages {
+    margin: 15px 0;
+    padding: 0;
+    list-style-type: none;
+    .page-item {
+      display: inline-block;
+      color: #4A4A4A;
+      margin: 0 2px;
+      font-weight: 500;
+      &.active, &:hover {
+        .page-link {
+          color: $mainblue;
+          text-decoration: none;
+          border: 1px solid $mainblue;
+          @extend %primaryshadow;
+        }
+      }
+    }
+    .page-link {
+      padding: 3px 2px;
+      min-width: 24px;
+      display: inline-block;
+      text-align: center;
+      line-height: 1;
+      @extend %smallradius;
+      border: 1px solid transparent;
+    }
+  }
+}

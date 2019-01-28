@@ -32,6 +32,12 @@
 .mb-60, .my-60 {
   margin-bottom: 60px;
 }
+.ml-60, .mx-60 {
+  margin-left: 60px;
+}
+.mr-60, .mx-60 {
+  margin-right: 60px;
+}
 .m-80 {
   margin: 80px;
 }
@@ -40,6 +46,12 @@
 }
 .mb-80, .my-80 {
   margin-bottom: 80px;
+}
+.ml-80, .mx-80 {
+  margin-left: 80px;
+}
+.mr-80, .mx-80 {
+  margin-right: 80px;
 }
 .m-160 {
   margin: 160px;
@@ -50,7 +62,12 @@
 .mb-160, .my-160 {
   margin-bottom: 160px;
 }
-
+.ml-160, .mx-160 {
+  margin-left: 160px;
+}
+.mr-160, .mx-160 {
+  margin-right: 160px;
+}
 // todo: continuar margin: auto;
 .mt-auto {
   margin-top: auto;
@@ -82,6 +99,12 @@
 .pb-60, .py-60 {
   padding-bottom: 60px;
 }
+.pl-60, .px-60 {
+  padding-left: 60px;
+}
+.pr-60, .px-60 {
+  padding-right: 60px;
+}
 .p-80 {
   padding: 80px;
 }
@@ -91,6 +114,12 @@
 .pb-80, .py-80 {
   padding-bottom: 80px;
 }
+.pl-80, .px-80 {
+  padding-left: 80px;
+}
+.pr-80, .px-80 {
+  padding-right: 80px;
+}
 .p-160 {
   padding: 160px;
 }
@@ -99,4 +128,10 @@
 }
 .pb-160, .py-160 {
   padding-bottom: 160px;
+}
+.pl-160, .px-160 {
+  padding-left: 160px;
+}
+.pr-160, .px-160 {
+  padding-right: 160px;
 }
