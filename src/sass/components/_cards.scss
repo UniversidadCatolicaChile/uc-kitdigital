@@ -7,6 +7,7 @@
   background-color: #fff;
   @extend %primaryshadow;
   @extend %smallradius;
+  // todo: agregar clase sin sombra - borde 8px
   .card-body {
     padding: 24px;
     display: flex;
@@ -29,7 +30,7 @@
     transition: 100ms ease;
     cursor: pointer;
     &:hover {
-      background-color: $mainblue;
+      background-color: $primaryblue;
       text-decoration: none;
       color: #fff;
       .text-divider.primary {
@@ -38,7 +39,7 @@
     }
   }
   &.background-image-card {
-    min-height: 530px;
+    min-height: 532px;
     .card-image {
       position: absolute;
       height: 100%;
@@ -62,35 +63,63 @@
   }
   &.event-card {
     overflow: visible;
-    margin-bottom: 24px;
     .schedule-card {
       position: absolute;
-      background-color: #fff;
-      border-top: 4px solid $mainblue;
-      display: flex;
-      padding: 4px 12px;
       top: -24px;
       left: 24px;
-      align-items: center;
-      border-radius: 0 0 4px 4px;
-      @extend %primaryshadow;
-      @extend %primaryborder;
-      // todo: mover card fecha dejando sólo la posicion en esta parte
-      .day {
-        font-size: 34px;
-        font-weight: bold;
-        line-height: 1.1;
-        margin-right: 12px;
-      }
-      .month {
-        font-size: 17px;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 2px;
+    }
+  }
+  .schedule-content {
+    margin-top: 20px;
+    .date, .time, .venue {
+      margin: 0;
+      margin-bottom: 6px;
+      padding-left: 20px;
+      position: relative;
+      &:before {
+        font-family: 'Material Icons';
+        font-size: 14px;
+        vertical-align: middle;
+        position: absolute;
+        left: 0;
       }
     }
-    .schedule-content {
-      margin-top: 20px;
+    .date {
+      &:before {
+        content: 'date_range';
+      }
+    }
+    .time {
+      &:before {
+        content: 'access_time';
+      }
+    }
+    .venue {
+      &:before {
+        content: 'location_on';
+      }
+    }
+  }
+  .schedule-card {
+    background-color: #fff;
+    border-top: 4px solid $primaryblue;
+    display: flex;
+    padding: 4px 12px;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+    @extend %primaryshadow;
+    @extend %primaryborder;
+    .day {
+      font-size: 34px;
+      font-weight: bold;
+      line-height: 1.1;
+      margin-right: 12px;
+    }
+    .month {
+      font-size: 17px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
   }
 }

@@ -13,7 +13,7 @@ a {
   color: inherit;
   &.link-inline {
     text-decoration: underline;
-    color: $mainblue;
+    color: $primaryblue;
   }
 }
 
@@ -87,7 +87,7 @@ p, %paragraph {
 
 .uc-link, %uc-link {
   font-size: 16px;
-  color: $mainblue;
+  color: $primaryblue;
   font-weight: 500;
   letter-spacing: 0.51px;
   .material-icons {
@@ -131,13 +131,19 @@ p, %paragraph {
   padding: 4px 8px;
   border-radius: 4px;
   text-transform: uppercase;
-  background-color: $mainblue;
+  background-color: $primaryblue;
   display: inline-block;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1;
   letter-spacing: 1px;
   align-self: flex-start;
   z-index: 2;
+  transition: .2s ease;
+  &:hover {
+    color: #fff;
+    background-color: $blue;
+    text-decoration: none;
+  }
 }
 
 // todo: mover utilities a archivo propio
@@ -161,11 +167,6 @@ p, %paragraph {
   height: 4px;
   margin: 12px 0;
   &.primary {
-    background-color: $mainblue;
+    background-color: $primaryblue;
   }
-}
-
-*:focus {
-  outline: 2px solid rgba($mainblue, .7);
-  outline-offset: 2px;
 }

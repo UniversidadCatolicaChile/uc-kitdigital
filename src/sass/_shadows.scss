@@ -1,3 +1,9 @@
 %primaryshadow {
   box-shadow: 0 0 8px 0 rgba(136,136,136,0.18);
 }
+%secondaryshadow {
+  box-shadow: 0 0 8px 0 rgba(136,136,136,0.50);
+}
+%largeshadow {
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.18);
+}

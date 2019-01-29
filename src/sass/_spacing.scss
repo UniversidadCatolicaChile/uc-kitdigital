@@ -1,9 +1,9 @@
 .no-margin, .m-0 {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .no-padding, .p-0 {
-  padding: 0;
+  padding: 0 !important;
 }
 
 @for $i from 1 through 12 {
@@ -68,9 +68,17 @@
 .mr-160, .mx-160 {
   margin-right: 160px;
 }
-// todo: continuar margin: auto;
 .mt-auto {
   margin-top: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.ml-auto {
+  margin-left: auto;
 }
 
 @for $i from 1 through 12 {

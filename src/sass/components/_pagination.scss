@@ -18,9 +18,9 @@
       font-weight: 500;
       &.active, &:hover {
         .page-link {
-          color: $mainblue;
+          color: $primaryblue;
           text-decoration: none;
-          border: 1px solid $mainblue;
+          border: 1px solid $primaryblue;
           @extend %primaryshadow;
         }
       }

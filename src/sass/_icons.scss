@@ -1,0 +1,11 @@
+.uc-icon {
+  color: $primaryblue;
+  vertical-align: middle;
+  &.rounded-background {
+    background-color: $primaryblue;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+  }
+}

@@ -16,7 +16,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn primary">
                 Más información
-                <i class="material-icons rounded-background">arrow_forward</i>
+                <i class="uc-icon material-icons rounded-background">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
@@ -28,7 +28,7 @@
         <div class="col-md-6">
             <a href="#" class="uc-btn primary">
                 Más Información
-                <i class="material-icons rounded-background">arrow_forward</i>
+                <i class="uc-icon material-icons rounded-background">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -61,13 +61,13 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn secondary">
                 Text
-                <i class="material-icons">launch</i>
+                <i class="uc-icon material-icons">launch</i>
             </a>
         </div>
         <div class="col-md-3">
             <a href="#" class="uc-btn secondary">
                 Text
-                <i class="material-icons rounded-background">arrow_forward</i>
+                <i class="uc-icon material-icons rounded-background">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -81,11 +81,15 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-list">
                 Text
-                <i class="material-icons rounded-background">arrow_forward</i>
+                <i class="uc-icon material-icons rounded-background">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-list">
                 Text
-                <i class="material-icons rounded-background">arrow_forward</i>
+                <i class="uc-icon material-icons rounded-background">arrow_forward</i>
+            </a>
+            <a href="#" class="uc-btn btn-list">
+                Text
+                <i class="uc-icon material-icons rounded-background">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
@@ -97,7 +101,7 @@
     </div>
     <h2 class="my-24">Tags</h2>
     <br>
-    <div class="uc-tag">Texto tag</div>
+    <a href="#" class="uc-tag">Texto tag</a>
     <hr>
     <h2 class="my-24">Navs</h2>
     <br>
@@ -390,6 +394,9 @@
                     <li class="page-item">
                         <a href="#" class="page-link">133</a>
                     </li>
+                    <li class="page-item">
+                        <a href="#" class="page-link">133</a>
+                    </li>
                 </ul>
                 <button class="btn-next ml-12">
                     <i class="material-icons">keyboard_arrow_right</i>
@@ -448,6 +455,116 @@
                         <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="col-md-5 my-60">
+            <div class="uc-card event-card">
+                <div class="schedule-card">
+                    <div class="day">27</div>
+                    <div class="month">Dic</div>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="uc-tag my-20">Teatro</a>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, veniam.</h4>
+                    <div class="schedule-content">
+                        <div class="date">1 de Diciembre</div>
+                        <div class="time">15:00 a 20:30 hrs.</div>
+                        <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h2>Forms</h2>
+    <div class="row mb-60">
+        <div class="col-md-4">
+            <form action="">
+                <div class="uc-form-group">
+                    <label for="ucinput">Etiqueta</label>
+                    <input id="ucinput" type="text" class="uc-form-style" placeholder="Ejemplo: nombre">
+                </div>
+                <div class="uc-form-group">
+                    <label for="ucsearch">Buscar</label>
+                    <input id="ucsearch" type="text" class="uc-form-style w-icon search" placeholder="Buscar por">
+                    <span class="w-icon search"></span>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <form action="">
+                <div class="uc-form-group">
+                    <select class="uc-form-style">
+                        <option selected>Select menu</option>
+                        <option value="1">Uno</option>
+                        <option value="2">Dos</option>
+                        <option value="3">Tres</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <h2>Filtros</h2>
+    <div class="row mb-60">
+        <div class="col-12 mb-32">
+            <div class="uc-filters">
+                <div class="uc-form-group no-margin">
+                    <input id="ucsearch2" type="text" class="uc-form-style w-icon search" placeholder="Buscar por">
+                    <span class="w-icon search"></span>
+                </div>
+                <div class="ml-auto">
+                    <div class="uc-form-group label-inline no-margin">
+                        <label>Filtrar por:</label>
+                        <select class="uc-form-style">
+                            <option selected>Ordenar por</option>
+                            <option value="1">Uno</option>
+                            <option value="2">Dos</option>
+                            <option value="3">Tres</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        todo: terminar filtro alfabético
+        <div class="col-12 mb-32">
+            <div class="uc-filters">
+                <div class="uc-form-group no-margin">
+                    <input id="ucsearch3" type="text" class="uc-form-style w-icon search" placeholder="Buscar por">
+                    <span class="w-icon search"></span>
+                </div>
+                <div class="ml-auto">
+                    <ul class="uc-alphabetic-filter">
+                        <li><button type="button" class="letter-filter">A</button></li>
+                        <li><button type="button" class="letter-filter">B</button></li>
+                        <li><button type="button" class="letter-filter">C</button></li>
+                        <li><button type="button" class="letter-filter">D</button></li>
+                        <li><button type="button" class="letter-filter">E</button></li>
+                    </ul>
+                    <div class="uc-form-group label-inline no-margin">
+                        <label>Filtrar por:</label>
+                        <select class="uc-form-style">
+                            <option selected>Ordenar por</option>
+                            <option value="1">Uno</option>
+                            <option value="2">Dos</option>
+                            <option value="3">Tres</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+    </div>
+    <hr>
+    <h2>Tooltips</h2>
+    <div class="row my-40">
+        <div class="col">
+            <div class="uc-tooltip">
+                <div class="triangle"></div>
+                <h4>Estados Unidos</h4>
+                <div class="text-divider primary"></div>
+                <strong>Patentes: 20</strong>
             </div>
         </div>
     </div>

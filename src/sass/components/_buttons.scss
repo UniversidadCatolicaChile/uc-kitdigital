@@ -2,23 +2,12 @@
   position: relative;
   line-height: 1;
   border: none;
-  color: $mainblue;
+  color: $primaryblue;
   display: flex;
   align-items: center;
   justify-content: space-between;
   transition: background-color .2s ease;
   @extend %smallradius;
-  .material-icons {
-    color: $mainblue;
-    vertical-align: middle;
-    &.rounded-background {
-      background-color: $mainblue;
-      color: #fff;
-      border-radius: 50%;
-      padding: 5px;
-      font-size: 14px;
-    }
-  }
   &.inline-btn {
     display: inline-flex;
   }
@@ -30,7 +19,7 @@
     @extend %primaryborder;
     @extend %uc-link;
     &:hover {
-      border-color: $mainblue;
+      border-color: $primaryblue;
       text-decoration: none;
     }
     &:active {
@@ -67,7 +56,7 @@
     }
     &:hover {
       text-decoration: none;
-      color: $mainblue;
+      color: $primaryblue;
       background-color: #fff;
     }
   }
@@ -93,7 +82,7 @@
       padding: 20px 40px;
     }
     &:hover {
-      background-color: $mainblue;
+      background-color: $primaryblue;
       color: #fff;
       text-decoration: none;
       .material-icons {
@@ -117,7 +106,7 @@
       border-top: 1px solid $lightgraya;
     }
     .material-icons {
-      color: $mainblue;
+      color: $primaryblue;
       &.rounded-background {
         color: #fff;
       }

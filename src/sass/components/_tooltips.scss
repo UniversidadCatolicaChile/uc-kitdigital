@@ -1,0 +1,27 @@
+.uc-tooltip {
+  padding: 24px;
+  display: inline-block;
+  @extend %largeshadow;
+  @extend %smallradius;
+  .triangle {
+    width: 41px;
+    height: 14px;
+    position: absolute;
+    overflow: hidden;
+    top: -14px;
+    left: 32px;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 7px;
+      left: 9px;
+      width: 15px;
+      height: 15px;
+      background-color: #fff;
+      z-index: 2;
+      transform: rotate(45deg);
+      @extend %largeshadow;
+      @extend %smallradius;
+    }
+  }
+}
