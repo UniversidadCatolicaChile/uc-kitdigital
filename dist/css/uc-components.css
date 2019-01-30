@@ -3012,5 +3012,38 @@ a.uc-card:hover {
 
 .uc-navbar {
   padding: 80px 0;
+  background-color: #fff;
+}
+
+.uc-navbar .row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uc-navbar .navbar-title h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  color: #173F8A;
+  line-height: 1.2;
+}
+
+.uc-navbar .uc-navbar-nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.uc-navbar .uc-navbar-nav .nav-item {
+  padding: 0 8px;
+}
+
+.uc-navbar .uc-navbar-nav .nav-item:first-child {
+  padding-left: 0;
+}
+
+.uc-navbar .uc-navbar-nav .nav-item .uc-link {
+  color: #173F8A;
 }
 
