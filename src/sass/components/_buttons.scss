@@ -26,8 +26,8 @@
       background-color: $lightgrayc;
     }
   }
-  &.secondary {
-    padding: 24px 16px;
+  &.featured {
+    padding: 12px 16px;
     border-radius: 0 4px 4px 0;
     border-left: 2px solid $yellow;
     width: 100%;
@@ -73,21 +73,6 @@
     &:hover {
       text-decoration: none;
       background-color: $lightgrayc;
-    }
-  }
-  &.bordered {
-    padding: 20px;
-    @extend %secondaryborder;
-    &.large {
-      padding: 20px 40px;
-    }
-    &:hover {
-      background-color: $primaryblue;
-      color: #fff;
-      text-decoration: none;
-      .material-icons {
-        color: #fff;
-      }
     }
   }
   &.btn-list {

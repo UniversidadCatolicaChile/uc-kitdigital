@@ -2327,7 +2327,7 @@ p.condensed {
 }
 
 .uc-link,
-.uc-btn.secondary,
+.uc-btn.featured,
 .uc-btn.primary {
   font-size: 16px;
   color: #0176DE;
@@ -2336,7 +2336,7 @@ p.condensed {
 }
 
 .uc-link .material-icons,
-.uc-btn.secondary .material-icons,
+.uc-btn.featured .material-icons,
 .uc-btn.primary .material-icons {
   font-size: 19px;
   vertical-align: middle;
@@ -2418,14 +2418,13 @@ p.condensed {
 
 .uc-card .schedule-card,
 .uc-btn.filter,
-.uc-btn.secondary,
+.uc-btn.featured,
 .uc-btn.primary {
   border: 1px solid #EAEAEA;
 }
 
 .uc-form-style:active,
-.uc-form-style:focus,
-.uc-btn.bordered {
+.uc-form-style:focus {
   border: 1px solid #0176DE;
 }
 
@@ -2450,7 +2449,7 @@ p.condensed {
 .uc-card .schedule-card,
 .uc-card,
 .uc-btn.filter,
-.uc-btn.secondary,
+.uc-btn.featured,
 .uc-btn.primary {
   box-shadow: 0 0 8px 0 rgba(136, 136, 136, 0.18);
 }
@@ -2478,6 +2477,11 @@ p.condensed {
   font-size: 14px;
 }
 
+.uc-icon.rounded-background.small {
+  padding: 3px;
+  font-size: 11px !important;
+}
+
 a:focus {
   outline: 2px solid rgba(1, 118, 222, 0.7);
   outline-offset: 2px;
@@ -2486,6 +2490,7 @@ a:focus {
 hr.uc-hr {
   border: 0;
   height: 2px;
+  overflow: hidden;
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjEiIHZpZXdCb3g9IjAgMCA4IDEiPiAgPHBvbHlnb24gZmlsbD0iZ3JheSIgZmlsbC1ydWxlPSJldmVub2RkIiBwb2ludHM9IjAgMSAwIDAgMyAwIDMgMSIvPjwvc3ZnPg==) center center repeat;
 }
 
@@ -2524,19 +2529,19 @@ hr.uc-hr {
   background-color: #F6F6F6;
 }
 
-.uc-btn.secondary {
-  padding: 24px 16px;
+.uc-btn.featured {
+  padding: 12px 16px;
   border-radius: 0 4px 4px 0;
   border-left: 2px solid #FEC60D;
   width: 100%;
   color: #000;
 }
 
-.uc-btn.secondary .material-icons {
+.uc-btn.featured .material-icons {
   font-size: 16px;
 }
 
-.uc-btn.secondary:hover {
+.uc-btn.featured:hover {
   text-decoration: none;
   border: 1px solid #FEC60D;
   border-left: 2px solid #FEC60D;
@@ -2574,24 +2579,6 @@ hr.uc-hr {
 .uc-btn.filter:hover {
   text-decoration: none;
   background-color: #F6F6F6;
-}
-
-.uc-btn.bordered {
-  padding: 20px;
-}
-
-.uc-btn.bordered.large {
-  padding: 20px 40px;
-}
-
-.uc-btn.bordered:hover {
-  background-color: #0176DE;
-  color: #fff;
-  text-decoration: none;
-}
-
-.uc-btn.bordered:hover .material-icons {
-  color: #fff;
 }
 
 .uc-btn.btn-list {
