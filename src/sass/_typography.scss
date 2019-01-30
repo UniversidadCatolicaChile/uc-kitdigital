@@ -94,6 +94,12 @@ p, %paragraph {
     font-size: 19px;
     vertical-align: middle;
   }
+  &.external {
+    .material-icons {
+      font-size: 10px;
+      vertical-align: top;
+    }
+  }
 }
 
 .uc-quote, %quote {

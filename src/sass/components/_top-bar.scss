@@ -1,0 +1,17 @@
+.uc-top-bar {
+  padding: 8px 0;
+  background-color: $blue;
+  color: #fff;
+  .uc-link {
+    color: #fff;
+    line-height: 1.1;
+    padding-right: 8px;
+    display: inline-block;
+    &:not(:first-child) {
+      border-left: 1px solid #8B9FC4;
+      padding-left: 10px;
+      margin-right: 8px;
+      padding-right: 0;
+    }
+  }
+}
