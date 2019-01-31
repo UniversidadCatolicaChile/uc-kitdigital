@@ -123,14 +123,6 @@ p, %paragraph {
   font-weight: 500;
 }
 
-.uc-heading-decoration {
-  display: inline-block;
-  margin-left: 24px;
-  width: 36px;
-  height: 4px;
-  background-color: $yellow;
-}
-
 .uc-tag {
   color: #fff;
   font-size: 14px;
@@ -164,15 +156,4 @@ p, %paragraph {
 
 .text-right {
   text-align: right !important;
-}
-
-// todo: mover divisor de texto
-
-.text-divider {
-  width: 36px;
-  height: 4px;
-  margin: 12px 0;
-  &.primary {
-    background-color: $primaryblue;
-  }
 }
