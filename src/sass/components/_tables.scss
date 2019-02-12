@@ -1,0 +1,21 @@
+.uc-table {
+  thead {
+    tr {
+      th {
+        color: #fff;
+        padding: 14px 16px;
+        background-color: $primaryblue;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        padding: 20px 16px;
+      }
+      &:nth-child(even) {
+        background-color: $lightgrayc;
+      }
+    }
+  }
+}

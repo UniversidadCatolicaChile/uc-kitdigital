@@ -108,5 +108,16 @@
   }
   &.inline-btn {
     display: inline-flex;
+    .uc-icon {
+      margin-left: 12px;
+      transition: .2s ease;
+    }
+    &:hover {
+      text-decoration: none;
+      .uc-icon.rounded-background {
+        color: $blue;
+        background-color: $yellow;
+      }
+    }
   }
 }

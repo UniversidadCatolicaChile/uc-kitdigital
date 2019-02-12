@@ -2657,6 +2657,20 @@ hr.uc-hr {
   display: inline-flex;
 }
 
+.uc-btn.inline-btn .uc-icon {
+  margin-left: 12px;
+  transition: 0.2s ease;
+}
+
+.uc-btn.inline-btn:hover {
+  text-decoration: none;
+}
+
+.uc-btn.inline-btn:hover .uc-icon.rounded-background {
+  color: #173F8A;
+  background-color: #FEC60D;
+}
+
 .uc-card {
   border: 1px solid #EAEAEA;
   display: flex;
@@ -2916,6 +2930,20 @@ a.uc-card:hover {
 .uc-breadcrumb .uc-breadcrumb-item.current {
   font-weight: 700;
   color: #000;
+}
+
+.uc-table thead tr th {
+  color: #fff;
+  padding: 14px 16px;
+  background-color: #0176DE;
+}
+
+.uc-table tbody tr td {
+  padding: 20px 16px;
+}
+
+.uc-table tbody tr:nth-child(even) {
+  background-color: #F6F6F6;
 }
 
 .uc-form-group {
