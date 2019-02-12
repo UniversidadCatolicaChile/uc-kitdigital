@@ -2467,13 +2467,17 @@ p.condensed {
   background-color: #0176DE;
   color: #fff;
   border-radius: 50%;
-  padding: 5px;
-  font-size: 14px;
+  padding: 4px;
+  font-size: 16px;
 }
 
 .uc-icon.rounded-background.small {
   padding: 3px;
   font-size: 11px !important;
+}
+
+.uc-icon.small {
+  font-size: 16px;
 }
 
 a:focus {
@@ -2572,6 +2576,20 @@ hr.uc-hr {
   text-decoration: none;
   border: 1px solid #FEC60D;
   border-left: 2px solid #FEC60D;
+}
+
+.uc-btn.cta {
+  display: block;
+  padding: 12px 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #173F8A;
+  background-color: #FEC60D;
+}
+
+.uc-btn.cta:hover {
+  text-decoration: none;
+  background-color: #E3AE00;
 }
 
 .uc-btn.admission {
