@@ -6,13 +6,15 @@
 }
 
 .uc-alphabetic-filter {
-  margin: 0;
+  margin-bottom: 0;
   padding: 0;
   list-style-type: none;
   li {
     display: inline-block;
   }
   .letter-filter {
+    font-size: 14px;
+    padding: 9px 11px;
     color: $primaryblue;
     background-color: #fff;
     border: 1px solid transparent;
