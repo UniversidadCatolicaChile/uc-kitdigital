@@ -2946,6 +2946,22 @@ a.uc-card:hover {
   background-color: #F6F6F6;
 }
 
+.uc-table-list {
+  display: flex;
+}
+
+.uc-table-list .uc-table-list-title {
+  min-width: 280px;
+  border-top: 4px solid #0176DE;
+  padding-top: 24px;
+}
+
+.uc-table-list .uc-table-list-content {
+  border-top: 4px solid #EAEAEA;
+  padding: 24px;
+  flex-grow: 1;
+}
+
 .uc-form-group {
   margin-bottom: 16px;
   position: relative;
