@@ -3096,6 +3096,33 @@ textarea.uc-form-style {
   border: 1px solid transparent;
 }
 
+.uc-image-quote.image-left .image {
+  width: 180%;
+  height: 600px;
+  background-size: cover;
+}
+
+.uc-image-quote.image-right .uc-card {
+  width: 125%;
+  z-index: 2;
+}
+
+.uc-image-quote.image-right .image {
+  height: 600px;
+  background-size: cover;
+}
+
+.uc-image-quote.image-nested .image {
+  position: relative;
+  height: 600px;
+}
+
+.uc-image-quote.image-nested .image .uc-card {
+  position: relative;
+  right: 24px;
+  bottom: 24px;
+}
+
 .uc-tooltip {
   display: inline-block;
   position: relative;
