@@ -7,13 +7,17 @@ $container-max-widths: (
 $grid-gutter-width: 32px;
 // todo: trasladar esto a archivo de variables
 
-// import bootstrap grid
+// import bootstrap required
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
+// optional
 @import "~bootstrap/scss/reboot";
 @import "~bootstrap/scss/print";
 @import "~bootstrap/scss/grid";
+
+//import carousel default styles
+@import "~tiny-slider/src/tiny-slider";
 
 // import local scss files
 @import 'mixins';
@@ -34,6 +38,7 @@ $grid-gutter-width: 32px;
 @import 'components/tables';
 @import 'components/messages';
 @import 'components/collapse';
+@import 'components/carousels';
 @import 'components/forms';
 @import 'components/filters';
 @import 'components/image-quote';

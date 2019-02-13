@@ -1,0 +1,30 @@
+.uc-carousel {
+  .home-carousel {
+    .home-carousel-item {
+      height: 208px;
+      width: 100%;
+    }
+  }
+  .uc-carousel-nav {
+    position: absolute;
+    width: 100%;
+    .carousel-nav-list {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      list-style-type: none;
+    }
+    .carousel-nav-item {
+      cursor: pointer;
+      &:not(:first-child){
+        margin-left: 8px;
+      }
+      .indicator {
+        width: 77px;
+        height: 6px;
+        background-color: rgba(255,255,255,0.35);
+        border: 1px solid black;
+      }
+    }
+  }
+}
