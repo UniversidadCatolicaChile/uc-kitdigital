@@ -1,9 +1,10 @@
-a:focus {
+a:focus, button:focus {
   outline: 2px solid rgba($primaryblue, .7);
   outline-offset: 2px;
 }
 
 // divisores
+
 hr.uc-hr {
   border: 0;
   height: 2px;
@@ -43,11 +44,14 @@ hr.uc-hr {
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
-
   > .col,
   > [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+.align-items-center {
+  align-items: center;
 }
 

@@ -1,0 +1,30 @@
+.uc-message {
+  position: relative;
+  @extend %smallradius;
+  @extend %messageshadow;
+  .close-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    line-height: 0.6;
+  }
+  .uc-message-body {
+    padding: 48px;
+  }
+  &.yellow-warning {
+    border-top: 4px solid $darkyellow;
+    .warning-icon {
+      vertical-align: text-bottom;
+      color: $darkyellow;
+      font-size: 34px;
+    }
+  }
+  &.red-warning {
+    border-top: 4px solid $red;
+    .warning-icon {
+      vertical-align: text-bottom;
+      color: $red;
+      font-size: 34px;
+    }
+  }
+}
