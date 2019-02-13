@@ -3100,6 +3100,7 @@ textarea.uc-form-style {
   width: 180%;
   height: 600px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .uc-image-quote.image-right .uc-card {
@@ -3110,17 +3111,23 @@ textarea.uc-form-style {
 .uc-image-quote.image-right .image {
   height: 600px;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .uc-image-quote.image-nested .image {
   position: relative;
   height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 32px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .uc-image-quote.image-nested .image .uc-card {
-  position: relative;
-  right: 24px;
-  bottom: 24px;
+  max-width: 590px;
+  position: absolute;
+  right: 32px;
 }
 
 .uc-tooltip {

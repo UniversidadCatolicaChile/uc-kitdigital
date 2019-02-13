@@ -4,6 +4,7 @@
       width: 180%;
       height: 600px;
       background-size: cover;
+      background-repeat: no-repeat;
     }
   }
   &.image-right {
@@ -14,16 +15,22 @@
     .image {
       height: 600px;
       background-size: cover;
+      background-repeat: no-repeat;
     }
   }
   &.image-nested {
     .image {
       position: relative;
       height: 600px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 32px;
+      display: flex;
+      align-items: flex-end;
       .uc-card {
-        position: relative;
-        right: 24px;
-        bottom: 24px;
+        max-width: 590px;
+        position: absolute;
+        right: 32px;
       }
     }
   }
