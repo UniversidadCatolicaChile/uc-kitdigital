@@ -3174,14 +3174,18 @@ a.uc-card:hover {
   border-left: 4px solid #0176DE;
 }
 
+.uc-carousel {
+  position: relative;
+}
+
 .uc-carousel .home-carousel .home-carousel-item {
-  height: 208px;
+  height: 508px;
   width: 100%;
 }
 
 .uc-carousel .uc-carousel-nav {
-  position: absolute;
-  width: 100%;
+  position: relative;
+  bottom: 80px;
 }
 
 .uc-carousel .uc-carousel-nav .carousel-nav-list {
@@ -3193,6 +3197,10 @@ a.uc-card:hover {
 
 .uc-carousel .uc-carousel-nav .carousel-nav-item {
   cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: auto;
+  color: rgba(255, 255, 255, 0.35);
 }
 
 .uc-carousel .uc-carousel-nav .carousel-nav-item:not(:first-child) {
@@ -3202,8 +3210,25 @@ a.uc-card:hover {
 .uc-carousel .uc-carousel-nav .carousel-nav-item .indicator {
   width: 77px;
   height: 6px;
+  position: relative;
   background-color: rgba(255, 255, 255, 0.35);
-  border: 1px solid black;
+}
+
+.uc-carousel .uc-carousel-nav .carousel-nav-item .indicator:after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  transition: 3s linear;
+}
+
+.uc-carousel .uc-carousel-nav .carousel-nav-item.tns-nav-active {
+  color: #fff;
+}
+
+.uc-carousel .uc-carousel-nav .carousel-nav-item.tns-nav-active .indicator:after {
+  width: 100%;
 }
 
 .uc-form-group {
@@ -3319,6 +3344,10 @@ textarea.uc-form-style {
 .uc-tooltip {
   display: inline-block;
   position: relative;
+}
+
+.uc-tooltip .tooltip-body {
+  padding: 24px;
 }
 
 .uc-tooltip .triangle {

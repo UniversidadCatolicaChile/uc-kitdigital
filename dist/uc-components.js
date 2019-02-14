@@ -3933,7 +3933,8 @@ var slider = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_
   slideBy: 'page',
   navPosition: 'bottom',
   autoplayPosition: 'bottom',
-  navContainer: '.carousel-nav-list'
+  navContainer: '.carousel-nav-list',
+  autoplayTimeout: 3000
 });
 
 /***/ }),

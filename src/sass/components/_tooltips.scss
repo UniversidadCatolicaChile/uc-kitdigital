@@ -3,6 +3,9 @@
   position: relative;
   @extend %largeshadow;
   @extend %smallradius;
+  .tooltip-body {
+    padding: 24px;
+  }
   .triangle {
     width: 41px;
     height: 14px;

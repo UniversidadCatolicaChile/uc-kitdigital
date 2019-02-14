@@ -8,5 +8,6 @@ var slider = tns({
     slideBy: 'page',
     navPosition: 'bottom',
     autoplayPosition: 'bottom',
-    navContainer: '.carousel-nav-list'
+    navContainer: '.carousel-nav-list',
+    autoplayTimeout: 3000
 });
