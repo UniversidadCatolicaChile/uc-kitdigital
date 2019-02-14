@@ -33,6 +33,14 @@ hr.uc-hr {
   background-color: $yellow;
 }
 
+@keyframes CarouselNav {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 // utilities bootstrap 4
 

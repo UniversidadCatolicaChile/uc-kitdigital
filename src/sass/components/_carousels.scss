@@ -9,11 +9,15 @@
   .uc-carousel-nav {
     position: relative;
     bottom: 80px;
+    .carousel-nav-container {
+      display: flex;
+    }
     .carousel-nav-list {
       padding: 0;
       margin: 0;
       display: flex;
       list-style-type: none;
+      margin-left: auto;
     }
     .carousel-nav-item {
       cursor: pointer;
@@ -29,22 +33,34 @@
         height: 6px;
         position: relative;
         background-color: rgba(255,255,255,0.35);
+        transition: .2s ease;
         &:after {
           content: '';
           width: 0;
           height: 100%;
           position: absolute;
           background-color: #fff;
-          transition: 3s linear;
         }
       }
       &.tns-nav-active {
         color: #fff;
         .indicator {
           &:after {
-            width: 100%;
+            animation: CarouselNav 5s linear forwards;
+          }
+          &.paused {
+            &:after {
+              animation-play-state: paused;
+            }
           }
         }
+      }
+    }
+    .autoplay-buttons {
+      margin-left: 8px;
+      cursor: pointer;
+      .material-icons {
+        color: #fff;
       }
     }
   }
