@@ -1,0 +1,9 @@
+.uc-related-content {
+  display: grid;
+  grid-template-columns: auto 519px;
+  grid-template-rows: 1fr 1fr 1fr;
+  .main-card {
+    grid-column: 1 / 2;
+    grid-row: 1 / end;
+  }
+}

@@ -1,11 +1,4 @@
-$container-max-widths: (
-        sm: 540px,
-        md: 720px,
-        lg: 960px,
-        xl: 1246px
-);
-$grid-gutter-width: 32px;
-// todo: trasladar esto a archivo de variables
+@import 'uc-variables';
 
 // import bootstrap required
 @import "~bootstrap/scss/functions";
@@ -45,5 +38,6 @@ $grid-gutter-width: 32px;
 @import 'components/tooltips';
 @import 'components/top-bar';
 @import 'components/navbar';
+@import 'components/related-content';
 @import 'components/nav-dropdown';
 @import 'components/footer';

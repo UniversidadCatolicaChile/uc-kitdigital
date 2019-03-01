@@ -3925,7 +3925,7 @@ var tns = function(options) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/tiny-slider/src/tiny-slider */ "./node_modules/tiny-slider/src/tiny-slider.js");
 
-var slider = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__["tns"])({
+var homeCarousel = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_MODULE_0__["tns"])({
   container: '.home-carousel',
   items: 1,
   controls: false,
@@ -3934,17 +3934,54 @@ var slider = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMPORTED_
   navPosition: 'bottom',
   autoplayPosition: 'bottom',
   navContainer: '.carousel-nav-list',
-  autoplayButtonOutput: false,
-  autoplayButton: '.autoplay-buttons',
-  autoplayText: ["<i class='material-icons play'>play_circle_filled</i>", "<i class='material-icons pause'>pause_circle_filled</i>"]
-}); // tomas el boton
+  autoplayButtonOutput: false //autoplayButton: '.autoplay-buttons',
 
-var boton = document.getElementsByClassName("autoplay-buttons")[0];
-var indicator = document.querySelector('.tns-nav-active .indicator'); // haces bind de la funcion click
+  /*
+  autoplayText: [
+      "<i class='material-icons play'>play_circle_filled</i>",
+      "<i class='material-icons pause'>pause_circle_filled</i>"
+  ]
+  */
 
-boton.addEventListener('click', function (event) {
-  var action = boton.getAttribute("data-action");
-  indicator.classList.toggle('paused');
+}); // tomamos el boton
+
+var boton = document.getElementsByClassName("autoplay-buttons")[0]; // hacemos bind de la funcion click
+
+/*
+boton.addEventListener('click', event => {
+    var activeIndicator = document.querySelector('.tns-nav-active .indicator');
+    activeIndicator.classList.toggle('paused');
+    /*
+    var action = boton.getAttribute("data-action");
+    switch (action) {
+        case 'start':
+            console.log("pausado");
+            console.log(activeIndicator);
+            break;
+        case 'stop':
+            activeIndicator.classList.remove('paused');
+            console.log("andando");
+            break;
+    }
+    /
+}, );
+*/
+
+var pauseButton = document.querySelector('.pause-button');
+var playButton = document.querySelector('.play-button');
+pauseButton.addEventListener('click', function (event) {
+  var indicatorBar = document.querySelector('.tns-nav-active .indicator');
+  indicatorBar.classList.remove('playing');
+  indicatorBar.classList.add('paused');
+  homeCarousel.pause();
+  console.log('paused');
+});
+playButton.addEventListener('click', function (event) {
+  var indicatorBar = document.querySelector('.tns-nav-active .indicator');
+  indicatorBar.classList.remove('paused');
+  indicatorBar.classList.add('playing');
+  homeCarousel.play();
+  console.log('playing');
 });
 
 /***/ }),

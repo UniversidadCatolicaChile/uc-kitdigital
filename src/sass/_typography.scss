@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 a {
@@ -26,55 +27,55 @@ a {
 }
 
 h1, %h1 {
-  font-size: 40px;
+  font-size: 2.5em;
   line-height: 1.3;
   font-weight: 700;
 }
 
 h2, %h2 {
-  font-size: 32px;
+  font-size: 2em;
   line-height: 1.2;
   letter-spacing: 0.25px;
   font-weight: 500;
 }
 
 h3, %h3 {
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 1.2;
   letter-spacing: 0.18px;
   font-weight: 700;
 }
 
 h4, %h4 {
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 1.2;
   letter-spacing: 0.25px;
   font-weight: 700;
 }
 
 h5, %h5 {
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.76px;
 }
 
 h6, %h6 {
-  font-size: 20px;
+  font-size: 1.25em;
   letter-spacing: 0.25px;
   font-weight: 700;
 }
 
 p, %paragraph {
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.5;
   letter-spacing: 0.5px;
   &.large {
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 1.7;
   }
   &.small {
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 1.1;
   }
   &.gray {
@@ -86,7 +87,7 @@ p, %paragraph {
 }
 
 .uc-link, %uc-link {
-  font-size: 16px;
+  font-size: 1em;
   color: $primaryblue;
   font-weight: 500;
   letter-spacing: 0.51px;
@@ -104,18 +105,18 @@ p, %paragraph {
 
 .uc-quote, %quote {
   font-family: 'Roboto Slab', serif;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 1.33333;
   letter-spacing: 0.18px;
   &.large {
-    font-size: 34px;
+    font-size: 2.125em;
     line-height: 1.47;
     font-weight: bold;
   }
 }
 
 .uc-subtitle {
-  font-size: 14px;
+  font-size: 0.875em;
   text-transform: uppercase;
   line-height: 1.1;
   letter-spacing: 1px;
@@ -125,7 +126,7 @@ p, %paragraph {
 
 .uc-tag {
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875em;
   padding: 4px 8px;
   border-radius: 4px;
   text-transform: uppercase;
@@ -144,16 +145,4 @@ p, %paragraph {
   }
 }
 
-// todo: mover utilities a archivo propio
 
-.text-left {
-  text-align: left !important;
-}
-
-.text-center {
-  text-align: center !important;
-}
-
-.text-right {
-  text-align: right !important;
-}

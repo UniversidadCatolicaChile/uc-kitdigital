@@ -1,0 +1,9 @@
+// indicador de avance en carrusel
+@keyframes CarouselNav {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

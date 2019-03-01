@@ -47,12 +47,14 @@
         .indicator {
           &:after {
             animation: CarouselNav 5s linear forwards;
+            //width: 100%;
           }
-          &.paused {
-            &:after {
-              animation-play-state: paused;
-            }
-          }
+        }
+        .indicator.paused:after {
+          animation-play-state: paused;
+        }
+        .indicator.playing:after {
+          animation-play-state: running;
         }
       }
     }

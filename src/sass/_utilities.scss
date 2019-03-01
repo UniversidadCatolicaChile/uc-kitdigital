@@ -1,6 +1,21 @@
+// mostrar focus en botones y links
 a:focus, button:focus {
   outline: 2px solid rgba($primaryblue, .7);
   outline-offset: 2px;
+}
+
+// alineación de texto
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
 }
 
 // divisores
@@ -33,15 +48,6 @@ hr.uc-hr {
   background-color: $yellow;
 }
 
-@keyframes CarouselNav {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
 // utilities bootstrap 4
 
 .img-fluid {
@@ -62,4 +68,3 @@ hr.uc-hr {
 .align-items-center {
   align-items: center;
 }
-
