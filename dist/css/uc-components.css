@@ -2417,41 +2417,47 @@ h6 {
   margin: 0;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: 2.5em;
   line-height: 1.3;
   font-weight: 700;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 2em;
   line-height: 1.2;
   letter-spacing: 0.25px;
   font-weight: 500;
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 1.5em;
   line-height: 1.2;
   letter-spacing: 0.18px;
   font-weight: 700;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: 1.25em;
   line-height: 1.2;
   letter-spacing: 0.25px;
   font-weight: 700;
 }
 
-h5 {
+h5,
+.h5 {
   font-size: 1.5em;
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.76px;
 }
 
-h6 {
+h6,
+.h6 {
   font-size: 1.25em;
   letter-spacing: 0.25px;
   font-weight: 700;
@@ -2490,16 +2496,16 @@ p.condensed {
   letter-spacing: 0.51px;
 }
 
-.uc-link .material-icons,
-.uc-btn.featured .material-icons,
-.uc-btn.primary .material-icons {
+.uc-link .uc-icon,
+.uc-btn.featured .uc-icon,
+.uc-btn.primary .uc-icon {
   font-size: 19px;
   vertical-align: middle;
 }
 
-.uc-link.external .material-icons,
-.external.uc-btn.featured .material-icons,
-.external.uc-btn.primary .material-icons {
+.uc-link.external .uc-icon,
+.external.uc-btn.featured .uc-icon,
+.external.uc-btn.primary .uc-icon {
   font-size: 10px;
   vertical-align: top;
 }
@@ -2610,6 +2616,27 @@ p.condensed {
 .uc-icon {
   color: #0176DE;
   vertical-align: middle;
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: "liga";
+          font-feature-settings: "liga";
 }
 
 .uc-icon.rounded-background {
@@ -2734,7 +2761,7 @@ hr.uc-hr {
   color: #000;
 }
 
-.uc-btn.featured .material-icons {
+.uc-btn.featured .uc-icon {
   font-size: 16px;
 }
 
@@ -2767,7 +2794,7 @@ hr.uc-hr {
   font-weight: 500;
 }
 
-.uc-btn.admission .material-icons {
+.uc-btn.admission .uc-icon {
   font-size: 10px;
 }
 
@@ -2782,7 +2809,7 @@ hr.uc-hr {
   color: #000;
 }
 
-.uc-btn.filter .material-icons {
+.uc-btn.filter .uc-icon {
   font-size: 12px;
   vertical-align: middle;
 }
@@ -2811,11 +2838,11 @@ hr.uc-hr {
   border-top: 1px solid #EAEAEA;
 }
 
-.uc-btn.btn-list .material-icons {
+.uc-btn.btn-list .uc-icon {
   color: #0176DE;
 }
 
-.uc-btn.btn-list .material-icons.rounded-background {
+.uc-btn.btn-list .uc-icon.rounded-background {
   color: #fff;
 }
 
@@ -3089,7 +3116,7 @@ a.uc-card:hover {
   padding-right: 8px;
 }
 
-.uc-breadcrumb .uc-breadcrumb-item .material-icons {
+.uc-breadcrumb .uc-breadcrumb-item .uc-icon {
   color: #0176DE;
 }
 
@@ -3253,7 +3280,7 @@ a.uc-card:hover {
   cursor: pointer;
 }
 
-.uc-carousel .uc-carousel-nav .autoplay-buttons .material-icons {
+.uc-carousel .uc-carousel-nav .autoplay-buttons .uc-icon {
   color: #fff;
 }
 
@@ -3411,6 +3438,10 @@ textarea.uc-form-style {
   display: inline-block;
 }
 
+.uc-top-bar .uc-link .uc-icon {
+  color: #fff;
+}
+
 .uc-top-bar .uc-link:not(:first-child) {
   border-left: 1px solid #8B9FC4;
   padding-left: 10px;
@@ -3501,8 +3532,9 @@ textarea.uc-form-style {
   transition: 0.2s ease;
 }
 
-.uc-nav-dropdown .dropdown-items .nav-item .uc-btn .material-icons {
+.uc-nav-dropdown .dropdown-items .nav-item .uc-btn .uc-icon {
   font-size: 16px;
+  color: #fff;
 }
 
 .uc-nav-dropdown .dropdown-items .nav-item .uc-btn:hover {
@@ -3513,7 +3545,7 @@ textarea.uc-form-style {
   text-decoration: underline;
 }
 
-.uc-nav-dropdown .dropdown-items .nav-item .uc-btn:hover .material-icons {
+.uc-nav-dropdown .dropdown-items .nav-item .uc-btn:hover .uc-icon {
   text-decoration: none;
   color: #FEC60D;
 }
@@ -3547,11 +3579,15 @@ textarea.uc-form-style {
   transition: 0.2s ease;
 }
 
+.uc-nav-dropdown .dropdown-items .dropdown-content .dropdown-items .nav-item .uc-btn .uc-icon {
+  color: #0176DE;
+}
+
 .uc-nav-dropdown .dropdown-items .dropdown-content .dropdown-items .nav-item .uc-btn:hover {
   border-left: 2px solid #FEC60D;
 }
 
-.uc-nav-dropdown .dropdown-items .dropdown-content .dropdown-items .nav-item .uc-btn:hover .material-icons {
+.uc-nav-dropdown .dropdown-items .dropdown-content .dropdown-items .nav-item .uc-btn:hover .uc-icon {
   color: #0176DE;
 }
 

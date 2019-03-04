@@ -7,6 +7,9 @@
     line-height: 1.1;
     padding-right: 8px;
     display: inline-block;
+    .uc-icon {
+      color: #fff;
+    }
     &:not(:first-child) {
       border-left: 1px solid #8B9FC4;
       padding-left: 10px;

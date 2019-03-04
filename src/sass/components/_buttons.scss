@@ -32,7 +32,7 @@
     @extend %uc-link;
     @extend %primaryshadow;
     @extend %primaryborder;
-    .material-icons {
+    .uc-icon {
       font-size: 16px;
     }
     &:hover {
@@ -60,7 +60,7 @@
     color: #fff;
     font-size: 13px;
     font-weight: 500;
-    .material-icons {
+    .uc-icon {
       font-size: 10px;
     }
     &:hover {
@@ -75,7 +75,7 @@
     @extend %primaryborder;
     @extend %primaryshadow;
     @extend %mediumradius;
-    .material-icons {
+    .uc-icon {
       font-size: 12px;
       vertical-align: middle;
     }
@@ -99,7 +99,7 @@
     &:first-child {
       border-top: 1px solid $lightgraya;
     }
-    .material-icons {
+    .uc-icon {
       color: $primaryblue;
       &.rounded-background {
         color: #fff;

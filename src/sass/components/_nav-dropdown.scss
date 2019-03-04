@@ -21,15 +21,16 @@
         font-weight: 500;
         letter-spacing: 0.45px;
         transition: .2s ease;
-        .material-icons {
+        .uc-icon {
           font-size: 16px;
+          color: #fff;
         }
         &:hover {
           text-decoration: none;
           .title {
             text-decoration: underline;
           }
-          .material-icons {
+          .uc-icon {
             text-decoration: none;
             color: $yellow;
           }
@@ -58,9 +59,12 @@
           padding-left: 12px;
           border-left: 2px solid transparent;
           transition: .2s ease;
+          .uc-icon {
+            color: $primaryblue;
+          }
           &:hover {
             border-left: 2px solid $yellow;
-            .material-icons {
+            .uc-icon {
               color: $primaryblue;
             }
           }
