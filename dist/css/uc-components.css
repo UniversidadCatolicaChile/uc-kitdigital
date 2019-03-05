@@ -3351,6 +3351,7 @@ textarea.uc-form-style {
 
 .uc-radio-group {
   display: inline-flex;
+  margin: 0;
 }
 
 .uc-radio-group .uc-orig-radio {
@@ -3369,7 +3370,7 @@ textarea.uc-form-style {
   outline: none;
   position: relative;
   transition: 0.2s ease;
-  background-color: transparent;
+  background-color: #fff;
   cursor: pointer;
   padding: 10px;
   font-weight: 400;

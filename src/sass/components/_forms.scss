@@ -50,6 +50,7 @@ textarea.uc-form-style {
 
 .uc-radio-group {
   display: inline-flex;
+  margin: 0;
   @extend %primaryshadow;
   @extend %smallradius;
   .uc-orig-radio {
@@ -68,7 +69,7 @@ textarea.uc-form-style {
     outline: none;
     position: relative;
     transition: .2s ease;
-    background-color: transparent;
+    background-color: #fff;
     cursor: pointer;
     padding: 10px;
     font-weight: 400;
