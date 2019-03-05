@@ -15,13 +15,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "laravel-mix": "^4.0.14",
-    "resolve-url-loader": "^2.3.1",
-    "sass": "^1.16.0",
+    "resolve-url-loader": "^2.3.2",
+    "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
     "tiny-slider": "^2.9.1",
-    "vue-template-compiler": "^2.5.22"
+    "vue-template-compiler": "^2.6.8"
   },
   "dependencies": {
     "cross-env": "^5.2.0"

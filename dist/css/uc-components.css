@@ -234,11 +234,22 @@ select {
   text-transform: none;
 }
 
+select {
+  word-wrap: normal;
+}
+
 button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+}
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+  cursor: pointer;
 }
 
 button::-moz-focus-inner,
@@ -2571,6 +2582,7 @@ p.condensed {
 .uc-tooltip,
 .uc-alphabetic-filter .letter-filter,
 .uc-filters,
+.uc-radio-group,
 .uc-form-style,
 .uc-message,
 .uc-pagination .uc-pages .page-link,
@@ -2587,6 +2599,7 @@ p.condensed {
   border-bottom: 1px solid #EAEAEA;
 }
 
+.uc-radio-group,
 .uc-collapse .uc-collapse-heading,
 .uc-pagination .uc-pages .page-item.active .page-link,
 .uc-pagination .uc-pages .page-item:hover .page-link,
@@ -3334,6 +3347,43 @@ a.uc-card:hover {
 
 textarea.uc-form-style {
   height: auto;
+}
+
+.uc-radio-group {
+  display: inline-flex;
+}
+
+.uc-radio-group .uc-orig-radio {
+  opacity: 0;
+  outline: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.uc-radio-group .uc-orig-radio:checked + .uc-radio-button {
+  background-color: #0176DE;
+  color: #fff;
+}
+
+.uc-radio-group .uc-radio-button {
+  outline: none;
+  position: relative;
+  transition: 0.2s ease;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 400;
+  color: #0176DE;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.uc-radio-group .uc-radio-button:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.uc-radio-group .uc-radio-button:last-of-type {
+  border-radius: 0 4px 4px 0;
 }
 
 .uc-filters {

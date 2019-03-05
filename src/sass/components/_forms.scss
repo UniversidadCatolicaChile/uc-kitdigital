@@ -47,3 +47,39 @@
 textarea.uc-form-style {
   height: auto;
 }
+
+.uc-radio-group {
+  display: inline-flex;
+  @extend %primaryshadow;
+  @extend %smallradius;
+  .uc-orig-radio {
+    opacity: 0;
+    outline: none;
+    position: absolute;
+    z-index: -1;
+    &:checked {
+      + .uc-radio-button {
+        background-color: $primaryblue;
+        color: #fff;
+      }
+    }
+  }
+  .uc-radio-button {
+    outline: none;
+    position: relative;
+    transition: .2s ease;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 400;
+    color: $primaryblue;
+    line-height: 1.4;
+    margin: 0;
+    &:first-of-type {
+      border-radius: 4px 0 0 4px;
+    }
+    &:last-of-type {
+      border-radius: 0 4px 4px 0;
+    }
+  }
+}
