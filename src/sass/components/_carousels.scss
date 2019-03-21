@@ -47,7 +47,6 @@
         .indicator {
           &:after {
             animation: CarouselNav 5s linear forwards;
-            //width: 100%;
           }
         }
         .indicator.paused:after {
