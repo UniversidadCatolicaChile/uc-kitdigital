@@ -10,7 +10,7 @@ var homeCarousel = tns({
     autoplayPosition: 'bottom',
     navContainer: '.carousel-nav-list',
     autoplayButtonOutput: false,
-    //autoplayButton: '.autoplay-buttons',
+    autoplayButton: '.autoplay-buttons',
     /*
     autoplayText: [
         "<i class='material-icons play'>play_circle_filled</i>",
@@ -39,9 +39,7 @@ boton.addEventListener('click', event => {
             console.log("andando");
             break;
     }
-    /
 }, );
-*/
 
 var pauseButton = document.querySelector('.pause-button');
 var playButton = document.querySelector('.play-button');
@@ -61,3 +59,4 @@ playButton.addEventListener('click',event  => {
     homeCarousel.play();
     console.log('playing');
 });
+*/

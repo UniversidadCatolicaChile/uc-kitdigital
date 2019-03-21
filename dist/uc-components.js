@@ -3934,8 +3934,8 @@ var homeCarousel = Object(_node_modules_tiny_slider_src_tiny_slider__WEBPACK_IMP
   navPosition: 'bottom',
   autoplayPosition: 'bottom',
   navContainer: '.carousel-nav-list',
-  autoplayButtonOutput: false //autoplayButton: '.autoplay-buttons',
-
+  autoplayButtonOutput: false,
+  autoplayButton: '.autoplay-buttons'
   /*
   autoplayText: [
       "<i class='material-icons play'>play_circle_filled</i>",
@@ -3963,26 +3963,27 @@ boton.addEventListener('click', event => {
             console.log("andando");
             break;
     }
-    /
 }, );
-*/
 
 var pauseButton = document.querySelector('.pause-button');
 var playButton = document.querySelector('.play-button');
-pauseButton.addEventListener('click', function (event) {
-  var indicatorBar = document.querySelector('.tns-nav-active .indicator');
-  indicatorBar.classList.remove('playing');
-  indicatorBar.classList.add('paused');
-  homeCarousel.pause();
-  console.log('paused');
+
+pauseButton.addEventListener('click',event  => {
+    var indicatorBar = document.querySelector('.tns-nav-active .indicator');
+    indicatorBar.classList.remove('playing');
+    indicatorBar.classList.add('paused');
+    homeCarousel.pause();
+    console.log('paused');
 });
-playButton.addEventListener('click', function (event) {
-  var indicatorBar = document.querySelector('.tns-nav-active .indicator');
-  indicatorBar.classList.remove('paused');
-  indicatorBar.classList.add('playing');
-  homeCarousel.play();
-  console.log('playing');
+
+playButton.addEventListener('click',event  => {
+    var indicatorBar = document.querySelector('.tns-nav-active .indicator');
+    indicatorBar.classList.remove('paused');
+    indicatorBar.classList.add('playing');
+    homeCarousel.play();
+    console.log('playing');
 });
+*/
 
 /***/ }),
 
