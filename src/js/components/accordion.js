@@ -30,7 +30,6 @@ class Accordion {
         
         if (parent == null){
             let targets = document.querySelectorAll('[data-toggle="' + element.dataset.target + '"]');
-            console.log(element.dataset.target);
             targets.forEach(item => {
                 this.toggle(item);
             });

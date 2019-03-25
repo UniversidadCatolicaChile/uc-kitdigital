@@ -3,6 +3,7 @@ import {tns} from "../src/js/components/tiny-slider"
 import {Modal} from "../src/js/components/modal";
 import {Accordion} from "../src/js/components/accordion";
 import {Dropdown} from "../src/js/components/dropdown";
+import {Tab} from "../src/js/components/tab";
 
 
 var homeCarousel = tns({
@@ -79,6 +80,9 @@ playButton.addEventListener('click',event  => {
 
 /* INICIALIZANDO COMPONENTES */
 
-const ac = new Accordion();
-const modal = new Modal();
-const drop = new Dropdown();
+const uc_kit_components = {
+    ac : new Accordion(),
+    modal : new Modal(),
+    drop: new Dropdown(),
+    tab: new Tab()
+};
