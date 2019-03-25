@@ -1,4 +1,9 @@
-import {tns} from "../node_modules/tiny-slider/src/tiny-slider"
+import {tns} from "../src/js/components/tiny-slider"
+
+import {Modal} from "../src/js/components/modal";
+import {Accordion} from "../src/js/components/accordion";
+import {Dropdown} from "../src/js/components/dropdown";
+
 
 var homeCarousel = tns({
     container: '.home-carousel',
@@ -16,6 +21,17 @@ var homeCarousel = tns({
     //     "<i class='material-icons pause'>pause_circle_filled</i>"
     // ]
 });
+
+
+/*
+homeCarousel.cache_pause = homeCarousel.pause;
+
+homeCarousel.pause = function(){
+    var indicatorBar = document.querySelector('.tns-nav-active .indicator');
+    indicatorBar.classList.remove('playing');
+    indicatorBar.classList.add('paused');
+    this.cache_pause();
+}*/
 
 // tomamos el boton
 //var boton = document.getElementsByClassName("autoplay-buttons")[0];
@@ -42,12 +58,13 @@ boton.addEventListener('click', event => {
 var pauseButton = document.querySelector('.pause-button');
 var playButton = document.querySelector('.play-button');
 
+
 pauseButton.addEventListener('click',event  => {
     console.log(event.target);
     var indicatorBar = document.querySelector('.tns-nav-active .indicator');
     indicatorBar.classList.remove('playing');
     indicatorBar.classList.add('paused');
-    homeCarousel.pause();
+    homeCarousel.pause_asimov();
     console.log('paused');
 });
 
@@ -55,7 +72,13 @@ playButton.addEventListener('click',event  => {
     var indicatorBar = document.querySelector('.tns-nav-active .indicator');
     indicatorBar.classList.remove('paused');
     indicatorBar.classList.add('playing');
-    homeCarousel.play();
+    homeCarousel.play_asimov();
     console.log('playing');
 });
 
+
+/* INICIALIZANDO COMPONENTES */
+
+const ac = new Accordion();
+const modal = new Modal();
+const drop = new Dropdown();
