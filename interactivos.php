@@ -150,12 +150,28 @@
         consectetur adipisicing elit. Commodi doloremque error facere fugiat minus nisi omnis quibusdam quo recusandae repellat? Esse iure magnam nemo, perferendis possimus sapiente sit voluptas voluptatum?
     </div>
     <div class="my-60">
-        <button type="button" data-mtarget="prueba">Abrir modal</button>
-        <div data-modal="prueba" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close" data-mclosed>&times;</span>
-                <p>Esto es un Modal</p>
+        <button type="button" class="uc-btn cta" data-mtarget="modalExample">Abrir modal</button>
+        <div data-modal="modalExample" class="uc-modal">
+            <div class="uc-modal-content uc-message yellow-warning mb-32">
+                <a href="javascript:void(0)" class="close-button" data-mclosed><i class="uc-icon">close</i></a>
+                <div class="uc-message-body">
+                    <i class="uc-icon warning-icon">warning</i>
+                    <h2 class="mb-24">Evacuación Fuga de Gas</h2>
+                    <p class="no-margin">Ante el aviso de una posible bomba, y como medida de precaución, se solicita a la comunidad UC de Campus San Joaquín , evacuar el campus a la brevedad. Todos deben dirigirse a la salida más cercana y seguir las instrucciones del personal de seguridad. Carabineros ya está en el lugar evaluando la situación.</p>
+                    <hr class="uc-hr my-32">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <p class="no-margin">Emergencias uc</p>
+                            <a href="#" class="uc-btn inline-btn"><i class="uc-icon">phone</i> (56)22354 5000</a>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <a href="#" class="uc-btn inline-btn">
+                                Más información
+                                <i class="uc-icon rounded-background">arrow_forward</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
