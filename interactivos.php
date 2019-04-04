@@ -73,7 +73,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="my-60">
-                <div data-accordion>
+                <div class="uc-accordion" data-accordion>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse-heading" data-target="collapseExample01">
                             <h6>Título Acordeón</h6>
@@ -111,6 +111,20 @@
                         </span>
                         </a>
                         <div class="uc-collapse-body" data-toggle="collapseExample03">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uc-collapse uc-card">
+                        <a href="#" class="uc-collapse-heading" data-target="collapseExample04">
+                            <h6>Título Acordeón</h6>
+                            <span class="uc-btn inline-btn ml-auto">
+                            Ver más
+                            <i class="uc-icon rounded-background">keyboard_arrow_down</i>
+                        </span>
+                        </a>
+                        <div class="uc-collapse-body" data-toggle="collapseExample04">
                             <div class="card-body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
