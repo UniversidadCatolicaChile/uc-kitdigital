@@ -3,27 +3,14 @@
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
-  margin: 24px 0;
+  margin-top: 24px;
   border-bottom: 2px solid $lightgraya;
   color: $lightgraya;
   .uc-tab-item {
     color: $darkgray;
     transition: background-color 100ms ease;
-    &.active, &:hover {
-      color: #000;
-      .uc-tab-link {
-        text-decoration: none;
-        border-bottom: 2px solid $primaryblue;
-      }
-    }
     &:active {
       background-color: $lightgrayc;
-    }
-    .uc-tab-link:hover {
-      color: $darkgray;
-    }
-    &.active .uc-tab-link:hover {
-      color: #000;
     }
   }
   .uc-tab-link {
@@ -32,5 +19,21 @@
     font-weight: 500;
     display: block;
     margin-bottom: -2px;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      color: $darkgray;
+      text-decoration: none;
+      border-bottom: 2px solid $primaryblue;
+    }
+    &.active {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 2px solid $primaryblue;
+      &:hover {
+        color: #000;
+      }
+    }
   }
 }

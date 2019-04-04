@@ -12,6 +12,7 @@ var homeCarousel = tns({
     controls: false,
     autoplay: true,
     slideBy: 1,
+    tiempo: 5000,
     navPosition: 'bottom',
     autoplayPosition: 'bottom',
     navContainer: '.carousel-nav-list',

@@ -1,3 +1,8 @@
+.dropdown-item {
+  position: relative;
+  display: inline-block;
+}
+
 .uc-nav-dropdown {
   display: inline-block;
   position: relative;
@@ -97,5 +102,36 @@
         background-color: $blue;
       }
     }
+  }
+}
+
+.uc-list-dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 0 0 25px 0 rgba(0,0,0,0.30);
+  padding: 12px 24px;
+  min-width: 220px;
+  top: 30px;
+  @extend %smallradius;
+  .uc-btn {
+    color: $blue;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .nav-item {
+    border-bottom: 1px solid #EDEDED;
+    &:last-child {
+      border-bottom: 0;
+    }
+    .uc-btn {
+      padding: 12px 0;
+    }
+  }
+  &.show {
+    display: inline-block;
   }
 }

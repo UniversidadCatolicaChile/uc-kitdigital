@@ -1,13 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Componentes Kit UC</title>
-    <link rel="stylesheet" href="dist/css/uc-components.css">
-</head>
-<body>
+<?php include 'inc/header.php' ?>
 <div class="container">
     <h1>Componentes Kit UC</h1>
     <hr>
@@ -503,11 +494,11 @@
                     <label for="switch_1" class="uc-radio-button">
                         Facultades
                     </label>
-                    <input type="radio" id="switch_2" name="switch" value="no" class="uc-orig-radio" />
+                    <input type="radio" id="switch_2" name="switch" value="no" class="uc-orig-radio"/>
                     <label for="switch_2" class="uc-radio-button">
                         Áreas
                     </label>
-                    <input type="radio" id="switch_3" name="switch" value="maybe" class="uc-orig-radio" />
+                    <input type="radio" id="switch_3" name="switch" value="maybe" class="uc-orig-radio"/>
                     <label for="switch_3" class="uc-radio-button">
                         Radio
                     </label>
@@ -550,11 +541,11 @@
                             <label for="switch_1" class="uc-radio-button">
                                 Facultades
                             </label>
-                            <input type="radio" id="switch_2" name="switch" value="no" class="uc-orig-radio" />
+                            <input type="radio" id="switch_2" name="switch" value="no" class="uc-orig-radio"/>
                             <label for="switch_2" class="uc-radio-button">
                                 Áreas
                             </label>
-                            <input type="radio" id="switch_3" name="switch" value="maybe" class="uc-orig-radio" />
+                            <input type="radio" id="switch_3" name="switch" value="maybe" class="uc-orig-radio"/>
                             <label for="switch_3" class="uc-radio-button">
                                 Radio
                             </label>
@@ -624,7 +615,7 @@
         <div class="col">
             <div class="uc-tooltip">
                 <div class="tooltip-body">
-                    <div class="triangle"></div>
+                    <div class="white-triangle"></div>
                     <h4>Estados Unidos</h4>
                     <div class="text-divider primary"></div>
                     <strong>Patentes: 20</strong>
@@ -754,7 +745,7 @@
             <div class="uc-nav-dropdown">
                 <div class="triangle blue"></div>
                 <ul class="dropdown-items first-level">
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown-nav">
                         <a href="" class="uc-btn">
                             <span class="title">Carreras y Programas de Pregrado</span>
                             <i class="uc-icon">arrow_right</i>
@@ -1053,15 +1044,13 @@
 <div class="container">
     <h2>Modal</h2>
     <div class="my-60">
-        <button type = "button" data-mtarget="prueba">Abrir modal</button>
+        <button type="button" data-mtarget="prueba">Abrir modal</button>
         <div data-modal="prueba" class="modal">
-
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close" data-mclosed>&times;</span>
                 <p>Esto es un Modal</p>
             </div>
-        
         </div>
     </div>
 </div>
@@ -1075,7 +1064,7 @@
             <div data-toggle="divuno" data-open>
                 Esto es una prueba
             </div>
-    
+
             <a href="#" data-target="divdos">Dos</a>
             <div data-toggle="divdos">
                 Esto es otra prueba
@@ -1103,12 +1092,25 @@
     <hr>
     <h2>Dropdown</h2>
     <div class="my-60">
-        <div class="dropdown">
-            <button  class="dropbtn" data-dtarget="prueba">Dropdown</button>
-            <div data-dropdown="prueba" class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+        <div class="dropdown-item">
+            <button class="dropbtn uc-btn" data-dtarget="prueba">Dropdown</button>
+            <div data-dropdown="prueba" class="uc-list-dropdown">
+                <div class="white-triangle"></div>
+                <div class="nav-item">
+                    <a href="#" class="uc-btn">Construcción y vivienda</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="uc-btn">Educación</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="uc-btn">Fortalecimiento de organizaciones</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="uc-btn">Pastoral</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="uc-btn">Pastoral</a>
+                </div>
             </div>
         </div>
     </div>
@@ -1126,33 +1128,10 @@
 
 <div class="container">
     <hr>
-    <h2>Tabs</h2>
-    <div class="my-60" data-tabpanel>
-        <ul class="uc-tabs">
-            <li class="uc-tab-item">
-                <a href="javascript:void(0);" class="uc-tab-link" data-tabtarget="tabuno" data-tabactive>Tab 1</a>
-            </li>
-            <li class="uc-tab-item">
-                <a href="javascript:void(0);" class="uc-tab-link" data-tabtarget="tabdos">Tab 2</a>
-            </li>
-            <li class="uc-tab-item">
-                <a href="javascript:void(0);" class="uc-tab-link" data-tabtarget="tabtres">Tab 3</a>
-            </li>
-        </ul>
-        <br>
-        <div data-tab="tabuno">
-            Primer Tab
-        </div>
-        <div data-tab="tabdos">
-            Segundo Tab
-        </div>
-        <div data-tab="tabtres">
-            Tercer Tab
-        </div>
+    <h2>Dropdown menu</h2>
+    <div class="my-60">
+
     </div>
 </div>
 
-
-<script src="dist/js/uc-components-dev.js"></script>
-</body>
-</html>
+<?php include 'inc/footer.php' ?>

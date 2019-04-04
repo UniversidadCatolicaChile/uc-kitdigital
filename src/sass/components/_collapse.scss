@@ -7,5 +7,18 @@
     padding: 30px 22px;
     border-left: 4px solid $primaryblue;
     @extend %primaryshadow;
+    &:hover {
+      text-decoration: none;
+      .uc-icon.rounded-background {
+        color: #173F8A;
+        background-color: #FEC60D;
+      }
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .uc-collapse-body {
+    transition: all .25s linear;
   }
 }

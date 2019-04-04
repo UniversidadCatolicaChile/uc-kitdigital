@@ -1,7 +1,7 @@
 class Accordion {
     constructor() {
-        this.titleClass = 'js-Accordion-title';
-        this.contentClass = 'js-Accordion-content';
+        this.titleClass = 'js-accordion-title';
+        this.contentClass = 'js-accordion-content';
 
         this.render();
     }
@@ -20,14 +20,14 @@ class Accordion {
     }
 
     getParent(element){
-        return (typeof element.parentElement == 'undefined' || element.parentElement == null) ? null : 
+        return (typeof element.parentElement == 'undefined' || element.parentElement == null) ? null :
         ((typeof element.parentElement.dataset.accordion != 'undefined') ? element.parentElement : this.getParent(element.parentElement));
     }
 
     onClick(e){
         let element = e.target;
         let parent = this.getParent(element);
-        
+
         if (parent == null){
             let targets = document.querySelectorAll('[data-toggle="' + element.dataset.target + '"]');
             targets.forEach(item => {
