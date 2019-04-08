@@ -1,5 +1,10 @@
 class Tab {
     constructor() {
+
+        this.list_class = {
+            active : 'active'
+        };
+
         this.tab_panels = document.querySelectorAll('[data-tabpanel]');
         this.tab_buttons = document.querySelectorAll('[data-tabtarget]');
         this.tabs_active = document.querySelectorAll('[data-tabactive]');
@@ -21,7 +26,7 @@ class Tab {
             }
 
             let target = parent.querySelectorAll('[data-tab="' + element.dataset.tabtarget + '"]');           
-            element.classList.add('active');
+            element.classList.add(this.list_class.active);
 
             if (target == null){
                 return;
@@ -47,10 +52,10 @@ class Tab {
         let buttons = parent.querySelectorAll('[data-tabtarget]');
 
         buttons.forEach(button => {
-            button.classList.remove('active');
+            button.classList.remove(this.list_class.active);
         })
 
-        element.classList.add('active');
+        element.classList.add(this.list_class.active);
 
         this.closeAll(parent);
         let targets = parent.querySelectorAll('[data-tab="' + element.dataset.tabtarget + '"]');

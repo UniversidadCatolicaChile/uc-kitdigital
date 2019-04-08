@@ -3,6 +3,11 @@ class Dropdown {
         /* Obtendremos a todos los botones que abren modales  */
         this.elements = document.querySelectorAll('[data-dtarget]');
 
+        this.list_class = {
+            button : 'dropbtn',
+            show : 'show'
+        };
+
         this.elements.forEach(element => {
             element.addEventListener('click', (e) => this.onClick(e));
         });
@@ -14,7 +19,7 @@ class Dropdown {
     onClick(e){
         let element = e.target;
         let target = document.querySelector("[data-dropdown='" + element.dataset.dtarget + "']");
-        target.classList.toggle("show");
+        target.classList.toggle(this.list_class.show);
     }
 
     prepareDropButtons(){
@@ -25,12 +30,12 @@ class Dropdown {
         }
 
         if (!Array.isArray(dropdowns)){
-            dropdowns.classList.add('dropbtn');
+            dropdowns.classList.add(this.list_class.button);
             return;
         }
 
         dropdowns.forEach(element => {
-            element.classList.add('dropbtn');
+            element.classList.add(this.list_class.button);
         })
 
     }
@@ -41,7 +46,7 @@ class Dropdown {
             if (typeof w_click == 'function'){
                 w_click(event);
             }
-            if (!event.target.matches('.dropbtn')) {
+            if (!event.target.matches('.' + this.list_class.button)) {
                 let dropdowns = document.querySelector("[data-dropdown]");
 
                 if (dropdowns == null){
@@ -49,16 +54,16 @@ class Dropdown {
                 }
 
                 if (!Array.isArray(dropdowns)){
-                    if (dropdowns.classList.contains('show')) {
-                        dropdowns.classList.remove('show');
+                    if (dropdowns.classList.contains(this.list_class.show)) {
+                        dropdowns.classList.remove(this.list_class.show);
                     }
                     return;
                 }
 
                 for (let i = 0; i < dropdowns.length; i++) {
                     let openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
+                    if (openDropdown.classList.contains(this.list_class.show)) {
+                        openDropdown.classList.remove(this.list_class.show);
                     }
                 }
             }
