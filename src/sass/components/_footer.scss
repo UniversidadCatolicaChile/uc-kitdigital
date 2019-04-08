@@ -1,15 +1,19 @@
 .uc-footer {
   margin-top: 120px;
-  padding: 80px 0;
+  padding: 28px 0;
   padding-bottom: 0;
   background-color: #03122E;
   font-size: 14px;
   color: #fff;
+  @include media-breakpoint-up(lg) {
+    padding: 80px 0;
+  }
   a {
     text-decoration: underline;
   }
   .list-footer {
     padding: 0;
+    margin: 0;
     list-style-type: none;
     li {
       margin-bottom: 8px;
@@ -26,9 +30,26 @@
   .list-title {
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 19px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    padding: 17px 0;
+    @include media-breakpoint-up(lg) {
+      border: 0;
+      padding-top: 0;
+    }
+    &.footer-collapse-title {
+      border-top: 1px solid #fff;
+      position: relative;
+      &:after {
+        content: 'keyboard_arrow_down';
+        font-family: "Material Icons";
+        position: absolute;
+        font-size: 24px;
+        right: 0;
+        top: 9px;
+        text-transform: none;
+      }
+    }
   }
   .acreditado {
     img {
@@ -45,5 +66,12 @@
   }
   .uc-icon {
     color: #fff;
+  }
+  .footer-collapse {
+    overflow: hidden;
+    transition: all .25s linear;
+    @include media-breakpoint-up(lg) {
+      height: auto !important;
+    }
   }
 }

@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="my-60">
-        <div class="dropdown-item">
+        <div class="uc-dropdown-item">
             <button class="dropbtn uc-btn" data-dtarget="prueba">Dropdown</button>
             <div data-dropdown="prueba" class="uc-list-dropdown">
                 <div class="white-triangle"></div>
@@ -54,7 +54,7 @@
         <div class="col-md-6">
             <div class="my-60">
                 <div class="uc-collapse uc-card">
-                    <a href="#" class="uc-collapse-heading" data-target="collapseExample">
+                    <a href="#" class="uc-collapse-heading" data-collapse="collapseExample">
                         <h6>Título Colapsable</h6>
                         <span class="uc-btn inline-btn ml-auto">
                             Ver más
@@ -75,7 +75,7 @@
             <div class="my-60">
                 <div class="uc-accordion" data-accordion>
                     <div class="uc-collapse uc-card">
-                        <a href="#" class="uc-collapse-heading" data-target="collapseExample01">
+                        <a href="#" class="uc-collapse-heading" data-collapse="collapseExample01">
                             <h6>Título Acordeón</h6>
                             <span class="uc-btn inline-btn ml-auto">
                             Ver más
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class="uc-collapse uc-card">
-                        <a href="#" class="uc-collapse-heading" data-target="collapseExample02">
+                        <a href="#" class="uc-collapse-heading" data-collapse="collapseExample02">
                             <h6>Título Acordeón</h6>
                             <span class="uc-btn inline-btn ml-auto">
                             Ver más
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                     <div class="uc-collapse uc-card">
-                        <a href="#" class="uc-collapse-heading" data-target="collapseExample03">
+                        <a href="#" class="uc-collapse-heading" data-collapse="collapseExample03">
                             <h6>Título Acordeón</h6>
                             <span class="uc-btn inline-btn ml-auto">
                             Ver más
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                     <div class="uc-collapse uc-card">
-                        <a href="#" class="uc-collapse-heading" data-target="collapseExample04">
+                        <a href="#" class="uc-collapse-heading" data-collapse="collapseExample04">
                             <h6>Título Acordeón</h6>
                             <span class="uc-btn inline-btn ml-auto">
                             Ver más

@@ -7,6 +7,9 @@
     padding: 30px 22px;
     border-left: 4px solid $primaryblue;
     @extend %primaryshadow;
+    > * {
+      pointer-events: none;
+    }
     &:hover {
       text-decoration: none;
       .uc-icon.rounded-background {

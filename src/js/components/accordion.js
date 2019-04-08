@@ -8,7 +8,7 @@ class Accordion {
 
     render() {
         /* Obtendremos a todos los elementos  */
-        this.elements = document.querySelectorAll('[data-target]');
+        this.elements = document.querySelectorAll('[data-collapse]');
 
         this.elements.forEach(element => {
             element.classList.add(this.titleClass);
@@ -25,18 +25,19 @@ class Accordion {
     }
 
     onClick(e){
+
         let element = e.target;
         let parent = this.getParent(element);
 
         if (parent == null){
-            let targets = document.querySelectorAll('[data-toggle="' + element.dataset.target + '"]');
+            let targets = document.querySelectorAll('[data-toggle="' + element.dataset.collapse + '"]');
             targets.forEach(item => {
                 this.toggle(item);
             });
             return;
         }
 
-        let targets = parent.querySelectorAll('[data-toggle="' + element.dataset.target + '"]');
+        let targets = parent.querySelectorAll('[data-toggle="' + element.dataset.collapse + '"]');
 
         if (element.dataset.open == "true"){
             this.toggle(element);
