@@ -8,6 +8,7 @@
 @import "~bootstrap/scss/reboot";
 @import "~bootstrap/scss/print";
 @import "~bootstrap/scss/utilities/flex";
+@import "~bootstrap/scss/utilities/display";
 @import "~bootstrap/scss/grid";
 
 //import carousel default styles
@@ -40,6 +41,6 @@
 @import 'components/tooltips';
 @import 'components/top-bar';
 @import 'components/navbar';
-@import 'components/related-content';
 @import 'components/nav-dropdown';
+@import 'components/related-content';
 @import 'components/footer';
