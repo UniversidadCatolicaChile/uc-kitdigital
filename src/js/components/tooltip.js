@@ -81,7 +81,7 @@ class ToolTip {
         return `
         <div class='white-triangle'></div>
         ${image_el}
-        <div class='tooltip-body'>
+        <div class='uc-tooltip-body'>
             <h1>${title}</h1>
             <p>${body}</p>
         </div>

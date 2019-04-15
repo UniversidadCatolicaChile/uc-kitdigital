@@ -1,34 +1,13 @@
-.uc-tooltip-content {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted;
-  &:hover {
-    .uc-tooltip {
-      visibility: visible;
-      opacity: 1;
-    }
-  }
-}
-
 .uc-tooltip {
   display: flex;
   flex-direction: column;
-  //position: absolute;
   min-width: 180px;
-  //top: 125%;
-  //left: 50%;
-  //margin-left: -60px;
   transition: .3s ease;
   background-color: #fff;
   z-index: 1;
   @extend %largeshadow;
   @extend %smallradius;
-  .tooltip-body {
+  .uc-tooltip-body {
     padding: 24px;
   }
-}
-
-.box-tooltip {
-  position: absolute;
-  background-color: blue;
 }
