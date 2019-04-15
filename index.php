@@ -149,7 +149,7 @@
         <div class="col-md-4">
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
                         <a href="#" class="uc-link">
@@ -164,7 +164,7 @@
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag fixed-tag">Carrera de Pregrado</a>
-                <div class="card-body">
+                <div class="uc-card-body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
                         <a href="#" class="uc-link">
@@ -179,7 +179,7 @@
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag fixed-tag">Carrera de Pregrado</a>
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
@@ -197,7 +197,7 @@
             <div class="uc-card same-height">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag fixed-tag">Carrera de Pregrado</a>
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-divider primary"></div>
@@ -215,7 +215,7 @@
             <div class="uc-card same-height">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag fixed-tag">Carrera de Pregrado</a>
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-divider primary"></div>
@@ -230,7 +230,7 @@
         <div class="col-md-4">
             <div class="uc-card same-height">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-divider primary"></div>
@@ -249,7 +249,23 @@
         <div class="col-md-6">
             <div class="uc-card horizontal-card">
                 <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
-                <div class="card-body">
+                <div class="uc-card-body">
+                    <a href="#" class="uc-tag">
+                        Texto
+                    </a>
+                    <h4 class="mt-16">Lorem ipsum dolor sit amet</h4>
+                    <div class="text-right mt-auto">
+                        <a href="#" class="uc-link">
+                            Ver más
+                            <i class="uc-icon">keyboard_arrow_right</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uc-card horizontal-card">
+                <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
+                <div class="uc-uc-card-body">
                     <a href="#" class="uc-tag">
                         Texto
                     </a>
@@ -266,7 +282,7 @@
         <div class="col-md-6">
             <div class="uc-card horizontal-card">
                 <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-auto">
                         <a href="#" class="uc-link">
@@ -306,7 +322,7 @@
     <div class="row my-36">
         <div class="col-md-4">
             <a href="#" class="uc-card">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h3>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h3>
                     <div class="text-divider primary"></div>
@@ -315,7 +331,7 @@
         </div>
         <div class="col-md-4">
             <div class="uc-card">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p class="uc-subtitle">Columna sobre Proyecto de Isapres</p>
                     <h4 class="mb-16">Preexistencias y reforma al sistema de isapres.</h4>
                     <p class="no-margin"><strong>Felipe Bravo</strong></p>
@@ -326,7 +342,7 @@
         </div>
         <div class="col-md-4">
             <div class="uc-card">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <h4 class="mb-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
                     <p class="no-margin"><strong>Felipe Bravo</strong></p>
                     <p class="gray no-margin">Académico de la Escuela de Derecho</p>
@@ -347,7 +363,7 @@
         </div>
         <div class="col-md-2">
             <div class="uc-card">
-                <div class="card-body text-center">
+                <div class="uc-card-body text-center">
                     <h1>608</h1>
                     <p class="no-margin">Publicaciones <br>Scopus</p>
                 </div>
@@ -397,7 +413,7 @@
                 <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
                 <a href="#" class="uc-tag">Carrera de Pregrado</a>
                 <div class="uc-card mt-auto">
-                    <div class="card-body">
+                    <div class="uc-card-body">
                         <p class="small gray condensed">18 Marzo 2018</p>
                         <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
                         <div class="text-divider primary"></div>
@@ -410,7 +426,7 @@
                 <img src="http://via.placeholder.com/600x530" class="card-image" alt="">
                 <a href="#" class="uc-tag">Pregrado</a>
                 <div class="uc-card mt-auto">
-                    <div class="card-body">
+                    <div class="uc-card-body">
                         <p class="uc-subtitle">Columna sobre Proyecto de Isapres</p>
                         <h4 class="mb-16">Preexistencias y reforma al sistema de isapres.</h4>
                         <p class="no-margin"><strong>Felipe Bravo</strong></p>
@@ -426,14 +442,14 @@
     <div class="row mb-60">
         <div class="col-md-3 my-60">
             <div class="uc-card event-card">
-                <div class="schedule-card">
+                <div class="uc-card event-date">
                     <div class="day">7</div>
                     <div class="month">Nov</div>
                 </div>
-                <div class="card-body">
+                <div class="uc-card-body">
                     <a href="#" class="uc-tag my-20">Teatro</a>
                     <h4>Evento Dos líneas de texto</h4>
-                    <div class="schedule-content">
+                    <div class="uc-event-content">
                         <div class="date">1 de Diciembre</div>
                         <div class="time">15:00 a 20:30 hrs.</div>
                         <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
@@ -443,14 +459,14 @@
         </div>
         <div class="col-md-5 my-60">
             <div class="uc-card event-card">
-                <div class="schedule-card">
-                    <div class="day">27</div>
-                    <div class="month">Dic</div>
+                <div class="uc-card event-date">
+                    <div class="day">2</div>
+                    <div class="month">Nov</div>
                 </div>
-                <div class="card-body">
+                <div class="uc-card-body">
                     <a href="#" class="uc-tag my-20">Teatro</a>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, veniam.</h4>
-                    <div class="schedule-content">
+                    <div class="uc-event-content">
                         <div class="date">1 de Diciembre</div>
                         <div class="time">15:00 a 20:30 hrs.</div>
                         <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
@@ -922,28 +938,28 @@
     <div class="uc-related-content">
         <div class="main-card">
             <div class="uc-card">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, consectetur deleniti doloribus eaque enim et fuga fugit id impedit ipsum magnam minus modi molestiae nesciunt nulla quia sed, sint voluptatem?</p>
                 </div>
             </div>
         </div>
         <div class="secondary-card">
             <div class="uc-card">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, consectetur deleniti doloribus eaque enim et fuga fugit id impedit ipsum magnam minus modi molestiae nesciunt nulla quia sed, sint voluptatem?</p>
                 </div>
             </div>
         </div>
         <div class="secondary-card">
             <div class="uc-card">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, consectetur deleniti doloribus eaque enim et fuga fugit id impedit ipsum magnam minus modi molestiae nesciunt nulla quia sed, sint voluptatem?</p>
                 </div>
             </div>
         </div>
         <div class="secondary-card">
             <div class="uc-card">
-                <div class="card-body">
+                <div class="uc-card-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, consectetur deleniti doloribus eaque enim et fuga fugit id impedit ipsum magnam minus modi molestiae nesciunt nulla quia sed, sint voluptatem?</p>
                 </div>
             </div>
@@ -1133,5 +1149,4 @@
 
     </div>
 </div>
-
 <?php include 'inc/footer.php' ?>

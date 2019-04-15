@@ -5,6 +5,7 @@
         color: #fff;
         padding: 14px 16px;
         background-color: $primaryblue;
+        @extend %h1;
       }
     }
   }

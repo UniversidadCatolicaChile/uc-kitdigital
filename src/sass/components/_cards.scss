@@ -8,7 +8,7 @@
   @extend %primaryshadow;
   @extend %smallradius;
   // todo: agregar clase sin sombra - borde 8px
-  .card-body {
+  .uc-card-body {
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -63,13 +63,37 @@
   }
   &.event-card {
     overflow: visible;
-    .schedule-card {
+    .event-date {
       position: absolute;
       top: -24px;
       left: 24px;
     }
   }
-  .schedule-content {
+  &.event-date {
+    background-color: #fff;
+    border-top: 4px solid $primaryblue;
+    display: flex;
+    flex-direction: row;
+    padding: 4px 12px;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+    align-self: flex-start;
+    @extend %primaryshadow;
+    @extend %primaryborder;
+    .day {
+      font-size: 34px;
+      font-weight: bold;
+      line-height: 1.1;
+      margin-right: 12px;
+    }
+    .month {
+      font-size: 17px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+  .uc-event-content {
     margin-top: 20px;
     .date, .time, .venue {
       margin: 0;
@@ -98,28 +122,6 @@
       &:before {
         content: 'location_on';
       }
-    }
-  }
-  .schedule-card {
-    background-color: #fff;
-    border-top: 4px solid $primaryblue;
-    display: flex;
-    padding: 4px 12px;
-    align-items: center;
-    border-radius: 0 0 4px 4px;
-    @extend %primaryshadow;
-    @extend %primaryborder;
-    .day {
-      font-size: 34px;
-      font-weight: bold;
-      line-height: 1.1;
-      margin-right: 12px;
-    }
-    .month {
-      font-size: 17px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 2px;
     }
   }
 }
