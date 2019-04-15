@@ -1095,6 +1095,15 @@
 
 <div class="container">
     <hr>
+    <h2>Tooltip</h2>
+    <div class="my-60">
+        <div class="tooltip">Pasa el Mouse por <span data-tooltip="box" data-tooltiptitle="Este es el Titulo del Tooltip" data-tooltipbody="Este es el cuerpo del tooltip" data-tooltipimage="https://www.biografiasyvidas.com/biografia/a/fotos/asimov_isaac.jpg">aquí</span>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <hr>
     <h2>Collapses</h2>
     <div class="my-60">
         <a href="#" data-target="sisepuede">Esto es un collapse</a>
@@ -1132,15 +1141,7 @@
     </div>
 </div>
 
-<div class="container">
-    <hr>
-    <h2>Tooltip</h2>
-    <div class="my-60">
-        <div class="tooltip">Pasa el Mouse por aquí
-            <span class="tooltiptext">Esto es un tooltip</span>
-        </div>
-    </div>
-</div>
+
 
 <div class="container">
     <hr>
