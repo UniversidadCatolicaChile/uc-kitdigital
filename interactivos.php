@@ -62,7 +62,7 @@
                         </span>
                     </a>
                     <div class="uc-collapse-body" data-toggle="collapseExample">
-                        <div class="card-body">
+                        <div class="uc-card-body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                         </span>
                         </a>
                         <div class="uc-collapse-body" data-toggle="collapseExample01">
-                            <div class="card-body">
+                            <div class="uc-card-body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                         </span>
                         </a>
                         <div class="uc-collapse-body" data-toggle="collapseExample02">
-                            <div class="card-body">
+                            <div class="uc-card-body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                         </span>
                         </a>
                         <div class="uc-collapse-body" data-toggle="collapseExample03">
-                            <div class="card-body">
+                            <div class="uc-card-body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                         </span>
                         </a>
                         <div class="uc-collapse-body" data-toggle="collapseExample04">
-                            <div class="card-body">
+                            <div class="uc-card-body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
                         </div>
@@ -139,7 +139,7 @@
         <div class="uc-tooltip-content">
             hover para ver el tooltip
             <div class="uc-tooltip">
-                <div class="tooltip-body">
+                <div class="uc-tooltip-body">
                     <div class="white-triangle"></div>
                     <h4>Título</h4>
                     <div class="text-divider primary"></div>

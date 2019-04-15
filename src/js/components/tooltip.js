@@ -3,7 +3,7 @@ class ToolTip {
 
         this.list_class = {
             elementClass : 'asm-tooltip',
-            boxClass : 'box-tooltip'
+            boxClass : 'uc-tooltip'
         };
 
         this.box_id = 'divfortooltipasimov';
@@ -30,35 +30,35 @@ class ToolTip {
     }
 
     show(e){
-        this.change(e, true);  
+        this.change(e, true);
     }
 
     hide(e){
-        this.change(e, false); 
+        this.change(e, false);
     }
 
     change(e, isShow){
-        
+
         let element = e.target;
-        let x = element.offsetLeft + (element.offsetWidth/2) + 10;
-        let y = element.offsetTop + (element.offsetHeight/2)+ 10;
+        let x = element.offsetLeft + (element.offsetWidth/2) - 45;
+        let y = element.offsetTop + (element.offsetHeight/2) + 20;
 
         let div = document.getElementById(this.box_id);
         if (div){
             div.parentNode.removeChild(div);
         }
-        
+
         let tooltip = document.createElement('div');
 
         tooltip.id = this.box_id;
         tooltip.style.position = 'absolute';
         tooltip.style.left = x + "px";
         tooltip.style.top = y + "px";
-        tooltip.innerHTML = this.getTemplate(this.title(element), this.body(element), this.image(element));  
-        tooltip.classList.add(this.list_class.boxClass); 
+        tooltip.innerHTML = this.getTemplate(this.title(element), this.body(element), this.image(element));
+        tooltip.classList.add(this.list_class.boxClass);
 
         if (isShow){
-            document.body.appendChild(tooltip); 
+            document.body.appendChild(tooltip);
         }
     }
 
@@ -76,12 +76,15 @@ class ToolTip {
 
     getTemplate(title, body, image){
 
-        let image_el = image != null ? '<img src = "' + image + '">' : '';
-        
+        let image_el = image != null ? '<img src = "' + image + '" class="img-fluid">' : '';
+
         return `
+        <div class='white-triangle'></div>
         ${image_el}
-        <h1>${title}</h1>
-        <p>${body}</p>
+        <div class='tooltip-body'>
+            <h1>${title}</h1>
+            <p>${body}</p>
+        </div>
         `;
     }
 
