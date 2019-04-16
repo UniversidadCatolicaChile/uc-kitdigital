@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   min-width: 180px;
+  max-width: 300px;
   transition: .3s ease;
   background-color: #fff;
   z-index: 1;
-  @extend %largeshadow;
-  @extend %smallradius;
+  @include large-shadow;
+  @include small-radius;
   .uc-tooltip-body {
     padding: 24px;
   }

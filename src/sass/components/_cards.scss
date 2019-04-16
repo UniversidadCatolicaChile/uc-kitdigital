@@ -1,12 +1,12 @@
 .uc-card {
+  @include primary-shadow;
+  @include small-radius;
   border: 1px solid #EAEAEA;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   position: relative;
   background-color: #fff;
-  @extend %primaryshadow;
-  @extend %smallradius;
   // todo: agregar clase sin sombra - borde 8px
   .uc-card-body {
     padding: 24px;
@@ -24,6 +24,9 @@
   }
   &.horizontal-card {
     flex-direction: row;
+  }
+  &.underlined {
+    border-bottom: 8px solid $primaryblue;
   }
   &.special-card {
     background-color: $lightgrayc;
@@ -70,6 +73,8 @@
     }
   }
   &.event-date {
+    @include primary-border;
+    @include primary-shadow;
     background-color: #fff;
     border-top: 4px solid $primaryblue;
     display: flex;
@@ -78,8 +83,6 @@
     align-items: center;
     border-radius: 0 0 4px 4px;
     align-self: flex-start;
-    @extend %primaryshadow;
-    @extend %primaryborder;
     .day {
       font-size: 34px;
       font-weight: bold;

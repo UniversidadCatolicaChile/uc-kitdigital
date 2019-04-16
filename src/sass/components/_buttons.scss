@@ -1,3 +1,4 @@
+// Componente Botón UC
 .uc-btn {
   position: relative;
   line-height: 1;
@@ -7,14 +8,15 @@
   align-items: center;
   justify-content: space-between;
   transition: background-color .2s ease;
-  @extend %smallradius;
-  &.primary {
+  @include small-radius;
+  // Clases modificadoras
+  &.btn-primary {
+    @include primary-border;
+    @include primary-shadow;
+    @extend .uc-link;
     padding: 12px 16px;
     text-align: left;
     display: flex;
-    @extend %primaryshadow;
-    @extend %primaryborder;
-    @extend %uc-link;
     &:hover {
       border-color: $primaryblue;
       text-decoration: none;
@@ -23,15 +25,15 @@
       background-color: $lightgrayc;
     }
   }
-  &.featured {
+  &.btn-featured {
+    @include primary-border;
+    @include primary-shadow;
+    @extend .uc-link;
     padding: 24px 16px;
     border-radius: 0 4px 4px 0;
     border-left: 2px solid $yellow;
     width: 100%;
     color: #000;
-    @extend %uc-link;
-    @extend %primaryshadow;
-    @extend %primaryborder;
     .uc-icon {
       font-size: 16px;
     }
@@ -41,7 +43,7 @@
       border-left: 2px solid $yellow;
     }
   }
-  &.cta {
+  &.btn-cta {
     display: block;
     padding: 12px 16px;
     font-weight: 500;
@@ -53,7 +55,7 @@
       background-color: #E3AE00;
     }
   }
-  &.admission {
+  &.btn-admission {
     border: 2px solid $yellow;
     padding: 8px 10px;
     text-transform: uppercase;
@@ -69,12 +71,12 @@
       background-color: #fff;
     }
   }
-  &.filter {
+  &.btn-filter {
+    @include primary-border;
+    @include primary-shadow;
+    @include medium-radius;
     padding: 8px;
     color: #000;
-    @extend %primaryborder;
-    @extend %primaryshadow;
-    @extend %mediumradius;
     .uc-icon {
       font-size: 12px;
       vertical-align: middle;
@@ -84,7 +86,7 @@
       background-color: $lightgrayc;
     }
   }
-  &.btn-list {
+  &.btn-listed {
     width: 100%;
     padding: 11px 16px;
     font-size: 14px;
@@ -106,7 +108,7 @@
       }
     }
   }
-  &.inline-btn {
+  &.btn-inline {
     display: inline-flex;
     .uc-icon {
       margin-left: 12px;

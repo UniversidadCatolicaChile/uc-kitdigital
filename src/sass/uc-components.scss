@@ -26,7 +26,16 @@
 @import 'animations';
 
 // import components scss
+/*
+  Navigation components
+*/
 @import 'components/buttons';
+@import 'components/tags';
+@import 'components/nav-dropdown';
+
+/*
+  Content components
+*/
 @import 'components/cards';
 @import 'components/tabs';
 @import 'components/pagination';
@@ -41,6 +50,5 @@
 @import 'components/tooltips';
 @import 'components/top-bar';
 @import 'components/navbar';
-@import 'components/nav-dropdown';
 @import 'components/related-content';
 @import 'components/footer';

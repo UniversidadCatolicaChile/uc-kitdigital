@@ -5,19 +5,19 @@
     <h2 class="my-24">Botones</h2>
     <div class="row">
         <div class="col-md-3">
-            <a href="#" class="uc-btn primary">
+            <a href="#" class="uc-btn btn-primary">
                 Más información
                 <i class="uc-icon rounded-background">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
-            <a href="#" class="uc-btn primary">
+            <a href="#" class="uc-btn btn-primary">
                 Ir al sitio
                 <i class="uc-icon">launch</i>
             </a>
         </div>
         <div class="col-md-6">
-            <a href="#" class="uc-btn primary">
+            <a href="#" class="uc-btn btn-primary">
                 Más Información
                 <i class="uc-icon rounded-background">arrow_forward</i>
             </a>
@@ -25,31 +25,31 @@
     </div>
     <div class="row my-24">
         <div class="col-md-3">
-            <a href="#" class="uc-btn admission inline-btn">
+            <a href="#" class="uc-btn btn-admission btn-inline">
                 Admisión <i class="uc-icon">launch</i>
             </a>
         </div>
         <div class="col-md-3">
-            <a href="#" class="uc-btn filter inline-btn">
+            <a href="#" class="uc-btn btn-filter btn-inline">
                 Centro UC
                 <i class="uc-icon">fiber_manual_record</i>
             </a>
         </div>
         <div class="col-md-3">
-            <a href="#" class="uc-btn cta">
+            <a href="#" class="uc-btn btn-cta">
                 Texto
             </a>
         </div>
     </div>
     <div class="row my-24">
         <div class="col-md-3">
-            <a href="#" class="uc-btn featured">
+            <a href="#" class="uc-btn btn-featured">
                 Text
                 <i class="uc-icon">launch</i>
             </a>
         </div>
         <div class="col-md-3">
-            <a href="#" class="uc-btn featured">
+            <a href="#" class="uc-btn btn-featured">
                 Text
                 <i class="uc-icon rounded-background small">arrow_forward</i>
             </a>
@@ -57,27 +57,27 @@
     </div>
     <div class="row">
         <div class="col-md-3">
-            <a href="#" class="uc-btn inline-btn">
+            <a href="#" class="uc-btn btn-inline">
                 Texto
                 <i class="uc-icon rounded-background">add</i>
             </a>
         </div>
         <div class="col-md-3">
-            <a href="#" class="uc-btn btn-list">
+            <a href="#" class="uc-btn btn-listed">
                 Text
                 <i class="uc-icon rounded-background small">arrow_forward</i>
             </a>
-            <a href="#" class="uc-btn btn-list">
+            <a href="#" class="uc-btn btn-listed">
                 Text
                 <i class="uc-icon rounded-background small">arrow_forward</i>
             </a>
-            <a href="#" class="uc-btn btn-list">
+            <a href="#" class="uc-btn btn-listed">
                 Text
                 <i class="uc-icon rounded-background small">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
-            <a href="#" class="uc-btn btn-list">
+            <a href="#" class="uc-btn btn-listed">
                 Text
                 <i class="uc-icon small">launch</i>
             </a>
@@ -86,20 +86,9 @@
     <h2 class="my-24">Tags</h2>
     <br>
     <a href="#" class="uc-tag">Texto tag</a>
+    <a href="#" class="uc-tag tag-overlayed">Texto tag</a>
     <hr>
     <h2 class="my-24">Navs</h2>
-    <br>
-    <ul class="uc-tabs">
-        <li class="uc-tab-item active">
-            <a href="#" class="uc-tab-link">Tab 1</a>
-        </li>
-        <li class="uc-tab-item">
-            <a href="#" class="uc-tab-link">Tab 2</a>
-        </li>
-        <li class="uc-tab-item">
-            <a href="#" class="uc-tab-link">Tab 3</a>
-        </li>
-    </ul>
     <br>
     <nav>
         <ol class="uc-breadcrumb">
@@ -262,22 +251,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="uc-card horizontal-card">
-                <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
-                <div class="uc-uc-card-body">
-                    <a href="#" class="uc-tag">
-                        Texto
-                    </a>
-                    <h4 class="mt-16">Lorem ipsum dolor sit amet</h4>
-                    <div class="text-right mt-auto">
-                        <a href="#" class="uc-link">
-                            Ver más
-                            <i class="uc-icon">keyboard_arrow_right</i>
-                        </a>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="col-md-6">
             <div class="uc-card horizontal-card">
@@ -362,9 +335,17 @@
             </div>
         </div>
         <div class="col-md-2">
-            <div class="uc-card">
+            <div class="uc-card underlined">
                 <div class="uc-card-body text-center">
-                    <h1>608</h1>
+                    <span class="h1">608</span>
+                    <p class="no-margin">Publicaciones <br>Scopus</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="uc-card underlined">
+                <div class="uc-card-body text-center">
+                    <div class="uc-icon large">local_library</div>
                     <p class="no-margin">Publicaciones <br>Scopus</p>
                 </div>
             </div>
@@ -378,7 +359,7 @@
                 <button class="btn-prev mr-12">
                     <i class="uc-icon">keyboard_arrow_left</i>
                 </button>
-                <ul class="uc-pages">
+                <ul class="uc-pagination-pages">
                     <li class="page-item active">
                         <a href="#" class="page-link">1</a>
                     </li>
@@ -395,7 +376,7 @@
                         <a href="#" class="page-link">133</a>
                     </li>
                     <li class="page-item">
-                        <a href="#" class="page-link">133</a>
+                        <a href="#" class="page-link">153</a>
                     </li>
                 </ul>
                 <button class="btn-next ml-12">
@@ -643,16 +624,16 @@
     <h2>Alertas</h2>
     <div class="row my-40">
         <div class="col-8">
-            <div class="uc-message mb-32">
+            <div class="uc-alert mb-32">
                 <a href="#" class="close-button"><i class="uc-icon">close</i></a>
-                <div class="uc-message-body">
+                <div class="uc-alert-body">
                     <h2 class="mb-24">Evacuación por posible bomba</h2>
                     <p class="no-margin">Ante el aviso de una posible bomba, y como medida de precaución, se solicita a la comunidad UC de Campus San Joaquín , evacuar el campus a la brevedad. Todos deben dirigirse a la salida más cercana y seguir las instrucciones del personal de seguridad. Carabineros ya está en el lugar evaluando la situación.</p>
                 </div>
             </div>
-            <div class="uc-message yellow-warning mb-32">
+            <div class="uc-alert yellow-warning mb-32">
                 <a href="#" class="close-button"><i class="uc-icon">close</i></a>
-                <div class="uc-message-body">
+                <div class="uc-alert-body">
                     <i class="uc-icon warning-icon">warning</i>
                     <h2 class="mb-24">Evacuación Fuga de Gas</h2>
                     <p class="no-margin">Ante el aviso de una posible bomba, y como medida de precaución, se solicita a la comunidad UC de Campus San Joaquín , evacuar el campus a la brevedad. Todos deben dirigirse a la salida más cercana y seguir las instrucciones del personal de seguridad. Carabineros ya está en el lugar evaluando la situación.</p>
@@ -671,9 +652,9 @@
                     </div>
                 </div>
             </div>
-            <div class="uc-message red-warning mb-32">
+            <div class="uc-alert red-warning mb-32">
                 <a href="#" class="close-button"><i class="uc-icon">close</i></a>
-                <div class="uc-message-body">
+                <div class="uc-alert-body">
                     <i class="uc-icon warning-icon">error</i>
                     <h2 class="mb-24">Evacuación por posible bomba</h2>
                     <p class="no-margin">Ante el aviso de una posible bomba, y como medida de precaución, se solicita a la comunidad UC de Campus San Joaquín , evacuar el campus a la brevedad. Todos deben dirigirse a la salida más cercana y seguir las instrucciones del personal de seguridad. Carabineros ya está en el lugar evaluando la situación.</p>
@@ -690,6 +671,54 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Mensajes</h2>
+    <br>
+    <div class="row">
+        <div class="col-md-8 mb-12">
+            <div class="uc-message warning">
+                <div class="uc-message-content">
+                    <i class="uc-icon small">warning</i>
+                    <span class="p small bold ml-8">Alerta, descripción</span>
+                </div>
+                <div class="uc-message-close">
+                    <i class="uc-icon small">close</i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 mb-12">
+            <div class="uc-message error">
+                <div class="uc-message-content">
+                    <i class="uc-icon small">cancel</i>
+                    <span class="p small bold ml-8">Error, descripción</span>
+                </div>
+                <div class="uc-message-close">
+                    <i class="uc-icon small">close</i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 mb-12">
+            <div class="uc-message info">
+                <div class="uc-message-content">
+                    <i class="uc-icon small">info</i>
+                    <span class="p small bold ml-8">Información, descripción</span>
+                </div>
+                <div class="uc-message-close">
+                    <i class="uc-icon small">close</i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 mb-12">
+            <div class="uc-message success">
+                <div class="uc-message-content">
+                    <i class="uc-icon small">check_circle</i>
+                    <span class="p small bold ml-8">Éxito, descripción</span>
+                </div>
+                <div class="uc-message-close">
+                    <i class="uc-icon small">close</i>
                 </div>
             </div>
         </div>
@@ -1095,15 +1124,6 @@
 
 <div class="container">
     <hr>
-    <h2>Tooltip</h2>
-    <div class="my-60">
-        <div class="tooltip">Pasa el Mouse por <span data-tooltip="box" data-tooltiptitle="Este es el Titulo del Tooltip" data-tooltipbody="Este es el cuerpo del tooltip" data-tooltipimage="https://www.biografiasyvidas.com/biografia/a/fotos/asimov_isaac.jpg">aquí</span>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <hr>
     <h2>Collapses</h2>
     <div class="my-60">
         <a href="#" data-target="sisepuede">Esto es un collapse</a>
@@ -1141,7 +1161,14 @@
     </div>
 </div>
 
-
+<div class="container">
+    <hr>
+    <h2>Tooltip</h2>
+    <div class="my-60">
+        <div class="tooltip">Pasa el Mouse por <span data-tooltip="box" data-tooltiptitle="Título" data-tooltipbody="Este es el cuerpo del tooltip" data-tooltipimage="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU0ODg0MzUzNTUx/isaac-asimov-9190737-1-402.jpg">aquí</span>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <hr>

@@ -94,8 +94,8 @@
       background-color: #fff;
       z-index: 2;
       transform: rotate(45deg);
-      @extend %largeshadow;
-      @extend %smallradius;
+      @include large-shadow;
+      @include small-radius;
     }
     &.blue {
       &:after {
@@ -114,7 +114,7 @@
   padding: 12px 24px;
   min-width: 220px;
   top: 30px;
-  @extend %smallradius;
+  @include small-radius;
   .uc-btn {
     color: $blue;
     font-weight: bold;

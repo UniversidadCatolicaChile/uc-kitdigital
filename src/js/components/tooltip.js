@@ -83,7 +83,7 @@ class ToolTip {
         ${image_el}
         <div class='uc-tooltip-body'>
             <h1>${title}</h1>
-            <p>${body}</p>
+            <p class='no-margin'>${body}</p>
         </div>
         `;
     }

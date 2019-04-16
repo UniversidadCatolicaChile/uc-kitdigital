@@ -66,8 +66,8 @@ hr.uc-hr {
     background-color: #fff;
     z-index: 2;
     transform: rotate(45deg);
-    @extend %largeshadow;
-    @extend %smallradius;
+    @include large-shadow;
+    @include small-radius;
   }
 }
 

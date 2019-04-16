@@ -1,30 +1,30 @@
-.uc-message {
+.uc-alert {
   position: relative;
   background-color: #fff;
-  @extend %smallradius;
-  @extend %messageshadow;
+  @include small-radius;
+  @include message-shadow;
   .close-button {
     position: absolute;
     top: 24px;
     right: 24px;
     line-height: 0.6;
   }
-  .uc-message-body {
+  .uc-alert-body {
     padding: 48px;
   }
   &.yellow-warning {
-    border-top: 4px solid $darkyellow;
+    border-top: 4px solid $warning;
     .warning-icon {
       vertical-align: text-bottom;
-      color: $darkyellow;
+      color: $warning;
       font-size: 34px;
     }
   }
   &.red-warning {
-    border-top: 4px solid $red;
+    border-top: 4px solid $error;
     .warning-icon {
       vertical-align: text-bottom;
-      color: $red;
+      color: $error;
       font-size: 34px;
     }
   }
@@ -49,3 +49,42 @@
   width: 80%;
 }
 
+.uc-message {
+  border: 1px solid;
+  padding: 7px 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &.error {
+    border-color: $error;
+    background-color: rgba($error, .1);
+    .uc-icon {
+      color: $error;
+    }
+  }
+  &.warning {
+    border-color: $warning;
+    background-color: rgba($warning, .1);
+    .uc-icon {
+      color: $warning;
+    }
+  }
+  &.info {
+    border-color: $info;
+    background-color: rgba($info, .05);
+    .uc-icon {
+      color: $info;
+    }
+  }
+  &.success {
+    border-color: $success;
+    background-color: rgba($success, .1);
+    .uc-icon {
+      color: $success;
+    }
+  }
+  .uc-message-close .uc-icon {
+    color: $gray;
+  }
+}

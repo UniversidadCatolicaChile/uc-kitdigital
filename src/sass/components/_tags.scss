@@ -1,0 +1,22 @@
+.uc-tag {
+  color: #fff;
+  font-size: 0.875em;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: $primaryblue;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 1px;
+  align-self: flex-start;
+  z-index: 2;
+  transition: .2s ease;
+  &:hover {
+    color: #fff;
+    background-color: $blue;
+    text-decoration: none;
+  }
+  &.tag-overlayed {
+    @include primary-shadow;
+  }
+}

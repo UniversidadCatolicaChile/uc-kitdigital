@@ -2,11 +2,11 @@
   border-radius: 0 4px 4px 0;
   border-left: 0;
   .uc-collapse-heading {
+    @include primary-shadow;
     display: flex;
     line-height: 1;
     padding: 30px 22px;
     border-left: 4px solid $primaryblue;
-    @extend %primaryshadow;
     > * {
       pointer-events: none;
     }
@@ -27,7 +27,7 @@
 }
 
 .uc-accordion {
-  @extend %primaryshadow;
+  @include primary-shadow;
   .uc-collapse {
     border-radius: 0;
     box-shadow: none;
