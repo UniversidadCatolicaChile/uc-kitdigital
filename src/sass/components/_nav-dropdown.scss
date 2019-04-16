@@ -1,25 +1,56 @@
-.uc-dropdown-item {
+.uc-dropdown {
   position: relative;
-  display: inline-block;
+  display: flex;
 }
 
-.uc-nav-dropdown {
+.uc-dropdown_list {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 0 0 25px 0 rgba(0,0,0,0.30);
+  padding: 12px 24px;
+  min-width: 220px;
+  top: 30px;
+  @include small-radius;
+  .uc-btn {
+    color: $blue;
+    font-weight: bold;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &_item {
+    border-bottom: 1px solid #EDEDED;
+    &:last-child {
+      border-bottom: 0;
+    }
+    .uc-btn {
+      padding: 12px 0;
+    }
+  }
+  &.show {
+    display: inline-block;
+  }
+}
+
+.uc-dropdown_nav {
   display: inline-block;
   position: relative;
   box-shadow: 0 0 25px 0 rgba(0,0,0,0.30);
-  .dropdown-items {
-    list-style-type: none;
+  &_list {
+    list-style: none;
     margin: 0;
     padding: 12px 24px;
     &.first-level {
       background-color: $blue;
       min-width: 310px;
       border-radius: 4px 0 0 4px;
-      > .nav-item .uc-btn {
+      > .uc-dropdown_nav_list_item .uc-btn {
         color: #fff;
       }
     }
-    .nav-item {
+    &_item {
       padding: 12px 0;
       .uc-btn {
         font-size: 14px;
@@ -51,13 +82,13 @@
       background-color: #fff;
       border-radius: 0 4px 4px 0;
       box-shadow: 0 0 25px 0 rgba(0,0,0,0.30);
-      .dropdown-items {
+      .uc-dropdown_nav_list {
         min-width: 270px;
         padding: 12px;
         &:first-child {
           border-right: 1px solid $lightgraya;
         }
-        .nav-item .uc-btn {
+        .uc-dropdown_nav_list_item .uc-btn {
           color: black;
           font-weight: normal;
           border-radius: 0;
@@ -102,36 +133,5 @@
         background-color: $blue;
       }
     }
-  }
-}
-
-.uc-list-dropdown {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  background-color: #fff;
-  box-shadow: 0 0 25px 0 rgba(0,0,0,0.30);
-  padding: 12px 24px;
-  min-width: 220px;
-  top: 30px;
-  @include small-radius;
-  .uc-btn {
-    color: $blue;
-    font-weight: bold;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  .nav-item {
-    border-bottom: 1px solid #EDEDED;
-    &:last-child {
-      border-bottom: 0;
-    }
-    .uc-btn {
-      padding: 12px 0;
-    }
-  }
-  &.show {
-    display: inline-block;
   }
 }

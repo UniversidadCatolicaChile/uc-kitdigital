@@ -1,13 +1,13 @@
 .uc-pagination {
   display: flex;
-  .btn-prev, .btn-next {
+  &_prev, &_next {
     background-color: transparent;
     color: #4A4A4A;
     border: 0;
     padding: 0;
     line-height: 1;
   }
-  .uc-pagination-pages {
+  &_pages {
     margin: 15px 0;
     padding: 0;
     list-style-type: none;

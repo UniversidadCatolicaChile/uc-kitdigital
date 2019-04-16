@@ -6,14 +6,14 @@
   margin-top: 24px;
   border-bottom: 2px solid $lightgraya;
   color: $lightgraya;
-  .uc-tab-item {
+  .uc-tabs_item {
     color: $darkgray;
     transition: background-color 100ms ease;
     &:active {
       background-color: $lightgrayc;
     }
   }
-  .uc-tab-link {
+  .uc-tabs_item_link {
     font-size: 16px;
     padding: 16px;
     font-weight: 500;

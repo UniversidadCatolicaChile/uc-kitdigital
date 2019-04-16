@@ -32,23 +32,31 @@
 @import 'components/buttons';
 @import 'components/tags';
 @import 'components/nav-dropdown';
+@import 'components/top-bar';
+@import 'components/breadcrumb';
+@import 'components/tabs';
+@import 'components/pagination';
+@import 'components/footer';
 
 /*
   Content components
 */
 @import 'components/cards';
-@import 'components/tabs';
-@import 'components/pagination';
-@import 'components/breadcrumb';
 @import 'components/tables';
-@import 'components/messages';
 @import 'components/collapse';
 @import 'components/carousels';
-@import 'components/forms';
 @import 'components/filters';
 @import 'components/image-quote';
 @import 'components/tooltips';
-@import 'components/top-bar';
 @import 'components/navbar';
 @import 'components/related-content';
-@import 'components/footer';
+
+/*
+  Form components
+*/
+@import 'components/forms';
+
+/*
+  Alert components
+*/
+@import 'components/messages';

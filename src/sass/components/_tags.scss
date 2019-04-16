@@ -17,6 +17,6 @@
     text-decoration: none;
   }
   &.tag-overlayed {
-    @include primary-shadow;
+    @include secondary-shadow;
   }
 }

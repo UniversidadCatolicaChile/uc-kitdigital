@@ -9,6 +9,7 @@
   justify-content: space-between;
   transition: background-color .2s ease;
   @include small-radius;
+
   // Clases modificadoras
   &.btn-primary {
     @include primary-border;

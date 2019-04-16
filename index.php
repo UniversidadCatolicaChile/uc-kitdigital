@@ -92,41 +92,41 @@
     <br>
     <nav>
         <ol class="uc-breadcrumb">
-            <li class="uc-breadcrumb-item">
+            <li class="uc-breadcrumb_item">
                 <a href="#">uc.cl</a>
                 <i class="uc-icon">keyboard_arrow_right</i>
             </li>
-            <li class="uc-breadcrumb-item current">
+            <li class="uc-breadcrumb_item current">
                 La Universidad
             </li>
         </ol>
         <ol class="uc-breadcrumb">
-            <li class="uc-breadcrumb-item">
+            <li class="uc-breadcrumb_item">
                 <a href="#">uc.cl</a>
                 <i class="uc-icon">keyboard_arrow_right</i>
             </li>
-            <li class="uc-breadcrumb-item">
+            <li class="uc-breadcrumb_item">
                 <a href="#">La Universidad</a>
                 <i class="uc-icon">keyboard_arrow_right</i>
             </li>
-            <li class="uc-breadcrumb-item current">
+            <li class="uc-breadcrumb_item current">
                 Noticias UC
             </li>
         </ol>
         <ol class="uc-breadcrumb">
-            <li class="uc-breadcrumb-item">
+            <li class="uc-breadcrumb_item">
                 <a href="#">uc.cl</a>
                 <i class="uc-icon">keyboard_arrow_right</i>
             </li>
-            <li class="uc-breadcrumb-item">
+            <li class="uc-breadcrumb_item">
                 <a href="#">La Universidad</a>
                 <i class="uc-icon">keyboard_arrow_right</i>
             </li>
-            <li class="uc-breadcrumb-item">
+            <li class="uc-breadcrumb_item">
                 <a href="#">Noticias UC</a>
                 <i class="uc-icon">keyboard_arrow_right</i>
             </li>
-            <li class="uc-breadcrumb-item current">
+            <li class="uc-breadcrumb_item current">
                 Single Noticia
             </li>
         </ol>
@@ -356,10 +356,10 @@
     <div class="row my-36">
         <div class="col">
             <nav class="uc-pagination">
-                <button class="btn-prev mr-12">
+                <button class="uc-pagination_prev mr-12">
                     <i class="uc-icon">keyboard_arrow_left</i>
                 </button>
-                <ul class="uc-pagination-pages">
+                <ul class="uc-pagination_pages">
                     <li class="page-item active">
                         <a href="#" class="page-link">1</a>
                     </li>
@@ -379,7 +379,7 @@
                         <a href="#" class="page-link">153</a>
                     </li>
                 </ul>
-                <button class="btn-next ml-12">
+                <button class="uc-pagination_next ml-12">
                     <i class="uc-icon">keyboard_arrow_right</i>
                 </button>
             </nav>
@@ -787,58 +787,60 @@
             </div>
         </div>
         <div class="col-lg-12 mb-60">
-            <div class="uc-nav-dropdown">
+            <div class="uc-dropdown_nav">
                 <div class="triangle blue"></div>
-                <ul class="dropdown-items first-level">
-                    <li class="nav-item dropdown-nav">
+                <ul class="uc-dropdown_nav_list first-level">
+                    <li class="uc-dropdown_nav_list_item dropdown-nav">
                         <a href="" class="uc-btn">
                             <span class="title">Carreras y Programas de Pregrado</span>
                             <i class="uc-icon">arrow_right</i>
                         </a>
                         <div class="dropdown-content">
-                            <ul class="dropdown-items">
-                                <li class="nav-item">
+                            <ul class="uc-dropdown_nav_list">
+                                <li class="uc-dropdown_nav_list_item">
                                     <a href="#" class="uc-btn">
                                         <span class="title">Carreras de Pregrado</span>
                                         <i class="uc-icon">launch</i>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="uc-dropdown_nav_list_item">
                                     <a href="#" class="uc-btn">
                                         <span class="title">Major y Minor</span>
                                     </a>
                                 </li>
                             </ul>
-                            <ul class="dropdown-items">
-                                <li class="nav-item"><a href="#" class="uc-btn">Programas interdisciplinarios</a></li>
+                            <ul class="uc-dropdown_nav_list">
+                                <li class="uc-dropdown_nav_list_item">
+                                    <a href="#" class="uc-btn">Programas interdisciplinarios</a>
+                                </li>
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="uc-dropdown_nav_list_item">
                         <a href="" class="uc-btn">
                             <span class="title">Postgrado</span>
                             <i class="uc-icon">arrow_right</i>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="uc-dropdown_nav_list_item">
                         <a href="" class="uc-btn">
                             <span class="title">Educación Continua</span>
                             <i class="uc-icon">arrow_right</i>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="uc-dropdown_nav_list_item">
                         <a href="" class="uc-btn">
                             <span class="title">UC Online</span>
                             <i class="uc-icon">launch</i>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="uc-dropdown_nav_list_item">
                         <a href="" class="uc-btn">
                             <span class="title">Proyecto educativo</span>
                             <i class="uc-icon">launch</i>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="uc-dropdown_nav_list_item">
                         <a href="" class="uc-btn">
                             <span class="title">Catálogo de cursos</span>
                             <i class="uc-icon">launch</i>

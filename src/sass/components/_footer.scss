@@ -10,7 +10,7 @@
   a {
     text-decoration: underline;
   }
-  .list-footer {
+  &_list {
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -26,7 +26,7 @@
       }
     }
   }
-  .list-title {
+  &_list-title {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -58,7 +58,7 @@
       max-width: 130px;
     }
   }
-  .footer-help {
+  &_help {
     background-color: $primaryblue;
     padding: 48px 0;
     color: #fff;
@@ -66,14 +66,14 @@
       text-decoration: underline;
     }
   }
-  .uc-icon {
-    color: #fff;
-  }
   .footer-collapse {
     overflow: hidden;
     transition: all .25s linear;
     @include media-breakpoint-up(lg) {
       height: auto !important;
     }
+  }
+  .uc-icon {
+    color: #fff;
   }
 }

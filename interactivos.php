@@ -1,18 +1,18 @@
 <?php include 'inc/header.php' ?>
 <div class="container">
-    <div class="uc-tabs-container" data-tabpanel>
+    <div class="uc-tabpanel" data-tabpanel>
         <ul class="uc-tabs">
-            <li class="uc-tab-item">
-                <a href="javascript:void(0);" class="uc-tab-link" data-tabtarget="tab-01" data-tabactive>Tab 1</a>
+            <li class="uc-tabs_item">
+                <a href="javascript:void(0);" class="uc-tabs_item_link" data-tabtarget="tab-01" data-tabactive>Tab 1</a>
             </li>
-            <li class="uc-tab-item">
-                <a href="javascript:void(0);" class="uc-tab-link" data-tabtarget="tab-02">Tab 2</a>
+            <li class="uc-tabs_item">
+                <a href="javascript:void(0);" class="uc-tabs_item_link" data-tabtarget="tab-02">Tab 2</a>
             </li>
-            <li class="uc-tab-item">
-                <a href="javascript:void(0);" class="uc-tab-link" data-tabtarget="tab-03">Tab 3</a>
+            <li class="uc-tabs_item">
+                <a href="javascript:void(0);" class="uc-tabs_item_link" data-tabtarget="tab-03">Tab 3</a>
             </li>
-            <li class="uc-tab-item">
-                <a href="javascript:void(0);" class="uc-tab-link" data-tabtarget="tab-04">Tab 4</a>
+            <li class="uc-tabs_item">
+                <a href="javascript:void(0);" class="uc-tabs_item_link" data-tabtarget="tab-04">Tab 4</a>
             </li>
         </ul>
         <div class="uc-tab-body">
@@ -31,20 +31,20 @@
         </div>
     </div>
     <div class="my-60">
-        <div class="uc-dropdown-item">
-            <button class="dropbtn uc-btn" data-dtarget="prueba">Dropdown</button>
-            <div data-dropdown="prueba" class="uc-list-dropdown">
+        <div class="uc-dropdown">
+            <button class="dropbtn uc-btn" data-dtarget="prueba">Ítem del menú</button>
+            <div data-dropdown="prueba" class="uc-dropdown_list">
                 <div class="white-triangle"></div>
-                <div class="nav-item">
+                <div class="uc-dropdown_list_item">
                     <a href="#" class="uc-btn">Construcción y vivienda</a>
                 </div>
-                <div class="nav-item">
+                <div class="uc-dropdown_list_item">
                     <a href="#" class="uc-btn">Educación</a>
                 </div>
-                <div class="nav-item">
+                <div class="uc-dropdown_list_item">
                     <a href="#" class="uc-btn">Fortalecimiento de organizaciones</a>
                 </div>
-                <div class="nav-item">
+                <div class="uc-dropdown_list_item">
                     <a href="#" class="uc-btn">Pastoral</a>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                 <div class="uc-collapse uc-card">
                     <a href="#" class="uc-collapse-heading" data-collapse="collapseExample">
                         <h6>Título Colapsable</h6>
-                        <span class="uc-btn inline-btn ml-auto">
+                        <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
@@ -77,7 +77,7 @@
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse-heading" data-collapse="collapseExample01">
                             <h6>Título Acordeón</h6>
-                            <span class="uc-btn inline-btn ml-auto">
+                            <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
@@ -91,7 +91,7 @@
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse-heading" data-collapse="collapseExample02">
                             <h6>Título Acordeón</h6>
-                            <span class="uc-btn inline-btn ml-auto">
+                            <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
@@ -105,7 +105,7 @@
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse-heading" data-collapse="collapseExample03">
                             <h6>Título Acordeón</h6>
-                            <span class="uc-btn inline-btn ml-auto">
+                            <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
@@ -119,7 +119,7 @@
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse-heading" data-collapse="collapseExample04">
                             <h6>Título Acordeón</h6>
-                            <span class="uc-btn inline-btn ml-auto">
+                            <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
@@ -162,10 +162,10 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <p class="no-margin">Emergencias uc</p>
-                            <a href="#" class="uc-btn inline-btn"><i class="uc-icon">phone</i> (56)22354 5000</a>
+                            <a href="#" class="uc-btn btn-inline"><i class="uc-icon">phone</i> (56)22354 5000</a>
                         </div>
                         <div class="col-md-6 text-right">
-                            <a href="#" class="uc-btn inline-btn">
+                            <a href="#" class="uc-btn btn-inline">
                                 Más información
                                 <i class="uc-icon rounded-background">arrow_forward</i>
                             </a>
