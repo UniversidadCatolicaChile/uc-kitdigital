@@ -1,18 +1,9 @@
-.uc-alert {
+.uc-message {
   position: relative;
   background-color: #fff;
   @include small-radius;
   @include message-shadow;
-  .close-button {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    line-height: 0.6;
-  }
-  .uc-alert-body {
-    padding: 48px;
-  }
-  &.yellow-warning {
+  &.warning {
     border-top: 4px solid $warning;
     .warning-icon {
       vertical-align: text-bottom;
@@ -20,13 +11,38 @@
       font-size: 34px;
     }
   }
-  &.red-warning {
+  &.error {
     border-top: 4px solid $error;
     .warning-icon {
       vertical-align: text-bottom;
       color: $error;
       font-size: 34px;
     }
+  }
+  &.success {
+    border-top: 4px solid $success;
+    .warning-icon {
+      vertical-align: text-bottom;
+      color: $success;
+      font-size: 34px;
+    }
+  }
+  &.info {
+    border-top: 4px solid $info;
+    .warning-icon {
+      vertical-align: text-bottom;
+      color: $info;
+      font-size: 34px;
+    }
+  }
+  .uc-message_body {
+    padding: 48px;
+  }
+  .close-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    line-height: 0.6;
   }
 }
 
@@ -42,14 +58,13 @@
   overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
+  .uc-modal_content {
+    margin: auto;
+    width: 80%;
+  }
 }
 
-.uc-modal-content {
-  margin: auto;
-  width: 80%;
-}
-
-.uc-message {
+.uc-alert {
   border: 1px solid;
   padding: 7px 16px;
   border-radius: 4px;
@@ -84,7 +99,7 @@
       color: $success;
     }
   }
-  .uc-message-close .uc-icon {
+  .uc-alert_close .uc-icon {
     color: $gray;
   }
 }

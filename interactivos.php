@@ -54,15 +54,15 @@
         <div class="col-md-6">
             <div class="my-60">
                 <div class="uc-collapse uc-card">
-                    <a href="#" class="uc-collapse-heading" data-collapse="collapseExample">
+                    <a href="#" class="uc-collapse_heading" data-collapse="collapseExample">
                         <h6>Título Colapsable</h6>
                         <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
                     </a>
-                    <div class="uc-collapse-body" data-toggle="collapseExample">
-                        <div class="uc-card-body">
+                    <div class="uc-collapse_body" data-toggle="collapseExample">
+                        <div class="uc-card_body">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                         </div>
                     </div>
@@ -75,57 +75,57 @@
             <div class="my-60">
                 <div class="uc-accordion" data-accordion>
                     <div class="uc-collapse uc-card">
-                        <a href="#" class="uc-collapse-heading" data-collapse="collapseExample01">
+                        <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
                             <h6>Título Acordeón</h6>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
                         </a>
-                        <div class="uc-collapse-body" data-toggle="collapseExample01">
-                            <div class="uc-card-body">
+                        <div class="uc-collapse_body" data-toggle="collapseExample01">
+                            <div class="uc-card_body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
                         </div>
                     </div>
                     <div class="uc-collapse uc-card">
-                        <a href="#" class="uc-collapse-heading" data-collapse="collapseExample02">
+                        <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
                             <h6>Título Acordeón</h6>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
                         </a>
-                        <div class="uc-collapse-body" data-toggle="collapseExample02">
-                            <div class="uc-card-body">
+                        <div class="uc-collapse_body" data-toggle="collapseExample02">
+                            <div class="uc-card_body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
                         </div>
                     </div>
                     <div class="uc-collapse uc-card">
-                        <a href="#" class="uc-collapse-heading" data-collapse="collapseExample03">
+                        <a href="#" class="uc-collapse_heading" data-collapse="collapseExample03">
                             <h6>Título Acordeón</h6>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
                         </a>
-                        <div class="uc-collapse-body" data-toggle="collapseExample03">
-                            <div class="uc-card-body">
+                        <div class="uc-collapse_body" data-toggle="collapseExample03">
+                            <div class="uc-card_body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
                         </div>
                     </div>
                     <div class="uc-collapse uc-card">
-                        <a href="#" class="uc-collapse-heading" data-collapse="collapseExample04">
+                        <a href="#" class="uc-collapse_heading" data-collapse="collapseExample04">
                             <h6>Título Acordeón</h6>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                         </span>
                         </a>
-                        <div class="uc-collapse-body" data-toggle="collapseExample04">
-                            <div class="uc-card-body">
+                        <div class="uc-collapse_body" data-toggle="collapseExample04">
+                            <div class="uc-card_body">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
     <div class="my-60">
         <button type="button" class="uc-btn cta" data-mtarget="modalExample">Abrir modal</button>
         <div data-modal="modalExample" class="uc-modal">
-            <div class="uc-modal-content uc-message yellow-warning mb-32">
+            <div class="uc-modal_content uc-message yellow-warning mb-32">
                 <a href="javascript:void(0)" class="close-button" data-mclosed><i class="uc-icon">close</i></a>
                 <div class="uc-message-body">
                     <i class="uc-icon warning-icon">warning</i>

@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  .navbar-title {
+  .uc-navbar_title {
     width: calc(100% - 75px);
     @include media-breakpoint-up(lg) {
       width: auto;
@@ -23,6 +23,22 @@
       line-height: 1.2;
       @include media-breakpoint-up(lg) {
         font-size: 40px;
+      }
+    }
+  }
+  .uc-navbar_nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    .nav-item {
+      padding: 0 8px;
+      &:first-child {
+        padding-left: 0;
+      }
+      .uc-link {
+        color: $blue;
       }
     }
   }
@@ -40,22 +56,6 @@
     .uc-icon {
       color: #fff;
       font-size: 35px;
-    }
-  }
-  .uc-navbar-nav {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
-    .nav-item {
-      padding: 0 8px;
-      &:first-child {
-        padding-left: 0;
-      }
-      .uc-link {
-        color: $blue;
-      }
     }
   }
 }

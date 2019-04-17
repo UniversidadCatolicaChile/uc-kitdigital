@@ -8,27 +8,27 @@
   position: relative;
   background-color: #fff;
   // todo: agregar clase sin sombra - borde 8px
-  .uc-card-body {
+  .uc-card_body {
     padding: 24px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
-  .uc-tag.fixed-tag {
+  .uc-tag.tag-fixed {
     position: absolute;
     top: 24px;
     left: 24px;
   }
-  &.same-height {
+  &.card-same-height {
     height: 100%;
   }
-  &.horizontal-card {
+  &.card-horizontal {
     flex-direction: row;
   }
-  &.underlined {
+  &.card-underlined {
     border-bottom: 8px solid $primaryblue;
   }
-  &.special-card {
+  &.card-special {
     background-color: $lightgrayc;
     transition: 100ms ease;
     cursor: pointer;
@@ -41,7 +41,7 @@
       }
     }
   }
-  &.background-image-card {
+  &.card-background-image {
     min-height: 532px;
     .card-image {
       position: absolute;
@@ -64,15 +64,15 @@
       background-image: linear-gradient(-180deg,transparent,#08275c 96%);
     }
   }
-  &.event-card {
+  &.card-event {
     overflow: visible;
-    .event-date {
+    .card-event-date {
       position: absolute;
       top: -24px;
       left: 24px;
     }
   }
-  &.event-date {
+  &.card-event-date {
     @include primary-border;
     @include primary-shadow;
     background-color: #fff;

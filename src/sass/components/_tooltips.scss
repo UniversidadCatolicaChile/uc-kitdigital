@@ -8,7 +8,7 @@
   z-index: 1;
   @include large-shadow;
   @include small-radius;
-  .uc-tooltip-body {
+  .uc-tooltip_body {
     padding: 24px;
   }
 }

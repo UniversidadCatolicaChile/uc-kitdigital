@@ -18,36 +18,6 @@ a:focus, button:focus {
   text-align: right !important;
 }
 
-// divisores
-
-hr.uc-hr {
-  border: 0;
-  height: 2px;
-  width: 100%;
-  overflow: hidden;
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjEiIHZpZXdCb3g9IjAgMCA4IDEiPiAgPHBvbHlnb24gZmlsbD0iZ3JheSIgZmlsbC1ydWxlPSJldmVub2RkIiBwb2ludHM9IjAgMSAwIDAgMyAwIDMgMSIvPjwvc3ZnPg==) center center repeat;
-}
-
-.uc-text-divider, .text-divider {
-  width: 36px;
-  height: 4px;
-  margin: 12px 0;
-  &.primary {
-    background-color: $primaryblue;
-  }
-  &.secondary {
-    background-color: $yellow;
-  }
-}
-
-.uc-heading-decoration {
-  display: inline-block;
-  margin-left: 24px;
-  width: 36px;
-  height: 4px;
-  background-color: $yellow;
-}
-
 // triangulo para tooltips y dropdown
 .white-triangle {
   width: 41px;

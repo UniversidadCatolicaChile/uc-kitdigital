@@ -138,7 +138,7 @@
         <div class="col-md-4">
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
                         <a href="#" class="uc-link">
@@ -152,8 +152,8 @@
         <div class="col-md-3">
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-                <a href="#" class="uc-tag fixed-tag">Carrera de Pregrado</a>
-                <div class="uc-card-body">
+                <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
+                <div class="uc-card_body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
                         <a href="#" class="uc-link">
@@ -167,8 +167,8 @@
         <div class="col-md-3">
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-                <a href="#" class="uc-tag fixed-tag">Carrera de Pregrado</a>
-                <div class="uc-card-body">
+                <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
+                <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
@@ -183,13 +183,13 @@
     </div>
     <div class="row my-36">
         <div class="col-md-4">
-            <div class="uc-card same-height">
+            <div class="uc-card card-same-height">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-                <a href="#" class="uc-tag fixed-tag">Carrera de Pregrado</a>
-                <div class="uc-card-body">
+                <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
+                <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
-                    <div class="text-divider primary"></div>
+                    <div class="uc-text-divider primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue.</p>
                     <div class="text-right mt-auto">
                         <a href="#" class="uc-link">
@@ -201,13 +201,13 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="uc-card same-height">
+            <div class="uc-card card-same-height">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-                <a href="#" class="uc-tag fixed-tag">Carrera de Pregrado</a>
-                <div class="uc-card-body">
+                <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
+                <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
-                    <div class="text-divider primary"></div>
+                    <div class="uc-text-divider primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. Nullam porta pellentesque finibus. </p>
                     <a href="#" class="uc-btn primary">
                         Más información
@@ -217,12 +217,12 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="uc-card same-height">
+            <div class="uc-card card-same-height">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
-                    <div class="text-divider primary"></div>
+                    <div class="uc-text-divider primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. </p>
                     <div class="text-right mt-auto">
                         <a href="#" class="uc-link">
@@ -236,9 +236,9 @@
     </div>
     <div class="row my-36">
         <div class="col-md-6">
-            <div class="uc-card horizontal-card">
+            <div class="uc-card card-horizontal">
                 <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <a href="#" class="uc-tag">
                         Texto
                     </a>
@@ -253,9 +253,9 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="uc-card horizontal-card">
+            <div class="uc-card card-horizontal">
                 <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-auto">
                         <a href="#" class="uc-link">
@@ -295,31 +295,31 @@
     <div class="row my-36">
         <div class="col-md-4">
             <a href="#" class="uc-card">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h3>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h3>
-                    <div class="text-divider primary"></div>
+                    <div class="uc-text-divider primary"></div>
                 </div>
             </a>
         </div>
         <div class="col-md-4">
             <div class="uc-card">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <p class="uc-subtitle">Columna sobre Proyecto de Isapres</p>
                     <h4 class="mb-16">Preexistencias y reforma al sistema de isapres.</h4>
                     <p class="no-margin"><strong>Felipe Bravo</strong></p>
                     <p class="gray no-margin">Académico de la Escuela de Derecho</p>
-                    <div class="text-divider primary"></div>
+                    <div class="uc-text-divider primary"></div>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="uc-card">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <h4 class="mb-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
                     <p class="no-margin"><strong>Felipe Bravo</strong></p>
                     <p class="gray no-margin">Académico de la Escuela de Derecho</p>
-                    <div class="text-divider primary"></div>
+                    <div class="uc-text-divider primary"></div>
                 </div>
             </div>
         </div>
@@ -328,23 +328,23 @@
     <h2>Card / Texto / Especial</h2>
     <div class="row my-36">
         <div class="col-md-6">
-            <div class="uc-card special-card p-48">
+            <div class="uc-card card-special p-48">
                 <h4>Arriendo de espacios</h4>
-                <div class="text-divider primary"></div>
+                <div class="uc-text-divider primary"></div>
                 <p class="no-margin">Encuentra el espacio para tu evento, ya sea una actividad académica, gubernamental, corporativa o personal.</p>
             </div>
         </div>
         <div class="col-md-2">
-            <div class="uc-card underlined">
-                <div class="uc-card-body text-center">
+            <div class="uc-card card-underlined">
+                <div class="uc-card_body text-center">
                     <span class="h1">608</span>
                     <p class="no-margin">Publicaciones <br>Scopus</p>
                 </div>
             </div>
         </div>
         <div class="col-md-2">
-            <div class="uc-card underlined">
-                <div class="uc-card-body text-center">
+            <div class="uc-card card-underlined">
+                <div class="uc-card_body text-center">
                     <div class="uc-icon large">local_library</div>
                     <p class="no-margin">Publicaciones <br>Scopus</p>
                 </div>
@@ -390,29 +390,29 @@
     <h2>Cards de imágenes</h2>
     <div class="row mb-60">
         <div class="col-md-4">
-            <div class="uc-card background-image-card p-36">
+            <div class="uc-card card-background-image p-36">
                 <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
                 <a href="#" class="uc-tag">Carrera de Pregrado</a>
                 <div class="uc-card mt-auto">
-                    <div class="uc-card-body">
+                    <div class="uc-card_body">
                         <p class="small gray condensed">18 Marzo 2018</p>
                         <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
-                        <div class="text-divider primary"></div>
+                        <div class="uc-text-divider primary"></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
-            <div class="uc-card background-image-card p-36 pr-80">
+            <div class="uc-card card-background-image p-36 pr-80">
                 <img src="http://via.placeholder.com/600x530" class="card-image" alt="">
                 <a href="#" class="uc-tag">Pregrado</a>
                 <div class="uc-card mt-auto">
-                    <div class="uc-card-body">
+                    <div class="uc-card_body">
                         <p class="uc-subtitle">Columna sobre Proyecto de Isapres</p>
                         <h4 class="mb-16">Preexistencias y reforma al sistema de isapres.</h4>
                         <p class="no-margin"><strong>Felipe Bravo</strong></p>
                         <p class="gray no-margin">Académico de la Escuela de Derecho</p>
-                        <div class="text-divider primary"></div>
+                        <div class="uc-text-divider primary"></div>
                     </div>
                 </div>
             </div>
@@ -422,12 +422,12 @@
     <h2>Cards de evento</h2>
     <div class="row mb-60">
         <div class="col-md-3 my-60">
-            <div class="uc-card event-card">
-                <div class="uc-card event-date">
+            <div class="uc-card card-event">
+                <div class="uc-card card-event-date">
                     <div class="day">7</div>
                     <div class="month">Nov</div>
                 </div>
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <a href="#" class="uc-tag my-20">Teatro</a>
                     <h4>Evento Dos líneas de texto</h4>
                     <div class="uc-event-content">
@@ -439,12 +439,12 @@
             </div>
         </div>
         <div class="col-md-5 my-60">
-            <div class="uc-card event-card">
-                <div class="uc-card event-date">
+            <div class="uc-card card-event">
+                <div class="uc-card card-event-date">
                     <div class="day">2</div>
                     <div class="month">Nov</div>
                 </div>
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <a href="#" class="uc-tag my-20">Teatro</a>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, veniam.</h4>
                     <div class="uc-event-content">
@@ -463,11 +463,11 @@
             <form action="">
                 <div class="uc-form-group">
                     <label for="ucinput">Etiqueta</label>
-                    <input id="ucinput" type="text" class="uc-form-style" placeholder="Ejemplo: nombre">
+                    <input id="ucinput" type="text" class="uc-input-style" placeholder="Ejemplo: nombre">
                 </div>
                 <div class="uc-form-group">
                     <label for="ucsearch">Buscar</label>
-                    <input id="ucsearch" type="text" class="uc-form-style w-icon search" placeholder="Buscar por">
+                    <input id="ucsearch" type="text" class="uc-input-style w-icon search" placeholder="Buscar por">
                     <span class="w-icon search"></span>
                 </div>
             </form>
@@ -475,7 +475,7 @@
         <div class="col-md-4">
             <form action="">
                 <div class="uc-form-group">
-                    <select class="uc-form-style">
+                    <select class="uc-input-style">
                         <option selected>Select menu</option>
                         <option value="1">Opción 01</option>
                         <option value="2">Opción 02</option>
@@ -509,13 +509,13 @@
         <div class="col-12 mb-32">
             <div class="uc-filters">
                 <div class="uc-form-group no-margin">
-                    <input id="ucsearch2" type="text" class="uc-form-style w-icon search" placeholder="Buscar por">
+                    <input id="ucsearch2" type="text" class="uc-input-style w-icon search" placeholder="Buscar por">
                     <span class="w-icon search"></span>
                 </div>
                 <div class="ml-auto">
                     <div class="uc-form-group label-inline no-margin">
                         <label>Filtrar por:</label>
-                        <select class="uc-form-style">
+                        <select class="uc-input-style">
                             <option selected>Ordenar por</option>
                             <option value="1">Uno</option>
                             <option value="2">Dos</option>
@@ -528,7 +528,7 @@
         <div class="col-12 mb-32">
             <div class="uc-filters">
                 <div class="uc-form-group no-margin">
-                    <input id="" type="text" class="uc-form-style w-icon search" placeholder="Buscar por">
+                    <input id="" type="text" class="uc-input-style w-icon search" placeholder="Buscar por">
                     <span class="w-icon search"></span>
                 </div>
                 <div class="ml-auto">
@@ -554,12 +554,12 @@
         <div class="col-12 mb-32">
             <div class="uc-filters">
                 <div class="uc-form-group no-margin">
-                    <input id="ucsearch3" type="text" class="uc-form-style w-icon search" placeholder="Buscar por">
+                    <input id="ucsearch3" type="text" class="uc-input-style w-icon search" placeholder="Buscar por">
                     <span class="w-icon search"></span>
                 </div>
                 <div class="ml-auto">
                     <div class="uc-form-group label-inline no-margin">
-                        <ul class="uc-alphabetic-filter mr-16">
+                        <ul class="uc-filters_alphabetic mr-16">
                             <li>
                                 <button type="button" class="letter-filter">A</button>
                             </li>
@@ -594,7 +594,7 @@
                         </ul>
                         <div class="uc-form-group label-inline no-margin">
                             <label>Filtrar por:</label>
-                            <select class="uc-form-style">
+                            <select class="uc-input-style">
                                 <option selected>Ordenar por</option>
                                 <option value="1">Uno</option>
                                 <option value="2">Dos</option>
@@ -614,7 +614,7 @@
                 <div class="tooltip-body">
                     <div class="white-triangle"></div>
                     <h4>Estados Unidos</h4>
-                    <div class="text-divider primary"></div>
+                    <div class="uc-text-divider primary"></div>
                     <strong>Patentes: 20</strong>
                 </div>
             </div>
@@ -624,16 +624,16 @@
     <h2>Alertas</h2>
     <div class="row my-40">
         <div class="col-8">
-            <div class="uc-alert mb-32">
+            <div class="uc-message mb-32">
                 <a href="#" class="close-button"><i class="uc-icon">close</i></a>
-                <div class="uc-alert-body">
+                <div class="uc-message_body">
                     <h2 class="mb-24">Evacuación por posible bomba</h2>
                     <p class="no-margin">Ante el aviso de una posible bomba, y como medida de precaución, se solicita a la comunidad UC de Campus San Joaquín , evacuar el campus a la brevedad. Todos deben dirigirse a la salida más cercana y seguir las instrucciones del personal de seguridad. Carabineros ya está en el lugar evaluando la situación.</p>
                 </div>
             </div>
-            <div class="uc-alert yellow-warning mb-32">
+            <div class="uc-message warning mb-32">
                 <a href="#" class="close-button"><i class="uc-icon">close</i></a>
-                <div class="uc-alert-body">
+                <div class="uc-message_body">
                     <i class="uc-icon warning-icon">warning</i>
                     <h2 class="mb-24">Evacuación Fuga de Gas</h2>
                     <p class="no-margin">Ante el aviso de una posible bomba, y como medida de precaución, se solicita a la comunidad UC de Campus San Joaquín , evacuar el campus a la brevedad. Todos deben dirigirse a la salida más cercana y seguir las instrucciones del personal de seguridad. Carabineros ya está en el lugar evaluando la situación.</p>
@@ -652,9 +652,9 @@
                     </div>
                 </div>
             </div>
-            <div class="uc-alert red-warning mb-32">
+            <div class="uc-message error mb-32">
                 <a href="#" class="close-button"><i class="uc-icon">close</i></a>
-                <div class="uc-alert-body">
+                <div class="uc-message_body">
                     <i class="uc-icon warning-icon">error</i>
                     <h2 class="mb-24">Evacuación por posible bomba</h2>
                     <p class="no-margin">Ante el aviso de una posible bomba, y como medida de precaución, se solicita a la comunidad UC de Campus San Joaquín , evacuar el campus a la brevedad. Todos deben dirigirse a la salida más cercana y seguir las instrucciones del personal de seguridad. Carabineros ya está en el lugar evaluando la situación.</p>
@@ -679,45 +679,45 @@
     <br>
     <div class="row">
         <div class="col-md-8 mb-12">
-            <div class="uc-message warning">
-                <div class="uc-message-content">
+            <div class="uc-alert warning">
+                <div class="uc-alert_content">
                     <i class="uc-icon small">warning</i>
                     <span class="p small bold ml-8">Alerta, descripción</span>
                 </div>
-                <div class="uc-message-close">
+                <div class="uc-alert_close">
                     <i class="uc-icon small">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
-            <div class="uc-message error">
-                <div class="uc-message-content">
+            <div class="uc-alert error">
+                <div class="uc-alert_content">
                     <i class="uc-icon small">cancel</i>
                     <span class="p small bold ml-8">Error, descripción</span>
                 </div>
-                <div class="uc-message-close">
+                <div class="uc-alert_close">
                     <i class="uc-icon small">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
-            <div class="uc-message info">
-                <div class="uc-message-content">
+            <div class="uc-alert info">
+                <div class="uc-alert_content">
                     <i class="uc-icon small">info</i>
                     <span class="p small bold ml-8">Información, descripción</span>
                 </div>
-                <div class="uc-message-close">
+                <div class="uc-alert_close">
                     <i class="uc-icon small">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
-            <div class="uc-message success">
-                <div class="uc-message-content">
+            <div class="uc-alert success">
+                <div class="uc-alert_content">
                     <i class="uc-icon small">check_circle</i>
                     <span class="p small bold ml-8">Éxito, descripción</span>
                 </div>
-                <div class="uc-message-close">
+                <div class="uc-alert_close">
                     <i class="uc-icon small">close</i>
                 </div>
             </div>
@@ -726,66 +726,6 @@
     <hr>
     <h2>Menús</h2>
     <div class="row my-40">
-        <div class="col-md-12 mb-32">
-            <div class="uc-top-bar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="#" class="uc-link external">
-                                Ir al sitio UC
-                                <span class="uc-icon">launch</span>
-                            </a>
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <a href="#" class="uc-link external">
-                                Biblioteca<span class="uc-icon">launch</span>
-                            </a>
-                            <a href="#" class="uc-link external">
-                                Correo<span class="uc-icon">launch</span>
-                            </a>
-                            <a href="#" class="uc-link external">
-                                Mi Portal UC<span class="uc-icon">launch</span>
-                            </a>
-                            <a href="#" class="uc-link external">
-                                Correo<span class="uc-icon">launch</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12">
-            <div class="uc-navbar">
-                <div class="container">
-                    <div class="row no-gutters">
-                        <div class="col-md-2">
-                            <div class="uc-navbar-brand">
-                                <a href="#">
-                                    <img src="http://via.placeholder.com/175x100" class="img-fluid" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="navbar-title">
-                                <h1>Nombre de Facultad</h1>
-                            </div>
-                            <ul class="uc-navbar-nav">
-                                <li class="nav-item"><a href="#" class="uc-link">Inicio</a></li>
-                                <li class="nav-item"><a href="#" class="uc-link">Ítem normal <i class="uc-icon">arrow_drop_down</i></a></li>
-                                <li class="nav-item active"><a href="#" class="uc-link">Ítem activo</a></li>
-                                <li class="nav-item"><a href="#" class="uc-link">Texto</a></li>
-                                <li class="nav-item ml-auto">
-                                    <div class="uc-form-group no-margin">
-                                        <input id="uc-search" type="text" class="uc-form-style w-icon search" placeholder="Buscar">
-                                        <span class="w-icon search"></span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="col-lg-12 mb-60">
             <div class="uc-dropdown_nav">
                 <div class="triangle blue"></div>
@@ -885,43 +825,49 @@
     <div class="row my-40">
         <div class="col-12">
             <div class="uc-table-list">
-                <div class="uc-table-list-title">
+                <div class="uc-table-list_title">
                     <h6>Título</h6>
                 </div>
-                <div class="uc-table-list-content">
-                    <a href="#" class="uc-btn btn-list">
-                        Acreditación UC
-                        <i class="uc-icon small">launch</i>
-                    </a>
-                    <a href="#" class="uc-btn btn-list">
-                        Campo Audiovisual
-                        <i class="uc-icon small">launch</i>
-                    </a>
-                    <a href="#" class="uc-btn btn-list">
-                        Acreditación UC
-                        <i class="uc-icon small">launch</i>
-                    </a>
-                    <a href="#" class="uc-btn btn-list">
-                        Campo Audiovisual
-                        <i class="uc-icon small">launch</i>
-                    </a>
-                    <a href="#" class="uc-btn btn-list">
-                        Acreditación UC
-                        <i class="uc-icon small">launch</i>
-                    </a>
-                    <a href="#" class="uc-btn btn-list">
-                        Campo Audiovisual
-                        <i class="uc-icon small">launch</i>
-                    </a>
-                </div>
+                <ul class="uc-table-list_content">
+                    <li>
+                        <a href="#" class="uc-btn btn-listed">
+                            Acreditación UC
+                            <i class="uc-icon small">launch</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="uc-btn btn-listed">
+                            Campo Audiovisual
+                            <i class="uc-icon small">launch</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="uc-btn btn-listed">
+                            Campo Audiovisual
+                            <i class="uc-icon small">launch</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="uc-btn btn-listed">
+                            Acreditación UC
+                            <i class="uc-icon small">launch</i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="uc-btn btn-listed">
+                            Campo Audiovisual
+                            <i class="uc-icon small">launch</i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="col-12">
             <div class="uc-table-list mt-24">
-                <div class="uc-table-list-title">
+                <div class="uc-table-list_title">
                     <h6>Título</h6>
                 </div>
-                <div class="uc-table-list-content">
+                <div class="uc-table-list_content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem debitis doloremque doloribus exercitationem facere fugit, id magnam minima nam nihil nulla obcaecati officia qui quibusdam ratione, repudiandae rerum sunt unde.</p>
                 </div>
             </div>
@@ -932,14 +878,14 @@
     <div class="row my-40">
         <div class="col-md-8">
             <div class="uc-collapse uc-card">
-                <div class="uc-collapse-heading">
+                <div class="uc-collapse_heading">
                     <h6>Título Colapsable</h6>
-                    <a href="#" class="uc-btn inline-btn ml-auto">
+                    <a href="#" class="uc-btn btn-inline ml-auto">
                         Ver más
                         <i class="uc-icon rounded-background">keyboard_arrow_down</i>
                     </a>
                 </div>
-                <div class="uc-collapse-body">
+                <div class="uc-collapse_body">
                     <table class="uc-table">
                         <tbody>
                         <tr>
@@ -969,28 +915,28 @@
     <div class="uc-related-content">
         <div class="main-card">
             <div class="uc-card">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, consectetur deleniti doloribus eaque enim et fuga fugit id impedit ipsum magnam minus modi molestiae nesciunt nulla quia sed, sint voluptatem?</p>
                 </div>
             </div>
         </div>
         <div class="secondary-card">
             <div class="uc-card">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, consectetur deleniti doloribus eaque enim et fuga fugit id impedit ipsum magnam minus modi molestiae nesciunt nulla quia sed, sint voluptatem?</p>
                 </div>
             </div>
         </div>
         <div class="secondary-card">
             <div class="uc-card">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, consectetur deleniti doloribus eaque enim et fuga fugit id impedit ipsum magnam minus modi molestiae nesciunt nulla quia sed, sint voluptatem?</p>
                 </div>
             </div>
         </div>
         <div class="secondary-card">
             <div class="uc-card">
-                <div class="uc-card-body">
+                <div class="uc-card_body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, consectetur deleniti doloribus eaque enim et fuga fugit id impedit ipsum magnam minus modi molestiae nesciunt nulla quia sed, sint voluptatem?</p>
                 </div>
             </div>
@@ -1001,7 +947,7 @@
     <div class="uc-image-quote image-left my-40">
         <div class="row align-items-center">
             <div class="col-md 6">
-                <div class="image" style="background-image: url('https://via.placeholder.com/1200x600')"></div>
+                <div class="uc-image-quote_image" style="background-image: url('https://via.placeholder.com/1200x600')"></div>
             </div>
             <div class="col-md-6">
                 <div class="uc-card p-48">
@@ -1028,12 +974,12 @@
                 </div>
             </div>
             <div class="col-md-7">
-                <div class="image" style="background-image: url('https://via.placeholder.com/690x600')"></div>
+                <div class="uc-image-quote_image" style="background-image: url('https://via.placeholder.com/690x600')"></div>
             </div>
         </div>
     </div>
     <div class="uc-image-quote image-nested my-40">
-        <div class="image" style="background-image: url('https://via.placeholder.com/690x600')">
+        <div class="uc-image-quote_image" style="background-image: url('https://via.placeholder.com/690x600')">
             <div class="uc-card p-48">
                 <a href="#" class="uc-tag">Texto tag</a>
                 <p class="uc-quote my-16">
@@ -1091,14 +1037,6 @@
 <div class="container">
     <h2>Modal</h2>
     <div class="my-60">
-        <button type="button" data-mtarget="prueba">Abrir modal</button>
-        <div data-modal="prueba" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close" data-mclosed>&times;</span>
-                <p>Esto es un Modal</p>
-            </div>
-        </div>
     </div>
 </div>
 

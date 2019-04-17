@@ -11,13 +11,13 @@
       margin-right: 12px;
       margin-bottom: 0;
     }
-    .uc-form-style {
+    .uc-input-style {
       width: auto;
     }
   }
 }
 
-.uc-form-style {
+.uc-input-style {
   width: 100%;
   display: block;
   border: 1px solid $lightgraya;
@@ -44,7 +44,7 @@
   }
 }
 
-textarea.uc-form-style {
+textarea.uc-input-style {
   height: auto;
 }
 

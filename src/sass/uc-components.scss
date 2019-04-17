@@ -33,6 +33,7 @@
 @import 'components/tags';
 @import 'components/nav-dropdown';
 @import 'components/top-bar';
+@import 'components/navbar';
 @import 'components/breadcrumb';
 @import 'components/tabs';
 @import 'components/pagination';
@@ -42,14 +43,12 @@
   Content components
 */
 @import 'components/cards';
+@import 'components/image-quote';
+@import 'components/dividers';
+@import 'components/filters';
+@import 'components/lists';
 @import 'components/tables';
 @import 'components/collapse';
-@import 'components/carousels';
-@import 'components/filters';
-@import 'components/image-quote';
-@import 'components/tooltips';
-@import 'components/navbar';
-@import 'components/related-content';
 
 /*
   Form components
@@ -60,3 +59,8 @@
   Alert components
 */
 @import 'components/messages';
+@import 'components/tooltips';
+
+// wip
+@import 'components/related-content';
+@import 'components/carousels';

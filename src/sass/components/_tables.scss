@@ -5,7 +5,6 @@
         color: #fff;
         padding: 14px 16px;
         background-color: $primaryblue;
-        @extend .h1;
       }
     }
   }
@@ -18,19 +17,5 @@
         background-color: $lightgrayc;
       }
     }
-  }
-}
-
-.uc-table-list {
-  display: flex;
-  .uc-table-list-title {
-    min-width: 280px;
-    border-top: 4px solid $primaryblue;
-    padding-top: 24px;
-  }
-  .uc-table-list-content {
-    border-top: 4px solid $lightgraya;
-    padding: 24px;
-    flex-grow: 1;
   }
 }

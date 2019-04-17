@@ -1,6 +1,6 @@
 .uc-image-quote {
   &.image-left {
-    .image {
+    .uc-image-quote_image {
       width: 180%;
       height: 600px;
       background-size: cover;
@@ -12,14 +12,14 @@
       width: 125%;
       z-index: 2;
     }
-    .image {
+    .uc-image-quote_image {
       height: 600px;
       background-size: cover;
       background-repeat: no-repeat;
     }
   }
   &.image-nested {
-    .image {
+    .uc-image-quote_image {
       position: relative;
       height: 600px;
       background-size: cover;
