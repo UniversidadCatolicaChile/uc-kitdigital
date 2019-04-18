@@ -7,7 +7,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-primary">
                 Más información
-                <i class="uc-icon rounded">arrow_forward</i>
+                <i class="uc-icon icon-rounded">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
@@ -19,7 +19,7 @@
         <div class="col-md-6">
             <a href="#" class="uc-btn btn-primary">
                 Más Información
-                <i class="uc-icon rounded">arrow_forward</i>
+                <i class="uc-icon icon-rounded">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -51,7 +51,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-featured">
                 Text
-                <i class="uc-icon rounded small">arrow_forward</i>
+                <i class="uc-icon icon-rounded small">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -59,21 +59,21 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-inline">
                 Texto
-                <i class="uc-icon rounded">add</i>
+                <i class="uc-icon icon-rounded">add</i>
             </a>
         </div>
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon rounded small">arrow_forward</i>
+                <i class="uc-icon icon-rounded small">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon rounded small">arrow_forward</i>
+                <i class="uc-icon icon-rounded small">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon rounded small">arrow_forward</i>
+                <i class="uc-icon icon-rounded small">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
@@ -211,7 +211,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. Nullam porta pellentesque finibus. </p>
                     <a href="#" class="uc-btn primary">
                         Más información
-                        <i class="uc-icon rounded">arrow_forward</i>
+                        <i class="uc-icon icon-rounded">arrow_forward</i>
                     </a>
                 </div>
             </div>
@@ -430,7 +430,7 @@
                 <div class="uc-card_body">
                     <a href="#" class="uc-tag my-20">Teatro</a>
                     <h4>Evento Dos líneas de texto</h4>
-                    <div class="uc-event-content">
+                    <div class="uc-card_event-content">
                         <div class="date">1 de Diciembre</div>
                         <div class="time">15:00 a 20:30 hrs.</div>
                         <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
@@ -447,7 +447,7 @@
                 <div class="uc-card_body">
                     <a href="#" class="uc-tag my-20">Teatro</a>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, veniam.</h4>
-                    <div class="uc-event-content">
+                    <div class="uc-card_event-content">
                         <div class="date">1 de Diciembre</div>
                         <div class="time">15:00 a 20:30 hrs.</div>
                         <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
@@ -606,6 +606,7 @@
             </div>
         </div>
     </div>
+    <!--
     <hr>
     <h2>Tooltips</h2>
     <div class="row my-40">
@@ -621,6 +622,7 @@
         </div>
     </div>
     <hr>
+    -->
     <h2>Alertas</h2>
     <div class="row my-40">
         <div class="col-8">
@@ -646,7 +648,7 @@
                         <div class="col-md-6 text-right">
                             <a href="#" class="uc-btn inline-btn">
                                 Más información
-                                <i class="uc-icon rounded">arrow_forward</i>
+                                <i class="uc-icon icon-rounded">arrow_forward</i>
                             </a>
                         </div>
                     </div>
@@ -667,7 +669,7 @@
                         <div class="col-md-6 text-right">
                             <a href="#" class="uc-btn inline-btn">
                                 Más información
-                                <i class="uc-icon rounded">arrow_forward</i>
+                                <i class="uc-icon icon-rounded">arrow_forward</i>
                             </a>
                         </div>
                     </div>
@@ -882,7 +884,7 @@
                     <h6>Título Colapsable</h6>
                     <a href="#" class="uc-btn btn-inline ml-auto">
                         Ver más
-                        <i class="uc-icon rounded">keyboard_arrow_down</i>
+                        <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
                     </a>
                 </div>
                 <div class="uc-collapse_body">
@@ -990,9 +992,8 @@
             </div>
         </div>
     </div>
-    <hr>
-    <h2>Carousels</h2>
 </div>
+<!--
 <div class="uc-carousel">
     <div class="home-carousel">
         <div class="home-carousel-item" style="background-color: red">
@@ -1022,9 +1023,8 @@
                         <div class="indicator"></div>
                     </li>
                 </ul>
-                <!--
                 <div class="autoplay-buttons"></div>
-                -->
+
                 <div class="autoplay-buttons">
                     <i class='uc-icon pause-button'>pause_circle_filled</i>
                     <i class='uc-icon play-button'>play_circle_filled</i>
@@ -1033,73 +1033,7 @@
         </div>
     </div>
 </div>
-
-<div class="container">
-    <h2>Modal</h2>
-    <div class="my-60">
-    </div>
-</div>
-
-<div class="container">
-    <hr>
-    <h2>Accordion</h2>
-    <div class="my-60">
-        <div data-accordion>
-            <a href="#" data-target="divuno">Uno</a>
-            <div data-toggle="divuno" data-open>
-                Esto es una prueba
-            </div>
-
-            <a href="#" data-target="divdos">Dos</a>
-            <div data-toggle="divdos">
-                Esto es otra prueba
-            </div>
-            <a href="#" data-target="divtres">Tres</a>
-            <div data-toggle="divtres">
-                Tercero
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <hr>
-    <h2>Collapses</h2>
-    <div class="my-60">
-        <a href="#" data-target="sisepuede">Esto es un collapse</a>
-        <div data-toggle="sisepuede" data-open>
-            Abierto
-        </div>
-    </div>
-</div>
-
-<div class="container">
-    <hr>
-    <h2>Dropdown</h2>
-    <div class="my-60">
-        <div class="dropdown-item">
-            <button class="dropbtn uc-btn" data-dtarget="prueba">Dropdown</button>
-            <div data-dropdown="prueba" class="uc-list-dropdown">
-                <div class="white-triangle"></div>
-                <div class="nav-item">
-                    <a href="#" class="uc-btn">Construcción y vivienda</a>
-                </div>
-                <div class="nav-item">
-                    <a href="#" class="uc-btn">Educación</a>
-                </div>
-                <div class="nav-item">
-                    <a href="#" class="uc-btn">Fortalecimiento de organizaciones</a>
-                </div>
-                <div class="nav-item">
-                    <a href="#" class="uc-btn">Pastoral</a>
-                </div>
-                <div class="nav-item">
-                    <a href="#" class="uc-btn">Pastoral</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+-->
 
 <div class="container">
     <hr>
@@ -1107,14 +1041,6 @@
     <div class="my-60">
         <div class="tooltip">Pasa el Mouse por <span data-tooltip="box" data-tooltiptitle="Título" data-tooltipbody="Este es el cuerpo del tooltip" data-tooltipimage="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU0ODg0MzUzNTUx/isaac-asimov-9190737-1-402.jpg">aquí</span>
         </div>
-    </div>
-</div>
-
-<div class="container">
-    <hr>
-    <h2>Dropdown menu</h2>
-    <div class="my-60">
-
     </div>
 </div>
 <?php include 'inc/footer.php' ?>
