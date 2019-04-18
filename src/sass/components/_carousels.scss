@@ -66,3 +66,33 @@
     }
   }
 }
+
+.uc-carousel-cards {
+  position: relative;
+  width: 100vw;
+  left: calc(-1 * (100vw - 100%) / 2);
+  right: 0;
+  padding: 30px calc((100vw - 100%)/2);
+  overflow: hidden;
+  .tns-ovh {
+    overflow: visible;
+  }
+  .carousel-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+    .prev, .next {
+      display: flex;
+      cursor: pointer;
+      &[aria-disabled="true"] {
+        svg g {
+          fill: $gray;
+        }
+      }
+    }
+    .prev {
+      transform: rotate(-180deg);
+      margin-right: 75px;
+    }
+  }
+}

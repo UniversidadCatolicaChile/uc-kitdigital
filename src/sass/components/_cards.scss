@@ -9,10 +9,13 @@
   background-color: #fff;
   // todo: agregar clase sin sombra - borde 8px
   .uc-card_body {
-    padding: 24px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    @include media-breakpoint-up(lg) {
+      padding: 24px;
+    }
   }
   .uc-tag.tag-fixed {
     position: absolute;
@@ -43,6 +46,10 @@
   }
   &.card-background-image {
     min-height: 532px;
+    padding: 20px;
+    @include media-breakpoint-up(lg) {
+      padding: 36px;
+    }
     .card-image {
       position: absolute;
       height: 100%;

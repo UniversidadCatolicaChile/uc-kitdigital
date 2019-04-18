@@ -27,37 +27,53 @@ a {
 }
 
 h1, .h1 {
-  font-size: 2.5em;
-  line-height: 1.3;
+  font-size: 2em;
+  line-height: 1.1875;
   font-weight: 700;
+  @include media-breakpoint-up(lg) {
+    font-size: 2.5em;
+    line-height: 1.3;
+  }
 }
 
 h2, .h2 {
-  font-size: 2em;
-  line-height: 1.2;
-  letter-spacing: 0.25px;
+  font-size: 1.5em;
+  line-height: 1.16;
+  letter-spacing: 0.18px;
   font-weight: 500;
+  @include media-breakpoint-up(lg) {
+    font-size: 2em;
+    line-height: 1.2;
+  }
 }
 
 h3, .h3 {
-  font-size: 1.5em;
-  line-height: 1.2;
+  font-size: 1.25em;
   letter-spacing: 0.18px;
   font-weight: 700;
+  @include media-breakpoint-up(lg) {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
 }
 
 h4, .h4 {
-  font-size: 1.25em;
-  line-height: 1.2;
+  font-size: 1.125em;
   letter-spacing: 0.25px;
+  line-height: 1.2;
   font-weight: 700;
+  @include media-breakpoint-up(lg) {
+    font-size: 1.25em;
+  }
 }
 
 h5, .h5 {
-  font-size: 1.5em;
-  line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.76px;
+  @include media-breakpoint-up(lg) {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
 }
 
 h6, .h6 {
@@ -68,8 +84,11 @@ h6, .h6 {
 
 p, .p {
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1.6;
   letter-spacing: 0.5px;
+  @include media-breakpoint-up(lg) {
+    line-height: 1.5;
+  }
   &.p-large {
     font-size: 1.125em;
     line-height: 1.7;

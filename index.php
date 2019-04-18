@@ -390,7 +390,7 @@
     <h2>Cards de imágenes</h2>
     <div class="row mb-60">
         <div class="col-md-4">
-            <div class="uc-card card-background-image p-36">
+            <div class="uc-card card-background-image">
                 <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
                 <a href="#" class="uc-tag">Carrera de Pregrado</a>
                 <div class="uc-card mt-auto">
@@ -403,7 +403,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="uc-card card-background-image p-36 pr-80">
+            <div class="uc-card card-background-image">
                 <img src="http://via.placeholder.com/600x530" class="card-image" alt="">
                 <a href="#" class="uc-tag">Pregrado</a>
                 <div class="uc-card mt-auto">
@@ -1040,6 +1040,118 @@
     <h2>Tooltip</h2>
     <div class="my-60">
         <div class="tooltip">Pasa el Mouse por <span data-tooltip="box" data-tooltiptitle="Título" data-tooltipbody="Este es el cuerpo del tooltip" data-tooltipimage="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE5NDg0MDU0ODg0MzUzNTUx/isaac-asimov-9190737-1-402.jpg">aquí</span>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <hr>
+    <h2>Carrusel de cards</h2>
+    <div class="my-60">
+        <div class="uc-carousel-cards">
+            <div class="uc-carousel-cards_content">
+                <div class="item">
+                    <div class="uc-card card-background-image">
+                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                        <a href="#" class="uc-tag">Creación de conocimiento de frontera</a>
+                        <div class="uc-card mt-auto">
+                            <div class="uc-card_body">
+                                <p class="small gray condensed">18 Marzo 2018</p>
+                                <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
+                                <div class="uc-text-divider divider-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="uc-card card-background-image">
+                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                        <a href="#" class="uc-tag">Carrera de Pregrado</a>
+                        <div class="uc-card mt-auto">
+                            <div class="uc-card_body">
+                                <p class="small gray condensed">18 Marzo 2018</p>
+                                <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
+                                <div class="uc-text-divider divider-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="uc-card card-background-image">
+                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                        <a href="#" class="uc-tag">Carrera de Pregrado</a>
+                        <div class="uc-card mt-auto">
+                            <div class="uc-card_body">
+                                <p class="small gray condensed">18 Marzo 2018</p>
+                                <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
+                                <div class="uc-text-divider divider-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="uc-card card-background-image">
+                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                        <a href="#" class="uc-tag">Carrera de Pregrado</a>
+                        <div class="uc-card mt-auto">
+                            <div class="uc-card_body">
+                                <p class="small gray condensed">18 Marzo 2018</p>
+                                <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
+                                <div class="uc-text-divider divider-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="uc-card card-background-image">
+                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                        <a href="#" class="uc-tag">Carrera de Pregrado</a>
+                        <div class="uc-card mt-auto">
+                            <div class="uc-card_body">
+                                <p class="small gray condensed">18 Marzo 2018</p>
+                                <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
+                                <div class="uc-text-divider divider-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="uc-card card-background-image">
+                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                        <a href="#" class="uc-tag">Carrera de Pregrado</a>
+                        <div class="uc-card mt-auto">
+                            <div class="uc-card_body">
+                                <p class="small gray condensed">18 Marzo 2018</p>
+                                <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
+                                <div class="uc-text-divider divider-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <div class="prev">
+                    <svg width="48px" height="16px" viewBox="0 0 48 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="01-Navegación/Moléculas/Controlador/Cards" transform="translate(-272.000000, 0.000000)" fill="#0176DE">
+                                <g id="Controlador-Cards">
+                                    <path d="M319.999999,7.99862356 C320,7.9990823 320,7.99954111 320,8 C320,8.00045889 320,8.0009177 319.999999,8.00137644 C319.999683,8.23695673 319.918232,8.47244231 319.755645,8.65920128 L313.646473,15.6766505 C313.296166,16.0790401 312.698312,16.1101069 312.311129,15.7460401 C311.923947,15.3819733 311.894054,14.7606376 312.244362,14.3582479 L316.909085,9 L273.088579,9 C272.487374,9 272,8.55228475 272,8 C272,7.44771525 272.487374,7 273.088579,7 L316.909085,7 L312.244362,1.64175206 C311.894054,1.23936242 311.923947,0.618026698 312.311129,0.253959882 C312.698312,-0.110106935 313.296166,-0.0790401485 313.646473,0.323349491 L319.755645,7.34079872 C319.918232,7.52755769 319.999683,7.76304327 319.999999,7.99862356 Z" id="arrow-forward"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="next">
+                    <svg width="48px" height="16px" viewBox="0 0 48 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="01-Navegación/Moléculas/Controlador/Cards" transform="translate(-272.000000, 0.000000)" fill="#0176DE">
+                                <g id="Controlador-Cards">
+                                    <path d="M319.999999,7.99862356 C320,7.9990823 320,7.99954111 320,8 C320,8.00045889 320,8.0009177 319.999999,8.00137644 C319.999683,8.23695673 319.918232,8.47244231 319.755645,8.65920128 L313.646473,15.6766505 C313.296166,16.0790401 312.698312,16.1101069 312.311129,15.7460401 C311.923947,15.3819733 311.894054,14.7606376 312.244362,14.3582479 L316.909085,9 L273.088579,9 C272.487374,9 272,8.55228475 272,8 C272,7.44771525 272.487374,7 273.088579,7 L316.909085,7 L312.244362,1.64175206 C311.894054,1.23936242 311.923947,0.618026698 312.311129,0.253959882 C312.698312,-0.110106935 313.296166,-0.0790401485 313.646473,0.323349491 L319.755645,7.34079872 C319.918232,7.52755769 319.999683,7.76304327 319.999999,7.99862356 Z" id="arrow-forward"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
         </div>
     </div>
 </div>

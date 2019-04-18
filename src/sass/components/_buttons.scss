@@ -103,7 +103,7 @@
     }
     .uc-icon {
       color: $primaryblue;
-      &.rounded {
+      &.icon-rounded {
         color: #fff;
       }
     }
@@ -116,7 +116,7 @@
     }
     &:hover {
       text-decoration: none;
-      .uc-icon.rounded {
+      .uc-icon.icon-rounded {
         color: $blue;
         background-color: $yellow;
       }
