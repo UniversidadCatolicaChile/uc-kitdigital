@@ -7,7 +7,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-primary">
                 Más información
-                <i class="uc-icon rounded-background">arrow_forward</i>
+                <i class="uc-icon rounded">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
@@ -19,7 +19,7 @@
         <div class="col-md-6">
             <a href="#" class="uc-btn btn-primary">
                 Más Información
-                <i class="uc-icon rounded-background">arrow_forward</i>
+                <i class="uc-icon rounded">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -51,7 +51,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-featured">
                 Text
-                <i class="uc-icon rounded-background small">arrow_forward</i>
+                <i class="uc-icon rounded small">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -59,27 +59,27 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-inline">
                 Texto
-                <i class="uc-icon rounded-background">add</i>
+                <i class="uc-icon rounded">add</i>
             </a>
         </div>
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon rounded-background small">arrow_forward</i>
+                <i class="uc-icon rounded small">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon rounded-background small">arrow_forward</i>
+                <i class="uc-icon rounded small">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon rounded-background small">arrow_forward</i>
+                <i class="uc-icon rounded small">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon small">launch</i>
+                <i class="uc-icon icon-small">launch</i>
             </a>
         </div>
     </div>
@@ -189,7 +189,7 @@
                 <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
-                    <div class="uc-text-divider primary"></div>
+                    <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue.</p>
                     <div class="text-right mt-auto">
                         <a href="#" class="uc-link">
@@ -207,11 +207,11 @@
                 <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
-                    <div class="uc-text-divider primary"></div>
+                    <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. Nullam porta pellentesque finibus. </p>
                     <a href="#" class="uc-btn primary">
                         Más información
-                        <i class="uc-icon rounded-background">arrow_forward</i>
+                        <i class="uc-icon rounded">arrow_forward</i>
                     </a>
                 </div>
             </div>
@@ -222,7 +222,7 @@
                 <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
-                    <div class="uc-text-divider primary"></div>
+                    <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. </p>
                     <div class="text-right mt-auto">
                         <a href="#" class="uc-link">
@@ -298,7 +298,7 @@
                 <div class="uc-card_body">
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h3>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h3>
-                    <div class="uc-text-divider primary"></div>
+                    <div class="uc-text-divider divider-primary"></div>
                 </div>
             </a>
         </div>
@@ -309,7 +309,7 @@
                     <h4 class="mb-16">Preexistencias y reforma al sistema de isapres.</h4>
                     <p class="no-margin"><strong>Felipe Bravo</strong></p>
                     <p class="gray no-margin">Académico de la Escuela de Derecho</p>
-                    <div class="uc-text-divider primary"></div>
+                    <div class="uc-text-divider divider-primary"></div>
                 </div>
             </div>
         </div>
@@ -319,7 +319,7 @@
                     <h4 class="mb-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
                     <p class="no-margin"><strong>Felipe Bravo</strong></p>
                     <p class="gray no-margin">Académico de la Escuela de Derecho</p>
-                    <div class="uc-text-divider primary"></div>
+                    <div class="uc-text-divider divider-primary"></div>
                 </div>
             </div>
         </div>
@@ -330,7 +330,7 @@
         <div class="col-md-6">
             <div class="uc-card card-special p-48">
                 <h4>Arriendo de espacios</h4>
-                <div class="uc-text-divider primary"></div>
+                <div class="uc-text-divider divider-primary"></div>
                 <p class="no-margin">Encuentra el espacio para tu evento, ya sea una actividad académica, gubernamental, corporativa o personal.</p>
             </div>
         </div>
@@ -345,7 +345,7 @@
         <div class="col-md-2">
             <div class="uc-card card-underlined">
                 <div class="uc-card_body text-center">
-                    <div class="uc-icon large">local_library</div>
+                    <div class="uc-icon icon-large">local_library</div>
                     <p class="no-margin">Publicaciones <br>Scopus</p>
                 </div>
             </div>
@@ -397,7 +397,7 @@
                     <div class="uc-card_body">
                         <p class="small gray condensed">18 Marzo 2018</p>
                         <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
-                        <div class="uc-text-divider primary"></div>
+                        <div class="uc-text-divider divider-primary"></div>
                     </div>
                 </div>
             </div>
@@ -412,7 +412,7 @@
                         <h4 class="mb-16">Preexistencias y reforma al sistema de isapres.</h4>
                         <p class="no-margin"><strong>Felipe Bravo</strong></p>
                         <p class="gray no-margin">Académico de la Escuela de Derecho</p>
-                        <div class="uc-text-divider primary"></div>
+                        <div class="uc-text-divider divider-primary"></div>
                     </div>
                 </div>
             </div>
@@ -614,7 +614,7 @@
                 <div class="tooltip-body">
                     <div class="white-triangle"></div>
                     <h4>Estados Unidos</h4>
-                    <div class="uc-text-divider primary"></div>
+                    <div class="uc-text-divider divider-primary"></div>
                     <strong>Patentes: 20</strong>
                 </div>
             </div>
@@ -646,7 +646,7 @@
                         <div class="col-md-6 text-right">
                             <a href="#" class="uc-btn inline-btn">
                                 Más información
-                                <i class="uc-icon rounded-background">arrow_forward</i>
+                                <i class="uc-icon rounded">arrow_forward</i>
                             </a>
                         </div>
                     </div>
@@ -667,7 +667,7 @@
                         <div class="col-md-6 text-right">
                             <a href="#" class="uc-btn inline-btn">
                                 Más información
-                                <i class="uc-icon rounded-background">arrow_forward</i>
+                                <i class="uc-icon rounded">arrow_forward</i>
                             </a>
                         </div>
                     </div>
@@ -681,44 +681,44 @@
         <div class="col-md-8 mb-12">
             <div class="uc-alert warning">
                 <div class="uc-alert_content">
-                    <i class="uc-icon small">warning</i>
+                    <i class="uc-icon icon-small">warning</i>
                     <span class="p small bold ml-8">Alerta, descripción</span>
                 </div>
                 <div class="uc-alert_close">
-                    <i class="uc-icon small">close</i>
+                    <i class="uc-icon icon-small">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
             <div class="uc-alert error">
                 <div class="uc-alert_content">
-                    <i class="uc-icon small">cancel</i>
+                    <i class="uc-icon icon-small">cancel</i>
                     <span class="p small bold ml-8">Error, descripción</span>
                 </div>
                 <div class="uc-alert_close">
-                    <i class="uc-icon small">close</i>
+                    <i class="uc-icon icon-small">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
             <div class="uc-alert info">
                 <div class="uc-alert_content">
-                    <i class="uc-icon small">info</i>
+                    <i class="uc-icon icon-small">info</i>
                     <span class="p small bold ml-8">Información, descripción</span>
                 </div>
                 <div class="uc-alert_close">
-                    <i class="uc-icon small">close</i>
+                    <i class="uc-icon icon-small">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
             <div class="uc-alert success">
                 <div class="uc-alert_content">
-                    <i class="uc-icon small">check_circle</i>
+                    <i class="uc-icon icon-small">check_circle</i>
                     <span class="p small bold ml-8">Éxito, descripción</span>
                 </div>
                 <div class="uc-alert_close">
-                    <i class="uc-icon small">close</i>
+                    <i class="uc-icon icon-small">close</i>
                 </div>
             </div>
         </div>
@@ -832,31 +832,31 @@
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Acreditación UC
-                            <i class="uc-icon small">launch</i>
+                            <i class="uc-icon icon-small">launch</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Campo Audiovisual
-                            <i class="uc-icon small">launch</i>
+                            <i class="uc-icon icon-small">launch</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Campo Audiovisual
-                            <i class="uc-icon small">launch</i>
+                            <i class="uc-icon icon-small">launch</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Acreditación UC
-                            <i class="uc-icon small">launch</i>
+                            <i class="uc-icon icon-small">launch</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Campo Audiovisual
-                            <i class="uc-icon small">launch</i>
+                            <i class="uc-icon icon-small">launch</i>
                         </a>
                     </li>
                 </ul>
@@ -882,7 +882,7 @@
                     <h6>Título Colapsable</h6>
                     <a href="#" class="uc-btn btn-inline ml-auto">
                         Ver más
-                        <i class="uc-icon rounded-background">keyboard_arrow_down</i>
+                        <i class="uc-icon rounded">keyboard_arrow_down</i>
                     </a>
                 </div>
                 <div class="uc-collapse_body">

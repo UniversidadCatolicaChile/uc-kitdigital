@@ -12,10 +12,10 @@
   width: 36px;
   height: 4px;
   margin: 12px 0;
-  &.primary {
+  &.divider-primary {
     background-color: $primaryblue;
   }
-  &.secondary {
+  &.divider-secondary {
     background-color: $yellow;
   }
 }
