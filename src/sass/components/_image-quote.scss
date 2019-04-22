@@ -1,36 +1,73 @@
 .uc-image-quote {
+  margin-left: -20px;
+  margin-right: -20px;
+  @include media-breakpoint-up(md) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .uc-image-quote_image {
+    height: 300px;
+  }
   &.image-left {
     .uc-image-quote_image {
-      width: 180%;
-      height: 600px;
+      width: auto;
       background-size: cover;
       background-repeat: no-repeat;
+      @include media-breakpoint-up(md) {
+        width: 180%;
+        height: 600px;
+      }
     }
   }
   &.image-right {
     .uc-card {
-      width: 125%;
+      width: auto;
       z-index: 2;
+      @include media-breakpoint-up(md) {
+        width: 125%;
+      }
     }
     .uc-image-quote_image {
-      height: 600px;
       background-size: cover;
       background-repeat: no-repeat;
+      @include media-breakpoint-up(md) {
+        height: 600px;
+      }
     }
   }
   &.image-nested {
+    margin-bottom: 200px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: auto;
+    }
     .uc-image-quote_image {
       position: relative;
-      height: 600px;
       background-size: cover;
       background-repeat: no-repeat;
       padding: 32px;
       display: flex;
       align-items: flex-end;
+      @include media-breakpoint-up(md) {
+        height: 600px;
+      }
       .uc-card {
         max-width: 590px;
         position: absolute;
-        right: 32px;
+        right: 0;
+        top: 270px;
+        @include media-breakpoint-up(lg) {
+          right: 32px;
+          top: auto;
+        }
+      }
+    }
+  }
+  &.image-left, &.image-right, &.image-nested {
+    .uc-card {
+      margin: 0 20px;
+      margin-top: -60px;
+      @include media-breakpoint-up(lg) {
+        margin: auto;
       }
     }
   }

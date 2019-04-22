@@ -11,7 +11,9 @@ body {
 }
 
 a {
+  @extend .uc-link;
   color: inherit;
+  text-decoration: underline;
   &.link-inline {
     text-decoration: underline;
     color: $primaryblue;
@@ -68,18 +70,25 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-weight: 400;
-  letter-spacing: 0.76px;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
   @include media-breakpoint-up(lg) {
-    font-size: 1.5em;
-    line-height: 1.5;
+    line-height: 1.3;
+    font-size: 1.125em;
   }
 }
 
 h6, .h6 {
-  font-size: 1.25em;
-  letter-spacing: 0.25px;
+  font-size: 0.875em;
   font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
+  @include media-breakpoint-up(lg) {
+    font-size: 1em;
+    line-height: 1.5;
+  }
 }
 
 p, .p {
@@ -95,13 +104,29 @@ p, .p {
   }
   &.p-small {
     font-size: 0.875em;
-    line-height: 1.1;
+    line-height: 1.5;
+    @include media-breakpoint-up(lg) {
+      line-height: 1.1;
+    }
+  }
+  &.p-xlarge {
+    font-size: 1.25em;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
+    @include media-breakpoint-up(lg) {
+      font-size: 1.5em;
+      line-height: 1.6;
+      letter-spacing: 0.18px;
+    }
   }
   &.p-gray {
     color: $gray;
   }
   &.p-condensed {
     letter-spacing: 0;
+  }
+  &.p-extended {
+    letter-spacing: 1px;
   }
 }
 
@@ -132,23 +157,37 @@ p, .p {
 
 .uc-quote, %quote {
   font-family: 'Roboto Slab', serif;
-  font-size: 1.5em;
+  font-size: 1.125em;
   line-height: 1.33333;
-  letter-spacing: 0.18px;
+  letter-spacing: 0.2px;
+  @include media-breakpoint-up(lg) {
+    font-size: 1.5em;
+    letter-spacing: 0.18px;
+  }
   &.quote-large {
-    font-size: 2.125em;
-    line-height: 1.47;
+    font-size: 1.5em;
     font-weight: bold;
+    @include media-breakpoint-up(lg) {
+      font-size: 2.125em;
+      line-height: 1.47;
+    }
   }
 }
 
 .uc-subtitle {
   font-size: 0.875em;
   text-transform: uppercase;
-  line-height: 1.1;
-  letter-spacing: 1px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
   color: $gray;
   font-weight: 500;
+  &.subtitle-extended {
+    letter-spacing: 2px;
+  }
+  @include media-breakpoint-up(lg) {
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
 }
 
 

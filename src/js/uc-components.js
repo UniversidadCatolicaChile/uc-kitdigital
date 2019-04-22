@@ -32,6 +32,7 @@ var slider = tns({
     }
 });
 
+console.log(slider);
 //console.log(slider.getInfo().displayIndex+' a '+slider.getInfo().items+' de '+slider.getInfo().slideCount);
 
 slider.events.on('indexChanged', function (info) {

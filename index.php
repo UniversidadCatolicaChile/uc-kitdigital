@@ -135,7 +135,7 @@
     <h2 class="my-24">Cards</h2>
     <br>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4">
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <div class="uc-card_body">
@@ -149,7 +149,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
@@ -164,7 +164,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
             <div class="uc-card">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
@@ -209,7 +209,7 @@
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. Nullam porta pellentesque finibus. </p>
-                    <a href="#" class="uc-btn primary">
+                    <a href="#" class="uc-btn btn-primary mt-auto">
                         Más información
                         <i class="uc-icon icon-rounded">arrow_forward</i>
                     </a>
@@ -235,7 +235,7 @@
         </div>
     </div>
     <div class="row my-36">
-        <div class="col-md-6">
+        <div class="col-lg-6">
             <div class="uc-card card-horizontal">
                 <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
                 <div class="uc-card_body">
@@ -252,7 +252,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
             <div class="uc-card card-horizontal">
                 <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
                 <div class="uc-card_body">
@@ -271,7 +271,7 @@
     <h2>Citas</h2>
     <div class="row my-36">
         <div class="col-md-6">
-            <div class="uc-card p-48">
+            <div class="uc-card card-quote">
                 <p class="uc-quote mb-16">
                     “Lo que más me gusta de la Universidad es la diversidad que tiene: de personas y campos de estudio. Uno sale al patio y se encuentra con gente que está estudiando el Major en Ciencias de la Ingeniería, mientras yo estoy en el de Letras. Ese encuentro de gente tan distinta, es lo que más me atrae.”
                 </p>
@@ -279,8 +279,8 @@
                 <p class="gray no-margin">Estudiante UC</p>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="uc-card p-48">
+        <div class="col-md-6 card-quote">
+            <div class="uc-card">
                 <a href="#" class="uc-tag">Texto tag</a>
                 <p class="uc-quote my-16">
                     “Lo que más me gusta de la Universidad es la diversidad que tiene: de personas.”
@@ -328,7 +328,7 @@
     <h2>Card / Texto / Especial</h2>
     <div class="row my-36">
         <div class="col-md-6">
-            <div class="uc-card card-special p-48">
+            <div class="uc-card card-special card-quote">
                 <h4>Arriendo de espacios</h4>
                 <div class="uc-text-divider divider-primary"></div>
                 <p class="no-margin">Encuentra el espacio para tu evento, ya sea una actividad académica, gubernamental, corporativa o personal.</p>
@@ -390,8 +390,8 @@
     <h2>Cards de imágenes</h2>
     <div class="row mb-60">
         <div class="col-md-4">
-            <div class="uc-card card-background-image">
-                <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+            <div class="uc-card card-gradient">
+                <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                 <a href="#" class="uc-tag">Carrera de Pregrado</a>
                 <div class="uc-card mt-auto">
                     <div class="uc-card_body">
@@ -403,8 +403,8 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="uc-card card-background-image">
-                <img src="http://via.placeholder.com/600x530" class="card-image" alt="">
+            <div class="uc-card card-gradient">
+                <img src="http://via.placeholder.com/600x530" class="image" alt="">
                 <a href="#" class="uc-tag">Pregrado</a>
                 <div class="uc-card mt-auto">
                     <div class="uc-card_body">
@@ -948,11 +948,11 @@
     <h3>Citas (organismos)</h3>
     <div class="uc-image-quote image-left my-40">
         <div class="row align-items-center">
-            <div class="col-md 6">
+            <div class="col-md-6 order-first">
                 <div class="uc-image-quote_image" style="background-image: url('https://via.placeholder.com/1200x600')"></div>
             </div>
             <div class="col-md-6">
-                <div class="uc-card p-48">
+                <div class="uc-card card-quote">
                     <a href="#" class="uc-tag">Texto tag</a>
                     <p class="uc-quote my-16">
                         "Nuestra vacuna contra el virus sincicial pretende una protección que dure toda la vida"
@@ -965,8 +965,8 @@
     </div>
     <div class="uc-image-quote image-right my-40">
         <div class="row align-items-center">
-            <div class="col-md-5">
-                <div class="uc-card p-48">
+            <div class="col-md-5 order-last order-md-first">
+                <div class="uc-card card-quote">
                     <a href="#" class="uc-tag">Texto tag</a>
                     <p class="uc-quote my-16">
                         "Nuestra vacuna contra el virus sincicial pretende una protección que dure toda la vida"
@@ -982,7 +982,7 @@
     </div>
     <div class="uc-image-quote image-nested my-40">
         <div class="uc-image-quote_image" style="background-image: url('https://via.placeholder.com/690x600')">
-            <div class="uc-card p-48">
+            <div class="uc-card card-quote">
                 <a href="#" class="uc-tag">Texto tag</a>
                 <p class="uc-quote my-16">
                     "Nuestra vacuna contra el virus sincicial pretende una protección que dure toda la vida"
@@ -1050,8 +1050,8 @@
         <div class="uc-carousel-cards">
             <div class="uc-carousel-cards_content">
                 <div class="item">
-                    <div class="uc-card card-background-image">
-                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                    <div class="uc-card card-image">
+                        <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                         <a href="#" class="uc-tag">Creación de conocimiento de frontera</a>
                         <div class="uc-card mt-auto">
                             <div class="uc-card_body">
@@ -1063,8 +1063,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="uc-card card-background-image">
-                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                    <div class="uc-card card-image">
+                        <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                         <a href="#" class="uc-tag">Carrera de Pregrado</a>
                         <div class="uc-card mt-auto">
                             <div class="uc-card_body">

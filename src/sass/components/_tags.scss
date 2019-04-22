@@ -11,6 +11,7 @@
   align-self: flex-start;
   z-index: 2;
   transition: .2s ease;
+  text-decoration: none;
   &:hover {
     color: #fff;
     background-color: $blue;
