@@ -7,18 +7,19 @@
   border-bottom: 2px solid $lightgraya;
   color: $lightgraya;
   .uc-tabs_item {
-    color: $darkgray;
     transition: background-color 100ms ease;
     &:active {
       background-color: $lightgrayc;
     }
   }
   .uc-tabs_item_link {
-    font-size: 16px;
+    font-size: 1em;
     padding: 16px;
     font-weight: 500;
     display: block;
     margin-bottom: -2px;
+    text-decoration: none;
+    color: $darkgray;
     &:focus {
       outline: none;
     }

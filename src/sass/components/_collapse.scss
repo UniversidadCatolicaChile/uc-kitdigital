@@ -6,19 +6,32 @@
     display: flex;
     line-height: 1;
     padding: 30px 22px;
+    font-size: 1.125em;
     border-left: 4px solid $primaryblue;
+    color: inherit;
+    text-decoration: none;
     > * {
       pointer-events: none;
     }
+    .uc-icon.icon-rounded {
+      transition: .2s ease;
+    }
     &:hover {
       text-decoration: none;
-      .uc-icon.rounded {
+      .uc-icon.icon-rounded {
         color: #173F8A;
         background-color: #FEC60D;
       }
     }
     &:focus {
       outline: none;
+    }
+    &.js-accordion-active-element {
+      .uc-icon.icon-rounded {
+        color: #173F8A;
+        background-color: #FEC60D;
+        transform: rotate(180deg);
+      }
     }
   }
   .uc-collapse_body {

@@ -8,8 +8,8 @@
   align-items: center;
   justify-content: space-between;
   transition: background-color .2s ease;
+  text-decoration: none;
   @include small-radius;
-  // Clases modificadoras
   &.btn-primary {
     @include primary-border;
     @include primary-shadow;
@@ -59,7 +59,6 @@
     border: 2px solid $yellow;
     padding: 8px 10px;
     text-transform: uppercase;
-    color: #fff;
     font-size: 13px;
     font-weight: 500;
     .uc-icon {

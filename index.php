@@ -141,7 +141,7 @@
                 <div class="uc-card_body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
-                        <a href="#" class="uc-link">
+                        <a href="#" class="uc-btn btn-inline">
                             Texto
                             <i class="uc-icon">file_download</i>
                         </a>
@@ -156,7 +156,7 @@
                 <div class="uc-card_body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
-                        <a href="#" class="uc-link">
+                        <a href="#" class="uc-btn btn-inline">
                             Texto
                             <i class="uc-icon">file_download</i>
                         </a>
@@ -172,7 +172,7 @@
                     <p class="small gray condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
-                        <a href="#" class="uc-link">
+                        <a href="#" class="uc-btn btn-inline">
                             Ver más
                             <i class="uc-icon">keyboard_arrow_right</i>
                         </a>
@@ -192,7 +192,7 @@
                     <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue.</p>
                     <div class="text-right mt-auto">
-                        <a href="#" class="uc-link">
+                        <a href="#" class="uc-btn btn-inline">
                             Ver más
                             <i class="uc-icon">keyboard_arrow_right</i>
                         </a>
@@ -225,7 +225,7 @@
                     <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. </p>
                     <div class="text-right mt-auto">
-                        <a href="#" class="uc-link">
+                        <a href="#" class="uc-btn btn-inline">
                             Ver más
                             <i class="uc-icon">keyboard_arrow_right</i>
                         </a>
@@ -244,7 +244,7 @@
                     </a>
                     <h4 class="mt-16">Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-auto">
-                        <a href="#" class="uc-link">
+                        <a href="#" class="uc-btn btn-inline">
                             Ver más
                             <i class="uc-icon">keyboard_arrow_right</i>
                         </a>
@@ -258,7 +258,7 @@
                 <div class="uc-card_body">
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-auto">
-                        <a href="#" class="uc-link">
+                        <a href="#" class="uc-btn btn-inline">
                             Ver más
                             <i class="uc-icon">keyboard_arrow_right</i>
                         </a>
@@ -279,8 +279,8 @@
                 <p class="gray no-margin">Estudiante UC</p>
             </div>
         </div>
-        <div class="col-md-6 card-quote">
-            <div class="uc-card">
+        <div class="col-md-6">
+            <div class="uc-card card-quote">
                 <a href="#" class="uc-tag">Texto tag</a>
                 <p class="uc-quote my-16">
                     “Lo que más me gusta de la Universidad es la diversidad que tiene: de personas.”
@@ -625,7 +625,7 @@
     -->
     <h2>Alertas</h2>
     <div class="row my-40">
-        <div class="col-8">
+        <div class="col-lg-8">
             <div class="uc-message mb-32">
                 <a href="#" class="close-button"><i class="uc-icon">close</i></a>
                 <div class="uc-message_body">
@@ -643,10 +643,10 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <p class="no-margin">Emergencias uc</p>
-                            <a href="#" class="uc-btn inline-btn"><i class="uc-icon">phone</i> (56)22354 5000</a>
+                            <a href="#" class="uc-link uc-btn btn-inline"><i class="uc-icon no-margin">phone</i> (56)22354 5000</a>
                         </div>
                         <div class="col-md-6 text-right">
-                            <a href="#" class="uc-btn inline-btn">
+                            <a href="#" class="uc-link uc-btn btn-inline">
                                 Más información
                                 <i class="uc-icon icon-rounded">arrow_forward</i>
                             </a>
@@ -664,10 +664,10 @@
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <p class="no-margin">Emergencias uc</p>
-                            <a href="#" class="uc-btn inline-btn"><i class="uc-icon">phone</i> (56)22354 5000</a>
+                            <a href="#" class="uc-btn btn-inline"><i class="uc-icon no-margin">phone</i> (56)22354 5000</a>
                         </div>
                         <div class="col-md-6 text-right">
-                            <a href="#" class="uc-btn inline-btn">
+                            <a href="#" class="uc-btn btn-inline">
                                 Más información
                                 <i class="uc-icon icon-rounded">arrow_forward</i>
                             </a>
@@ -1050,7 +1050,7 @@
         <div class="uc-carousel-cards">
             <div class="uc-carousel-cards_content">
                 <div class="item">
-                    <div class="uc-card card-image">
+                    <div class="uc-card card-gradient">
                         <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                         <a href="#" class="uc-tag">Creación de conocimiento de frontera</a>
                         <div class="uc-card mt-auto">
@@ -1063,7 +1063,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="uc-card card-image">
+                    <div class="uc-card card-gradient">
                         <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                         <a href="#" class="uc-tag">Carrera de Pregrado</a>
                         <div class="uc-card mt-auto">
@@ -1076,8 +1076,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="uc-card card-background-image">
-                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                    <div class="uc-card card-gradient">
+                        <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                         <a href="#" class="uc-tag">Carrera de Pregrado</a>
                         <div class="uc-card mt-auto">
                             <div class="uc-card_body">
@@ -1089,8 +1089,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="uc-card card-background-image">
-                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                    <div class="uc-card card-gradient">
+                        <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                         <a href="#" class="uc-tag">Carrera de Pregrado</a>
                         <div class="uc-card mt-auto">
                             <div class="uc-card_body">
@@ -1102,8 +1102,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="uc-card card-background-image">
-                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                    <div class="uc-card card-gradient">
+                        <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                         <a href="#" class="uc-tag">Carrera de Pregrado</a>
                         <div class="uc-card mt-auto">
                             <div class="uc-card_body">
@@ -1115,8 +1115,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="uc-card card-background-image">
-                        <img src="http://via.placeholder.com/768x1024" class="card-image" alt="">
+                    <div class="uc-card card-gradient">
+                        <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                         <a href="#" class="uc-tag">Carrera de Pregrado</a>
                         <div class="uc-card mt-auto">
                             <div class="uc-card_body">

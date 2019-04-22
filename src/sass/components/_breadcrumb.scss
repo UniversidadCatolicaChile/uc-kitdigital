@@ -6,10 +6,11 @@
   list-style-type: none;
   .uc-breadcrumb_item {
     margin-right: 8px;
-    color: $gray;
     display: flex;
     align-items: center;
     a {
+      color: $gray;
+      text-decoration: none;
       padding-right: 8px;
     }
     .uc-icon {
