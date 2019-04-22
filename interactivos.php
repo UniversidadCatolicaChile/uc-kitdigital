@@ -32,7 +32,7 @@
     </div>
     <div class="my-60">
         <div class="uc-dropdown">
-            <button class="dropbtn uc-btn" data-dtarget="prueba">Ítem del menú</button>
+            <a href="#" class="uc-btn btn-inline dropbtn" data-dtarget="prueba">Ítem del menú</a>
             <div data-dropdown="prueba" class="uc-dropdown_list">
                 <div class="white-triangle"></div>
                 <div class="uc-dropdown_list_item">

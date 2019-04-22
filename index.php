@@ -7,7 +7,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-primary">
                 Más información
-                <i class="uc-icon icon-rounded">arrow_forward</i>
+                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
@@ -51,7 +51,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-featured">
                 Text
-                <i class="uc-icon icon-rounded small">arrow_forward</i>
+                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -65,15 +65,15 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon icon-rounded small">arrow_forward</i>
+                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon icon-rounded small">arrow_forward</i>
+                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon icon-rounded small">arrow_forward</i>
+                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
