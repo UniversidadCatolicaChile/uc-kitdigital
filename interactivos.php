@@ -55,7 +55,7 @@
             <div class="my-60">
                 <div class="uc-collapse uc-card">
                     <a href="#" class="uc-collapse_heading" data-collapse="collapseExample">
-                        <span>Título Colapsable</span>
+                        <h4>Título Colapsable</h4>
                         <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
@@ -76,7 +76,7 @@
                 <div class="uc-accordion" data-accordion>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
-                            <h6>Título Acordeón</h6>
+                            <h4>Título Acordeón</h4>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
-                            <h6>Título Acordeón</h6>
+                            <h4>Título Acordeón</h4>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse_heading" data-collapse="collapseExample03">
-                            <h6>Título Acordeón</h6>
+                            <h4>Título Acordeón</h4>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse_heading" data-collapse="collapseExample04">
-                            <h6>Título Acordeón</h6>
+                            <h4>Título Acordeón</h4>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
                             <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
