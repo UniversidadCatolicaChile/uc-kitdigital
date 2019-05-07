@@ -37,22 +37,17 @@ var imageCardsCarousel = tns({
 let indexCurrent = document.getElementsByClassName('index-current')[0];
 let indexTotal = document.getElementsByClassName('index-total')[0];
 
-indexCurrent.innerHTML = imageCardsCarousel.getInfo().items;
-indexTotal.innerHTML = imageCardsCarousel.getInfo().slideCount;
-
-imageCardsCarousel.events.on('indexChanged', function(info) {
-    indexCurrent.innerHTML = info.items+info.index;
-});
-
-
 let containerWidth = document.getElementsByClassName('container')[0].offsetWidth;
 let slideSegment = containerWidth / imageCardsCarousel.getInfo().slideCount;
 let carouselTrack = document.getElementsByClassName('carousel-progress-indicator')[0]
 
-function moveTrack(info) {
+indexCurrent.innerHTML = imageCardsCarousel.getInfo().items;
+indexTotal.innerHTML = imageCardsCarousel.getInfo().slideCount;
+
+imageCardsCarousel.events.on('indexChanged', updateInfo);
+
+function updateInfo(info) {
+    indexCurrent.innerHTML = info.items+info.index;
     let totalpx = slideSegment*info.index;
     carouselTrack.style.transform = 'translateX('+totalpx+'px)';
 }
-
-imageCardsCarousel.events.on('indexChanged', moveTrack)
-
