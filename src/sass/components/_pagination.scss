@@ -1,5 +1,6 @@
 .uc-pagination {
   display: flex;
+  justify-content: center;
   &_prev, &_next {
     background-color: transparent;
     color: #4A4A4A;

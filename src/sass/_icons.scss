@@ -20,8 +20,11 @@
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
   font-feature-settings: 'liga';
-  &.icon-secondary {
+  &.icon-gray {
     color: $gray;
+  }
+  &.icon-white {
+    color: #fff;
   }
   &.icon-rounded {
     background-color: $primaryblue;

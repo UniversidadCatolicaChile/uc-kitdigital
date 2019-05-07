@@ -1,31 +1,44 @@
 .uc-top-bar {
-  padding: 8px 0;
+  padding: 9px 0;
   background-color: $blue;
   color: #fff;
   .uc-link {
     color: #fff;
     line-height: 1.1;
-    padding-right: 8px;
-    display: inline-block;
     text-decoration: none;
     font-weight: 500;
     &:hover {
-      text-decoration: underline;
+      border-bottom: 1px solid #fff;
+      &::after {
+        text-decoration: none;
+      }
     }
     .uc-icon {
       color: #fff;
-    }
-    &:not(:first-child) {
-      border-left: 1px solid #8B9FC4;
-      padding-left: 10px;
-      margin-right: 8px;
-      padding-right: 0;
     }
   }
   .mobile-logo img {
     min-width: 185px;
   }
-  .uc-top-bar_links {
+  .top-bar_links {
     justify-content: space-between;
+    .top-bar_links {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        line-height: 1;
+        padding-right: 10px;
+        &:not(:first-child) {
+          border-left: 1px solid #8B9FC4;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
   }
 }

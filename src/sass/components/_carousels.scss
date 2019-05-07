@@ -80,6 +80,7 @@
   .carousel-controls {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin-top: 32px;
     .prev, .next {
       display: flex;
@@ -92,7 +93,34 @@
     }
     .prev {
       transform: rotate(-180deg);
-      margin-right: 75px;
     }
+  }
+}
+
+.uc-carousel_index {
+  color: $gray;
+  font-size: 1em;
+  margin: 0 20px;
+  .current {
+    color: $primaryblue;
+  }
+}
+
+.carousel-track {
+  width: calc(100% + 30px);
+  height: 2px;
+  margin-left: -15px;
+  background-color: $lightgraya;
+  margin-top: 28px;
+  position: relative;
+  .carousel-progress-indicator {
+    width: 24px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: $primaryblue;
+    position: absolute;
+    top: -2px;
+    transform: translateX(15px);
+    transition: .2s ease;
   }
 }

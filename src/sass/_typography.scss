@@ -150,9 +150,12 @@ p, .p {
     vertical-align: middle;
   }
   &.external {
-    .uc-icon {
+    &::after {
+      content: 'launch';
+      font-family: 'Material Icons';
       font-size: 10px;
-      vertical-align: top;
+      vertical-align: text-top;
+      display: inline-block;
     }
   }
 }

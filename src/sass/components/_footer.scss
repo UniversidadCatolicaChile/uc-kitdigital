@@ -69,7 +69,7 @@
   }
   .footer-collapse {
     overflow: hidden;
-    transition: all .25s linear;
+    transition: height .25s linear;
     @include media-breakpoint-up(lg) {
       height: auto !important;
     }
