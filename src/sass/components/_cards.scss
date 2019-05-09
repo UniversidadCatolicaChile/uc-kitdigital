@@ -58,7 +58,7 @@
     }
   }
   &.card-image {
-    min-height: 532px;
+    height: 532px;
     padding: 20px;
     @include media-breakpoint-up(lg) {
       padding: 36px;
@@ -149,6 +149,10 @@
         content: 'location_on';
       }
     }
+  }
+  &.card-grid {
+    width: 100%;
+    height: 100%;
   }
 }
 a.uc-card {

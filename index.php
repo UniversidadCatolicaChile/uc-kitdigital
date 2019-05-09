@@ -995,47 +995,6 @@
         </div>
     </div>
 </div>
-<!--
-<div class="uc-carousel">
-    <div class="home-carousel">
-        <div class="home-carousel-item" style="background-color: red">
-
-        </div>
-        <div class="home-carousel-item" style="background-color: blue">
-
-        </div>
-        <div class="home-carousel-item" style="background-color: green">
-
-        </div>
-    </div>
-    <div class="uc-carousel-nav">
-        <div class="container">
-            <div class="carousel-nav-container">
-                <ul class="carousel-nav-list">
-                    <li class="carousel-nav-item">
-                        <div class="number">01</div>
-                        <div class="indicator playing"></div>
-                    </li>
-                    <li class="carousel-nav-item">
-                        <div class="number">02</div>
-                        <div class="indicator"></div>
-                    </li>
-                    <li class="carousel-nav-item">
-                        <div class="number">03</div>
-                        <div class="indicator"></div>
-                    </li>
-                </ul>
-                <div class="autoplay-buttons"></div>
-
-                <div class="autoplay-buttons">
-                    <i class='uc-icon pause-button'>pause_circle_filled</i>
-                    <i class='uc-icon play-button'>play_circle_filled</i>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
 
 <div class="container">
     <hr>

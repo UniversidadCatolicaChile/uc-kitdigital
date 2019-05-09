@@ -34,6 +34,16 @@ var imageCardsCarousel = tns({
     }
 });
 
+var homeCarousel = tns({
+    container: '.home-carousel',
+    items: 1,
+    slideBy: 1,
+    gutter: 10,
+    loop: false,
+    nav: false,
+    autoplay: true
+});
+
 let indexCurrent = document.getElementsByClassName('index-current')[0];
 let indexTotal = document.getElementsByClassName('index-total')[0];
 
