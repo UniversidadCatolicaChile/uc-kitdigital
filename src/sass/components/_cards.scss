@@ -9,24 +9,6 @@
   color: inherit;
   box-shadow: $primary-shadow;
   border-radius: $small-radius;
-  .uc-card_body {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    @include media-breakpoint-up(lg) {
-      padding: 24px;
-    }
-  }
-  .uc-tag.tag-fixed {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    @include media-breakpoint-up(lg) {
-      top: 24px;
-      left: 24px;
-    }
-  }
   &.card-same-height {
     @include media-breakpoint-up(lg) {
       height: 100%;
@@ -87,6 +69,34 @@
       background-image: linear-gradient(-180deg,transparent,#08275c 96%);
     }
   }
+  &.card-hoverable {
+    position: relative;
+    height: 400px;
+    .card-hovered {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      transition: .2s ease;
+      opacity: 0;
+    }
+    &:hover {
+      .card-hovered {
+        opacity: 1;
+      }
+    }
+  }
+  &.card-hovered {
+    background-color: $primaryblue;
+    padding: 36px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    .uc-text-divider.divider-primary {
+      background-color: #fff;
+    }
+  }
   &.card-event {
     overflow: visible;
     .card-event-date {
@@ -119,6 +129,24 @@
       letter-spacing: 2px;
     }
   }
+  .uc-card_body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    @include media-breakpoint-up(lg) {
+      padding: 24px;
+    }
+  }
+  .uc-tag.tag-fixed {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    @include media-breakpoint-up(lg) {
+      top: 24px;
+      left: 24px;
+    }
+  }
   .uc-card_event-content {
     margin-top: 20px;
     .date, .time, .venue {
@@ -149,6 +177,10 @@
         content: 'location_on';
       }
     }
+  }
+  .uc-card_overlay {
+    position: relative;
+    z-index: 2;
   }
   &.card-grid {
     width: 100%;

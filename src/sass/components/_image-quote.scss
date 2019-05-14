@@ -7,6 +7,8 @@
   }
   .uc-image-quote_image {
     height: 300px;
+    border-radius: $small-radius;
+    overflow: hidden;
   }
   &.image-left {
     .uc-image-quote_image {

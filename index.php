@@ -392,6 +392,46 @@
     <h2>Cards de imágenes</h2>
     <div class="row mb-60">
         <div class="col-md-4">
+            <div class="uc-card card-hovered">
+                <h4 class="text-white">Innovación</h4>
+                <div class="uc-text-divider divider-primary my-12"></div>
+                <p class="text-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
+                <a href="#" class="uc-btn btn-primary mt-auto">
+                    Más información
+                    <i class="uc-icon icon-rounded">arrow_forward</i>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="uc-card card-gradient">
+                <img src="http://via.placeholder.com/768x1024" class="image" alt="">
+                <div class="mt-auto uc-card_overlay">
+                    <h4 class="text-white">Innovación</h4>
+                    <div class="uc-text-divider divider-primary mt-12"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="uc-card card-gradient card-hoverable">
+                <img src="http://via.placeholder.com/385x400" class="image" alt="">
+                <div class="mt-auto uc-card_overlay">
+                    <h4 class="text-white">Innovación</h4>
+                    <div class="uc-text-divider divider-primary mt-12"></div>
+                </div>
+                <div class="uc-card card-hovered">
+                    <h4 class="text-white">Innovación</h4>
+                    <div class="uc-text-divider divider-primary my-12"></div>
+                    <p class="text-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
+                    <a href="#" class="uc-btn btn-primary mt-auto">
+                        Más información
+                        <i class="uc-icon icon-rounded">arrow_forward</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
             <div class="uc-card card-gradient">
                 <img src="http://via.placeholder.com/768x1024" class="image" alt="">
                 <a href="#" class="uc-tag">Carrera de Pregrado</a>
