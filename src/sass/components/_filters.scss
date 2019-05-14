@@ -2,7 +2,7 @@
   padding: 24px;
   background-color: $lightgrayc;
   display: flex;
-  @include small-radius;
+  border-radius: $small-radius;
 }
 
 .uc-filters_alphabetic {
@@ -18,6 +18,6 @@
     color: $primaryblue;
     background-color: #fff;
     border: 1px solid transparent;
-    @include small-radius;
+    border-radius: $small-radius;
   }
 }

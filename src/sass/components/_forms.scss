@@ -29,10 +29,10 @@
   height: 45px;
   background-color: #ffffff;
   min-width: 250px;
-  @include small-radius;
+  border-radius: $small-radius;
   &:active, &:focus {
-    @include secondary-border;
-    @include secondary-shadow;
+    border: $secondary-border;
+    box-shadow: $secondary-shadow;
     outline: none;
   }
   &.w-icon {
@@ -49,8 +49,8 @@ textarea.uc-input-style {
 }
 
 .uc-radio-group {
-  @include primary-shadow;
-  @include small-radius;
+  box-shadow: $primary-shadow;
+  border-radius: $small-radius;
   display: inline-flex;
   margin: 0;
   .uc-orig-radio {

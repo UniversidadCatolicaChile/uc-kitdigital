@@ -44,11 +44,10 @@ a:focus, button:focus {
     background-color: #fff;
     z-index: 2;
     transform: rotate(45deg);
-    @include large-shadow;
-    @include small-radius;
+    box-shadow: $large-shadow;
+    border-radius: $small-radius;
   }
 }
-
 
 // utilities bootstrap 4
 

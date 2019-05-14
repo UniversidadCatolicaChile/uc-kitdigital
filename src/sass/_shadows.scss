@@ -1,12 +1,4 @@
-@mixin primary-shadow {
-  box-shadow: 0 0 8px 0 rgba(136,136,136,0.18);
-}
-@mixin secondary-shadow {
-  box-shadow: 0 0 8px 0 rgba(136,136,136,0.50);
-}
-@mixin large-shadow {
-  box-shadow: 0 0 20px 0 rgba(0,0,0,0.18);
-}
-@mixin message-shadow {
-  box-shadow: 0 -1px 24px 0 rgba(0,0,0,0.18);
-}
+$primary-shadow: 0 0 8px 0 rgba(136,136,136,0.18);
+$secondary-shadow: 0 0 8px 0 rgba(136,136,136,0.50);
+$large-shadow: 0 0 20px 0 rgba(0,0,0,0.18);
+$message-shadow: 0 -1px 24px 0 rgba(0,0,0,0.18);

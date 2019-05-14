@@ -19,7 +19,7 @@
       font-weight: 500;
       &.active, &:hover {
         .page-link {
-          @include primary-shadow;
+          box-shadow: $primary-shadow;
           color: $primaryblue;
           text-decoration: none;
           border: 1px solid $primaryblue;
@@ -34,7 +34,7 @@
       line-height: 1;
       color: $black;
       text-decoration: none;
-      @include small-radius;
+      border-radius: $small-radius;
       border: 1px solid transparent;
     }
   }

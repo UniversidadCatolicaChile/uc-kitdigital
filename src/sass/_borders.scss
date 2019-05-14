@@ -1,19 +1,7 @@
-@mixin primary-border {
-  border: 1px solid $lightgraya;
-}
+// border solid
+$primary-border: 1px solid $lightgraya;
+$secondary-border: 1px solid $primaryblue;
 
-@mixin secondary-border {
-  border: 1px solid $primaryblue;
-}
-
-@mixin small-radius {
-  border-radius: 4px;
-}
-
-@mixin medium-radius {
-  border-radius: 8px;
-}
-
-@mixin border-bottom {
-  border-bottom: 1px solid $lightgraya;
-}
+// border radius
+$small-radius: 4px;
+$medium-radius: 8px;

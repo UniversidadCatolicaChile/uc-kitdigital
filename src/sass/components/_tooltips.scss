@@ -6,8 +6,8 @@
   transition: .3s ease;
   background-color: #fff;
   z-index: 1;
-  @include large-shadow;
-  @include small-radius;
+  box-shadow: $large-shadow;
+  border-radius: $small-radius;
   .uc-tooltip_body {
     padding: 24px;
   }

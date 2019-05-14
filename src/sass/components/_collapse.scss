@@ -2,7 +2,7 @@
   border-radius: 0 4px 4px 0;
   border-left: 0;
   .uc-collapse_heading {
-    @include primary-shadow;
+    box-shadow: $primary-shadow;
     display: flex;
     line-height: 1;
     padding: 30px 22px;
@@ -39,7 +39,7 @@
 }
 
 .uc-accordion {
-  @include primary-shadow;
+  box-shadow: $primary-shadow;
   .uc-collapse {
     border-radius: 0;
     box-shadow: none;
