@@ -403,8 +403,8 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="uc-card card-gradient">
-                <img src="http://via.placeholder.com/768x1024" class="image" alt="">
+            <div class="uc-card card-gradient card-hoverable">
+                <img src="http://via.placeholder.com/385x400" class="image" alt="">
                 <div class="mt-auto uc-card_overlay">
                     <h4 class="text-white">Innovación</h4>
                     <div class="uc-text-divider divider-primary mt-12"></div>
@@ -462,6 +462,60 @@
     </div>
     <hr>
     <h2>Cards de evento</h2>
+    <div class="row my-80">
+        <div class="col-lg-6">
+            <div class="uc-card-event-featured_image" style="background-image: url('https://via.placeholder.com/1200x600')"></div>
+            <div class="uc-card card-event uc-card-event-featured card-same-height">
+                <div class="uc-card card-event-date">
+                    <div class="day">7</div>
+                    <div class="month">Nov</div>
+                </div>
+                <div class="uc-card_body">
+                    <a href="#" class="uc-tag my-20">Teatro</a>
+                    <h4>IX Concierto de Adviento</h4>
+                    <div class="uc-card_event-content">
+                        <div class="date">1 de Diciembre</div>
+                        <div class="time">15:00 a 20:30 hrs.</div>
+                        <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="uc-card card-event card-same-height">
+                <div class="uc-card card-event-date">
+                    <div class="day">7</div>
+                    <div class="month">Nov</div>
+                </div>
+                <div class="uc-card_body">
+                    <a href="#" class="uc-tag my-20">Teatro</a>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h4>
+                    <div class="uc-card_event-content">
+                        <div class="date">1 de Diciembre</div>
+                        <div class="time">15:00 a 20:30 hrs.</div>
+                        <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="uc-card card-event card-same-height">
+                <div class="uc-card card-event-date">
+                    <div class="day">7</div>
+                    <div class="month">Nov</div>
+                </div>
+                <div class="uc-card_body">
+                    <a href="#" class="uc-tag my-20">Teatro</a>
+                    <h4>Cine: El gángster en el cine clásico americano</h4>
+                    <div class="uc-card_event-content">
+                        <div class="date">1 de Diciembre</div>
+                        <div class="time">15:00 a 20:30 hrs.</div>
+                        <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row mb-60">
         <div class="col-md-3 my-60">
             <div class="uc-card card-event">

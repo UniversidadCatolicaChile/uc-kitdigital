@@ -43,7 +43,7 @@
     height: 532px;
     padding: 20px;
     @include media-breakpoint-up(lg) {
-      padding: 36px;
+      padding: 24px;
     }
     .image {
       position: absolute;
@@ -72,6 +72,7 @@
   &.card-hoverable {
     position: relative;
     height: 400px;
+    padding: 36px;
     .card-hovered {
       position: absolute;
       top: 0;
