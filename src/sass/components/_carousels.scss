@@ -25,6 +25,7 @@
       font-weight: 700;
       margin-left: auto;
       color: rgba(255,255,255,0.35);
+      transition: .3s ease;
       &:not(:first-child){
         margin-left: 8px;
       }
@@ -33,7 +34,8 @@
         height: 6px;
         position: relative;
         background-color: rgba(255,255,255,0.35);
-        transition: .2s ease;
+        transition: .3s ease;
+        /*
         &:after {
           content: '';
           width: 0;
@@ -41,13 +43,17 @@
           position: absolute;
           background-color: #fff;
         }
+        */
       }
       &.tns-nav-active {
         color: #fff;
         .indicator {
+          background-color: #fff;
+          /*
           &:after {
             animation: CarouselNav 5s linear forwards;
           }
+          */
         }
         .indicator.paused:after {
           animation-play-state: paused;

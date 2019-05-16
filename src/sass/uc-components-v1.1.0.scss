@@ -49,6 +49,7 @@
 @import 'components/lists';
 @import 'components/tables';
 @import 'components/collapse';
+@import 'components/grids';
 
 /*
   Form components
@@ -64,6 +65,8 @@
 // wip
 @import 'components/related-content';
 @import 'components/carousels';
+
+
 
 .uc-card-event-featured_image {
   height: calc(100% + 100px);

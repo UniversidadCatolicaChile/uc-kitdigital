@@ -38,10 +38,12 @@ var homeCarousel = tns({
     container: '.home-carousel',
     items: 1,
     slideBy: 1,
-    gutter: 10,
-    loop: false,
-    nav: false,
-    autoplay: true
+    loop: true,
+    autoplay: true,
+    controls: false,
+    navContainer: '.carousel-nav-list',
+    autoplayButton: '.autoplay-buttons',
+    autoplayText: ["<i class='uc-icon play-button'>play_circle_filled</i>", "<i class='uc-icon pause-button'>pause_circle_filled</i>"]
 });
 
 let indexCurrent = document.getElementsByClassName('index-current')[0];
