@@ -41,6 +41,7 @@ var homeCarousel = tns({
     loop: true,
     autoplay: true,
     controls: false,
+    speed: 500,
     navContainer: '.carousel-nav-list',
     autoplayButton: '.autoplay-buttons',
     autoplayText: ["<i class='uc-icon play-button'>play_circle_filled</i>", "<i class='uc-icon pause-button'>pause_circle_filled</i>"]
