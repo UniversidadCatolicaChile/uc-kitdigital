@@ -34,19 +34,6 @@ var imageCardsCarousel = tns({
     }
 });
 
-var homeCarousel = tns({
-    container: '.home-carousel',
-    items: 1,
-    slideBy: 1,
-    loop: true,
-    autoplay: true,
-    controls: false,
-    speed: 500,
-    navContainer: '.carousel-nav-list',
-    autoplayButton: '.autoplay-buttons',
-    autoplayText: ["<i class='uc-icon play-button'>play_circle_filled</i>", "<i class='uc-icon pause-button'>pause_circle_filled</i>"]
-});
-
 let indexCurrent = document.getElementsByClassName('index-current')[0];
 let indexTotal = document.getElementsByClassName('index-total')[0];
 
@@ -64,3 +51,37 @@ function updateInfo(info) {
     let totalpx = slideSegment*info.index;
     carouselTrack.style.transform = 'translateX('+totalpx+'px)';
 }
+
+var homeCarousel = tns({
+    container: '.home-carousel',
+    items: 1,
+    slideBy: 1,
+    loop: true,
+    autoplay: true,
+    controls: false,
+    speed: 500,
+    navContainer: '.carousel-nav-list',
+    autoplayButton: '.autoplay-buttons',
+    autoplayText: ["<i class='uc-icon play-button'>play_circle_filled</i>", "<i class='uc-icon pause-button'>pause_circle_filled</i>"]
+});
+
+var eventsCarousel = tns({
+    container: '.uc-carousel-events',
+    items: 1.05,
+    slideBy: 1,
+    gutter: 10,
+    loop: false,
+    nav: false,
+    //autoWidth: true,
+    prevButton: '#events-controls .prev',
+    nextButton: '#events-controls .next',
+    responsive: {
+        720: {
+            items: 2,
+            gutter: 32
+        },
+        960: {
+            items: 4
+        }
+    }
+});
