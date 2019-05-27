@@ -331,9 +331,9 @@
     <div class="row my-36">
         <div class="col-md-6">
             <div class="uc-card card-special card-quote">
-                <h4>Arriendo de espacios</h4>
-                <div class="uc-text-divider divider-primary"></div>
-                <p class="no-margin">Encuentra el espacio para tu evento, ya sea una actividad académica, gubernamental, corporativa o personal.</p>
+                <h4>Misión</h4>
+                <div class="uc-text-divider divider-primary my-12"></div>
+                <p class="no-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis eos facere, impedit molestiae, nam neque nostrum quasi sint suscipit tempore velit! Consectetur doloremque neque numquam tempora? Commodi, hic, sed.</p>
             </div>
         </div>
         <div class="col-md-2">
@@ -351,6 +351,14 @@
                     <p class="no-margin">Publicaciones <br>Scopus</p>
                 </div>
             </div>
+        </div>
+        <div class="col-lg-2">
+            <a href="#" class="uc-card card-underlined card-btn">
+                <div class="uc-card_body text-center">
+                    <div class="uc-icon icon-large">local_library</div>
+                    <p class="no-margin">Bibliotecas UC</p>
+                </div>
+            </a>
         </div>
     </div>
     <hr>

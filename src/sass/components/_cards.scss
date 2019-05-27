@@ -29,15 +29,20 @@
   &.card-special {
     background-color: $lightgrayc;
     transition: 100ms ease;
-    cursor: pointer;
-    &:hover {
-      background-color: $primaryblue;
-      text-decoration: none;
-      color: #fff;
-      .uc-text-divider.divider-primary {
-        background-color: #fff;
-      }
-    }
+    box-shadow: none;
+    border: none;
+    //cursor: pointer;
+    //&:hover {
+    //  background-color: $primaryblue;
+    //  text-decoration: none;
+    //  color: #fff;
+    //  .uc-icon {
+    //    color: #fff;
+    //  }
+    //  .uc-text-divider.divider-primary {
+    //    background-color: #fff;
+    //  }
+    //}
   }
   &.card-image {
     height: 532px;

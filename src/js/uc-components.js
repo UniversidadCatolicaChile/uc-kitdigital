@@ -4,16 +4,22 @@ import {Dropdown} from "./components/dropdown.js";
 import {Tab} from "./components/tab.js";
 import {ToolTip} from "./components/tooltip.js";
 
-import { tns } from "../../node_modules/tiny-slider/src/tiny-slider.js"
+import {DonutChart} from "./visualizations/donut-chart.js"
+import {BarChart} from "./visualizations/bar-chart.js"
+
+import {tns} from "../../node_modules/tiny-slider/src/tiny-slider.js"
+
+new DonutChart();
+new BarChart();
 
 const uc_kit_components = {
-    ac : new Accordion(),
-    modal : new Modal(),
+    ac: new Accordion(),
+    modal: new Modal(),
     drop: new Dropdown(),
     tab: new Tab(),
     tooltip: new ToolTip()
 };
-
+/*
 var imageCardsCarousel = tns({
     container: '.uc-carousel-cards_content',
     items: 1.05,
@@ -67,7 +73,7 @@ var homeCarousel = tns({
 
 var eventsCarousel = tns({
     container: '.uc-carousel-events',
-    items: 1.05,
+    items: 2.05,
     slideBy: 1,
     gutter: 10,
     loop: false,
@@ -85,3 +91,4 @@ var eventsCarousel = tns({
         }
     }
 });
+*/
