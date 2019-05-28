@@ -1,0 +1,60 @@
+{
+  "name": "comunidad",
+  "children": [
+    {
+      "name": "Estudiantes",
+      "children": [
+        {
+          "name": "Pregrado",
+          "size": 26197
+        },
+        {
+          "name": "Magíster",
+          "size": 3160
+        },
+        {
+          "name": "Doctorado",
+          "size": 1169
+        },
+        {
+          "name": "Postítulo",
+          "size": 744
+        }
+      ]
+    },
+    {
+      "name": "Académicos",
+      "children": [
+        {
+          "name": "Jornada completa",
+          "size": 1850
+        },
+        {
+          "name": "Media jornada",
+          "size": 499
+        },
+        {
+          "name": "Jornada parcial",
+          "size": 1206
+        }
+      ]
+    },
+    {
+      "name": "Personal",
+      "children": [
+        {
+          "name": "Profesionales",
+          "size": 1545
+        },
+        {
+          "name": "Administrativos",
+          "size": 1443
+        },
+        {
+          "name": "Personal de servicio",
+          "size": 285
+        }
+      ]
+    }
+  ]
+}

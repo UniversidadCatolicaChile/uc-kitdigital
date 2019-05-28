@@ -19,7 +19,7 @@ class DonutChart {
         var data = [
             {"title": 'UC', "value": 53},
             {"title": 'U. Chile', "value": 31},
-            {"title": 'Otras', "value": 14}
+            {"title": 'Otras', "value": 4}
         ];
 
         var percentageFormat = d3.format(".1%");
