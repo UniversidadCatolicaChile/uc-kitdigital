@@ -6,10 +6,12 @@ import {ToolTip} from "./components/tooltip.js";
 
 import {DonutChart} from "./visualizations/donut-chart.js"
 import {BarChart} from "./visualizations/bar-chart.js"
+import {DonutChartAlt} from "./visualizations/donut-chart-alt";
 
 import {tns} from "../../node_modules/tiny-slider/src/tiny-slider.js"
 
 new DonutChart();
+new DonutChartAlt();
 new BarChart();
 
 const uc_kit_components = {

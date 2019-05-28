@@ -1,0 +1,28 @@
+.uc-barchart-x-axis {
+  .domain {
+    stroke: #000000;
+    stroke-width: 2;
+  }
+  .tick {
+    line {
+      display: none;
+    }
+    text {
+      font-size: 14px;
+      fill: #808080;
+    }
+  }
+}
+
+.uc-barchart {
+  width: 100%;
+  .textlabel {
+    fill: #625194;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.uc-donutchart {
+  width: 100%;
+}
