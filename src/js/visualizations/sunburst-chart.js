@@ -34,7 +34,7 @@ class sunburstChart {
         var width = 500;
         var height = 500;
         var radius = Math.min(width, height) / 2;
-        var color = d3.scaleOrdinal(d3.schemePastel2);
+        var color = d3.scaleOrdinal(["#ffffff","#625194","#440636", "#F24F4F"]);
 
         // Create primary <g> element
         var g = d3.select('#uc-sunburst-chart')
@@ -43,7 +43,7 @@ class sunburstChart {
             .append('g')
             .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
 
-        // Data strucure
+        // Data structure
         var partition = d3.partition()
             .size([2 * Math.PI, radius]);
 
@@ -89,6 +89,7 @@ class sunburstChart {
             return (angle < 180) ? angle - 90 : angle + 90;  // <-- 3 "labels as spokes"
         }
         */
+
         var width = 960,
             height = 700,
             radius = (Math.min(width, height) / 2) - 10;
@@ -101,8 +102,8 @@ class sunburstChart {
         var y = d3.scaleSqrt()
             .range([0, radius]);
 
-        var color = d3.scaleOrdinal(["#625194","#440636", "#F24F4F"]);
-
+        var color = d3.scaleOrdinal(["#ffffff","#625194","#440636", "#F24F4F"]);
+        console.log(color);
         var partition = d3.partition();
 
         var arc = d3.arc()
@@ -127,6 +128,7 @@ class sunburstChart {
                 .attr("d", arc)
                 .style("fill", function(d) { return color((d.children ? d : d.parent).data.name); })
                 .attr("stroke", "white")
+                .attr("stroke-width", "2")
                 .on("click", click)
                 .append("title")
                 .text(function(d) { return d.data.name + "\n" + formatNumber(d.value); })
@@ -140,7 +142,7 @@ class sunburstChart {
                     return "translate(" + arc.centroid(d) + ")rotate(0)"; })
                 .attr("dx", "-20") // radius margin
                 .attr("dy", ".5em") // rotation align
-                .text(function(d) { return d.data.name + "\n" + formatNumber(d.value); });
+                //.text(function(d) { return d.data.name + "\n" + formatNumber(d.value); });
         });
 
         function computeTextRotation(d) {
