@@ -23,7 +23,6 @@ a {
 @for $i from 1 through 6 {
   h#{$i} {
     font-family: 'Roboto', sans-serif;
-    display: inline-block;
     margin: 0;
   }
 }

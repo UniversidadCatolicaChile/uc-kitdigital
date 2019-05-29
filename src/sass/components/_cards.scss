@@ -208,7 +208,7 @@ a.uc-card {
 }
 */
 
-$card-bg-height: 532px;
+$card-bg-height: 456px;
 
 .uc-card {
   display: flex;
@@ -221,6 +221,11 @@ $card-bg-height: 532px;
   border: 1px solid #EAEAEA;
   border-radius: $small-radius;
   box-shadow: $primary-shadow;
+
+  /*
+  * Modificadores
+  */
+
   // background
   &.card-bg--white {
     background-color: #fff;
@@ -234,7 +239,9 @@ $card-bg-height: 532px;
   &.card-bg--image {
     background-size: cover;
     background-position: center center;
+    height: $card-bg-height;
   }
+
   // border
   &.card-border--none {
     border: none;
@@ -242,6 +249,7 @@ $card-bg-height: 532px;
   &.card-border--bottom {
     border-bottom: 8px solid $primaryblue;
   }
+
   // border radius
   &.card-radius--md {
     border-radius: $medium-radius;
@@ -249,11 +257,164 @@ $card-bg-height: 532px;
   &.card-radius--none {
     border-radius: 0;
   }
+
   // shadows
   &.card-shadow--md {
     box-shadow: $primary-shadow;
   }
   &.card-shadow--none {
     box-shadow: none;
+  }
+
+  // gradients
+  &.card-gradient--bottom-blue {
+    &:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 50%;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(-180deg,transparent,#08275c 96%);
+    }
+  }
+  &.card-gradient--top-black {
+    &:before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 70%;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(0deg, rgba(43,76,137,0.00) 30%, rgba(0,0,0,0.70) 90%);
+    }
+  }
+
+  // card same height
+  &.card-height--same {
+    @include media-breakpoint-up(lg) {
+      height: 100%;
+    }
+  }
+
+  // card horizontal
+  &.card-type--horizontal {
+    flex-direction: row;
+  }
+
+  // card in grids
+  &.card-type--grid {
+    width: 100%;
+    height: 100%;
+  }
+
+  // card event
+  &.card-type--event {
+    overflow: visible;
+    .card-type--date {
+      position: absolute;
+      top: -24px;
+      left: 24px;
+    }
+  }
+  &.card-type--date {
+    border-top: 4px solid $primaryblue;
+    display: flex;
+    flex-direction: row;
+    padding: 4px 12px;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+    align-self: flex-start;
+    .day {
+      font-size: 34px;
+      font-weight: bold;
+      line-height: 1.1;
+      margin-right: 12px;
+    }
+    .month {
+      font-size: 17px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+  .uc-card_event--content {
+    margin-top: 20px;
+    .date, .time, .venue {
+      margin: 0;
+      margin-bottom: 6px;
+      padding-left: 20px;
+      position: relative;
+      &:before {
+        font-family: 'Material Icons';
+        font-size: 14px;
+        vertical-align: middle;
+        position: absolute;
+        left: 0;
+      }
+    }
+    .date {
+      &:before {
+        content: 'date_range';
+      }
+    }
+    .time {
+      &:before {
+        content: 'access_time';
+      }
+    }
+    .venue {
+      &:before {
+        content: 'location_on';
+      }
+    }
+  }
+
+  /*
+  * Hijos
+  */
+
+  // card body
+  .uc-card_body {
+    padding: 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    @include media-breakpoint-up(lg) {
+      padding: 24px;
+    }
+  }
+  .uc-card_body--sm {
+    @extend .uc-card_body;
+    padding: 16px;
+  }
+  .uc-card_body--lg {
+    @extend .uc-card_body;
+    padding: 36px;
+  }
+  .uc-card_body--xl {
+    @extend .uc-card_body;
+    padding: 48px;
+  }
+
+  // card tag fixed
+  .tag-fixed {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    @include media-breakpoint-up(lg) {
+      top: 24px;
+      left: 24px;
+    }
+  }
+}
+
+a.uc-card {
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+    h1, h2, h3, h4, h5, h6 {
+      text-decoration: underline;
+    }
   }
 }
