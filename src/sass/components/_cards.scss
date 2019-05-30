@@ -208,7 +208,7 @@ a.uc-card {
 }
 */
 
-$card-bg-height: 456px;
+$card-bg-height: 532px;
 
 .uc-card {
   display: flex;
@@ -221,11 +221,9 @@ $card-bg-height: 456px;
   border: 1px solid #EAEAEA;
   border-radius: $small-radius;
   box-shadow: $primary-shadow;
-
   /*
   * Modificadores
   */
-
   // background
   &.card-bg--white {
     background-color: #fff;
@@ -241,7 +239,6 @@ $card-bg-height: 456px;
     background-position: center center;
     height: $card-bg-height;
   }
-
   // border
   &.card-border--none {
     border: none;
@@ -249,7 +246,6 @@ $card-bg-height: 456px;
   &.card-border--bottom {
     border-bottom: 8px solid $primaryblue;
   }
-
   // border radius
   &.card-radius--md {
     border-radius: $medium-radius;
@@ -257,7 +253,6 @@ $card-bg-height: 456px;
   &.card-radius--none {
     border-radius: 0;
   }
-
   // shadows
   &.card-shadow--md {
     box-shadow: $primary-shadow;
@@ -265,7 +260,6 @@ $card-bg-height: 456px;
   &.card-shadow--none {
     box-shadow: none;
   }
-
   // gradients
   &.card-gradient--bottom-blue {
     &:before {
@@ -289,25 +283,21 @@ $card-bg-height: 456px;
       background-image: linear-gradient(0deg, rgba(43,76,137,0.00) 30%, rgba(0,0,0,0.70) 90%);
     }
   }
-
   // card same height
   &.card-height--same {
     @include media-breakpoint-up(lg) {
       height: 100%;
     }
   }
-
   // card horizontal
   &.card-type--horizontal {
     flex-direction: row;
   }
-
   // card in grids
   &.card-type--grid {
     width: 100%;
     height: 100%;
   }
-
   // card event
   &.card-type--event {
     overflow: visible;
@@ -369,11 +359,9 @@ $card-bg-height: 456px;
       }
     }
   }
-
   /*
   * Hijos
   */
-
   // card body
   .uc-card_body {
     padding: 20px;
@@ -396,7 +384,6 @@ $card-bg-height: 456px;
     @extend .uc-card_body;
     padding: 48px;
   }
-
   // card tag fixed
   .tag-fixed {
     position: absolute;

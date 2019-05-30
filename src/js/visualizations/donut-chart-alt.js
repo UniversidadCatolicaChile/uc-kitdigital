@@ -17,14 +17,15 @@ class DonutChartAlt{
             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
         var obj = [
-            {"title": "UC", "value": 53, "max": 100}
+            {"title": "UC", "value": 70, "max": 100},
+            {"title": "otro", "value": 30, "max": 100}
         ];
 
         var data = [];
         for (var key in obj) {
             data.push({
                 name: obj[key].title,
-                value: obj[key].max
+                value: obj[key].value
             });
         }
 
@@ -65,7 +66,7 @@ class DonutChartAlt{
             .data(data_ready)
             .enter()
             .append('text')
-            .text((d) => percentageFormat(d.data.value.percentage))
+            //.text((d) => percentageFormat(d.data.value.percentage))
             .attr("fill", "#440636")
             //.attr("transform", (d, i) => "translate(0,"+ i * 40 +")")
             .attr("style", "font-size: 20px; font-weight: bold")

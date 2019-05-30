@@ -9,6 +9,7 @@ import {DonutChart} from "./visualizations/donut-chart.js"
 import {BarChart} from "./visualizations/bar-chart.js"
 import {DonutChartAlt} from "./visualizations/donut-chart-alt";
 import {sunburstChart} from "./visualizations/sunburst-chart.js";
+import {sunburstChartAlt} from "./visualizations/sunburst-chart-alt";
 
 
 // componentes interactivos
@@ -26,4 +27,5 @@ new DonutChart();
 new DonutChartAlt();
 new BarChart();
 new sunburstChart();
+new sunburstChartAlt();
 

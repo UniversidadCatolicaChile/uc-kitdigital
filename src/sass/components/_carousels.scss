@@ -10,7 +10,7 @@
   }
   .uc-carousel-nav {
     position: relative;
-    bottom: 80px;
+    bottom: 60px;
     .carousel-nav-container {
       display: flex;
     }
@@ -23,17 +23,18 @@
     }
     .carousel-nav-item {
       cursor: pointer;
-      font-size: 12px;
+      font-size: 16px;
+      text-align: center;
       font-weight: 700;
       margin-left: auto;
       color: rgba(255,255,255,0.35);
       transition: .3s ease;
       &:not(:first-child){
-        margin-left: 8px;
+        margin-left: 24px;
       }
       .indicator {
-        width: 77px;
-        height: 6px;
+        width: 32px;
+        height: 2px;
         position: relative;
         background-color: rgba(255,255,255,0.35);
         transition: .3s ease;
@@ -66,7 +67,7 @@
       }
     }
     .autoplay-buttons {
-      margin-left: 8px;
+      margin-left: 24px;
       cursor: pointer;
       .uc-icon {
         color: #fff;

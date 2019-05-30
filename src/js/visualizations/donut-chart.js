@@ -28,7 +28,7 @@ class DonutChart {
 
         var color = d3.scaleOrdinal()
             .domain([data])
-            .range(["#625194","#440636", "#F24F4F"]);
+            .range(["#F24F4F", "#625194","#440636"]);
 
         var pie = d3.pie()
             .value((d) => d.value.value);
