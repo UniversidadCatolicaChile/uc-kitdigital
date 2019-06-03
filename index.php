@@ -400,21 +400,22 @@
     <h2>Cards de imágenes</h2>
     <div class="row mb-60">
         <div class="col-md-4">
-            <div class="uc-card card-hovered">
-                <h4 class="text-white">Innovación</h4>
-                <div class="uc-text-divider divider-primary my-12"></div>
-                <p class="text-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
-                <a href="#" class="uc-btn btn-primary mt-auto">
-                    Más información
-                    <i class="uc-icon icon-rounded">arrow_forward</i>
-                </a>
+            <div class="uc-card card-bg--blue card-type--grid">
+                <div class="uc-card_body">
+                    <h4 class="color-white">Innovación</h4>
+                    <div class="uc-text-divider divider-primary my-12"></div>
+                    <p class="color-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
+                    <a href="#" class="uc-btn btn-primary mt-auto">
+                        Más información
+                        <i class="uc-icon icon-rounded">arrow_forward</i>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="uc-card card-gradient card-hoverable">
-                <img src="http://via.placeholder.com/385x400" class="image" alt="">
+            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('http://via.placeholder.com/385x400');">
                 <div class="mt-auto uc-card_overlay">
-                    <h4 class="text-white">Innovación</h4>
+                    <h4 class="color-white">Innovación</h4>
                     <div class="uc-text-divider divider-primary mt-12"></div>
                 </div>
             </div>
@@ -423,13 +424,13 @@
             <div class="uc-card card-gradient card-hoverable">
                 <img src="http://via.placeholder.com/385x400" class="image" alt="">
                 <div class="mt-auto uc-card_overlay">
-                    <h4 class="text-white">Innovación</h4>
+                    <h4 class="color-white">Innovación</h4>
                     <div class="uc-text-divider divider-primary mt-12"></div>
                 </div>
                 <div class="uc-card card-hovered">
-                    <h4 class="text-white">Innovación</h4>
+                    <h4 class="color-white">Innovación</h4>
                     <div class="uc-text-divider divider-primary my-12"></div>
-                    <p class="text-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
+                    <p class="color-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
                     <a href="#" class="uc-btn btn-primary mt-auto">
                         Más información
                         <i class="uc-icon icon-rounded">arrow_forward</i>
@@ -731,14 +732,14 @@
     <div class="row my-40">
         <div class="col-lg-8">
             <div class="uc-message mb-32">
-                <a href="#" class="close-button"><i class="uc-icon">close</i></a>
+                <a href="#" class="uc-message_close-button"><i class="uc-icon">close</i></a>
                 <div class="uc-message_body">
                     <h2 class="mb-24">Evacuación por posible bomba</h2>
                     <p class="no-margin">Ante el aviso de una posible bomba, y como medida de precaución, se solicita a la comunidad UC de Campus San Joaquín , evacuar el campus a la brevedad. Todos deben dirigirse a la salida más cercana y seguir las instrucciones del personal de seguridad. Carabineros ya está en el lugar evaluando la situación.</p>
                 </div>
             </div>
             <div class="uc-message warning mb-32">
-                <a href="#" class="close-button"><i class="uc-icon">close</i></a>
+                <a href="#" class="uc-message_close-button"><i class="uc-icon">close</i></a>
                 <div class="uc-message_body">
                     <i class="uc-icon warning-icon">warning</i>
                     <h2 class="mb-24">Evacuación Fuga de Gas</h2>
@@ -759,7 +760,7 @@
                 </div>
             </div>
             <div class="uc-message error mb-32">
-                <a href="#" class="close-button"><i class="uc-icon">close</i></a>
+                <a href="#" class="uc-message_close-button"><i class="uc-icon">close</i></a>
                 <div class="uc-message_body">
                     <i class="uc-icon warning-icon">error</i>
                     <h2 class="mb-24">Evacuación por posible bomba</h2>
@@ -833,60 +834,60 @@
     <h2>Menús</h2>
     <div class="row my-40">
         <div class="col-lg-12 mb-60">
-            <div class="uc-dropdown_nav">
+            <div class="uc-menu">
                 <div class="triangle blue"></div>
-                <ul class="uc-dropdown_nav_list first-level">
-                    <li class="uc-dropdown_nav_list_item dropdown-nav">
+                <ul class="uc-menu_list first-level">
+                    <li class="uc-menu_list-item dropdown-nav">
                         <a href="" class="uc-btn">
                             <span class="title">Carreras y Programas de Pregrado</span>
                             <i class="uc-icon">arrow_right</i>
                         </a>
                         <div class="dropdown-content">
-                            <ul class="uc-dropdown_nav_list">
-                                <li class="uc-dropdown_nav_list_item">
+                            <ul class="uc-menu_list">
+                                <li class="uc-menu_list-item">
                                     <a href="#" class="uc-btn">
                                         <span class="title">Carreras de Pregrado</span>
                                         <i class="uc-icon">launch</i>
                                     </a>
                                 </li>
-                                <li class="uc-dropdown_nav_list_item">
+                                <li class="uc-menu_list-item">
                                     <a href="#" class="uc-btn">
                                         <span class="title">Major y Minor</span>
                                     </a>
                                 </li>
                             </ul>
-                            <ul class="uc-dropdown_nav_list">
-                                <li class="uc-dropdown_nav_list_item">
+                            <ul class="uc-menu_list">
+                                <li class="uc-menu_list-item">
                                     <a href="#" class="uc-btn">Programas interdisciplinarios</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li class="uc-dropdown_nav_list_item">
+                    <li class="uc-menu_list-item">
                         <a href="" class="uc-btn">
                             <span class="title">Postgrado</span>
                             <i class="uc-icon">arrow_right</i>
                         </a>
                     </li>
-                    <li class="uc-dropdown_nav_list_item">
+                    <li class="uc-menu_list-item">
                         <a href="" class="uc-btn">
                             <span class="title">Educación Continua</span>
                             <i class="uc-icon">arrow_right</i>
                         </a>
                     </li>
-                    <li class="uc-dropdown_nav_list_item">
+                    <li class="uc-menu_list-item">
                         <a href="" class="uc-btn">
                             <span class="title">UC Online</span>
                             <i class="uc-icon">launch</i>
                         </a>
                     </li>
-                    <li class="uc-dropdown_nav_list_item">
+                    <li class="uc-menu_list-item">
                         <a href="" class="uc-btn">
                             <span class="title">Proyecto educativo</span>
                             <i class="uc-icon">launch</i>
                         </a>
                     </li>
-                    <li class="uc-dropdown_nav_list_item">
+                    <li class="uc-menu_list-item">
                         <a href="" class="uc-btn">
                             <span class="title">Catálogo de cursos</span>
                             <i class="uc-icon">launch</i>

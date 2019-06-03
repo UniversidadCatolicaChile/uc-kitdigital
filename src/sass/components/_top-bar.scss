@@ -20,24 +20,24 @@
   .mobile-logo img {
     min-width: 185px;
   }
-  .top-bar_links {
+  .top-bar_links-container {
     justify-content: space-between;
-    .top-bar_links {
-      display: flex;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      li {
-        line-height: 1;
+  }
+  .top-bar_links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      line-height: 1;
+      padding-right: 10px;
+      &:not(:first-child) {
+        border-left: 1px solid #8B9FC4;
+        padding-left: 10px;
         padding-right: 10px;
-        &:not(:first-child) {
-          border-left: 1px solid #8B9FC4;
-          padding-left: 10px;
-          padding-right: 10px;
-        }
-        &:last-child {
-          padding-right: 0;
-        }
+      }
+      &:last-child {
+        padding-right: 0;
       }
     }
   }

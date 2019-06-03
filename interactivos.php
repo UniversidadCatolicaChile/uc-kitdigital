@@ -3,16 +3,16 @@
     <div class="uc-tabpanel" data-tabpanel>
         <ul class="uc-tabs">
             <li class="uc-tabs_item">
-                <a href="javascript:void(0);" class="uc-tabs_item_link" data-tabtarget="tab-01" data-tabactive>Tab 1</a>
+                <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-01" data-tabactive>Tab 1</a>
             </li>
             <li class="uc-tabs_item">
-                <a href="javascript:void(0);" class="uc-tabs_item_link" data-tabtarget="tab-02">Tab 2</a>
+                <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-02">Tab 2</a>
             </li>
             <li class="uc-tabs_item">
-                <a href="javascript:void(0);" class="uc-tabs_item_link" data-tabtarget="tab-03">Tab 3</a>
+                <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-03">Tab 3</a>
             </li>
             <li class="uc-tabs_item">
-                <a href="javascript:void(0);" class="uc-tabs_item_link" data-tabtarget="tab-04">Tab 4</a>
+                <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-04">Tab 4</a>
             </li>
         </ul>
         <div class="uc-tab-body">
@@ -35,16 +35,36 @@
             <a href="#" class="uc-btn btn-inline dropbtn" data-dtarget="prueba">Ítem del menú</a>
             <div data-dropdown="prueba" class="uc-dropdown_list">
                 <div class="white-triangle"></div>
-                <div class="uc-dropdown_list_item">
+                <div class="uc-dropdown_list-item">
                     <a href="#" class="uc-btn">Construcción y vivienda</a>
                 </div>
-                <div class="uc-dropdown_list_item">
+                <div class="uc-dropdown_list-item">
                     <a href="#" class="uc-btn">Educación</a>
                 </div>
-                <div class="uc-dropdown_list_item">
+                <div class="uc-dropdown_list-item">
                     <a href="#" class="uc-btn">Fortalecimiento de organizaciones</a>
                 </div>
-                <div class="uc-dropdown_list_item">
+                <div class="uc-dropdown_list-item">
+                    <a href="#" class="uc-btn">Pastoral</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my-60">
+        <div class="uc-dropdown">
+            <a href="#" class="uc-btn btn-inline dropbtn" data-dtarget="prueba01">Ítem del menú</a>
+            <div data-dropdown="prueba01" class="uc-dropdown_list">
+                <div class="white-triangle"></div>
+                <div class="uc-dropdown_list-item">
+                    <a href="#" class="uc-btn">Construcción y vivienda</a>
+                </div>
+                <div class="uc-dropdown_list-item">
+                    <a href="#" class="uc-btn">Educación</a>
+                </div>
+                <div class="uc-dropdown_list-item">
+                    <a href="#" class="uc-btn">Fortalecimiento de organizaciones</a>
+                </div>
+                <div class="uc-dropdown_list-item">
                     <a href="#" class="uc-btn">Pastoral</a>
                 </div>
             </div>

@@ -18,6 +18,10 @@ a {
     text-decoration: underline;
     color: $primaryblue;
   }
+  .uc-icon {
+    font-size: 16px;
+    vertical-align: middle;
+  }
 }
 
 @for $i from 1 through 6 {
@@ -97,18 +101,18 @@ p, .p {
   @include media-breakpoint-up(lg) {
     line-height: 1.5;
   }
-  &.p-large {
-    font-size: 1.125em;
-    line-height: 1.7;
-  }
-  &.p-small {
+  &.p-size--sm {
     font-size: 0.875em;
     line-height: 1.5;
     @include media-breakpoint-up(lg) {
       line-height: 1.1;
     }
   }
-  &.p-xlarge {
+  &.p-size--lg {
+    font-size: 1.125em;
+    line-height: 1.7;
+  }
+  &.p-size--xl {
     font-size: 1.25em;
     line-height: 1.4;
     letter-spacing: 0.6px;
@@ -118,22 +122,22 @@ p, .p {
       letter-spacing: 0.18px;
     }
   }
-  &.p-gray {
+  &.p-color--gray {
     color: $gray;
   }
-  &.p-condensed {
+  &.p-text--condensed {
     letter-spacing: 0;
   }
-  &.p-extended {
+  &.p-text--extended {
     letter-spacing: 1px;
   }
 }
 
-.text-medium {
+.text-weight--medium {
    font-weight: 500;
  }
 
-.text-bold {
+.text-weight--bold {
   font-weight: 700;
 }
 
@@ -141,13 +145,6 @@ p, .p {
   font-size: 1em;
   color: $primaryblue;
   letter-spacing: 0.51px;
-  &.link-secondary {
-    color: #fff;
-  }
-  .uc-icon {
-    font-size: 16px;
-    vertical-align: middle;
-  }
   &.external {
     &::after {
       content: 'launch';
@@ -168,7 +165,7 @@ p, .p {
     font-size: 1.5em;
     letter-spacing: 0.18px;
   }
-  &.quote-large {
+  &.quote-lg {
     font-size: 1.5em;
     font-weight: bold;
     @include media-breakpoint-up(lg) {

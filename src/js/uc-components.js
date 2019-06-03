@@ -11,7 +11,6 @@ import {DonutChartAlt} from "./visualizations/donut-chart-alt";
 import {sunburstChart} from "./visualizations/sunburst-chart.js";
 import {sunburstChartAlt} from "./visualizations/sunburst-chart-alt";
 
-
 // componentes interactivos
 const uc_kit_components = {
     ac: new Accordion(),
