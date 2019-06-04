@@ -103,12 +103,6 @@
     &:first-child {
       border-top: 1px solid $lightgraya;
     }
-    .uc-icon {
-      color: $primaryblue;
-      &.icon-rounded {
-        color: #fff;
-      }
-    }
   }
   &.btn-inline {
     display: inline-flex;

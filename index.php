@@ -7,7 +7,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-primary">
                 Más información
-                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
+                <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
@@ -19,7 +19,7 @@
         <div class="col-md-6">
             <a href="#" class="uc-btn btn-primary">
                 Más Información
-                <i class="uc-icon icon-rounded">arrow_forward</i>
+                <i class="uc-icon icon-shape--rounded">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -51,7 +51,7 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-featured">
                 Text
-                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
+                <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
             </a>
         </div>
     </div>
@@ -59,27 +59,27 @@
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-inline">
                 Texto
-                <i class="uc-icon icon-rounded">add</i>
+                <i class="uc-icon icon-shape--rounded">add</i>
             </a>
         </div>
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
+                <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
+                <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
             </a>
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon icon-rounded icon-small">arrow_forward</i>
+                <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
             </a>
         </div>
         <div class="col-md-3">
             <a href="#" class="uc-btn btn-listed">
                 Text
-                <i class="uc-icon icon-small">launch</i>
+                <i class="uc-icon icon-size--sm">launch</i>
             </a>
         </div>
     </div>
@@ -171,7 +171,7 @@
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
                 <div class="uc-card_body">
-                    <p class="small gray condensed">18 Marzo 2018</p>
+                    <p class="p-size--sm p-color--gray p-text--condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="text-right mt-24">
                         <a href="#" class="uc-btn btn-inline">
@@ -189,7 +189,7 @@
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
                 <div class="uc-card_body">
-                    <p class="small gray condensed">18 Marzo 2018</p>
+                    <p class="p-size--sm p-color--gray p-text--condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue.</p>
@@ -207,13 +207,13 @@
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
                 <div class="uc-card_body">
-                    <p class="small gray condensed">18 Marzo 2018</p>
+                    <p class="p-size--sm p-color--gray p-text--condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. Nullam porta pellentesque finibus. </p>
                     <a href="#" class="uc-btn btn-primary mt-auto">
                         Más información
-                        <i class="uc-icon icon-rounded">arrow_forward</i>
+                        <i class="uc-icon icon-shape--rounded">arrow_forward</i>
                     </a>
                 </div>
             </div>
@@ -222,7 +222,7 @@
             <div class="uc-card card-same-height">
                 <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
                 <div class="uc-card_body">
-                    <p class="small gray condensed">18 Marzo 2018</p>
+                    <p class="p-size--sm p-color--gray p-text--condensed">18 Marzo 2018</p>
                     <h4>Lorem ipsum dolor sit amet</h4>
                     <div class="uc-text-divider divider-primary"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. </p>
@@ -278,7 +278,7 @@
                     “Lo que más me gusta de la Universidad es la diversidad que tiene: de personas y campos de estudio. Uno sale al patio y se encuentra con gente que está estudiando el Major en Ciencias de la Ingeniería, mientras yo estoy en el de Letras. Ese encuentro de gente tan distinta, es lo que más me atrae.”
                 </p>
                 <p class="no-margin"><strong>Javier Cristómo</strong></p>
-                <p class="gray no-margin">Estudiante UC</p>
+                <p class="p-color--gray no-margin">Estudiante UC</p>
             </div>
         </div>
         <div class="col-md-6">
@@ -298,7 +298,7 @@
         <div class="col-md-4">
             <a href="#" class="uc-card">
                 <div class="uc-card_body">
-                    <p class="small gray condensed">18 Marzo 2018</p>
+                    <p class="p-size--sm gray p-text--condensed">18 Marzo 2018</p>
                     <h3>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h3>
                     <div class="uc-text-divider divider-primary"></div>
                 </div>
@@ -347,7 +347,7 @@
         <div class="col-md-2">
             <div class="uc-card card-underlined">
                 <div class="uc-card_body text-center">
-                    <div class="uc-icon icon-large">local_library</div>
+                    <div class="uc-icon icon-size--xl">local_library</div>
                     <p class="no-margin">Publicaciones <br>Scopus</p>
                 </div>
             </div>
@@ -355,7 +355,7 @@
         <div class="col-lg-2">
             <a href="#" class="uc-card card-underlined card-btn">
                 <div class="uc-card_body text-center">
-                    <div class="uc-icon icon-large">local_library</div>
+                    <div class="uc-icon icon-size--xl">local_library</div>
                     <p class="no-margin">Bibliotecas UC</p>
                 </div>
             </a>
@@ -407,7 +407,7 @@
                     <p class="color-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
                     <a href="#" class="uc-btn btn-primary mt-auto">
                         Más información
-                        <i class="uc-icon icon-rounded">arrow_forward</i>
+                        <i class="uc-icon icon-shape--rounded">arrow_forward</i>
                     </a>
                 </div>
             </div>
@@ -433,7 +433,7 @@
                     <p class="color-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
                     <a href="#" class="uc-btn btn-primary mt-auto">
                         Más información
-                        <i class="uc-icon icon-rounded">arrow_forward</i>
+                        <i class="uc-icon icon-shape--rounded">arrow_forward</i>
                     </a>
                 </div>
             </div>
@@ -446,7 +446,7 @@
                 <a href="#" class="uc-tag">Carrera de Pregrado</a>
                 <div class="uc-card mt-auto">
                     <div class="uc-card_body">
-                        <p class="small gray condensed">18 Marzo 2018</p>
+                        <p class="p-size--sm gray p-text--condensed">18 Marzo 2018</p>
                         <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
                         <div class="uc-text-divider divider-primary"></div>
                     </div>
@@ -753,7 +753,7 @@
                         <div class="col-md-6 text-right">
                             <a href="#" class="uc-link uc-btn btn-inline">
                                 Más información
-                                <i class="uc-icon icon-rounded">arrow_forward</i>
+                                <i class="uc-icon icon-shape--rounded">arrow_forward</i>
                             </a>
                         </div>
                     </div>
@@ -774,7 +774,7 @@
                         <div class="col-md-6 text-right">
                             <a href="#" class="uc-btn btn-inline">
                                 Más información
-                                <i class="uc-icon icon-rounded">arrow_forward</i>
+                                <i class="uc-icon icon-shape--rounded">arrow_forward</i>
                             </a>
                         </div>
                     </div>
@@ -788,44 +788,44 @@
         <div class="col-md-8 mb-12">
             <div class="uc-alert warning">
                 <div class="uc-alert_content">
-                    <i class="uc-icon icon-small">warning</i>
-                    <span class="p small bold ml-8">Alerta, descripción</span>
+                    <i class="uc-icon icon-size--sm">warning</i>
+                    <span class="p p-size--sm bold ml-8">Alerta, descripción</span>
                 </div>
                 <div class="uc-alert_close">
-                    <i class="uc-icon icon-small">close</i>
+                    <i class="uc-icon icon-size--sm">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
             <div class="uc-alert error">
                 <div class="uc-alert_content">
-                    <i class="uc-icon icon-small">cancel</i>
-                    <span class="p small bold ml-8">Error, descripción</span>
+                    <i class="uc-icon icon-size--sm">cancel</i>
+                    <span class="p p-size--sm bold ml-8">Error, descripción</span>
                 </div>
                 <div class="uc-alert_close">
-                    <i class="uc-icon icon-small">close</i>
+                    <i class="uc-icon icon-size--sm">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
             <div class="uc-alert info">
                 <div class="uc-alert_content">
-                    <i class="uc-icon icon-small">info</i>
-                    <span class="p small bold ml-8">Información, descripción</span>
+                    <i class="uc-icon icon-size--sm">info</i>
+                    <span class="p p-size--sm bold ml-8">Información, descripción</span>
                 </div>
                 <div class="uc-alert_close">
-                    <i class="uc-icon icon-small">close</i>
+                    <i class="uc-icon icon-size--sm">close</i>
                 </div>
             </div>
         </div>
         <div class="col-md-8 mb-12">
             <div class="uc-alert success">
                 <div class="uc-alert_content">
-                    <i class="uc-icon icon-small">check_circle</i>
-                    <span class="p small bold ml-8">Éxito, descripción</span>
+                    <i class="uc-icon icon-size--sm">check_circle</i>
+                    <span class="p p-size--sm bold ml-8">Éxito, descripción</span>
                 </div>
                 <div class="uc-alert_close">
-                    <i class="uc-icon icon-small">close</i>
+                    <i class="uc-icon icon-size--sm">close</i>
                 </div>
             </div>
         </div>
@@ -939,31 +939,31 @@
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Acreditación UC
-                            <i class="uc-icon icon-small">launch</i>
+                            <i class="uc-icon icon-size--sm">launch</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Campo Audiovisual
-                            <i class="uc-icon icon-small">launch</i>
+                            <i class="uc-icon icon-size--sm">launch</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Campo Audiovisual
-                            <i class="uc-icon icon-small">launch</i>
+                            <i class="uc-icon icon-size--sm">launch</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Acreditación UC
-                            <i class="uc-icon icon-small">launch</i>
+                            <i class="uc-icon icon-size--sm">launch</i>
                         </a>
                     </li>
                     <li>
                         <a href="#" class="uc-btn btn-listed">
                             Campo Audiovisual
-                            <i class="uc-icon icon-small">launch</i>
+                            <i class="uc-icon icon-size--sm">launch</i>
                         </a>
                     </li>
                 </ul>
@@ -989,7 +989,7 @@
                     <h6>Título Colapsable</h6>
                     <a href="#" class="uc-btn btn-inline ml-auto">
                         Ver más
-                        <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
+                        <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
                     </a>
                 </div>
                 <div class="uc-collapse_body">

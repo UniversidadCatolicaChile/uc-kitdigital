@@ -12,12 +12,12 @@
     > * {
       pointer-events: none;
     }
-    .uc-icon.icon-rounded {
+    .uc-icon.icon-shape--rounded {
       transition: .2s ease;
     }
     &:hover {
       text-decoration: none;
-      .uc-icon.icon-rounded {
+      .uc-icon.icon-shape--rounded {
         color: #173F8A;
         background-color: #FEC60D;
       }
@@ -26,7 +26,7 @@
       outline: none;
     }
     &.js-accordion-active-element {
-      .uc-icon.icon-rounded {
+      .uc-icon.icon-shape--rounded {
         color: #173F8A;
         background-color: #FEC60D;
         transform: rotate(180deg);

@@ -20,28 +20,31 @@
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
   font-feature-settings: 'liga';
-  &.icon-gray {
+  &.icon-color--gray {
     color: $gray;
   }
-  &.icon-white {
+  &.icon-color--white {
     color: #fff;
   }
-  &.icon-rounded {
+  &.icon-shape--rounded {
     background-color: $primaryblue;
     color: #fff;
     border-radius: 50%;
     padding: 4px;
     font-size: 16px;
-    &.icon-small {
+    &.icon-size--sm {
       padding: 3px 3.5px;
       font-size: 11px !important;
     }
   }
-  &.icon-small {
+  &.icon-size--sm {
     font-size: 16px;
     line-height: 1.1;
   }
-  &.icon-large {
+  &.icon-size--lg {
+    font-size: 42px;
+  }
+  &.icon-size--xl {
     font-size: 57px;
   }
 }

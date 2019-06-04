@@ -78,7 +78,7 @@
                         <h4>Título Colapsable</h4>
                         <span class="uc-btn btn-inline ml-auto">
                             Ver más
-                            <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
+                            <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
                         </span>
                     </a>
                     <div class="uc-collapse_body" data-toggle="collapseExample">
@@ -96,10 +96,10 @@
                 <div class="uc-accordion" data-accordion>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
-                            <h4>Título Acordeón</h4>
+                            <h4>Título primer acordeón</h4>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
-                            <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
+                            <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
                         </span>
                         </a>
                         <div class="uc-collapse_body" data-toggle="collapseExample01">
@@ -110,10 +110,10 @@
                     </div>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
-                            <h4>Título Acordeón</h4>
+                            <h4>Título segundo acordeón</h4>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
-                            <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
+                            <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
                         </span>
                         </a>
                         <div class="uc-collapse_body" data-toggle="collapseExample02">
@@ -124,10 +124,10 @@
                     </div>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse_heading" data-collapse="collapseExample03">
-                            <h4>Título Acordeón</h4>
+                            <h4>Título tercer acordeón</h4>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
-                            <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
+                            <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
                         </span>
                         </a>
                         <div class="uc-collapse_body" data-toggle="collapseExample03">
@@ -138,10 +138,10 @@
                     </div>
                     <div class="uc-collapse uc-card">
                         <a href="#" class="uc-collapse_heading" data-collapse="collapseExample04">
-                            <h4>Título Acordeón</h4>
+                            <h4>Título cuarto acordeón</h4>
                             <span class="uc-btn btn-inline ml-auto">
                             Ver más
-                            <i class="uc-icon icon-rounded">keyboard_arrow_down</i>
+                            <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
                         </span>
                         </a>
                         <div class="uc-collapse_body" data-toggle="collapseExample04">
@@ -187,7 +187,7 @@
                         <div class="col-md-6 text-right">
                             <a href="#" class="uc-btn btn-inline">
                                 Más información
-                                <i class="uc-icon icon-rounded">arrow_forward</i>
+                                <i class="uc-icon icon-shape--rounded">arrow_forward</i>
                             </a>
                         </div>
                     </div>
