@@ -5,6 +5,6 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Componentes Kit UC</title>
-    <link rel="stylesheet" href="dist/css/uc-components-v2.0.0.css">
+    <link rel="stylesheet" href="dist/css/uc-components-v1.1.0.css">
 </head>
 <body>

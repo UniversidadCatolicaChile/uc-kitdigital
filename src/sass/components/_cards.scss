@@ -179,36 +179,6 @@ a.uc-card {
 }
 */
 
-.card-hoverable {
-  position: relative;
-  height: 400px;
-  padding: 36px;
-  .card-hovered {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    transition: .2s ease;
-    opacity: 0;
-  }
-  &:hover {
-    .card-hovered {
-      opacity: 1;
-    }
-  }
-}
-.card-hovered {
-  background-color: $primaryblue;
-  padding: 36px;
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  border: 0;
-  .uc-text-divider.divider-primary {
-    background-color: #fff;
-  }
-}
-
 
 $card-bg-height: 532px;
 
@@ -370,6 +340,8 @@ $card-bg-height: 532px;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
+    position: relative;
+    z-index: 2;
     @include media-breakpoint-up(lg) {
       padding: 24px;
     }
@@ -410,3 +382,30 @@ a.uc-card {
 
 
 /* cards superpuestas uc.cl */
+.card-hoverable {
+  position: relative;
+  .card-hovered {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: .2s ease;
+    opacity: 0;
+  }
+  &:hover {
+    .card-hovered {
+      opacity: 1;
+    }
+  }
+}
+.card-hovered {
+  background-color: $primaryblue;
+  padding: 36px;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  .uc-text-divider.divider-primary {
+    background-color: #fff;
+  }
+}

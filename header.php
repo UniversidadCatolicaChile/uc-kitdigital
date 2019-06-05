@@ -1,3 +1,4 @@
+<?php include('inc/header.php') ?>
 <div class="uc-top-bar">
     <div class="container">
         <div class="top-bar_mobile-logo d-block d-lg-none">
@@ -42,7 +43,7 @@
             <div class="col-lg-2">
                 <div class="uc-navbar-brand d-none d-lg-flex">
                     <a href="#">
-                        <img src="/_nuxt/assets/images/logo-uc-03.svg" alt="" class="img-fluid">
+                        <img src="http://via.placeholder.com/175x100" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -70,7 +71,14 @@
                             </div>
                         </div>
                     </li>
+                    <li class="nav-item active"><a href="#" class="uc-link">Ítem activo</a></li>
                     <li class="nav-item"><a href="#" class="uc-link">Texto</a></li>
+                    <li class="nav-item ml-auto">
+                        <div class="uc-form-group no-margin">
+                            <input id="ucsearch" type="text" class="uc-input-style w-icon search" placeholder="Buscar por">
+                            <span class="w-icon search"></span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -79,3 +87,10 @@
         <i class="uc-icon">menu</i>
     </div>
 </div>
+
+<div class="container my-60">
+    <h1>header</h1>
+</div>
+
+
+<?php include('inc/footer.php') ?>
