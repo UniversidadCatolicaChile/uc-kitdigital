@@ -846,26 +846,6 @@
                             <span class="title">Carreras y Programas de Pregrado</span>
                             <i class="uc-icon">arrow_right</i>
                         </a>
-                        <div class="dropdown-content">
-                            <ul class="uc-menu_list">
-                                <li class="uc-menu_list-item">
-                                    <a href="#" class="uc-btn">
-                                        <span class="title">Carreras de Pregrado</span>
-                                        <i class="uc-icon">launch</i>
-                                    </a>
-                                </li>
-                                <li class="uc-menu_list-item">
-                                    <a href="#" class="uc-btn">
-                                        <span class="title">Major y Minor</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="uc-menu_list">
-                                <li class="uc-menu_list-item">
-                                    <a href="#" class="uc-btn">Programas interdisciplinarios</a>
-                                </li>
-                            </ul>
-                        </div>
                     </li>
                     <li class="uc-menu_list-item">
                         <a href="" class="uc-btn">
@@ -896,6 +876,24 @@
                             <span class="title">Catálogo de cursos</span>
                             <i class="uc-icon">launch</i>
                         </a>
+                    </li>
+                </ul>
+                <ul class="uc-menu_list second-level">
+                    <li class="uc-menu_list-item">
+                        <a href="#" class="uc-btn">
+                            <span class="title">Carreras de Pregrado</span>
+                            <i class="uc-icon">launch</i>
+                        </a>
+                    </li>
+                    <li class="uc-menu_list-item">
+                        <a href="#" class="uc-btn">
+                            <span class="title">Major y Minor</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="uc-menu_list second-level">
+                    <li class="uc-menu_list-item">
+                        <a href="#" class="uc-btn">Programas interdisciplinarios</a>
                     </li>
                 </ul>
             </div>

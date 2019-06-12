@@ -7,9 +7,24 @@
         <div class="top-bar_links-container d-none d-lg-flex">
             <ul class="top-bar_links">
                 <li>
-                    <a href="#" class="uc-link external">
+                    <a href="#" class="uc-link external" data-dtarget="test">
                         Ir al sitio UC
                     </a>
+                    <div data-dropdown="test" class="uc-dropdown_list">
+                        <div class="white-triangle"></div>
+                        <div class="uc-dropdown_list-item">
+                            <a href="#" class="uc-btn">Construcción y vivienda</a>
+                        </div>
+                        <div class="uc-dropdown_list-item">
+                            <a href="#" class="uc-btn">Educación</a>
+                        </div>
+                        <div class="uc-dropdown_list-item">
+                            <a href="#" class="uc-btn">Fortalecimiento de organizaciones</a>
+                        </div>
+                        <div class="uc-dropdown_list-item">
+                            <a href="#" class="uc-btn">Pastoral</a>
+                        </div>
+                    </div>
                 </li>
             </ul>
             <ul class="top-bar_links">

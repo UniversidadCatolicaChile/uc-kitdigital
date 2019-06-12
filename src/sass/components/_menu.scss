@@ -1,0 +1,110 @@
+// menú desplegable uc.cl
+.uc-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  box-shadow: $menu-shadow;
+  max-width: 850px;
+  border-radius: 4px;
+  a {
+    text-decoration: none;
+  }
+  .uc-menu_list {
+    list-style: none;
+    margin: 0;
+    padding: 12px 24px;
+    background-color: #fff;
+    &:last-child{
+      border-radius: 0 4px 4px 0;
+      border-left: 1px solid $lightgraya;
+    }
+    &.first-level {
+      background-color: $blue;
+      min-width: 310px;
+      border-radius: 4px 0 0 4px;
+      > .uc-menu_list-item .uc-btn {
+        color: #fff;
+      }
+    }
+    .uc-menu_list-item {
+      padding: 12px 0;
+      .uc-btn {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.45px;
+        transition: .2s ease;
+        .uc-icon {
+          font-size: 16px;
+          color: #fff;
+        }
+        &:hover {
+          text-decoration: none;
+          .title {
+            text-decoration: underline;
+          }
+          .uc-icon {
+            text-decoration: none;
+            color: $yellow;
+          }
+        }
+      }
+    }
+    &.second-level {
+      padding: 12px;
+      .uc-menu_list-item .uc-btn {
+        color: black;
+        font-weight: normal;
+        border-radius: 0;
+        padding-left: 12px;
+        border-left: 2px solid transparent;
+        transition: .2s ease;
+        .uc-icon {
+          color: $primaryblue;
+        }
+        &:hover {
+          border-left: 2px solid $yellow;
+          .uc-icon {
+            color: $primaryblue;
+          }
+        }
+      }
+    }
+    .dropdown-content {
+      position: absolute;
+      display: flex;
+      top: 0;
+      left: 100%;
+      height: 100%;
+      background-color: #fff;
+      border-radius: 0 4px 4px 0;
+      box-shadow: 0 0 25px 0 rgba(0,0,0,0.30);
+
+    }
+  }
+  .triangle {
+    width: 41px;
+    height: 14px;
+    position: absolute;
+    overflow: hidden;
+    top: -14px;
+    left: 32px;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 9px;
+      width: 15px;
+      height: 15px;
+      background-color: #fff;
+      z-index: 2;
+      transform: rotate(45deg);
+      box-shadow: $large-shadow;
+      border-radius: $small-radius;
+    }
+    &.blue {
+      &:after {
+        background-color: $blue;
+      }
+    }
+  }
+}

@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-5">
             <div class="uc-card">
                 <div class="uc-card_body--xl">
                     <p class="gray">18 Marzo 2018</p>
@@ -48,11 +48,29 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
             <div class="uc-card card-border--bottom text-center">
                 <div class="uc-card_body">
                     <h1>101</h1>
                     <p class="no-margin">discos vendidos</p>
+                </div>
+            </div>
+            <div class="uc-card card-border--bottom text-center mt-32 card-hoverable">
+                <div class="uc-card_body">
+                    <h1>1.220</h1>
+                    <p class="no-margin">Publicaciones</p>
+                </div>
+                <div class="uc-card card-hovered card-radius--none">
+                    <div class="uc-card_body--sm">
+                        <p class="no-margin color-white text-left">
+                            Proyectos ingresados en la plataforma de visibilización académica VIVO
+                        </p>
+                        <div class="text-right">
+                            <a href="#" class="uc-link external color-white">
+                                Ir al Sitio
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
