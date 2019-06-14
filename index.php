@@ -443,36 +443,6 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="uc-card card-gradient">
-                <img src="http://via.placeholder.com/768x1024" class="image" alt="">
-                <a href="#" class="uc-tag">Carrera de Pregrado</a>
-                <div class="uc-card mt-auto">
-                    <div class="uc-card_body">
-                        <p class="p-size--sm gray p-text--condensed">18 Marzo 2018</p>
-                        <h4>Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.</h4>
-                        <div class="uc-text-divider divider-primary"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="uc-card card-gradient">
-                <img src="http://via.placeholder.com/600x530" class="image" alt="">
-                <a href="#" class="uc-tag">Pregrado</a>
-                <div class="uc-card mt-auto">
-                    <div class="uc-card_body">
-                        <p class="uc-subtitle">Columna sobre Proyecto de Isapres</p>
-                        <h4 class="mb-16">Preexistencias y reforma al sistema de isapres.</h4>
-                        <p class="no-margin"><strong>Felipe Bravo</strong></p>
-                        <p class="gray no-margin">Académico de la Escuela de Derecho</p>
-                        <div class="uc-text-divider divider-primary"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <hr>
     <h2>Cards de evento</h2>
     <div class="row my-80">

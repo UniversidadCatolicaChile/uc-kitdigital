@@ -218,13 +218,15 @@
                     </div>
                 </div>
                 <div class="uc-card card-hovered">
-                    <h4 class="color-white">Innovación</h4>
-                    <div class="uc-text-divider divider-primary my-12"></div>
-                    <p class="color-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
-                    <a href="#" class="uc-btn btn-primary mt-auto">
-                        Más información
-                        <i class="uc-icon icon-shape--rounded">arrow_forward</i>
-                    </a>
+                    <div class="uc-card_body--lg">
+                        <h4 class="color-white">Innovación</h4>
+                        <div class="uc-text-divider divider-primary my-12"></div>
+                        <p class="color-white">Impulsamos iniciativas multidisciplinarias de innovación a través de proyectos y programas de emprendimiento de alto impacto.</p>
+                        <a href="#" class="uc-btn btn-primary mt-auto">
+                            Más información
+                            <i class="uc-icon icon-shape--rounded">arrow_forward</i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

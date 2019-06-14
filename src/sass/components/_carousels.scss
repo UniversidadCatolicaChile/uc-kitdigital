@@ -2,15 +2,27 @@
   position: relative;
   .uc-hero-carousel {
     .hero-carousel_item {
-      height: 508px;
+      height: 660px;
+      margin-bottom: 60px;
       width: 100%;
       background-size: cover;
       background-position: center center;
+      overflow: visible;
+    }
+    .carousel-card {
+      max-width: 640px;
+      position: absolute;
+      bottom: -40px;
+      margin-left: -48px;
+      box-shadow: $large-shadow;
+      a {
+        text-decoration: none;
+      }
     }
   }
   .uc-carousel-nav {
     position: relative;
-    bottom: 60px;
+    bottom: 120px;
     .carousel-nav-container {
       display: flex;
     }
