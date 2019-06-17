@@ -3,60 +3,60 @@
     <h2 class="mt-32">Carousels</h2>
     <hr class="uc-hr my-28">
 </div>
-    <div class="uc-carousel mb-80"
-         data-carousel="uc-hero-carousel"
-         data-items="1"
-         data-slideby="1"
-         data-loop="true"
-         data-nav="true"
-         data-autoplay="false"
-         data-controls="false"
-         data-navcontainer=".carousel-nav-list"
-         data-autoplaybutton=".autoplay-buttons"
-         data-autoplay-text="true">
-        <div class="uc-hero-carousel">
-            <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_1.jpg')">
-                <div class="container">
-                    <div class="uc-card carousel-card">
-                        <div class="uc-card_body--xl">
-                            <a href="#" class="uc-tag mb-24">Investigación</a>
-                            <a href="#" class="h1 color-black">Robot submarino de bajo costo investigará el 95% del océano aún desconocido.</a>
-                            <span>
+<div class="uc-carousel mb-80"
+     data-carousel="uc-hero-carousel"
+     data-items="1"
+     data-slideby="1"
+     data-loop="true"
+     data-nav="true"
+     data-autoplay="true"
+     data-controls="false"
+     data-navcontainer=".carousel-nav-list"
+     data-autoplaybutton=".autoplay-buttons"
+     data-autoplay-text="true">
+    <div class="uc-hero-carousel">
+        <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_1.jpg')">
+            <div class="container">
+                <div class="uc-card carousel-card">
+                    <div class="uc-card_body--xl">
+                        <a href="#" class="uc-tag mb-24">Investigación</a>
+                        <a href="#" class="h1 color-black">Robot submarino de bajo costo investigará el 95% del océano aún desconocido.</a>
+                        <span>
                                 <a href="#" class="uc-btn btn-inline mt-24">
                                     Ir al artículo
                                     <i class="uc-icon icon-shape--rounded">arrow_forward</i>
                                 </a>
                             </span>
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_2.jpg')"></div>
-            <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_3.jpg')"></div>
         </div>
-        <div class="uc-carousel-nav">
-            <div class="container">
-                <div class="carousel-nav-container">
-                    <ul class="carousel-nav-list">
-                        <li class="carousel-nav-item">
-                            <div class="number">01</div>
-                            <div class="indicator playing"></div>
-                        </li>
-                        <li class="carousel-nav-item">
-                            <div class="number">02</div>
-                            <div class="indicator"></div>
-                        </li>
-                        <li class="carousel-nav-item">
-                            <div class="number">03</div>
-                            <div class="indicator"></div>
-                        </li>
-                    </ul>
-                    <div class="autoplay-buttons">
-                    </div>
+        <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_2.jpg')"></div>
+        <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_3.jpg')"></div>
+    </div>
+    <div class="uc-carousel-nav">
+        <div class="container">
+            <div class="carousel-nav-container">
+                <ul class="carousel-nav-list">
+                    <li class="carousel-nav-item">
+                        <div class="number">01</div>
+                        <div class="indicator playing"></div>
+                    </li>
+                    <li class="carousel-nav-item">
+                        <div class="number">02</div>
+                        <div class="indicator"></div>
+                    </li>
+                    <li class="carousel-nav-item">
+                        <div class="number">03</div>
+                        <div class="indicator"></div>
+                    </li>
+                </ul>
+                <div class="autoplay-buttons">
                 </div>
             </div>
         </div>
     </div>
+</div>
 <div class="container">
     <div class="heading-container">
         <h2>Academia</h2>
@@ -215,13 +215,11 @@
          data-counter="true"
          data-track="true">
         <div class="uc-carousel-events">
-            <!--
             <div class="item">
                 <div class="featured-image-container">
                 <div class="uc-card-event-featured_image" style="background-image: url('https://via.placeholder.com/1200x600')"></div>
                 </div>
             </div>
-            -->
             <div class="item">
                 <div class="uc-card card-type--event card-height--same">
                     <div class="uc-card card-type--date">
@@ -306,7 +304,8 @@
                         </div>
                     </div>
                 </div>
-            </div><div class="item">
+            </div>
+            <div class="item">
                 <div class="uc-card card-type--event card-height--same">
                     <div class="uc-card card-type--date">
                         <div class="day">7</div>

@@ -53,6 +53,13 @@
         <div class="uc-card card-grid card-example">4</div>
         <div class="uc-card card-grid card-example">5</div>
     </div>
+    <div class="uc-univeristy-grid mb-80">
+        <div class="uc-card card-grid card-example"></div>
+        <div class="uc-card card-grid card-example"></div>
+        <div class="uc-card card-grid card-example"></div>
+        <div class="uc-card card-grid card-example"></div>
+        <div class="uc-card card-grid card-example"></div>
+    </div>
 </div>
 
 <?php include('inc/footer.php') ?>
