@@ -41,11 +41,11 @@
   height: 570px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: auto auto;
   grid-gap: 4px;
   :first-child {
     grid-column: 1 / 2;
-    grid-row: 1 / end;
+    grid-row: 1 / 3;
   }
 }
 
