@@ -21,11 +21,11 @@ const uc_kit_components = {
     carousels: new UcCarousel()
 };
 
-// visualizaciones
+// visualizacione
 
-// new DonutChart();
-// new DonutChartAlt();
-// new BarChart();
-// new sunburstChart();
-// new sunburstChartAlt();
+new DonutChart();
+new DonutChartAlt();
+new BarChart();
+new sunburstChart();
+new sunburstChartAlt();
 
