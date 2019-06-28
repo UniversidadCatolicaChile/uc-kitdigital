@@ -21,7 +21,7 @@ const uc_kit_components = {
     carousels: new UcCarousel()
 };
 
-// visualizacione
+// visualizaciones
 
 new DonutChart();
 new DonutChartAlt();

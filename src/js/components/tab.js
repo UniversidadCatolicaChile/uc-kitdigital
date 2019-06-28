@@ -25,7 +25,7 @@ class Tab {
                 return;
             }
 
-            let target = parent.querySelectorAll('[data-tab="' + element.dataset.tabtarget + '"]');           
+            let target = parent.querySelectorAll('[data-tab="' + element.dataset.tabtarget + '"]');
             element.classList.add(this.list_class.active);
 
             if (target == null){
@@ -35,12 +35,14 @@ class Tab {
             target.forEach(child => {
                 this.open(child);
             })
-            
+
         });
 
     }
 
     onClick(e){
+        console.log('click tab');
+
         let element = e.target;
         let parent = this.getParent(element);
 
@@ -64,7 +66,7 @@ class Tab {
     }
 
     getParent(element){
-        return (typeof element.parentElement == 'undefined' || element.parentElement == null) ? null : 
+        return (typeof element.parentElement == 'undefined' || element.parentElement == null) ? null :
         ((typeof element.parentElement.dataset.tabpanel != 'undefined') ? element.parentElement : this.getParent(element.parentElement));
     }
 
@@ -79,7 +81,7 @@ class Tab {
     closeAll(parent){
         let buttons = parent.querySelectorAll('[data-tabtarget]');
         let targets = [];
-        
+
         buttons.forEach(element => {
             let objectives = parent.querySelectorAll('[data-tab="' + element.dataset.tabtarget + '"]');
             objectives.forEach(child => {
@@ -94,7 +96,7 @@ class Tab {
         if (targets == null){
             return;
         }
-        
+
         targets.forEach(element => {
             this[action](element);
         });
