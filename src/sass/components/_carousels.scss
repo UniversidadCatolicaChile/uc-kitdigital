@@ -10,11 +10,27 @@
       overflow: visible;
     }
     .carousel-card {
+      width: calc(100% - 30px);
       max-width: 640px;
+      bottom: 80px;
       position: absolute;
-      bottom: -40px;
-      margin-left: -48px;
       box-shadow: $large-shadow;
+      .h1 {
+        font-size: 24px;
+        @include media-breakpoint-up(lg) {
+          font-size: 2.5em;
+        }
+      }
+      .uc-card_body--xl {
+        padding: 24px;
+        @include media-breakpoint-up(lg) {
+          padding: 48px;
+        }
+      }
+      @include media-breakpoint-up(lg) {
+        bottom: -40px;
+        margin-left: -48px;
+      }
       a {
         text-decoration: none;
       }
@@ -28,10 +44,13 @@
     }
     .carousel-nav-list {
       padding: 0;
-      margin: 0;
+      margin: 0 auto;
       display: flex;
       list-style-type: none;
-      margin-left: auto;
+      @include media-breakpoint-up(lg) {
+        margin: 0;
+        margin-left: auto;
+      }
     }
     .carousel-nav-item {
       cursor: pointer;

@@ -5418,11 +5418,38 @@ textarea.uc-input-style {
 }
 
 .uc-carousel .uc-hero-carousel .carousel-card {
+  width: calc(100% - 30px);
   max-width: 640px;
+  bottom: 80px;
   position: absolute;
-  bottom: -40px;
-  margin-left: -48px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.18);
+}
+
+.uc-carousel .uc-hero-carousel .carousel-card .h1 {
+  font-size: 24px;
+}
+
+@media (min-width: 992px) {
+  .uc-carousel .uc-hero-carousel .carousel-card .h1 {
+    font-size: 2.5em;
+  }
+}
+
+.uc-carousel .uc-hero-carousel .carousel-card .uc-card_body--xl {
+  padding: 24px;
+}
+
+@media (min-width: 992px) {
+  .uc-carousel .uc-hero-carousel .carousel-card .uc-card_body--xl {
+    padding: 48px;
+  }
+}
+
+@media (min-width: 992px) {
+  .uc-carousel .uc-hero-carousel .carousel-card {
+    bottom: -40px;
+    margin-left: -48px;
+  }
 }
 
 .uc-carousel .uc-hero-carousel .carousel-card a {
@@ -5440,10 +5467,16 @@ textarea.uc-input-style {
 
 .uc-carousel .uc-carousel-nav .carousel-nav-list {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   list-style-type: none;
-  margin-left: auto;
+}
+
+@media (min-width: 992px) {
+  .uc-carousel .uc-carousel-nav .carousel-nav-list {
+    margin: 0;
+    margin-left: auto;
+  }
 }
 
 .uc-carousel .uc-carousel-nav .carousel-nav-item {

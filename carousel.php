@@ -31,8 +31,38 @@
                 </div>
             </div>
         </div>
-        <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_2.jpg')"></div>
-        <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_3.jpg')"></div>
+        <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_2.jpg')">
+            <div class="container">
+                <div class="uc-card carousel-card">
+                    <div class="uc-card_body--xl">
+                        <a href="#" class="uc-tag mb-24">Investigación</a>
+                        <a href="#" class="h1 color-black">Robot submarino de bajo costo investigará el 95% del océano aún desconocido.</a>
+                        <span>
+                                <a href="#" class="uc-btn btn-inline mt-24">
+                                    Ir al artículo
+                                    <i class="uc-icon icon-shape--rounded">arrow_forward</i>
+                                </a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_3.jpg')">
+            <div class="container">
+                <div class="uc-card carousel-card">
+                    <div class="uc-card_body--xl">
+                        <a href="#" class="uc-tag mb-24">Investigación</a>
+                        <a href="#" class="h1 color-black">Robot submarino de bajo costo investigará el 95% del océano aún desconocido.</a>
+                        <span>
+                                <a href="#" class="uc-btn btn-inline mt-24">
+                                    Ir al artículo
+                                    <i class="uc-icon icon-shape--rounded">arrow_forward</i>
+                                </a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="uc-carousel-nav">
         <div class="container">
