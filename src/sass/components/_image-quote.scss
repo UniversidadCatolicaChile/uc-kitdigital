@@ -1,6 +1,7 @@
 .uc-image-quote {
   margin-left: -15px;
   margin-right: -15px;
+  overflow: hidden;
   @include media-breakpoint-up(md) {
     margin-left: auto;
     margin-right: auto;
