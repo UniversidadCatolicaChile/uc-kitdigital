@@ -1,10 +1,7 @@
 <?php include('inc/header.php') ?>
-<div class="uc-top-bar">
+<div class="uc-top-bar d-none d-lg-flex">
     <div class="container">
-        <div class="top-bar_mobile-logo d-block d-lg-none">
-            <img src="logo-uc-mobile.svg" alt="Logo UC" class="img-fluid">
-        </div>
-        <div class="top-bar_links-container d-none d-lg-flex">
+        <div class="top-bar_links-container">
             <ul class="top-bar_links">
                 <li>
                     <a href="#" class="uc-link external" data-dtarget="test">
@@ -53,7 +50,7 @@
     </div>
 </div>
 <div class="uc-navbar">
-    <div class="container">
+    <div class="container d-none d-lg-flex">
         <div class="row no-gutters">
             <div class="col-lg-2">
                 <div class="uc-navbar-brand d-none d-lg-flex">
@@ -66,7 +63,7 @@
                 <div class="uc-navbar_title">
                     <h1>Nombre de Facultad</h1>
                 </div>
-                <ul class="uc-navbar_nav d-none d-lg-flex">
+                <ul class="uc-navbar_nav">
                     <li class="nav-item"><a href="#" class="uc-link">Inicio</a></li>
                     <li class="nav-item uc-dropdown">
                         <a href="#" class="dropbtn uc-link" data-dtarget="prueba">Ítem desplegable <i class="uc-icon">arrow_drop_down</i></a>
@@ -98,8 +95,41 @@
             </div>
         </div>
     </div>
-    <div class="uc-navbar_mobile-button d-flex d-lg-none">
-        <i class="uc-icon">menu</i>
+    <div class="uc-navbar_mobile">
+        <div class="uc-navbar_mobile-bar">
+            <div class="uc-navbar_mobile-logo d-block d-lg-none">
+                <img src="logo-uc-mobile.svg" alt="Logo UC" class="img-fluid">
+            </div>
+            <a href="javascript:void(0);" class="uc-navbar_mobile-button d-flex d-lg-none" data-collapse="collapseMobileNav">
+                <i class="uc-icon">menu</i>
+            </a>
+        </div>
+        <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav" data-open="false" style="height: 0;">
+            <div class="uc-navbar_mobile-shortcuts">
+
+            </div>
+            <div class="uc-navbar_mobile-list">
+                <a href="#" class="list-item">Inicio</a>
+                <a href="#" class="list-item">Programas de estudio</a>
+                <a href="#" class="list-item">Investigación</a>
+                <a href="#" class="list-item">Facultades</a>
+                <div class="uc-collapse uc-card list-item">
+                    <a href="javascript:void(0);" class="uc-collapse_heading js-accordion-title" data-collapse="collapseExample">
+                        <h4>Título Colapsable</h4>
+                        <span class="uc-btn btn-inline ml-auto">
+                            Ver más
+                            <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                        </span>
+                    </a>
+
+                    <div class="uc-collapse_body js-accordion-content" data-toggle="collapseExample" data-open="false" style="height: 0px;">
+                        <div class="uc-card_body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
