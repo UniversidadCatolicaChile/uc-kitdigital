@@ -1,4 +1,4 @@
-import {tns} from "./tiny-slider.js"
+import {tns} from "tiny-slider/src/tiny-slider.js"
 
 class UcCarousel {
     constructor() {
@@ -33,8 +33,6 @@ class UcCarousel {
                     }
                 }
             };
-
-            console.log(options);
 
             // var options = {
             //     container: '.' + data.carousel,
