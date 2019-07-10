@@ -41,7 +41,6 @@ class Tab {
     }
 
     onClick(e){
-        console.log('click tab');
 
         let element = e.target;
         let parent = this.getParent(element);

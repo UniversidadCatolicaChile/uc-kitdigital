@@ -1,5 +1,7 @@
 <?php include 'inc/header.php' ?>
 <div class="container">
+    <h2 class="mb-24">Tabs</h2>
+    <h4>Tab horizontal</h4>
     <div class="uc-tabpanel" data-tabpanel>
         <ul class="uc-tabs">
             <li class="uc-tabs_item">
@@ -30,6 +32,45 @@
             </div>
         </div>
     </div>
+    <h4 class="mt-32">Tab vertical</h4>
+    <div class="my-32">
+        <div class="uc-tabpanel" data-tabpanel>
+            <div class="row">
+                <div class="col-lg-4">
+                    <ul class="uc-vertical-tabs">
+                        <li class="uc-vertical-tabs_item">
+                            <a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-10" data-tabactive>Tab 01</a>
+                        </li>
+                        <li class="uc-vertical-tabs_item">
+                            <a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-11">Tab 02</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-8">
+                    <div class="uc-tab-body">
+                        <div data-tab="tab-10">
+                            <table class="uc-table table-wide">
+                                <tbody>
+                                    <tr>
+                                        <td>2014</td>
+                                        <td>Edgar Wolff Grobler</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2014</td>
+                                        <td>Edgar Wolff Grobler</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div data-tab="tab-11">
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="uc-hr">
     <div class="my-60">
         <div class="uc-dropdown">
             <a href="#" class="uc-btn btn-inline dropbtn" data-dtarget="prueba">Ítem del menú</a>

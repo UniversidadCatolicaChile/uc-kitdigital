@@ -13,9 +13,12 @@
       td {
         padding: 20px 16px;
       }
-      &:nth-child(even) {
+      &:nth-child(odd) {
         background-color: $lightgrayc;
       }
     }
+  }
+  &.table-wide {
+    width: 100%;
   }
 }

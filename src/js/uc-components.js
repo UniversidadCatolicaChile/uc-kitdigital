@@ -22,10 +22,10 @@ const uc_kit_components = {
 };
 
 // visualizaciones
-
+/*
 new DonutChart();
 new DonutChartAlt();
 new BarChart();
 new sunburstChart();
 new sunburstChartAlt();
-
+*/

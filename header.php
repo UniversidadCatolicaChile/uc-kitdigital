@@ -108,7 +108,7 @@
             <div class="uc-navbar_mobile-shortcuts">
 
             </div>
-            <div class="uc-navbar_mobile-list">
+            <div class="uc-navbar_mobile -list">
                 <a href="#" class="list-item">Inicio</a>
                 <a href="#" class="list-item">Programas de estudio</a>
                 <a href="#" class="list-item">Investigación</a>

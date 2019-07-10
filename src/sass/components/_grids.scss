@@ -2,7 +2,7 @@
   height: 512px;
   display: grid;
   grid-template-columns: 56% auto;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(3, 1fr);
   grid-gap: 4px;
   .item-featured {
     grid-column: 1 / 2;

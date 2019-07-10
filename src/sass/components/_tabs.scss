@@ -7,7 +7,7 @@
   border-bottom: 2px solid $lightgraya;
   color: $lightgraya;
   .uc-tabs_item {
-    transition: background-color 100ms ease;
+    transition: background-color .1s ease;
     &:active {
       background-color: $lightgrayc;
     }
@@ -20,6 +20,7 @@
     margin-bottom: -2px;
     text-decoration: none;
     color: $darkgray;
+    transition: .2s ease;
     &:focus {
       outline: none;
     }
@@ -32,6 +33,44 @@
       color: #000;
       text-decoration: none;
       border-bottom: 2px solid $primaryblue;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+
+.uc-vertical-tabs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  list-style-type: none;
+  flex-direction: column;
+  .uc-vertical-tabs_item {
+    border-bottom: 1px solid $darkgray;
+  }
+  .uc-vertical-tabs_item-link {
+    color: $gray;
+    display: block;
+    font-size: 1em;
+    padding: 20px 16px;
+    transition: .2s ease;
+    text-decoration: none;
+    background-color: $lightgraya;
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      color: $darkgray;
+      text-decoration: none;
+    }
+    &.active {
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      background-color: #fff;
+      border-left: 4px solid $primaryblue;
       &:hover {
         color: #000;
       }
