@@ -19,6 +19,10 @@
       @include media-breakpoint-up(md) {
         width: 180%;
         height: 600px;
+        &.image-quote-size--sm {
+          width: 130%;
+          height: 400px;
+        }
       }
     }
   }
