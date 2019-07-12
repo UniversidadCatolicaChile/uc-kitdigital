@@ -166,8 +166,6 @@
   }
 }
 
-// todo: llevar esto al card
-
 .featured-image-container {
   position: relative;
   display: flex;
@@ -175,5 +173,6 @@
     width: 163%;
     height: 393px;
     margin-top: -47px;
+    background-size: cover;
   }
 }
