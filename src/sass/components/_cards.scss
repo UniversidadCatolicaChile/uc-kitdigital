@@ -8,7 +8,7 @@ $card-bg-height: 532px;
   background-color: #fff;
   text-decoration: none;
   color: inherit;
-  border: 1px solid #EAEAEA;
+  border: 1px solid $lightgraya;
   border-radius: $small-radius;
   box-shadow: $primary-shadow;
   /*
@@ -163,6 +163,15 @@ $card-bg-height: 532px;
   /*
   * Hijos
   */
+  // card header
+  .uc-card_header {
+    @extend .uc-subtitle;
+    letter-spacing: 2px;
+    color: #000;
+    padding: 20px 24px;
+    text-transform: uppercase;
+    border-bottom: 1px solid $lightgraya;
+  }
   // card body
   .uc-card_body {
     padding: 20px;
@@ -186,6 +195,11 @@ $card-bg-height: 532px;
   .uc-card_body--xl {
     @extend .uc-card_body;
     padding: 48px;
+  }
+  // uc card footer
+  .uc-card_footer {
+    padding: 20px 24px;
+    background-color: $lightgrayc;
   }
   // card tag fixed
   .tag-fixed {

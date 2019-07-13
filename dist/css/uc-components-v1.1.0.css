@@ -3621,7 +3621,8 @@ a.external::after {
   }
 }
 
-.uc-subtitle {
+.uc-subtitle,
+.uc-card .uc-card_header {
   font-size: 0.875em;
   text-transform: uppercase;
   line-height: 1.5;
@@ -3630,12 +3631,14 @@ a.external::after {
   font-weight: 500;
 }
 
-.uc-subtitle.subtitle-extended {
+.uc-subtitle.subtitle-extended,
+.uc-card .subtitle-extended.uc-card_header {
   letter-spacing: 2px;
 }
 
 @media (min-width: 992px) {
-  .uc-subtitle {
+  .uc-subtitle,
+  .uc-card .uc-card_header {
     line-height: 1.1;
     letter-spacing: 1px;
   }
@@ -4729,6 +4732,14 @@ button:focus {
   content: "location_on";
 }
 
+.uc-card .uc-card_header {
+  letter-spacing: 2px;
+  color: #000;
+  padding: 20px 24px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #EAEAEA;
+}
+
 .uc-card .uc-card_body,
 .uc-card .uc-card_body--xl,
 .uc-card .uc-card_body--lg,
@@ -4760,6 +4771,11 @@ button:focus {
 
 .uc-card .uc-card_body--xl {
   padding: 48px;
+}
+
+.uc-card .uc-card_footer {
+  padding: 20px 24px;
+  background-color: #F6F6F6;
 }
 
 .uc-card .tag-fixed {
@@ -4853,6 +4869,11 @@ a.uc-card:hover h6 {
   .uc-image-quote.image-left .uc-image-quote_image {
     width: 180%;
     height: 600px;
+  }
+
+  .uc-image-quote.image-left .uc-image-quote_image.image-quote-size--sm {
+    width: 130%;
+    height: 400px;
   }
 }
 
@@ -5149,7 +5170,7 @@ a.uc-card:hover h6 {
   grid-row: 1/3;
 }
 
-.uc-univeristy-grid {
+.uc-university-grid {
   height: 570px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -5157,7 +5178,7 @@ a.uc-card:hover h6 {
   grid-gap: 4px;
 }
 
-.uc-univeristy-grid :first-child {
+.uc-university-grid :first-child {
   grid-column: 1/2;
   grid-row: 1/3;
 }
@@ -5679,6 +5700,7 @@ textarea.uc-input-style {
   width: 163%;
   height: 393px;
   margin-top: -47px;
+  background-size: cover;
 }
 
 .uc-card-event-featured_image {
@@ -5687,6 +5709,7 @@ textarea.uc-input-style {
   margin-top: -50px;
   position: absolute;
   border-radius: 4px;
+  background-position: center;
 }
 
 .uc-card-event-featured {
