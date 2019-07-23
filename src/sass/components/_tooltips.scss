@@ -1,14 +1,31 @@
-.uc-tooltip {
-  display: flex;
-  flex-direction: column;
-  min-width: 180px;
-  max-width: 300px;
-  transition: .3s ease;
+.tippy-tooltip.uc-theme {
   background-color: #fff;
-  z-index: 1;
+  color: #000;
   box-shadow: $large-shadow;
-  border-radius: $small-radius;
-  .uc-tooltip_body {
-    padding: 24px;
-  }
+  padding: 24px;
+}
+
+.tippy-tooltip.uc-theme[x-placement^='top'] .tippy-arrow {
+  border-top-color: #fff;
+}
+.tippy-tooltip.uc-theme[x-placement^='bottom'] .tippy-arrow {
+  border-bottom-color: #fff;
+}
+.tippy-tooltip.uc-theme[x-placement^='left'] .tippy-arrow {
+  border-left-color: #fff;
+}
+.tippy-tooltip.uc-theme[x-placement^='right'] .tippy-arrow {
+  border-right-color: #fff;
+}
+
+.tippy-tooltip.uc-theme .tippy-roundarrow {
+  fill: #fff;
+}
+
+.tippy-tooltip.uc-theme[data-animatefill] {
+  background-color: transparent;
+}
+
+.tippy-tooltip.uc-theme .tippy-backdrop {
+  background-color: #fff;
 }

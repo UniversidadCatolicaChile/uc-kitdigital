@@ -196,19 +196,7 @@
         </div>
     </div>
     <div class="my-60">
-        Lorem ipsum dolor sit amet,
-        <div class="uc-tooltip-content">
-            hover para ver el tooltip
-            <div class="uc-tooltip">
-                <div class="uc-tooltip-body">
-                    <div class="white-triangle"></div>
-                    <h4>Título</h4>
-                    <div class="text-divider primary"></div>
-                    <strong>Bajada</strong>
-                </div>
-            </div>
-        </div>
-        consectetur adipisicing elit. Commodi doloremque error facere fugiat minus nisi omnis quibusdam quo recusandae repellat? Esse iure magnam nemo, perferendis possimus sapiente sit voluptas voluptatum?
+        Lorem ipsum dolor sit amet, <span class="uc-tooltip" data-tippy-content="<h4>Tooltip</h4>">hover para ver el tooltip</span>consectetur adipisicing elit. Commodi doloremque error facere fugiat minus nisi omnis quibusdam quo recusandae repellat? Esse iure magnam nemo, perferendis possimus sapiente sit voluptas voluptatum?
     </div>
     <div class="my-60">
         <button type="button" class="uc-btn cta" data-mtarget="modalExample">Abrir modal</button>
