@@ -5,3 +5,15 @@ $secondary-border: 1px solid $primaryblue;
 // border radius
 $small-radius: 4px;
 $medium-radius: 8px;
+
+$sides-list: top right bottom left;
+
+.uc-border {
+  border: $primary-border;
+}
+
+@each $side in $sides-list {
+  .uc-border-#{$side} {
+    border-#{$side}: $primary-border;
+  }
+}
