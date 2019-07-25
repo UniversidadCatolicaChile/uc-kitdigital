@@ -4,7 +4,6 @@
   grid-template-columns: repeat(3, 1fr);
   position: relative;
   box-shadow: $menu-shadow;
-  max-width: 850px;
   border-radius: 4px;
   a {
     text-decoration: none;
@@ -86,7 +85,6 @@
     position: absolute;
     overflow: hidden;
     top: -14px;
-    left: 32px;
     &:after {
       content: "";
       position: absolute;
