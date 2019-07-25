@@ -49,6 +49,12 @@
     }
     &.second-level {
       padding: 12px;
+      .uc-menu_list-item {
+        border-top: $primary-border;
+        &:last-child {
+          border-bottom: $primary-border;
+        }
+      }
       .uc-menu_list-item .uc-btn {
         color: black;
         font-weight: normal;
