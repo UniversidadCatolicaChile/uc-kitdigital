@@ -5058,22 +5058,55 @@ a.uc-card:hover h6 {
 }
 
 .uc-filters_alphabetic {
-  margin-bottom: 0;
   padding: 0;
+  display: flex;
+  margin-bottom: 0;
   list-style-type: none;
+  justify-content: space-between;
 }
 
 .uc-filters_alphabetic li {
-  display: inline-block;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.uc-filters_alphabetic li:first-child .letter-filter {
+  border-radius: 4px 0 0 4px;
+}
+
+.uc-filters_alphabetic li:last-child .letter-filter {
+  border-radius: 0 4px 4px 0;
+  border-right: 1px solid #EAEAEA;
 }
 
 .uc-filters_alphabetic .letter-filter {
+  width: 100%;
+  border: none;
+  padding: 9px 0;
   font-size: 14px;
-  padding: 9px 11px;
+  font-weight: 500;
   color: #0176DE;
+  transition: 0.2s ease;
   background-color: #fff;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  border-left: 1px solid #EAEAEA;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.uc-filters_alphabetic .letter-filter:hover,
+.uc-filters_alphabetic .letter-filter.active {
+  background-color: #0176DE;
+  color: #fff;
+}
+
+.uc-filters_alphabetic .letter-filter.disabled {
+  color: #808080;
+}
+
+.uc-filters_alphabetic .letter-filter.disabled:hover {
+  color: #fff;
+  cursor: not-allowed;
+  background-color: #808080;
 }
 
 .uc-table-list {
@@ -5479,7 +5512,7 @@ textarea.uc-input-style {
   background-color: #fff;
   color: #000;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.18);
-  padding: 24px;
+  padding: 16px 24px;
 }
 
 .tippy-tooltip.uc-theme[x-placement^=top] .tippy-arrow {

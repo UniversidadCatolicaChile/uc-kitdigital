@@ -584,6 +584,94 @@
     </div>
     <hr>
     <h2>Filtros</h2>
+    <div class="my-40">
+        <ul class="uc-filters_alphabetic">
+            <li>
+                <button type="button" class="letter-filter active">A</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">B</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter disabled" disabled>C</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">D</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">E</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">F</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">G</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">H</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">I</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">J</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">K</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter disabled" disabled>L</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">M</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">N</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter disabled" disabled>Ñ</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">O</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">P</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">Q</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">R</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">S</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">T</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">U</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">V</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">W</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">X</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">Y</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">Z</button>
+            </li>
+            <li>
+                <button type="button" class="letter-filter">Ver todos</button>
+            </li>
+        </ul>
+    </div>
     <div class="row mb-60">
         <div class="col-12 mb-32">
             <div class="uc-filters">
@@ -669,7 +757,6 @@
                             <li>
                                 <button type="button" class="letter-filter">J</button>
                             </li>
-
                         </ul>
                         <div class="uc-form-group label-inline no-margin">
                             <label>Filtrar por:</label>

@@ -6,18 +6,49 @@
 }
 
 .uc-filters_alphabetic {
-  margin-bottom: 0;
   padding: 0;
+  display: flex;
+  margin-bottom: 0;
   list-style-type: none;
+  justify-content: space-between;
   li {
-    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    &:first-child {
+      .letter-filter {
+        border-radius: 4px 0 0 4px;
+      }
+    }
+    &:last-child {
+      .letter-filter {
+        border-radius: 0 4px 4px 0;
+        border-right: $primary-border;
+      }
+    }
   }
   .letter-filter {
+    width: 100%;
+    border: none;
+    padding: 9px 0;
     font-size: 14px;
-    padding: 9px 11px;
+    font-weight: 500;
     color: $primaryblue;
+    transition: .2s ease;
     background-color: #fff;
-    border: 1px solid transparent;
-    border-radius: $small-radius;
+    border-left: $primary-border;
+    border-top: $primary-border;
+    border-bottom: $primary-border;
+    &:hover, &.active {
+      background-color: $primaryblue;
+      color: #fff;
+    }
+    &.disabled {
+      color: #808080;
+      &:hover {
+        color: #fff;
+        cursor: not-allowed;
+        background-color: #808080;
+      }
+    }
   }
 }
