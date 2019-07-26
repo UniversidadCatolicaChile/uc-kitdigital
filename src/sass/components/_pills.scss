@@ -1,0 +1,15 @@
+.uc-pill {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 16px;
+  border-radius: 18px;
+  transition: .2s ease;
+  display: inline-block;
+  text-decoration: none;
+  background-color: $lightgrayc;
+  &:hover {
+    text-decoration: none;
+    background-color: $lightgrayb;
+  }
+}

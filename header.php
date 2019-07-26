@@ -125,11 +125,11 @@
             -->
             </div>
         </div>
-</div>
+    </div>
 
-<div class="container my-60">
-    <h1>header</h1>
-</div>
+    <div class="container my-60">
+        <h1>header</h1>
+    </div>
 
 
-<?php include('inc/footer.php') ?>
+    <?php include('inc/footer.php') ?>

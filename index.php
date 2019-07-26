@@ -82,6 +82,14 @@
                 <i class="uc-icon icon-size--sm">launch</i>
             </a>
         </div>
+        <div class="col-md-3">
+            <a href="#" class="uc-pill">
+                <div class="uc-btn btn-inline">
+                    Mi cuenta
+                    <div class="uc-icon">launch</div>
+                </div>
+            </a>
+        </div>
     </div>
     <h2 class="my-24">Tags</h2>
     <br>
