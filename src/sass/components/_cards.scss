@@ -190,11 +190,17 @@ $card-bg-height: 532px;
   }
   .uc-card_body--lg {
     @extend .uc-card_body;
-    padding: 36px;
+    padding: 16px;
+    @include media-breakpoint-up(lg) {
+      padding: 36px;
+    }
   }
   .uc-card_body--xl {
     @extend .uc-card_body;
-    padding: 48px;
+    padding: 36px;
+    @include media-breakpoint-up(lg) {
+      padding: 48px;
+    }
   }
   // uc card footer
   .uc-card_footer {
