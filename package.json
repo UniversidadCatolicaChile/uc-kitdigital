@@ -1,6 +1,6 @@
 {
   "name": "uc-components",
-  "version": "1.7.4",
+  "version": "1.8.0",
   "description": "Librería de componentes para la Pontificia Universidad Católica de Chile",
   "main": "uc-components.js",
   "scripts": {
@@ -15,12 +15,14 @@
   "author": "Asimov Consultores",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "2.0.1",
     "laravel-mix": "^4.0.14",
+    "nvm": "0.0.4",
     "resolve-url-loader": "^2.3.2",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.8",
-    "nvm": "0.0.4"
+    "vue-template-compiler": "^2.6.8"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",

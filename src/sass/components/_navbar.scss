@@ -55,46 +55,37 @@
     display: flex;
     justify-content: space-between;
     .uc-navbar_mobile-logo {
+      flex-grow: 1;
       padding: 16px 20px;
       background-color: $blue;
-      width: 100%;
       img {
         width: 184px;
         height: auto;
       }
     }
   }
-  .uc-navbar_mobile-content {
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    z-index: 3;
-    &[data-open="true"] {
-      overflow: visible;
-    }
-    .uc-navbar_mobile-shortcuts {
-      padding: 20px;
-    }
-    .uc-navbar_mobile-list {
-      display: flex;
-      flex-direction: column;
-      .list-item {
-        padding: 16px;
-        text-decoration: none;
-        color: #000;
-        border-top: 1px solid #DEDEDE;
-        font-weight: 500;
-      }
-    }
-  }
   .uc-navbar_mobile-button {
     background-color: $primaryblue;
-    width: 75px;
+    width: 60px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    .uc-icon {
+      color: #fff;
+      font-size: 35px;
+      transition: .2s ease;
+      &:before {
+        content: 'menu';
+      }
+    }
+    &.js-accordion-active-element {
+      .uc-icon {
+        &:before {
+          content: 'close';
+        }
+      }
+    }
     > * {
       pointer-events: none;
     }
@@ -104,9 +95,29 @@
     &:focus {
       outline: none;
     }
-    .uc-icon {
-      color: #fff;
-      font-size: 35px;
+  }
+  .uc-navbar_mobile-content {
+    width: 100%;
+    z-index: 20;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: $secondary-shadow;
+    transition: height .25s linear;
+    .uc-navbar_mobile-list {
+      display: flex;
+      flex-direction: column;
+      .list-item {
+        padding: 16px;
+        text-decoration: none;
+        color: #000;
+        border-top: 1px solid #DEDEDE;
+        font-weight: 500;
+        &:last-child {
+          border-bottom: 1px solid #DEDEDE;
+        }
+      }
     }
   }
 }

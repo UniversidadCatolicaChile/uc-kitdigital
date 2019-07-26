@@ -95,42 +95,36 @@
             </div>
         </div>
     </div>
-    <div class="uc-navbar_mobile">
+    <div class="uc-navbar_mobile d-block d-lg-none">
         <div class="uc-navbar_mobile-bar">
-            <div class="uc-navbar_mobile-logo d-block d-lg-none">
+            <div class="uc-navbar_mobile-logo">
                 <img src="logo-uc-mobile.svg" alt="Logo UC" class="img-fluid">
             </div>
-            <a href="javascript:void(0);" class="uc-navbar_mobile-button d-flex d-lg-none" data-collapse="collapseMobileNav">
-                <i class="uc-icon">menu</i>
+            <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav">
+                <span class="uc-icon"></span>
             </a>
         </div>
         <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav" data-open="false" style="height: 0;">
-            <div class="uc-navbar_mobile-shortcuts">
-
-            </div>
-            <div class="uc-navbar_mobile -list">
+            <div class="uc-navbar_mobile-list">
                 <a href="#" class="list-item">Inicio</a>
                 <a href="#" class="list-item">Programas de estudio</a>
                 <a href="#" class="list-item">Investigación</a>
                 <a href="#" class="list-item">Facultades</a>
-                <div class="uc-collapse uc-card list-item">
-                    <a href="javascript:void(0);" class="uc-collapse_heading js-accordion-title" data-collapse="collapseExample">
-                        <h4>Título Colapsable</h4>
-                        <span class="uc-btn btn-inline ml-auto">
-                            Ver más
-                            <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
-                        </span>
+                <!--
+                <div class="collapse-nav-mobile">
+                    <a href="javascript:void(0);" class="list-item uc-collapse_heading" data-collapse="collapseExample">
+                        Información para
                     </a>
-
-                    <div class="uc-collapse_body js-accordion-content" data-toggle="collapseExample" data-open="false" style="height: 0px;">
-                        <div class="uc-card_body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                    <div class="uc-collapse_body" data-toggle="collapseExample" data-open="false" style="height: 0px;">
+                        <div class="uc-navbar_mobile-list">
+                            <a href="#" class="list-item">Investigación</a>
+                            <a href="#" class="list-item">Facultades</a>
                         </div>
                     </div>
                 </div>
+            -->
             </div>
         </div>
-    </div>
 </div>
 
 <div class="container my-60">

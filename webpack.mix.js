@@ -13,8 +13,7 @@ let mix = require('laravel-mix');
 
 mix.js('src/js/uc-components.js', 'dist/js')
     .sass('src/sass/uc-components.scss', 'dist/css')
-    .setPublicPath('dist')
-    .sourceMaps();
+    .setPublicPath('dist');
 
 // Full API
 // mix.js(src, output);
