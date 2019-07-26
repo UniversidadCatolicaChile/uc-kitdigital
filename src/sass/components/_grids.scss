@@ -14,7 +14,7 @@
   height: 346px;
   display: grid;
   grid-template-columns: [col-start] 1fr 1fr [col-end];
-  grid-template-rows: [row-start] 1fr 1fr [row-end];
+  grid-template-rows: [row-start] auto [row-end];
   grid-gap: 20px;
   .single-item {
     grid-column: col-start / col-end;
