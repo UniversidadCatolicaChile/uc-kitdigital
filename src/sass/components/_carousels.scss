@@ -14,10 +14,13 @@
     }
     .carousel-card {
       width: calc(100% - 30px);
-      max-width: 640px;
       bottom: 80px;
       position: absolute;
       box-shadow: $large-shadow;
+      @include media-breakpoint-up(md) {
+        width: 80%;
+        max-width: 640px;
+      }
       .h1 {
         font-size: 24px;
         @include media-breakpoint-up(lg) {
@@ -44,10 +47,10 @@
     bottom: 120px;
     .carousel-nav-container {
       display: flex;
+      justify-content: center;
     }
     .carousel-nav-list {
       padding: 0;
-      margin: 0 auto;
       display: flex;
       list-style-type: none;
       @include media-breakpoint-up(lg) {
