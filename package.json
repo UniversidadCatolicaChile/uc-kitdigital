@@ -1,6 +1,6 @@
 {
   "name": "uc-components",
-  "version": "1.9.5",
+  "version": "1.9.6",
   "description": "Librería de componentes para la Pontificia Universidad Católica de Chile",
   "main": "uc-components.js",
   "scripts": {
