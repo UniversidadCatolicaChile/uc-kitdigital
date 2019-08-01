@@ -101,40 +101,37 @@ p, .p {
   @include media-breakpoint-up(lg) {
     line-height: 1.5;
   }
-  &.p-size--sm {
-    font-size: 0.875em;
-    line-height: 1.5;
-    @include media-breakpoint-up(lg) {
-      line-height: 1.1;
-    }
-  }
-  &.p-size--lg {
-    font-size: 1.125em;
-    line-height: 1.7;
-  }
-  &.p-size--xl {
-    font-size: 1.25em;
-    line-height: 1.4;
-    letter-spacing: 0.6px;
-    @include media-breakpoint-up(lg) {
-      font-size: 1.5em;
-      line-height: 1.6;
-      letter-spacing: 0.18px;
-    }
-  }
-  &.p-color--gray {
-    color: $gray;
-  }
-  &.p-text--condensed {
-    letter-spacing: 0;
-  }
-  &.p-text--extended {
-    letter-spacing: 1px;
-  }
 }
 
-.text-color--gray {
+.p-size--sm, .text-size--sm {
+  font-size: 0.875em;
+  line-height: 1.5;
+  @include media-breakpoint-up(lg) {
+    line-height: 1.1;
+  }
+}
+.p-size--lg, .text-size--lg {
+  font-size: 1.125em;
+  line-height: 1.7;
+}
+.p-size--xl, .text-size--xl {
+  font-size: 1.25em;
+  line-height: 1.4;
+  letter-spacing: 0.6px;
+  @include media-breakpoint-up(lg) {
+    font-size: 1.5em;
+    line-height: 1.6;
+    letter-spacing: 0.18px;
+  }
+}
+.p-color--gray, .text-color--gray {
   color: $gray;
+}
+.p-text--condensed, .text--condensed {
+  letter-spacing: 0;
+}
+.p-text--extended, .text--extended {
+  letter-spacing: 1px;
 }
 
 .text-weight--medium {
