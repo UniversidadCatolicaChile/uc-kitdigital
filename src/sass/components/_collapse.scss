@@ -1,5 +1,6 @@
 .uc-collapse {
   border-radius: 0 4px 4px 0;
+  overflow: hidden;
   border-left: 0;
   .uc-collapse_heading {
     box-shadow: $primary-shadow;
