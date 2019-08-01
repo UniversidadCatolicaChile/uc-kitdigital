@@ -17,3 +17,7 @@ $sides-list: top right bottom left;
     border-#{$side}: $primary-border;
   }
 }
+
+.uc-border--none {
+  border: none;
+}
