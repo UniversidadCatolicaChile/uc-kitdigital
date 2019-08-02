@@ -57,12 +57,12 @@
     padding: 20px 16px;
     transition: .2s ease;
     text-decoration: none;
-    background-color: $lightgraya;
+    background-color: $lightgrayc;
     &:focus {
       outline: none;
     }
     &:hover {
-      color: $darkgray;
+      color: #000;
       text-decoration: none;
     }
     &.active {
