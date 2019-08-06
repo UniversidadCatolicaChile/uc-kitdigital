@@ -150,6 +150,27 @@
   }
 }
 
+//duplicado nueva clase '.uc-carousel-controls'
+
+.uc-carousel-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 32px;
+  .prev, .next {
+    display: flex;
+    cursor: pointer;
+    &[aria-disabled="true"] {
+      svg g {
+        fill: $gray;
+      }
+    }
+  }
+  .prev {
+    transform: rotate(-180deg);
+  }
+}
+
 .uc-carousel_index {
   color: $gray;
   font-size: 1em;
