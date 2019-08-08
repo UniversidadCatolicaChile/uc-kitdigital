@@ -44,6 +44,7 @@
   }
   &.image-nested {
     margin-bottom: 200px;
+    overflow: visible;
     @include media-breakpoint-up(md) {
       margin-bottom: auto;
     }
@@ -54,6 +55,7 @@
       padding: 32px;
       display: flex;
       align-items: flex-end;
+      overflow: visible;
       @include media-breakpoint-up(md) {
         height: 600px;
       }
