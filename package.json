@@ -1,6 +1,6 @@
 {
   "name": "@digitaluc/uc-kitdigital",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "Librería de componentes para la Pontificia Universidad Católica de Chile",
   "main": "uc-components.js",
   "repository": {
@@ -19,8 +19,12 @@
     "Design System",
     "UI Kit"
   ],
+  "files": [
+    "/src",
+    "/dist"
+  ],
   "author": "Asimov Consultores",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "browser-sync-webpack-plugin": "2.0.1",
