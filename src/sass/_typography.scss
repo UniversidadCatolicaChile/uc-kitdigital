@@ -157,7 +157,7 @@ p, .p {
   }
 }
 
-.uc-quote, %quote {
+.uc-quote, %uc-quote {
   font-family: 'Roboto Slab', serif;
   font-size: 1.125em;
   line-height: 1.33333;
@@ -166,7 +166,7 @@ p, .p {
     font-size: 1.5em;
     letter-spacing: 0.18px;
   }
-  &.quote-lg {
+  &.quote-lg, &.quote-size--lg {
     font-size: 1.5em;
     font-weight: bold;
     @include media-breakpoint-up(lg) {

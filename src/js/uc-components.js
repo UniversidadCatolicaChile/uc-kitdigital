@@ -7,6 +7,7 @@ import {UcCarousel} from "./components/carousels.js";
 
 // import {DonutChart} from "./visualizations/donut-chart.js"
 // import {BarChart} from "./visualizations/bar-chart.js"
+// import {StackedBarChart} from "./visualizations/stacked-bar-chart.js"
 // import {DonutChartAlt} from "./visualizations/donut-chart-alt";
 // import {sunburstChart} from "./visualizations/sunburst-chart.js";
 // import {sunburstChartAlt} from "./visualizations/sunburst-chart-alt";
@@ -28,4 +29,5 @@ const uc_kit_components = {
 // new BarChart();
 // new sunburstChart();
 // new sunburstChartAlt();
+// new StackedBarChart();
 

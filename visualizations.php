@@ -38,6 +38,13 @@
                 </div>
             </div>
         </div>
+        <div class="col-lg-12 mb-32">
+            <div class="uc-card">
+                <div class="uc-card_body text-center">
+                    <div id="uc-stackedbar-chart"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
