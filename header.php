@@ -110,19 +110,6 @@
                 <a href="#" class="list-item">Programas de estudio</a>
                 <a href="#" class="list-item">Investigación</a>
                 <a href="#" class="list-item">Facultades</a>
-                <!--
-                <div class="collapse-nav-mobile">
-                    <a href="javascript:void(0);" class="list-item uc-collapse_heading" data-collapse="collapseExample">
-                        Información para
-                    </a>
-                    <div class="uc-collapse_body" data-toggle="collapseExample" data-open="false" style="height: 0px;">
-                        <div class="uc-navbar_mobile-list">
-                            <a href="#" class="list-item">Investigación</a>
-                            <a href="#" class="list-item">Facultades</a>
-                        </div>
-                    </div>
-                </div>
-            -->
             </div>
         </div>
     </div>
