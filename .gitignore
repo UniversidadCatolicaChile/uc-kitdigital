@@ -3,3 +3,4 @@ node_modules
 /dist
 *.php
 yarn.lock
+.DS_Store

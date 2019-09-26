@@ -1,8 +1,12 @@
 {
-  "name": "uc-components",
-  "version": "1.10.1",
+  "name": "uc-kitdigital",
+  "version": "1.11.0",
   "description": "Librería de componentes para la Pontificia Universidad Católica de Chile",
   "main": "uc-components.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/asimovers/uc-components.git"
+  },
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -11,13 +15,12 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "keywords": [],
+  "keywords": ["Design System", "UI Kit"],
   "author": "Asimov Consultores",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "browser-sync-webpack-plugin": "2.0.1",
-    "d3": "^5.9.7",
     "laravel-mix": "^4.0.14",
     "nvm": "0.0.4",
     "resolve-url-loader": "^2.3.2",

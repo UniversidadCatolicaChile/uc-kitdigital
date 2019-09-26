@@ -20,9 +20,9 @@
     margin-bottom: -2px;
     text-decoration: none;
     color: $darkgray;
-    transition: .2s ease;
+    transition: border .2s ease;
     &:focus {
-      outline: none;
+      outline-color: rgba($primaryblue, .7);
     }
     &:hover {
       color: $darkgray;
@@ -59,7 +59,7 @@
     text-decoration: none;
     background-color: $lightgrayc;
     &:focus {
-      outline: none;
+      outline-color: rgba($primaryblue, .7);
     }
     &:hover {
       color: #000;

@@ -2,15 +2,8 @@ import {Modal} from "./components/modal.js";
 import {Accordion} from "./components/accordion.js";
 import {Dropdown} from "./components/dropdown.js";
 import {Tab} from "./components/tab.js";
-import {Tooltip} from "./components/tooltip.js";
 import {UcCarousel} from "./components/carousels.js";
-
-// import {DonutChart} from "./visualizations/donut-chart.js"
-// import {BarChart} from "./visualizations/bar-chart.js"
-// import {StackedBarChart} from "./visualizations/stacked-bar-chart.js"
-// import {DonutChartAlt} from "./visualizations/donut-chart-alt";
-// import {sunburstChart} from "./visualizations/sunburst-chart.js";
-// import {sunburstChartAlt} from "./visualizations/sunburst-chart-alt";
+import {Tooltip} from "./components/tooltip.js";
 
 // componentes interactivos
 const uc_kit_components = {
@@ -18,16 +11,7 @@ const uc_kit_components = {
     modal: new Modal(),
     drop: new Dropdown(),
     tab: new Tab(),
+    carousels: new UcCarousel(),
     tooltip: new Tooltip(),
-    carousels: new UcCarousel()
 };
-
-// visualizaciones
-
-// new DonutChart();
-// new DonutChartAlt();
-// new BarChart();
-// new sunburstChart();
-// new sunburstChartAlt();
-// new StackedBarChart();
 
