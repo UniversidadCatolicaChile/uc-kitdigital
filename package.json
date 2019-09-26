@@ -5,7 +5,7 @@
   "main": "uc-components.js",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/asimovers/uc-components.git"
+    "url": "https://bitbucket.org/asimovers/uc-kitdigital.git"
   },
   "scripts": {
     "dev": "npm run development",
