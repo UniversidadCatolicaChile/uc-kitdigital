@@ -2,7 +2,7 @@
   "name": "@digitaluc/uc-kitdigital",
   "version": "1.14.1",
   "description": "Librería de componentes para la Pontificia Universidad Católica de Chile",
-  "main": "uc-components.js",
+  "main": "uc-kitdigital.js",
   "repository": {
     "type": "git",
     "url": "git+https://bitbucket.org/asimovers/uc-kitdigital.git"
