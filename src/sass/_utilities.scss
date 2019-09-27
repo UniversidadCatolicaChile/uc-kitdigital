@@ -26,6 +26,10 @@ a:focus, button:focus {
   color: #000 !important;
 }
 
+.color-blue {
+  color: $primaryblue;
+}
+
 // triangulo para tooltips y dropdown
 .white-triangle {
   width: 41px;
