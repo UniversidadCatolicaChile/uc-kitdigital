@@ -23,7 +23,7 @@
     "/src",
     "/dist"
   ],
-  "author": "Asimov Consultores",
+  "author": "Asimov Consultores SpA",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",

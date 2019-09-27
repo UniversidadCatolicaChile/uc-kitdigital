@@ -49,7 +49,7 @@
         </div>
     </div>
 </div>
-<div class="uc-navbar">
+<div class="uc-navbar navbar-theme--dark">
     <div class="container d-none d-lg-flex">
         <div class="row no-gutters">
             <div class="col-lg-2">
