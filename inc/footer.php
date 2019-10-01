@@ -1,3 +1,3 @@
-<script src="dist/js/uc-components.js"></script>
+<script src="dist/js/uc-kitdigital.js"></script>
 </body>
 </html>

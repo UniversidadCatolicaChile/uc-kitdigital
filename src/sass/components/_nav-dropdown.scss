@@ -1,6 +1,5 @@
 .uc-dropdown {
   position: relative;
-  display: flex;
 }
 
 .uc-dropdown_list {
@@ -10,7 +9,7 @@
   background-color: #fff;
   box-shadow: $menu-shadow;
   padding: 12px 24px;
-  max-width: 220px;
+  min-width: 210px;
   top: 30px;
   border-radius: $small-radius;
   .uc-btn {
@@ -31,7 +30,7 @@
     }
   }
   &.show {
-    display: inline-block;
+    display: block;
   }
 }
 
