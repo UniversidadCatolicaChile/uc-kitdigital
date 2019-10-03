@@ -21,7 +21,8 @@
   ],
   "files": [
     "/src",
-    "/dist"
+    "/dist",
+    "/docs"
   ],
   "author": "Asimov Consultores SpA",
   "license": "MIT",
