@@ -69,3 +69,10 @@ a:focus, button:focus {
     padding-left: 0;
   }
 }
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
