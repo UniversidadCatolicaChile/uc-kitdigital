@@ -1,4 +1,4 @@
-.uc-navbar {
+.uc-site-navbar {
   padding: 0;
   position: relative;
   background-color: #fff;
@@ -47,7 +47,31 @@
     }
   }
 }
-
+.uc-navbar {
+  background-color: #fff;
+  border-bottom: $primary-border;
+  box-shadow: 0 0 8px 0 rgba(136,136,136,0.18);
+  @include media-breakpoint-up(lg) {
+    padding: 24px 0;
+  }
+  .uc-navbar_nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 24px;
+    list-style-type: none;
+    justify-content: space-between;
+    .nav-item {
+      flex-grow: 1;
+      padding: 1px 0;
+      text-align: center;
+      border-right: $primary-border;
+      &:first-child {
+        border-left: $primary-border;
+      }
+    }
+  }
+}
 // mobile menu
 .uc-navbar_mobile {
 

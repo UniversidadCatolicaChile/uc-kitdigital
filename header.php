@@ -45,7 +45,8 @@
     </div>
   </div>
 </div>
-<div class="uc-navbar">
+<!--
+<div class="uc-site-navbar">
   <div class="container d-none d-lg-flex">
     <div class="row no-gutters">
       <div class="col-lg-2">
@@ -81,15 +82,57 @@
           </li>
           <li class="nav-item active"><a href="#" class="uc-link">Ítem activo</a></li>
           <li class="nav-item"><a href="#" class="uc-link">Texto</a></li>
-          <li class="nav-item ml-auto">
-            <div class="uc-form-group no-margin">
-              <input id="ucsearch" type="text" class="uc-input-style w-icon search" placeholder="Buscar por">
-              <span class="w-icon search"></span>
-            </div>
-          </li>
         </ul>
       </div>
     </div>
+  </div>
+  <div class="uc-navbar_mobile d-block d-lg-none">
+    <div class="uc-navbar_mobile-bar">
+      <div class="uc-navbar_mobile-logo">
+        <img src="logo-uc-mobile.svg" alt="Logo UC" class="img-fluid">
+      </div>
+      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav">
+        <span class="uc-icon"></span>
+      </a>
+    </div>
+    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav" data-open="false" style="height: 0;">
+      <div class="uc-navbar_mobile-list">
+        <a href="#" class="list-item">Inicio</a>
+        <a href="#" class="list-item">Programas de estudio</a>
+        <a href="#" class="list-item">Investigación</a>
+        <a href="#" class="list-item">Facultades</a>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<div class="uc-navbar">
+  <div class="container d-none d-lg-block">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="/logo-facultad.svg" alt="Logo de Facultad" class="img-fluid">
+      </div>
+    </div>
+    <ul class="uc-navbar_nav">
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">En qué consiste</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Alertas académicas</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Revisión de Permanencia</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Apoyos</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Calendario</a>
+      </li>
+    </ul>
   </div>
   <div class="uc-navbar_mobile d-block d-lg-none">
     <div class="uc-navbar_mobile-bar">
