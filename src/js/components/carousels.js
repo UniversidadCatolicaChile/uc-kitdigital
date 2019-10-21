@@ -23,6 +23,7 @@ class UcCarousel {
                 prevButton: data.prevButton ? data.prevButton : false,
                 nextButton: data.nextButton ? data.nextButton : false,
                 autoplayText: data.autoplayText ? autoPlayButtons : false,
+                autoplayTimeout: 6000,
                 responsive: {
                     720: {
                         items: data.smItems ? parseInt(data.smItems) : 1,
