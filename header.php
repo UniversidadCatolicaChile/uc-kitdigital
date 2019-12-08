@@ -45,95 +45,35 @@
     </div>
   </div>
 </div>
-<!--
-<div class="uc-site-navbar">
-  <div class="container d-none d-lg-flex">
-    <div class="row no-gutters">
-      <div class="col-lg-2">
-        <div class="uc-navbar-brand d-none d-lg-flex">
-          <a href="#">
-            <img src="http://via.placeholder.com/175x100" class="img-fluid" alt="">
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-9">
-        <div class="uc-navbar_title">
-          <h1>Nombre de Facultad</h1>
-        </div>
-        <ul class="uc-navbar_nav">
-          <li class="nav-item"><a href="#" class="uc-link">Inicio</a></li>
-          <li class="nav-item uc-dropdown">
-            <a href="#" class="dropbtn uc-link" data-dtarget="prueba">Ítem desplegable <i class="uc-icon">arrow_drop_down</i></a>
-            <div data-dropdown="prueba" class="uc-dropdown_list">
-              <div class="white-triangle"></div>
-              <div class="uc-dropdown_list-item">
-                <a href="#" class="uc-btn">Construcción y vivienda</a>
-              </div>
-              <div class="uc-dropdown_list-item">
-                <a href="#" class="uc-btn">Educación</a>
-              </div>
-              <div class="uc-dropdown_list-item">
-                <a href="#" class="uc-btn">Fortalecimiento de organizaciones</a>
-              </div>
-              <div class="uc-dropdown_list-item">
-                <a href="#" class="uc-btn">Pastoral</a>
-              </div>
-            </div>
-          </li>
-          <li class="nav-item active"><a href="#" class="uc-link">Ítem activo</a></li>
-          <li class="nav-item"><a href="#" class="uc-link">Texto</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="uc-navbar_mobile d-block d-lg-none">
-    <div class="uc-navbar_mobile-bar">
-      <div class="uc-navbar_mobile-logo">
-        <img src="logo-uc-mobile.svg" alt="Logo UC" class="img-fluid">
-      </div>
-      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav">
-        <span class="uc-icon"></span>
-      </a>
-    </div>
-    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav" data-open="false" style="height: 0;">
-      <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
-      </div>
-    </div>
-  </div>
-</div>
--->
 <div class="uc-navbar">
   <div class="container d-none d-lg-block">
     <div class="row">
       <div class="col-lg-6">
-        <img src="/logo-facultad.svg" alt="Logo de Facultad" class="img-fluid">
+        <img src="img/header-placeholder.png" alt="Logo de Facultad" class="img-fluid">
       </div>
     </div>
     <ul class="uc-navbar_nav">
       <li class="nav-item">
-        <a href="#" class="uc-btn btn-inline">Inicio</a>
+        <a href="#" class="uc-btn btn-inline">Texto</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="uc-btn btn-inline">En qué consiste</a>
+        <a href="#" class="uc-btn btn-inline">Texto</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="uc-btn btn-inline">Alertas académicas</a>
+        <a href="#" class="uc-btn btn-inline">Texto</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="uc-btn btn-inline">Revisión de Permanencia</a>
+        <a href="#" class="uc-btn btn-inline">Texto</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="uc-btn btn-inline">Apoyos</a>
+        <a href="#" class="uc-btn btn-inline">Texto</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="uc-btn btn-inline">Calendario</a>
+        <a href="#" class="uc-btn btn-inline">Texto</a>
       </li>
     </ul>
   </div>
+  <!--
   <div class="uc-navbar_mobile d-block d-lg-none">
     <div class="uc-navbar_mobile-bar">
       <div class="uc-navbar_mobile-logo">
@@ -151,6 +91,226 @@
         <a href="#" class="list-item">Facultades</a>
       </div>
     </div>
+  </div>
+  -->
+</div>
+
+<div class="uc-navbar mt-80">
+  <div class="container d-none d-lg-block">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="img/header-placeholder-2.png" alt="Logo de Facultad" class="img-fluid">
+      </div>
+      <div class="col-lg-9">
+        <ul class="uc-navbar_nav">
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="uc-navbar mt-80">
+  <div class="container d-none d-lg-block">
+    <div class="row align-items-center">
+      <div class="col-lg-3">
+        <img src="img/header-placeholder-2.png" alt="Logo de Facultad" class="img-fluid">
+      </div>
+      <div class="col-lg-9 text-right">
+        <div class="p-text--condensed p-color--gray">Slogan de la marca (Alineado a la derecha)</div>
+      </div>
+    </div>
+    <ul class="uc-navbar_nav">
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="uc-navbar mt-80">
+  <div class="container d-none d-lg-block">
+    <div class="row align-items-center">
+      <div class="col-lg-3">
+        <img src="img/header-placeholder-2.png" alt="Logo de Facultad" class="img-fluid">
+      </div>
+      <div class="col-lg-9">
+        <div class="h2 text-font--serif text-color--blue">Título</div>
+        <div class="text-color--gray p-size--lg">Bajada</div>
+      </div>
+    </div>
+    <ul class="uc-navbar_nav">
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="uc-navbar navbar-dark mt-40">
+  <div class="container d-none d-lg-block">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="img/header-placeholder.png" alt="Logo de Facultad" class="img-fluid">
+      </div>
+    </div>
+    <ul class="uc-navbar_nav">
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="uc-navbar navbar-dark mt-40">
+  <div class="container d-none d-lg-block">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="img/header-placeholder-2.png" alt="Logo de Facultad" class="img-fluid">
+      </div>
+      <div class="col-lg-9">
+        <ul class="uc-navbar_nav">
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="uc-btn btn-inline">Texto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="uc-navbar navbar-dark mt-80">
+  <div class="container d-none d-lg-block">
+    <div class="row align-items-center">
+      <div class="col-lg-3">
+        <img src="img/header-placeholder-2.png" alt="Logo de Facultad" class="img-fluid">
+      </div>
+      <div class="col-lg-9 text-right">
+        <div class="p-text--condensed color-white">Slogan de la marca (Alineado a la derecha)</div>
+      </div>
+    </div>
+    <ul class="uc-navbar_nav">
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="uc-navbar navbar-dark mt-80">
+  <div class="container d-none d-lg-block">
+    <div class="row align-items-center">
+      <div class="col-lg-3">
+        <img src="img/header-placeholder-2.png" alt="Logo de Facultad" class="img-fluid">
+      </div>
+      <div class="col-lg-9">
+        <div class="h2 text-font--serif color-white">Título</div>
+        <div class="color-white p-size--lg">Bajada</div>
+      </div>
+    </div>
+    <ul class="uc-navbar_nav">
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="uc-btn btn-inline">Texto</a>
+      </li>
+    </ul>
   </div>
 </div>
 <?php include('inc/footer.php') ?>

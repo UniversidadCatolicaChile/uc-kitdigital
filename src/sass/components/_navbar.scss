@@ -71,6 +71,17 @@
       }
     }
   }
+  &.navbar-dark {
+    background-color: $darkblue;
+    .uc-navbar_nav {
+      .nav-item {
+        border-color: #fff;
+        .uc-btn {
+          color: #fff;
+        }
+      }
+    }
+  }
 }
 // mobile menu
 .uc-navbar_mobile {

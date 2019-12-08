@@ -31,7 +31,7 @@ a {
   }
 }
 
-h1, .h1 {
+h1, .h1, .uc-h1 {
   font-size: 2em;
   line-height: 1.1875;
   font-weight: 700;
@@ -41,7 +41,7 @@ h1, .h1 {
   }
 }
 
-h2, .h2 {
+h2, .h2, .uc-h2 {
   font-size: 1.5em;
   line-height: 1.16;
   letter-spacing: 0.18px;
@@ -52,7 +52,7 @@ h2, .h2 {
   }
 }
 
-h3, .h3 {
+h3, .h3, .uc-h3 {
   font-size: 1.25em;
   letter-spacing: 0.18px;
   font-weight: 700;
@@ -62,7 +62,7 @@ h3, .h3 {
   }
 }
 
-h4, .h4 {
+h4, .h4, .uc-h5 {
   font-size: 1.125em;
   letter-spacing: 0.25px;
   line-height: 1.2;
@@ -72,7 +72,7 @@ h4, .h4 {
   }
 }
 
-h5, .h5 {
+h5, .h5, .uc-h5 {
   font-size: 1em;
   font-weight: 700;
   line-height: 1.7;
@@ -83,7 +83,7 @@ h5, .h5 {
   }
 }
 
-h6, .h6 {
+h6, .h6, .uc-h6 {
   font-size: 0.875em;
   font-weight: 700;
   line-height: 1.7;
@@ -94,7 +94,7 @@ h6, .h6 {
   }
 }
 
-p, .p {
+p, .p, .uc-p {
   font-size: 1em;
   line-height: 1.6;
   letter-spacing: 0.5px;
@@ -124,6 +124,13 @@ p, .p {
     letter-spacing: 0.18px;
   }
 }
+
+.p-color--primary, .text-color--primary {
+  color: $primary;
+}
+.p-color--blue, .text-color--blue {
+  color: $blue;
+}
 .p-color--gray, .text-color--gray {
   color: $gray;
 }
@@ -140,6 +147,10 @@ p, .p {
 
 .text-weight--bold {
   font-weight: 700;
+}
+
+.text-font--serif {
+  font-family: 'Roboto Slab', serif;
 }
 
 .uc-link {
@@ -192,4 +203,3 @@ p, .p {
     letter-spacing: 1px;
   }
 }
-
