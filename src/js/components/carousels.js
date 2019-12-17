@@ -5,6 +5,7 @@ class UcCarousel {
         let carousels = document.querySelectorAll('[data-carousel]');
         let autoPlayButtons = ["<i class='uc-icon play-button'>play_circle_filled</i>", "<i class='uc-icon pause-button'>pause_circle_filled</i>"]
 
+
         carousels.forEach(e => {
             var data = e.dataset;
 
@@ -23,7 +24,6 @@ class UcCarousel {
                 prevButton: data.prevButton ? data.prevButton : false,
                 nextButton: data.nextButton ? data.nextButton : false,
                 autoplayText: data.autoplayText ? autoPlayButtons : false,
-                autoplayTimeout: 6000,
                 responsive: {
                     720: {
                         items: data.smItems ? parseInt(data.smItems) : 1,
@@ -35,37 +35,17 @@ class UcCarousel {
                 }
             };
 
-            // var options = {
-            //     container: '.' + data.carousel,
-            //     items: 1,
-            //     slideBy: 1,
-            //     loop: false,
-            //     nav: false,
-            //     gutter: 0,
-            //     autoplay: false,
-            //     speed: 300,
-            //     controls: false,
-            //     navContainer: false,
-            //     autoplayButton: false,
-            //     prevButton: false,
-            //     nextButton: false,
-            //     autoplayText: false
-            // };
-
-            // Object.keys(data).forEach(option => {
-            //     console.log(option);
-            //     options[option] = this.optionParser(data[options])
-            // });
-
             var carousel = tns(options);
 
             if (data.counter && JSON.parse(data.counter)) {
+
                 let indexCurrent = e.getElementsByClassName('index-current')[0];
                 let indexTotal = e.getElementsByClassName('index-total')[0];
-                indexCurrent.innerHTML = carousel.getInfo().items;
-                indexTotal.innerHTML = carousel.getInfo().slideCount;
+                let itemOffSet = data.offset ? parseInt(data.offset) : 0;
+                indexCurrent.innerHTML = carousel.getInfo().items - itemOffSet;
+                indexTotal.innerHTML = carousel.getInfo().slideCount - itemOffSet; //
                 carousel.events.on('indexChanged', info => {
-                    indexCurrent.innerHTML = info.items+info.index;
+                    indexCurrent.innerHTML = (info.items-itemOffSet)+info.index;
                 });
             }
             if(data.track && JSON.parse(data.track)){
