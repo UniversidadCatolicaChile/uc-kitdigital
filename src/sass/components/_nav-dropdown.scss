@@ -33,15 +33,3 @@
     display: block;
   }
 }
-
-.uc-dropdown_list.show[data-hdtarget] {
-  &:before {
-    content: '';
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    top: -50px;
-    left: 0;
-    background-color: transparent;
-  }
-}
