@@ -111,9 +111,6 @@
                      data-track="true">
                     <div class="uc-carousel-cards_content">
                         <div class="item">
-                            <p>Los académicos UC son líderes nacionales en sus respectivas áreas y muchos son reconocidos año a año tanto por sus aportes locales como internacionales.</p>
-                        </div>
-                        <div class="item">
                             <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('img/card_1.jpg')">
                                 <div class="uc-card_body">
                                     <a href="#" class="uc-tag">Creación de conocimiento de frontera</a>

@@ -15,7 +15,7 @@ class UcCarousel {
                 slideBy: data.slideby ? parseInt(data.slideby, 10) : 1,
                 loop: data.loop ? JSON.parse(data.loop) : false,
                 nav: data.nav ? JSON.parse(data.nav) : false,
-                gutter: data.gutter ? parseInt(data.gutter) : 0,
+                gutter: data.gutter ? parseInt(data.gutter) : 10,
                 autoplay: data.autoplay ? JSON.parse(data.autoplay) : false,
                 speed: data.speed ? parseInt(data.speed, 10) : 300,
                 controls: data.controls ? JSON.parse(data.controls) : false,
@@ -25,11 +25,11 @@ class UcCarousel {
                 nextButton: data.nextButton ? data.nextButton : false,
                 autoplayText: data.autoplayText ? autoPlayButtons : false,
                 responsive: {
-                    720: {
+                    768: {
                         items: data.smItems ? parseInt(data.smItems) : 1,
                         gutter: 30
                     },
-                    960: {
+                    992: {
                         items: data.items ? parseInt(data.items) : 1
                     }
                 }

@@ -78,7 +78,8 @@
     <h3 class="mb-28">cards anidadas / cards horizontales</h3>
     <div class="row mb-32">
         <div class="col-lg-4">
-            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image:url('/img/bg-card.png');width: 100%;">
+            <div class="uc-card card-bg--image card-gradient--bottom-blue card-type--link" style="background-image:url('/img/bg-card.png');width: 100%;">
+                <a href="http://google.cl" class="uc-card_link"></a>
                 <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
                 <div class="uc-card_body">
                     <div class="uc-card card-bg--white mt-auto">
@@ -91,6 +92,7 @@
         </div>
         <div class="col-lg-6">
             <div class="uc-card card-type--horizontal mb-32">
+                <a href="http://google.cl" class="uc-card_link"></a>
                 <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
                 <div class="uc-card_body">
                     <a href="#" class="uc-tag">
@@ -106,6 +108,7 @@
                 </div>
             </div>
             <div class="uc-card card-type--horizontal">
+                <a href="http://google.cl" class="uc-card_link"></a>
                 <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
                 <div class="uc-card_body">
                     <a href="#" class="uc-tag">

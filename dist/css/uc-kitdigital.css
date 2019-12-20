@@ -3770,7 +3770,7 @@ button:focus {
 }
 
 .color-blue {
-  color: #0176DE;
+  color: #0176DE !important;
 }
 
 .white-triangle {
@@ -3994,7 +3994,7 @@ button:focus {
   line-height: 1;
   letter-spacing: 0.5px;
   align-self: flex-start;
-  z-index: 2;
+  z-index: 10;
   transition: background-color 0.2s ease;
   text-decoration: none;
 }
@@ -4817,7 +4817,17 @@ button:focus {
   background-image: linear-gradient(180deg, rgba(43, 76, 137, 0) 30%, rgba(0, 0, 0, 0.7) 90%);
 }
 
-@media (min-width: 992px) {
+.uc-card.card-type--link {
+  background-size: 100%;
+  transition: all 0.3s ease-in;
+}
+
+.uc-card.card-type--link:hover {
+  background-size: 110%;
+  box-shadow: 0 2px 32px 0 rgba(0, 0, 0, 0.23);
+}
+
+@media (min-width: 768px) {
   .uc-card.card-height--same {
     height: 100%;
   }
@@ -5912,6 +5922,8 @@ textarea.uc-input-style {
 }
 
 .uc-carousel-cards {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
   position: relative;
   width: 100vw;
   left: calc(-1 * (100vw - 100%) / 2);
