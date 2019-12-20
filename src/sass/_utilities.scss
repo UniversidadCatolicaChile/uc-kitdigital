@@ -18,6 +18,8 @@ a:focus, button:focus {
   text-align: right !important;
 }
 
+// colores sólidos
+
 .color-white {
   color: #fff !important;
 }
@@ -27,7 +29,7 @@ a:focus, button:focus {
 }
 
 .color-blue {
-  color: $primaryblue;
+  color: $primaryblue !important;
 }
 
 // triangulo para tooltips y dropdown
