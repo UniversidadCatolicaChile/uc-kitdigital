@@ -86,7 +86,7 @@ $card-bg-height: 532px;
   }
   // card same height
   &.card-height--same {
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
       height: 100%;
     }
   }
