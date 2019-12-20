@@ -36,6 +36,7 @@ class UcCarousel {
             };
 
             var carousel = tns(options);
+            e.style.opacity = "1";
 
             if (data.counter && JSON.parse(data.counter)) {
 
