@@ -27,7 +27,7 @@ class UcCarousel {
                 responsive: {
                     768: {
                         items: data.smItems ? parseInt(data.smItems) : 1,
-                        gutter: 30
+                        gutter: 32
                     },
                     992: {
                         items: data.items ? parseInt(data.items) : 1
