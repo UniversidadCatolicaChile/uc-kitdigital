@@ -123,7 +123,7 @@
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
   position: relative;
-  width: calc(100vw - 20px);
+  width: 100vw;
   left: calc(-1 * (100vw - 100%) / 2);
   right: 0;
   padding: 40px calc((100vw - 100%)/2);
