@@ -85,10 +85,8 @@ $card-bg-height: 532px;
     }
   }
   &.card-type--link {
-    background-size: 100%;
     transition: all .3s ease-in;
     &:hover {
-      background-size: 110%;
       box-shadow: 0 2px 32px 0 rgba(0, 0, 0, 0.23);
     }
   }
