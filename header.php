@@ -86,10 +86,10 @@
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav" data-open="false" style="height: 0;">
       <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
       </div>
     </div>
   </div>
@@ -134,10 +134,10 @@
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav1" data-open="false" style="height: 0;">
       <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
       </div>
     </div>
   </div>
@@ -186,10 +186,10 @@
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav2" data-open="false" style="height: 0;">
       <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
       </div>
     </div>
   </div>
@@ -239,10 +239,10 @@
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav3" data-open="false" style="height: 0;">
       <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
       </div>
     </div>
   </div>
@@ -288,10 +288,10 @@
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav4" data-open="false" style="height: 0;">
       <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
       </div>
     </div>
   </div>
@@ -333,10 +333,10 @@
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav5" data-open="false" style="height: 0;">
       <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
       </div>
     </div>
   </div>
@@ -385,10 +385,10 @@
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav6" data-open="false" style="height: 0;">
       <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
       </div>
     </div>
   </div>
@@ -438,10 +438,10 @@
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav7" data-open="false" style="height: 0;">
       <div class="uc-navbar_mobile-list">
-        <a href="#" class="list-item">Inicio</a>
-        <a href="#" class="list-item">Programas de estudio</a>
-        <a href="#" class="list-item">Investigación</a>
-        <a href="#" class="list-item">Facultades</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
+        <a href="#" class="list-item">Texto</a>
       </div>
     </div>
   </div>
