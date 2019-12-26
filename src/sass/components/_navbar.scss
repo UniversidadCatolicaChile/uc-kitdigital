@@ -81,6 +81,12 @@
         }
       }
     }
+    .uc-navbar_mobile-bar {
+      .uc-navbar_mobile-logo {
+        background-color: $darkblue;
+        color: #fff;
+      }
+    }
   }
 }
 // mobile menu
@@ -98,15 +104,33 @@
       max-width: 184px;
       height: auto;
     }
+    &.navbar-light {
+      background-color: #fff;
+    }
+    &.navbar-dark {
+      background-color: $darkblue;
+    }
+  }
+  &.navbar-brand {
+    .uc-navbar_mobile-logo {
+      padding: 28px 20px;
+    }
   }
 }
 .uc-navbar_mobile-button {
-  background-color: $primaryblue;
-  width: 60px;
+  color: #fff;
+  min-width: 75px;
   display: flex;
-  flex-direction: column;
+  font-size: 12px;
   align-items: center;
+  text-decoration: none;
+  flex-direction: column;
   justify-content: center;
+  text-transform: uppercase;
+  background-color: $primaryblue;
+  &:focus, &:hover {
+    color: #fff;
+  }
   .uc-icon {
     color: #fff;
     font-size: 35px;

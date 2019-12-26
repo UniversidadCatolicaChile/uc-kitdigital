@@ -1,7 +1,8 @@
 <?php include('inc/header.php') ?>
-<div class="uc-top-bar d-none d-xl-flex">
+<div class="uc-top-bar">
   <div class="container">
-    <div class="top-bar_links justify-content-between">
+    <img src="logo-uc-mobile.svg" alt="Logo UC" class="d-block d-lg-none img-fluid">
+    <div class="top-bar_links justify-content-between d-none d-lg-flex">
       <ul class="top-bar_links">
         <li></li>
       </ul>
@@ -73,14 +74,14 @@
       </li>
     </ul>
   </div>
-  <!--
   <div class="uc-navbar_mobile d-block d-lg-none">
-    <div class="uc-navbar_mobile-bar">
-      <div class="uc-navbar_mobile-logo">
-        <img src="logo-uc-mobile.svg" alt="Logo UC" class="img-fluid">
+    <div class="uc-navbar_mobile-bar navbar-brand">
+      <div class="uc-navbar_mobile-logo navbar-light">
+        <div class="h1 text-font--serif text-color--blue">Nombre de Facultad</div>
       </div>
       <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav">
         <span class="uc-icon"></span>
+        Menú
       </a>
     </div>
     <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav" data-open="false" style="height: 0;">
@@ -92,7 +93,6 @@
       </div>
     </div>
   </div>
-  -->
 </div>
 
 <div class="uc-navbar mt-80">
@@ -119,6 +119,25 @@
             <a href="#" class="uc-btn btn-inline">Texto</a>
           </li>
         </ul>
+      </div>
+    </div>
+  </div>
+  <div class="uc-navbar_mobile d-block d-lg-none">
+    <div class="uc-navbar_mobile-bar navbar-brand">
+      <div class="uc-navbar_mobile-logo navbar-light">
+        <img src="img/header-placeholder-mobile.png" alt="" class="img-fluid">
+      </div>
+      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav1">
+        <span class="uc-icon"></span>
+        Menú
+      </a>
+    </div>
+    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav1" data-open="false" style="height: 0;">
+      <div class="uc-navbar_mobile-list">
+        <a href="#" class="list-item">Inicio</a>
+        <a href="#" class="list-item">Programas de estudio</a>
+        <a href="#" class="list-item">Investigación</a>
+        <a href="#" class="list-item">Facultades</a>
       </div>
     </div>
   </div>
@@ -155,6 +174,25 @@
       </li>
     </ul>
   </div>
+  <div class="uc-navbar_mobile d-block d-lg-none">
+    <div class="uc-navbar_mobile-bar navbar-brand">
+      <div class="uc-navbar_mobile-logo navbar-light">
+        <img src="img/header-placeholder-mobile.png" alt="" class="img-fluid">
+      </div>
+      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav2">
+        <span class="uc-icon"></span>
+        Menú
+      </a>
+    </div>
+    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav2" data-open="false" style="height: 0;">
+      <div class="uc-navbar_mobile-list">
+        <a href="#" class="list-item">Inicio</a>
+        <a href="#" class="list-item">Programas de estudio</a>
+        <a href="#" class="list-item">Investigación</a>
+        <a href="#" class="list-item">Facultades</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="uc-navbar mt-80">
@@ -189,6 +227,25 @@
       </li>
     </ul>
   </div>
+  <div class="uc-navbar_mobile d-block d-lg-none">
+    <div class="uc-navbar_mobile-bar navbar-brand">
+      <div class="uc-navbar_mobile-logo navbar-light">
+        <div class="h2 text-font--serif text-color--blue">Título</div>
+      </div>
+      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav3">
+        <span class="uc-icon"></span>
+        Menú
+      </a>
+    </div>
+    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav3" data-open="false" style="height: 0;">
+      <div class="uc-navbar_mobile-list">
+        <a href="#" class="list-item">Inicio</a>
+        <a href="#" class="list-item">Programas de estudio</a>
+        <a href="#" class="list-item">Investigación</a>
+        <a href="#" class="list-item">Facultades</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="uc-navbar navbar-dark mt-40">
@@ -219,6 +276,25 @@
       </li>
     </ul>
   </div>
+  <div class="uc-navbar_mobile d-block d-lg-none">
+    <div class="uc-navbar_mobile-bar navbar-brand">
+      <div class="uc-navbar_mobile-logo navbar-light">
+        <div class="h1 text-font--serif color-white">Nombre de Facultad</div>
+      </div>
+      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav4">
+        <span class="uc-icon"></span>
+        Menú
+      </a>
+    </div>
+    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav4" data-open="false" style="height: 0;">
+      <div class="uc-navbar_mobile-list">
+        <a href="#" class="list-item">Inicio</a>
+        <a href="#" class="list-item">Programas de estudio</a>
+        <a href="#" class="list-item">Investigación</a>
+        <a href="#" class="list-item">Facultades</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="uc-navbar navbar-dark mt-40">
@@ -242,6 +318,25 @@
             <a href="#" class="uc-btn btn-inline">Texto</a>
           </li>
         </ul>
+      </div>
+    </div>
+  </div>
+  <div class="uc-navbar_mobile d-block d-lg-none">
+    <div class="uc-navbar_mobile-bar navbar-brand">
+      <div class="uc-navbar_mobile-logo navbar-light">
+        <img src="img/header-placeholder-mobile.png" alt="" class="img-fluid">
+      </div>
+      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav5">
+        <span class="uc-icon"></span>
+        Menú
+      </a>
+    </div>
+    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav5" data-open="false" style="height: 0;">
+      <div class="uc-navbar_mobile-list">
+        <a href="#" class="list-item">Inicio</a>
+        <a href="#" class="list-item">Programas de estudio</a>
+        <a href="#" class="list-item">Investigación</a>
+        <a href="#" class="list-item">Facultades</a>
       </div>
     </div>
   </div>
@@ -278,6 +373,25 @@
       </li>
     </ul>
   </div>
+  <div class="uc-navbar_mobile d-block d-lg-none">
+    <div class="uc-navbar_mobile-bar navbar-brand">
+      <div class="uc-navbar_mobile-logo navbar-light">
+        <img src="img/header-placeholder-mobile.png" alt="" class="img-fluid">
+      </div>
+      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav6">
+        <span class="uc-icon"></span>
+        Menú
+      </a>
+    </div>
+    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav6" data-open="false" style="height: 0;">
+      <div class="uc-navbar_mobile-list">
+        <a href="#" class="list-item">Inicio</a>
+        <a href="#" class="list-item">Programas de estudio</a>
+        <a href="#" class="list-item">Investigación</a>
+        <a href="#" class="list-item">Facultades</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="uc-navbar navbar-dark mt-80">
@@ -311,6 +425,25 @@
         <a href="#" class="uc-btn btn-inline">Texto</a>
       </li>
     </ul>
+  </div>
+  <div class="uc-navbar_mobile d-block d-lg-none">
+    <div class="uc-navbar_mobile-bar navbar-brand">
+      <div class="uc-navbar_mobile-logo navbar-light">
+        <div class="h2 text-font--serif color-white">Título</div>
+      </div>
+      <a href="javascript:void(0);" class="uc-navbar_mobile-button" data-collapse="collapseMobileNav7">
+        <span class="uc-icon"></span>
+        Menú
+      </a>
+    </div>
+    <div class="uc-navbar_mobile-content" data-toggle="collapseMobileNav7" data-open="false" style="height: 0;">
+      <div class="uc-navbar_mobile-list">
+        <a href="#" class="list-item">Inicio</a>
+        <a href="#" class="list-item">Programas de estudio</a>
+        <a href="#" class="list-item">Investigación</a>
+        <a href="#" class="list-item">Facultades</a>
+      </div>
+    </div>
   </div>
 </div>
 <?php include('inc/footer.php') ?>
