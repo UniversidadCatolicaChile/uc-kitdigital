@@ -5,7 +5,7 @@
 </div>
 
 <footer class="uc-footer mb-80">
-  <div class="container pb-80">
+  <div class="container pb-48">
     <div class="row justify-content-between align-items-center">
       <div class="col-lg-2 mb-32">
         <a href="/" class="nabvar-brand">
