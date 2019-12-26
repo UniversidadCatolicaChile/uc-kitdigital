@@ -4,6 +4,57 @@
     <h1>footer</h1>
 </div>
 
+<footer class="uc-footer mb-80">
+  <div class="container pb-80">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-2 mb-32">
+        <a href="/" class="nabvar-brand">
+          <img src="logo-blanco.svg" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-lg-9">
+        <div class="h2 color-white text-font--serif">Sistema de Alertas académicas y permanencia</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="uc-footer mb-80">
+  <div class="container pb-80">
+    <div class="row justify-content-between">
+      <div class="col-lg-4 mb-32">
+        <a href="/" class="nabvar-brand">
+          <img src="img/logo-marca-modificada.svg" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-lg-3 text-left text-lg-right">
+        <div class="uc-subtitle color-white mb-16">Escuela de diseño UC</div>
+        <div class="mb-16">El Comendador 1916, Providencia.</div>
+        <div class="mb-16">¿Cómo llegar?</div>
+        <div class="mb-16"><i class="uc-icon">phone</i> (56)23545534</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<footer class="uc-footer mb-80">
+  <div class="container pb-80">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-lg-4 mb-32">
+        <a href="/" class="nabvar-brand">
+          <img src="img/logo-submarca.svg" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-lg-3 text-left text-lg-right">
+        <div class="uc-subtitle color-white mb-16">Centro UC</div>
+        <div class="mb-16">El Comendador 1916, Providencia.</div>
+        <div class="mb-16">¿Cómo llegar?</div>
+        <div class="mb-16"><i class="uc-icon">phone</i> (56)23545534</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 <footer class="uc-footer">
     <div class="container pb-80">
         <div class="row no-gutters" data-accordion>
