@@ -132,4 +132,12 @@
     </div>
 </footer>
 
+<div class="uc-dev-footer">
+  <div class="container">
+    <ul class="uc-footer-dev_content">
+      <li>Diseño y desarrollo <a href="#">Asimov Consultores</a></li>
+      <li>Utilizando el <a href="https://kitdigital.uc.cl/">Kit Digital UC</a></li>
+    </ul>
+  </div>
+</div>
 <?php include('inc/footer.php') ?>
