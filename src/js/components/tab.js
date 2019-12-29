@@ -7,10 +7,15 @@ class Tab {
 
         this.tab_panels = document.querySelectorAll('[data-tabpanel]');
         this.tab_buttons = document.querySelectorAll('[data-tabtarget]');
+        this.tab_select = document.querySelectorAll('[data-tabselect]');
         this.tabs_active = document.querySelectorAll('[data-tabactive]');
 
         this.tab_buttons.forEach(element => {
             element.addEventListener('click', (e) => this.onClick(e));
+        });
+
+        this.tab_select.forEach(element => {
+            element.addEventListener('change', (e) => this.onSelect(e));
         });
 
         this.tab_panels.forEach(element => {
@@ -64,6 +69,20 @@ class Tab {
         this.action(targets, 'open');
     }
 
+    onSelect(e) {
+        let element = e.target;
+        let parent = this.getParent(element);
+        let selectedtab = element.options[e.target.options.selectedIndex].dataset.tabtarget;
+        //console.log(parent);
+        console.log(selectedtab);
+
+        this.closeAll(parent);
+
+        let targets = parent.querySelectorAll('[data-tab="' + selectedtab + '"]');
+
+        this.action(targets, 'open');
+    }
+
     getParent(element){
         return (typeof element.parentElement == 'undefined' || element.parentElement == null) ? null :
         ((typeof element.parentElement.dataset.tabpanel != 'undefined') ? element.parentElement : this.getParent(element.parentElement));
@@ -99,6 +118,10 @@ class Tab {
         targets.forEach(element => {
             this[action](element);
         });
+    }
+
+    tabSelect() {
+        console.log('change');
     }
 }
 

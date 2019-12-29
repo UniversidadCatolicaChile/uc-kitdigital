@@ -9029,10 +9029,16 @@ function () {
     };
     this.tab_panels = document.querySelectorAll('[data-tabpanel]');
     this.tab_buttons = document.querySelectorAll('[data-tabtarget]');
+    this.tab_select = document.querySelectorAll('[data-tabselect]');
     this.tabs_active = document.querySelectorAll('[data-tabactive]');
     this.tab_buttons.forEach(function (element) {
       element.addEventListener('click', function (e) {
         return _this.onClick(e);
+      });
+    });
+    this.tab_select.forEach(function (element) {
+      element.addEventListener('change', function (e) {
+        return _this.onSelect(e);
       });
     });
     this.tab_panels.forEach(function (element) {
@@ -9082,6 +9088,18 @@ function () {
       this.action(targets, 'open');
     }
   }, {
+    key: "onSelect",
+    value: function onSelect(e) {
+      var element = e.target;
+      var parent = this.getParent(element);
+      var selectedtab = element.options[e.target.options.selectedIndex].dataset.tabtarget; //console.log(parent);
+
+      console.log(selectedtab);
+      this.closeAll(parent);
+      var targets = parent.querySelectorAll('[data-tab="' + selectedtab + '"]');
+      this.action(targets, 'open');
+    }
+  }, {
     key: "getParent",
     value: function getParent(element) {
       return typeof element.parentElement == 'undefined' || element.parentElement == null ? null : typeof element.parentElement.dataset.tabpanel != 'undefined' ? element.parentElement : this.getParent(element.parentElement);
@@ -9121,6 +9139,11 @@ function () {
       targets.forEach(function (element) {
         _this3[_action](element);
       });
+    }
+  }, {
+    key: "tabSelect",
+    value: function tabSelect() {
+      console.log('change');
     }
   }]);
 
