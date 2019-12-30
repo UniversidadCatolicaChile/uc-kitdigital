@@ -6,14 +6,14 @@
 
 <footer class="uc-footer mb-80">
   <div class="container pb-48">
-    <div class="row justify-content-between align-items-center">
+    <div class="row">
       <div class="col-lg-2 mb-32">
         <a href="/" class="nabvar-brand">
           <img src="logo-blanco.svg" alt="" class="img-fluid">
         </a>
       </div>
-      <div class="col-lg-9">
-        <div class="h2 color-white text-font--serif">Sistema de Alertas académicas y permanencia</div>
+      <div class="col-lg-8 offset-lg-1">
+        <div class="h2 color-white text-font--serif mt-28">Sistema de Alertas académicas y permanencia</div>
       </div>
     </div>
   </div>
@@ -63,6 +63,7 @@
                     <a href="/" class="nabvar-brand">
                         <img src="logo-blanco.svg" alt="" class="img-fluid">
                     </a>
+                  <p class="uc-subtitle subtitle-extended color-white mt-24">Nombre de Facultad</p>
                     <p class="my-24 mr-28">Avda. Libertador Bernando O’Higgins 340, Santiago - Chile</p>
                     <a href="#">¿Cómo llegar?</a>
                 </div>

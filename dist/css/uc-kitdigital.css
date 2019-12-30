@@ -4834,17 +4834,30 @@ button:focus {
 .uc-dev-footer .uc-footer-dev_content {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: block;
   color: #808080;
   font-size: 14px;
   align-items: center;
   list-style-type: none;
 }
 
+@media (min-width: 992px) {
+  .uc-dev-footer .uc-footer-dev_content {
+    display: flex;
+  }
+}
+
 .uc-dev-footer .uc-footer-dev_content li:not(:last-child) {
-  margin-right: 20px;
-  padding-right: 20px;
-  border-right: 1px solid #808080;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+@media (min-width: 992px) {
+  .uc-dev-footer .uc-footer-dev_content li:not(:last-child) {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #808080;
+  }
 }
 
 /*

@@ -94,15 +94,22 @@
   .uc-footer-dev_content {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     color: #808080;
     font-size: 14px;
     align-items: center;
     list-style-type: none;
+    @include media-breakpoint-up(lg) {
+      display: flex;
+    }
     li:not(:last-child) {
-      margin-right: 20px;
-      padding-right: 20px;
-      border-right: 1px solid #808080;
+      margin-bottom: 4px;
+      padding-bottom: 4px;
+      @include media-breakpoint-up(lg) {
+        margin-right: 20px;
+        padding-right: 20px;
+        border-right: 1px solid #808080;
+      }
     }
   }
 }
