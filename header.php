@@ -4,41 +4,30 @@
     <img src="logo-uc-mobile.svg" alt="Logo UC" class="d-block d-lg-none img-fluid">
     <div class="top-bar_links justify-content-between d-none d-lg-flex">
       <ul class="top-bar_links">
-        <li></li>
+        <li>
+          <a href="http://uc.cl/" target="_blank" data-dtarget="3" class="uc-link external">
+            ir al sitio UC
+          </a>
+        </li>
       </ul>
       <ul class="top-bar_links">
-        <li class="uc-dropdown">
-          <a href="#" target="_self" data-dtarget="6" class="uc-link dropbtn">
-            Información para<i class="uc-icon color-white">arrow_drop_down</i>
-          </a>
-          <div data-dropdown="6" class="uc-dropdown_list dropbtn">
-            <div class="white-triangle"></div>
-            <div class="uc-dropdown_list-item"><a href="/informacion-para/futuros-estudiantes/" class="uc-btn">Futuros estudiantes</a></div>
-            <div class="uc-dropdown_list-item"><a href="/informacion-para/estudiantes/" class="uc-btn">Estudiantes</a></div>
-            <div class="uc-dropdown_list-item"><a href="/informacion-para/academicos/" class="uc-btn">Académicos</a></div>
-            <div class="uc-dropdown_list-item"><a href="/informacion-para/personal/" class="uc-btn">Personal</a></div>
-            <div class="uc-dropdown_list-item"><a href="/informacion-para/alumni/" class="uc-btn">Alumni</a></div>
-            <div class="uc-dropdown_list-item"><a href="/informacion-para/padres-y-familia/" class="uc-btn">Padres y familia</a></div>
-            <div class="uc-dropdown_list-item"><a href="/informacion-para/vecinos/" class="uc-btn">Vecinos</a></div>
-          </div>
-        </li>
         <li>
-          <a href="http://bibliotecas.uc.cl/" target="_blank" data-dtarget="3" class="uc-link dropbtn external">
+          <a href="http://bibliotecas.uc.cl/" target="_blank" data-dtarget="3" class="uc-link external">
             Biblioteca
           </a>
         </li>
         <li>
-          <a href="https://donaciones.uc.cl/" target="_blank" data-dtarget="2" class="uc-link dropbtn external">
+          <a href="https://donaciones.uc.cl/" target="_blank" data-dtarget="2" class="uc-link external">
             Donaciones
           </a>
         </li>
         <li>
-          <a href="https://sso.uc.cl/cas/login" target="_blank" data-dtarget="4" class="uc-link dropbtn external">
+          <a href="https://sso.uc.cl/cas/login" target="_blank" data-dtarget="4" class="uc-link external">
             Mi Portal UC
           </a>
         </li>
         <li>
-          <a href="https://correo.uc.cl" target="_blank" data-dtarget="5" class="uc-link dropbtn external">
+          <a href="https://correo.uc.cl" target="_blank" data-dtarget="5" class="uc-link external">
             Correo
           </a>
         </li>

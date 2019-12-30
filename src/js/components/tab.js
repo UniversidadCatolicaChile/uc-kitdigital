@@ -46,40 +46,30 @@ class Tab {
     }
 
     onClick(e){
-
         let element = e.target;
         let parent = this.getParent(element);
-
         if (parent == null){
             console.error('Tab fuera de element tabpanel');
             return;
         }
-
         let buttons = parent.querySelectorAll('[data-tabtarget]');
-
         buttons.forEach(button => {
             button.classList.remove(this.list_class.active);
-        })
-
+        });
         element.classList.add(this.list_class.active);
-
         this.closeAll(parent);
         let targets = parent.querySelectorAll('[data-tab="' + element.dataset.tabtarget + '"]');
-
         this.action(targets, 'open');
     }
 
     onSelect(e) {
         let element = e.target;
         let parent = this.getParent(element);
-        let selectedtab = element.options[e.target.options.selectedIndex].dataset.tabtarget;
-        //console.log(parent);
-        console.log(selectedtab);
+        let selectedtab = element.options[e.target.options.selectedIndex].value;
 
         this.closeAll(parent);
 
         let targets = parent.querySelectorAll('[data-tab="' + selectedtab + '"]');
-
         this.action(targets, 'open');
     }
 

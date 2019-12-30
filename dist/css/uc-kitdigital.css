@@ -3857,6 +3857,12 @@ button:focus {
   border-radius: 4px;
 }
 
+.uc-container-break-out {
+  width: 100vw;
+  position: relative;
+  left: calc(-1 * (100vw - 100%) / 2);
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;

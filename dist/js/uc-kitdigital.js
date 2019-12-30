@@ -9092,9 +9092,7 @@ function () {
     value: function onSelect(e) {
       var element = e.target;
       var parent = this.getParent(element);
-      var selectedtab = element.options[e.target.options.selectedIndex].dataset.tabtarget; //console.log(parent);
-
-      console.log(selectedtab);
+      var selectedtab = element.options[e.target.options.selectedIndex].value;
       this.closeAll(parent);
       var targets = parent.querySelectorAll('[data-tab="' + selectedtab + '"]');
       this.action(targets, 'open');
