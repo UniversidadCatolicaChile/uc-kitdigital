@@ -7,7 +7,7 @@
       <div class="uc-card card-bg--gray card-radius--none card-border--none d-block d-lg-none mb-32">
         <div class="uc-card_body">
           <label for="tabSelect"><strong>Seleccione tab</strong></label>
-          <select name="tabSelect" id="tabSelect" class="uc-input-style" data-tabselect>
+          <select name="tabSelect" class="uc-input-style" data-tabselect>
             <option value="tab-01">Tab 1</option>
             <option value="tab-02">Tab 2</option>
             <option value="tab-03">Tab 3</option>
