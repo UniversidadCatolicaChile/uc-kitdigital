@@ -4,6 +4,11 @@ a:focus, button:focus {
   outline-offset: 2px;
 }
 
+.carousel-controls .prev:focus, .carousel-controls .next:focus {
+  outline: 2px solid rgba($primaryblue, .7) !important;
+  outline-offset: 4px;
+}
+
 // alineación de texto
 
 .text-left {
