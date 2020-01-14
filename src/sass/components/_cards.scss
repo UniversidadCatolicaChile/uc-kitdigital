@@ -33,6 +33,9 @@ $card-bg-height: 532px;
   &.card-border--none {
     border: none;
   }
+  &.card-border--top {
+    border-top: 4px solid $primaryblue;
+  }
   &.card-border--bottom {
     border-bottom: 8px solid $primaryblue;
   }
@@ -100,7 +103,9 @@ $card-bg-height: 532px;
   }
   // card horizontal
   &.card-type--horizontal {
-    flex-direction: row;
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+    }
   }
   // card in grids
   &.card-type--grid {
