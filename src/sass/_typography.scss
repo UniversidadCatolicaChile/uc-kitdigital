@@ -39,6 +39,10 @@ h1, .h1, .uc-h1 {
     font-size: 2.5em;
     line-height: 1.3;
   }
+  &.mobile {
+    font-size: 2em;
+    line-height: 1.1875;
+  }
 }
 
 h2, .h2, .uc-h2 {
@@ -50,6 +54,10 @@ h2, .h2, .uc-h2 {
     font-size: 2em;
     line-height: 1.2;
   }
+  &.mobile {
+    font-size: 1.5em;
+    line-height: 1.16;
+  }
 }
 
 h3, .h3, .uc-h3 {
@@ -60,6 +68,9 @@ h3, .h3, .uc-h3 {
     font-size: 1.5em;
     line-height: 1.2;
   }
+  &.mobile {
+    font-size: 1.25em;
+  }
 }
 
 h4, .h4, .uc-h5 {
@@ -69,6 +80,9 @@ h4, .h4, .uc-h5 {
   font-weight: 700;
   @include media-breakpoint-up(lg) {
     font-size: 1.25em;
+  }
+  .mobile {
+    font-size: 1.125em;
   }
 }
 
@@ -81,6 +95,10 @@ h5, .h5, .uc-h5 {
     line-height: 1.3;
     font-size: 1.125em;
   }
+  .mobile {
+    font-size: 1em;
+    line-height: 1.7;
+  }
 }
 
 h6, .h6, .uc-h6 {
@@ -92,6 +110,10 @@ h6, .h6, .uc-h6 {
     font-size: 1em;
     line-height: 1.5;
   }
+  .mobile {
+    font-size: 0.875em;
+    line-height: 1.7;
+  }
 }
 
 p, .p, .uc-p {
@@ -101,6 +123,9 @@ p, .p, .uc-p {
   @include media-breakpoint-up(lg) {
     line-height: 1.5;
   }
+  &.mobile {
+    line-height: 1.6;
+  }
 }
 
 .p-size--sm, .text-size--sm {
@@ -108,6 +133,9 @@ p, .p, .uc-p {
   line-height: 1.5;
   @include media-breakpoint-up(lg) {
     line-height: 1.1;
+  }
+  &.mobile {
+    line-height: 1.5;
   }
 }
 .p-size--lg, .text-size--lg {
@@ -122,6 +150,11 @@ p, .p, .uc-p {
     font-size: 1.5em;
     line-height: 1.6;
     letter-spacing: 0.18px;
+  }
+  &.mobile {
+    font-size: 1.25em;
+    line-height: 1.4;
+    letter-spacing: 0.6px;
   }
 }
 
@@ -154,9 +187,7 @@ p, .p, .uc-p {
 }
 
 .uc-link {
-  font-size: 1em;
   color: $primaryblue;
-  letter-spacing: 0.51px;
   &.external {
     &::after {
       content: 'launch';
@@ -177,12 +208,19 @@ p, .p, .uc-p {
     font-size: 1.5em;
     letter-spacing: 0.18px;
   }
+  &.mobile {
+    font-size: 1.125em;
+    letter-spacing: 0.2px;
+  }
   &.quote-lg, &.quote-size--lg {
     font-size: 1.5em;
     font-weight: bold;
     @include media-breakpoint-up(lg) {
       font-size: 2.125em;
       line-height: 1.47;
+    }
+    &.mobile {
+      font-size: 1.5em;
     }
   }
 }
@@ -201,5 +239,10 @@ p, .p, .uc-p {
     font-size: 0.875em;
     line-height: 1.1;
     letter-spacing: 1px;
+  }
+  &.mobile {
+    font-size: 0.75em;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
   }
 }

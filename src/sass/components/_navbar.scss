@@ -33,7 +33,8 @@
     list-style: none;
     align-items: center;
     font-weight: 500;
-    a {
+    a.uc-btn {
+      border-radius: 0;
       text-decoration: none;
     }
     .nav-item {
@@ -68,6 +69,15 @@
       border-right: $primary-border;
       &:first-child {
         border-left: $primary-border;
+      }
+      .uc-btn {
+        border-radius: 0;
+        padding-bottom: 2px;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom-width .2s ease, border-bottom-color .2s ease;
+        &:hover {
+          border-bottom: 2px solid;
+        }
       }
     }
   }
@@ -163,14 +173,13 @@
   overflow: hidden;
   position: absolute;
   background-color: #fff;
-  box-shadow: $secondary-shadow;
   transition: height .25s linear;
   .uc-navbar_mobile-list {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid $border-color;
     .list-item {
-      padding: 16px;
+      padding: 12px;
       text-decoration: none;
       color: #000;
       border-top: 1px solid #DEDEDE;

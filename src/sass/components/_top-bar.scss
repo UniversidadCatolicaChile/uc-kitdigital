@@ -1,7 +1,10 @@
 .uc-top-bar {
-  padding: 9px 0;
-  background-color: $blue;
+  padding: 15px 0;
   color: #fff;
+  background-color: $blue;
+  @include media-breakpoint-up(lg) {
+    padding: 9px 0;
+  }
   .uc-link {
     color: #fff;
     line-height: 1.1;
@@ -16,6 +19,9 @@
     .uc-icon {
       color: #fff;
     }
+  }
+  .top-bar_mobile-logo {
+    width: 185px;
   }
   .mobile-logo img {
     min-width: 185px;
