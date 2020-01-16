@@ -39,7 +39,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-navbar">
+  <nav class="uc-navbar">
     <!-- Menú para versión Escritorio -->
     <div class="container d-none d-lg-block">
       <div class="row">
@@ -88,7 +88,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 
 <h3>denominación</h3>
@@ -131,7 +131,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-navbar">
+  <nav class="uc-navbar">
     <!-- Menú para versión Escritorio -->
     <div class="container d-none d-lg-block">
       <div class="row align-items-center">
@@ -184,7 +184,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 <h3>submarca</h3>
 <header class="uc-header">
@@ -226,7 +226,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-navbar">
+  <nav class="uc-navbar">
     <div class="container d-none d-lg-block">
       <div class="row">
         <div class="col-lg-3">
@@ -269,7 +269,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 <h3>submarca con slogan</h3>
 <header class="uc-header">
@@ -311,7 +311,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-navbar">
+  <nav class="uc-navbar">
     <div class="container d-none d-lg-block">
       <div class="row align-items-center">
         <div class="col-lg-3">
@@ -361,7 +361,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 <h3>marca modificada (noche)</h3>
 <header class="uc-header">
@@ -403,7 +403,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-navbar navbar-dark">
+  <nav class="uc-navbar navbar-dark">
     <div class="container d-none d-lg-block">
       <div class="row">
         <div class="col-lg-6">
@@ -450,7 +450,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 <h3>submarca (noche)</h3>
 <header class="uc-header">
@@ -492,7 +492,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-navbar navbar-dark">
+  <nav class="uc-navbar navbar-dark">
     <div class="container d-none d-lg-block">
       <div class="row">
         <div class="col-lg-3">
@@ -535,7 +535,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 <h3>submarca con slogan (noche)</h3>
 <header class="uc-header">
@@ -577,7 +577,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-navbar navbar-dark">
+  <nav class="uc-navbar navbar-dark">
     <div class="container d-none d-lg-block">
       <div class="row align-items-center">
         <div class="col-lg-3">
@@ -627,7 +627,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 
 <h3>denominacion (noche)</h3>
@@ -670,7 +670,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-navbar navbar-dark">
+  <nav class="uc-navbar navbar-dark">
     <div class="container d-none d-lg-block">
       <div class="row align-items-center">
         <div class="col-lg-2">
@@ -721,6 +721,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </header>
 <?php include('inc/footer.php') ?>
