@@ -1,5 +1,5 @@
 <?php include('inc/header.php') ?>
-<h3>denominación</h3>
+<h3>Marca modificada</h3>
 <header class="uc-header">
   <div class="uc-top-bar">
     <div class="container">
@@ -91,7 +91,7 @@
   </div>
 </header>
 
-<h3>submarca</h3>
+<h3>denominación</h3>
 <header class="uc-header">
   <div class="uc-top-bar">
     <div class="container">
@@ -186,7 +186,7 @@
     </div>
   </div>
 </header>
-<h3>marca modificada</h3>
+<h3>submarca</h3>
 <header class="uc-header">
   <div class="uc-top-bar">
     <div class="container">
@@ -271,7 +271,7 @@
     </div>
   </div>
 </header>
-<h3>marca modificada con slogan</h3>
+<h3>submarca con slogan</h3>
 <header class="uc-header">
   <div class="uc-top-bar">
     <div class="container">
@@ -363,7 +363,7 @@
     </div>
   </div>
 </header>
-<h3>denominación (noche)</h3>
+<h3>marca modificada (noche)</h3>
 <header class="uc-header">
   <div class="uc-top-bar">
     <div class="container">
@@ -452,7 +452,7 @@
     </div>
   </div>
 </header>
-<h3>marca modificada (noche)</h3>
+<h3>submarca (noche)</h3>
 <header class="uc-header">
   <div class="uc-top-bar">
     <div class="container">
@@ -537,7 +537,7 @@
     </div>
   </div>
 </header>
-<h3>marca modificada con slogan (noche)</h3>
+<h3>submarca con slogan (noche)</h3>
 <header class="uc-header">
   <div class="uc-top-bar">
     <div class="container">
@@ -630,7 +630,7 @@
   </div>
 </header>
 
-<h3>submarca (noche)</h3>
+<h3>denominacion (noche)</h3>
 <header class="uc-header">
   <div class="uc-top-bar">
     <div class="container">
