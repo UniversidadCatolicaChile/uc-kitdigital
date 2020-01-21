@@ -135,10 +135,10 @@
     <!-- Menú para versión Escritorio -->
     <div class="container d-none d-lg-block">
       <div class="row align-items-center">
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2">
           <img src="https://kit-digital-uc-desa.s3.amazonaws.com/img/logo-uc-color.svg" alt="Logo de Facultad" class="img-fluid">
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-8 col-xl-9">
           <div class="h2 text-font--serif text-color--blue mt-24">Nombre</div>
           <div class="text-color--gray p-size--lg">Bajada</div>
         </div>
@@ -673,10 +673,10 @@
   <nav class="uc-navbar navbar-dark">
     <div class="container d-none d-lg-block">
       <div class="row align-items-center">
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-xl-2">
           <img src="https://kit-digital-uc-desa.s3.amazonaws.com/img/logo-uc-blanco.svg" alt="Logo de Facultad" class="img-fluid">
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-8 col-xl-9">
           <div class="h2 text-font--serif color-white mt-24">Título</div>
           <div class="color-white p-size--lg">Bajada</div>
         </div>
