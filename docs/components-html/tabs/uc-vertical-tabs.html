@@ -1,21 +1,34 @@
 <div class="uc-tabpanel" data-tabpanel>
   <div class="row">
     <div class="col-lg-4">
-      <ul class="uc-vertical-tabs">
+      <!-- Tabs mobile se muestran como Select -->
+      <div class="uc-container-break-out d-block d-lg-none">
+        <div class="uc-card card-bg--gray card-radius--none card-border--none mb-32">
+          <div class="uc-card_body">
+            <label for="tabSelect"><strong>Seleccione tab</strong></label>
+            <select name="tabSelect" id="tabSelect" class="uc-input-style" data-tabselect>
+              <option value="tab-10">Tab 1</option>
+              <option value="tab-11">Tab 2</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- Tabs en desktop se muestran como botones -->
+      <ul class="uc-vertical-tabs d-none d-lg-flex">
         <li class="uc-vertical-tabs_item">
-          <a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-1" data-tabactive>Tab 01</a>
+          <a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-10" data-tabactive>Tab 01</a>
         </li>
         <li class="uc-vertical-tabs_item">
-          <a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-2">Tab 02</a>
+          <a href="javascript:void(0);" class="uc-vertical-tabs_item-link" data-tabtarget="tab-11">Tab 02</a>
         </li>
       </ul>
     </div>
     <div class="col-lg-8">
       <div class="uc-tab-body">
-        <div data-tab="tab-1">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad deserunt dicta doloremque dolores dolorum esse eveniet excepturi facilis illo laudantium modi pariatur, porro reprehenderit saepe soluta ullam vel voluptatum?</p>
+        <div data-tab="tab-10">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores assumenda, atque, culpa cumque dicta dolor fugiat magni molestiae officia quam qui repellendus repudiandae sint tempora velit veritatis voluptas voluptatibus.</p>
         </div>
-        <div data-tab="tab-12">
+        <div data-tab="tab-11">
           <p>Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
       </div>

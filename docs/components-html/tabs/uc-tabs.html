@@ -1,5 +1,20 @@
 <div class="uc-tabpanel" data-tabpanel>
-    <ul class="uc-tabs">
+    <!-- Tabs mobile se muestran como Select -->
+    <div class="uc-container-break-out">
+        <div class="uc-card card-bg--gray card-radius--none card-border--none d-block d-lg-none mb-32">
+            <div class="uc-card_body">
+                <label for="tabSelect"><strong>Seleccione tab</strong></label>
+                <select name="tabSelect" id="tabSelect" class="uc-input-style" data-tabselect>
+                    <option value="tab-01">Tab 1</option>
+                    <option value="tab-02">Tab 2</option>
+                    <option value="tab-03">Tab 3</option>
+                    <option value="tab-04">Tab 4</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <!-- Tabs en desktop se muestran como botones -->
+    <ul class="uc-tabs d-none d-lg-flex">
         <li class="uc-tabs_item">
             <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-01" data-tabactive>Tab 1</a>
         </li>
@@ -15,16 +30,16 @@
     </ul>
     <div class="uc-tab-body">
         <div data-tab="tab-01">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur beatae consequatur cum dolorum eveniet in inventore, iusto magnam necessitatibus officia officiis provident, sint velit, vitae. In iste laboriosam vero.</p>
+            <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur beatae consequatur cum dolorum eveniet in inventore, iusto magnam necessitatibus officia officiis provident, sint velit, vitae. In iste laboriosam vero.</p>
         </div>
         <div data-tab="tab-02">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem harum id!</p>
+            <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem harum id!</p>
         </div>
         <div data-tab="tab-03">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda autem blanditiis debitis dicta est et eum, excepturi ipsam iusto maiores, minima minus natus nulla numquam odit optio praesentium quas qui quis, quo recusandae rem repellat repellendus rerum? Earum, repudiandae!</p>
+            <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda autem blanditiis debitis dicta est et eum, excepturi ipsam iusto maiores, minima minus natus nulla numquam odit optio praesentium quas qui quis, quo recusandae rem repellat repellendus rerum? Earum, repudiandae!</p>
         </div>
         <div data-tab="tab-04">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est.</p>
+            <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est.</p>
         </div>
     </div>
 </div>
