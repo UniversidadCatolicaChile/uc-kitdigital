@@ -11,9 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('src/js/uc-kitdigital.js', 'dist/js')
-    .sass('src/sass/uc-kitdigital.scss', 'dist/css')
-    .setPublicPath('dist');
+mix.js('src/js/uc-kitdigital.js', 'dist/js/precompile.js')
+mix.babel('dist/js/precompile.js', 'dist/js/uc-kitdigital.js')
+mix.sass('src/sass/uc-kitdigital.scss', 'dist/css')
+mix.setPublicPath('dist');
 
 // Full API
 // mix.js(src, output);
@@ -28,7 +29,6 @@ mix.js('src/js/uc-kitdigital.js', 'dist/js')
 // mix.postCss(src, output, [require('postcss-some-plugin')()]);
 // mix.browserSync('my-site.test');
 // mix.combine(files, destination);
-// mix.babel(files, destination); <-- Identical to mix.combine(), but also includes Babel compilation.
 // mix.copy(from, to);
 // mix.copyDirectory(fromDir, toDir);
 // mix.minify(file);
