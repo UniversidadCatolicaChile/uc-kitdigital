@@ -1,0 +1,16 @@
+version: "3.4"
+
+services:
+  nginx:
+    build: ./docker/nginx
+    ports:
+      - 80:80
+    links:
+      - fpm
+    volumes:
+      - .:/var/app/
+
+  fpm:
+    build: ./docker/php-fpm
+    volumes:
+      - .:/var/app/

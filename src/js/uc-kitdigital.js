@@ -1,3 +1,5 @@
+if (window.NodeList && !NodeList.prototype.forEach) {NodeList.prototype.forEach = Array.prototype.forEach; }
+
 import {Modal} from "./components/modal.js";
 import {Accordion} from "./components/accordion.js";
 import {Dropdown} from "./components/dropdown.js";
@@ -14,4 +16,3 @@ const uc_kit_components = {
     carousels: new UcCarousel(),
     tooltip: new Tooltip(),
 };
-
