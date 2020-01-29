@@ -1,6 +1,8 @@
 // menú desplegable uc.cl
 .uc-menu {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
   position: relative;
   box-shadow: $menu-shadow;
@@ -23,6 +25,16 @@
       > .uc-menu_list-item .uc-btn {
         color: #fff;
       }
+    }
+    //IE 11 Fix
+    &:nth-child(2) {
+      -ms-grid-column: 1;
+    }
+    &:nth-child(3) {
+      -ms-grid-column: 2;
+    }
+    &:nth-child(4) {
+      -ms-grid-column: 3;
     }
     .uc-menu_list-item {
       .uc-btn {
