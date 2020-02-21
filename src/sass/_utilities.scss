@@ -141,3 +141,13 @@ a:focus, button:focus {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+
+// Detector de ancho de scrollbar de David Walsh https://davidwalsh.name/detect-scrollbar-width
+
+.scrollbar-measure {
+  width: 100px;
+  height: 100px;
+  overflow: scroll;
+  position: absolute;
+  top: -9999px;
+}

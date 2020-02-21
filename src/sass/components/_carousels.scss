@@ -1,14 +1,29 @@
 .uc-carousel {
   position: relative;
   overflow: hidden;
+  .hero-carousel_item, .primary-carousel_item {
+    width: 100%;
+    margin-bottom: 0;
+    overflow: visible;
+    background-size: cover;
+    background-position: center center;
+  }
+  .uc-primary-carousel {
+    .primary-carousel_item {
+      min-height: 400px;
+      @include media-breakpoint-up(lg) {
+        height: 508px;
+      }
+      .primary-carousel_item-content {
+        width: 100%;
+        bottom: 40px;
+        position: absolute;
+      }
+    }
+  }
   .uc-hero-carousel {
     .hero-carousel_item {
-      width: 100%;
       height: 540px;
-      overflow: visible;
-      margin-bottom: 0;
-      background-size: cover;
-      background-position: center center;
       @include media-breakpoint-up(lg) {
         height: 660px;
         margin-bottom: 60px;
@@ -46,18 +61,25 @@
   }
   .uc-carousel-nav {
     width: 100%;
-    bottom: 10px;
+    bottom: 0;
     position: absolute;
+    text-align: center;
     @include media-breakpoint-up(lg) {
-      position: relative;
       bottom: 120px;
+      text-align: right;
+    }
+    &.primary-carousel-nav {
+      @include media-breakpoint-up(lg) {
+        bottom: 40px;
+      }
     }
     .carousel-nav-container {
-      display: flex;
-      justify-content: center;
+      display: inline-flex;
     }
     .carousel-nav-list {
       padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       list-style-type: none;
       @include media-breakpoint-up(lg) {
@@ -96,11 +118,9 @@
         color: #fff;
         .indicator {
           background-color: #fff;
-          /*
           &:after {
             animation: CarouselNav 5s linear forwards;
           }
-          */
         }
         .indicator.paused:after {
           animation-play-state: paused;
@@ -127,18 +147,29 @@
   width: 100vw;
   left: calc(-1 * (100vw - 100%) / 2);
   right: 0;
-  padding: 40px calc((100vw - 100%)/2);
+  padding: 30px;
   overflow-x: hidden;
   overflow-y: visible;
+  @include media-breakpoint-up(lg) {
+    padding: 40px calc((100vw - 100%)/2);
+  }
   .tns-ovh {
     overflow: visible;
   }
   .carousel-controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 32px;
     .prev, .next {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       cursor: pointer;
       &[aria-disabled="true"] {
@@ -148,6 +179,8 @@
       }
     }
     .prev {
+      -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
       transform: rotate(-180deg);
     }
   }

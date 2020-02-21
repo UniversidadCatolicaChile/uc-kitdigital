@@ -39,7 +39,6 @@ class UcCarousel {
             e.style.opacity = "1";
 
             if (data.counter && JSON.parse(data.counter)) {
-
                 let indexCurrent = e.getElementsByClassName('index-current')[0];
                 let indexTotal = e.getElementsByClassName('index-total')[0];
                 let itemOffSet = data.offset ? parseInt(data.offset) : 0;
@@ -57,6 +56,21 @@ class UcCarousel {
                     let totalpx = slideSegment*info.index;
                     carouselTrack.style.transform = 'translateX('+totalpx+'px)';
                 });
+            }
+
+            // compensa ancho de scroll track, usando detector de ancho de scrollbar de David Walsh https://davidwalsh.name/detect-scrollbar-width
+
+            function getScrollBarWidth () {
+                var scrollDiv = document.createElement("div");
+                scrollDiv.className = "scrollbar-measure";
+                document.body.appendChild(scrollDiv);
+                var scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+                document.body.removeChild(scrollDiv);
+                return scrollbarWidth;
+            }
+
+            if(data.type === 'cards') {
+                e.style.width = "calc(100vw - "+ getScrollBarWidth()/2 +"px)"
             }
         });
     }

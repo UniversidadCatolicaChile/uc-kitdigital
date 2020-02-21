@@ -3,6 +3,80 @@
     <h2 class="mt-32">Carousels</h2>
     <hr class="uc-hr my-28">
 </div>
+
+<div class="uc-carousel mb-80"
+     data-carousel="uc-primary-carousel"
+     data-type="carousel"
+     data-items="1"
+     data-slideby="1"
+     data-loop="true"
+     data-nav="true"
+     data-autoplay="true"
+     data-controls="false"
+     data-navcontainer="#carousel-nav"
+     data-autoplaybutton="#carousel-autoplay"
+     data-autoplay-text="true">
+  <div class="uc-primary-carousel">
+    <div class="primary-carousel_item uc-card card-bg--image card-gradient--bottom-black card-radius--none card-border--none" style="background-image: url('https://dummyimage.com/1440x508/e0e0e0/b8b8b8.jpg')">
+      <div class="primary-carousel_item-content">
+        <div class="container mt-auto">
+          <div class="row">
+            <div class="col-lg-7">
+              <a href="#" class="uc-tag">Tag UC</a>
+              <div class="h1 color-white">Slide #1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="primary-carousel_item uc-card card-bg--image card-gradient--bottom-black card-radius--none card-border--none" style="background-image: url('https://dummyimage.com/1440x508/e0e0e0/b8b8b8.jpg')">
+      <div class="primary-carousel_item-content">
+        <div class="container mt-auto">
+          <div class="row">
+            <div class="col-lg-7">
+              <a href="#" class="uc-tag">Tag UC</a>
+              <div class="h1 color-white">Slide #2</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="primary-carousel_item uc-card card-bg--image card-gradient--bottom-black card-radius--none card-border--none" style="background-image: url('https://dummyimage.com/1440x508/e0e0e0/b8b8b8.jpg')">
+      <div class="primary-carousel_item-content">
+        <div class="container mt-auto">
+          <div class="row">
+            <div class="col-lg-7">
+              <a href="#" class="uc-tag">Tag UC</a>
+              <div class="h1 color-white">Slide #3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uc-carousel-nav primary-carousel-nav">
+    <div class="container">
+      <div class="carousel-nav-container">
+        <ul class="carousel-nav-list" id="carousel-nav">
+          <li class="carousel-nav-item">
+            <div class="number">01</div>
+            <div class="indicator"></div>
+          </li>
+          <li class="carousel-nav-item">
+            <div class="number">02</div>
+            <div class="indicator"></div>
+          </li>
+          <li class="carousel-nav-item">
+            <div class="number">03</div>
+            <div class="indicator"></div>
+          </li>
+        </ul>
+        <div class="autoplay-buttons" id="carousel-autoplay"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="uc-carousel mb-80"
      data-carousel="uc-hero-carousel"
      data-items="1"
@@ -11,8 +85,8 @@
      data-nav="true"
      data-autoplay="true"
      data-controls="false"
-     data-navcontainer=".carousel-nav-list"
-     data-autoplaybutton=".autoplay-buttons"
+     data-navcontainer="#carousel-nav-2"
+     data-autoplaybutton="#carousel-autoplay-2"
      data-autoplay-text="true">
     <div class="uc-hero-carousel">
         <div class="hero-carousel_item uc-card card-bg--image card-gradient--top-black card-radius--none card-border--none" style="background-image: url('img/slider_1.jpg')">
@@ -67,7 +141,7 @@
     <div class="uc-carousel-nav">
         <div class="container">
             <div class="carousel-nav-container">
-                <ul class="carousel-nav-list">
+                <ul class="carousel-nav-list" id="carousel-nav-2">
                     <li class="carousel-nav-item">
                         <div class="number">01</div>
                         <div class="indicator playing"></div>
@@ -81,7 +155,7 @@
                         <div class="indicator"></div>
                     </li>
                 </ul>
-                <div class="autoplay-buttons">
+                <div class="autoplay-buttons" id="carousel-autoplay-2">
                 </div>
             </div>
         </div>
@@ -97,11 +171,11 @@
             <div class="">
                 <div class="uc-carousel-cards"
                      data-carousel="uc-carousel-cards_content"
+                     data-type="cards"
                      data-items="3"
                      data-sm-items="2"
                      data-slideby="1"
                      data-loop="false"
-                     data-gutter="32"
                      data-controls="true"
                      data-speed="500"
                      data-autoplay-text="true"
@@ -111,7 +185,7 @@
                      data-track="true">
                     <div class="uc-carousel-cards_content">
                         <div class="item">
-                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('img/card_1.jpg')">
+                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('https://dummyimage.com/410x530/e0e0e0/b8b8b8.jpg')">
                                 <div class="uc-card_body">
                                     <a href="#" class="uc-tag">Creación de conocimiento de frontera</a>
                                     <div class="uc-card mt-auto">
@@ -125,7 +199,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('img/card_2.jpg')">
+                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('https://dummyimage.com/410x530/e0e0e0/b8b8b8.jpg')">
                                 <div class="uc-card_body">
                                     <a href="#" class="uc-tag">Carrera de Pregrado</a>
                                     <div class="uc-card mt-auto">
@@ -139,7 +213,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('img/card_3.jpg')">
+                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('https://dummyimage.com/410x530/e0e0e0/b8b8b8.jpg')">
                                 <div class="uc-card_body">
                                     <a href="#" class="uc-tag">Carrera de Pregrado</a>
                                     <div class="uc-card mt-auto">
@@ -153,7 +227,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('img/card_4.jpg')">
+                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('https://dummyimage.com/410x530/e0e0e0/b8b8b8.jpg')">
                                 <div class="uc-card_body">
                                     <a href="#" class="uc-tag">Carrera de Pregrado</a>
                                     <div class="uc-card mt-auto">
@@ -167,7 +241,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('img/card_2.jpg')">
+                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('https://dummyimage.com/410x530/e0e0e0/b8b8b8.jpg')">
                                 <div class="uc-card_body">
                                     <a href="#" class="uc-tag">Carrera de Pregrado</a>
                                     <div class="uc-card mt-auto">
@@ -181,7 +255,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('img/card_1.jpg')">
+                            <div class="uc-card card-bg--image card-gradient--bottom-blue" style="background-image: url('https://dummyimage.com/410x530/e0e0e0/b8b8b8.jpg')">
                                 <div class="uc-card_body">
                                     <a href="#" class="uc-tag">Carrera de Pregrado</a>
                                     <div class="uc-card mt-auto">
@@ -230,10 +304,10 @@
 <div class="container my-60">
     <div class="uc-carousel-cards"
          data-carousel="uc-carousel-events"
+         data-type="cards"
          data-items="4"
          data-slideby="1"
          data-loop="false"
-         data-gutter="32"
          data-controls="true"
          data-speed="500"
          data-autoplayText="true"
