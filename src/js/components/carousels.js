@@ -1,7 +1,8 @@
-import {tns} from "tiny-slider/src/tiny-slider.js"
+import {tns} from "tiny-slider/src/tiny-slider"
 
 class UcCarousel {
     constructor() {
+
         let carousels = document.querySelectorAll('[data-carousel]');
         let autoPlayButtons = ["<i class='uc-icon play-button'>play_circle_filled</i>", "<i class='uc-icon pause-button'>pause_circle_filled</i>"]
 

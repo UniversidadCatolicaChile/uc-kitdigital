@@ -238,13 +238,13 @@
     <div class="col-lg-4">
       <div class="uc-card">
         <div class="uc-card_header">
-          comunidad UC
+          Comunidad UC
         </div>
         <div class="uc-card_body">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto atque consequatur cumque debitis dicta distinctio iusto labore, libero minus necessitatibus nihil nisi perspiciatis placeat recusandae suscipit temporibus voluptas. Autem, rerum?</p>
         </div>
         <div class="uc-card_footer text-right">
-          <p class="text-color--gray no-margin">Fuente:</p>
+          <p class="text-color--gray no-margin">Fuente: UC</p>
         </div>
       </div>
     </div>

@@ -1,3 +1,7 @@
+#### Kit Digital v1.23.0
+* Se agrega componente steps
+* Se aumenta compatibilidad con IE11
+
 #### Kit Digital v1.22.4
 * Se corrigen issues relacionados a carrusel + soporte para IE11
 * Se disponibiliza carrusel
@@ -133,7 +137,7 @@
 
 
 
-#### Kit Digital v1.1.1
+#### Kit Digital v1.1.8
 
 * Se agrega card-gradient--bottom-black
 * Fixes gráficos en mobile

@@ -926,5 +926,50 @@
       </div>
     </div>
   </div>
+  <hr class="uc-hr">
+  <h3>Pasos</h3>
+  <div class="uc-steps my-80">
+    <div class="uc-step step-done">
+      <div class="uc-step_head">
+        <div class="uc-step_line"></div>
+        <!-- el nº de paso se asigna automáticamente con counter(step) en steps.scss -->
+        <div class="uc-step_count"></div>
+      </div>
+      <div class="uc-step_info">
+        <div class="p-size--sm text-weight--bold">Paso 1</div>
+        <div class="d-none d-md-block p-size--sm text-color--gray">Descripción</div>
+      </div>
+    </div>
+    <div class="uc-step step-current">
+      <div class="uc-step_head">
+        <div class="uc-step_line"></div>
+        <div class="uc-step_count"></div>
+      </div>
+      <div class="uc-step_info">
+        <div class="p-size--sm text-weight--bold">Paso 2</div>
+        <div class="d-none d-md-block p-size--sm text-color--gray">Descripción</div>
+      </div>
+    </div>
+    <div class="uc-step">
+      <div class="uc-step_head">
+        <div class="uc-step_line"></div>
+        <div class="uc-step_count"></div>
+      </div>
+      <div class="uc-step_info">
+        <div class="p-size--sm text-weight--bold">Paso 3</div>
+        <div class="d-none d-md-block p-size--sm text-color--gray">Descripción</div>
+      </div>
+    </div>
+    <div class="uc-step">
+      <div class="uc-step_head">
+        <div class="uc-step_line"></div>
+        <div class="uc-step_count"></div>
+      </div>
+      <div class="uc-step_info">
+        <div class="p-size--sm text-weight--bold">Paso 4</div>
+        <div class="d-none d-md-block p-size--sm text-color--gray">Descripción</div>
+      </div>
+    </div>
+  </div>
 </div>
 <?php include 'inc/footer.php' ?>

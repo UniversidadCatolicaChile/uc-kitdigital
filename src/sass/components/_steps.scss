@@ -1,0 +1,106 @@
+// basado en la implementación de Element UI https://element.eleme.io/#/en-US/component/steps#steps
+.uc-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  counter-reset: step;
+}
+
+.uc-step {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  position: relative;
+  display: inline-block;
+  counter-increment: step;
+  &:last-child {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    .uc-step_head .uc-step_line {
+      display: none;
+    }
+    .uc-step_info {
+      margin: 0;
+    }
+  }
+  &.step-current, &.step-done {
+    .uc-step_head .uc-step_count {
+      color: #fff;
+      background-color: $primaryblue;
+    }
+  }
+  &.step-done {
+    .uc-step_head {
+      .uc-step_line {
+        background-color: $primaryblue;
+      }
+      .uc-step_count {
+        &::before {
+          content: 'done';
+          font-family: 'Material Icons';
+          font-weight: normal;
+          font-style: normal;
+          font-size: 24px;
+          display: inline-block;
+          line-height: 1;
+          text-transform: none;
+          letter-spacing: normal;
+          word-wrap: normal;
+          white-space: nowrap;
+          direction: ltr;
+          -webkit-font-smoothing: antialiased;
+          text-rendering: optimizeLegibility;
+          -moz-osx-font-smoothing: grayscale;
+          font-feature-settings: 'liga';
+        }
+      }
+    }
+  }
+  .uc-step_head {
+    .uc-step_line {
+      left: 0;
+      right: 0;
+      top: 15px;
+      height: 1px;
+      position: absolute;
+      background-color: $lightgraya;
+      @include media-breakpoint-up(md) {
+        top: 22px;
+      }
+    }
+    .uc-step_count {
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      position: relative;
+      border-radius: 50%;
+      color: $primaryblue;
+      align-items: center;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      background-color: #fff;
+      justify-content: center;
+      border: 2px solid $primaryblue;
+      &::before {
+        content: counter(step);
+      }
+      @include media-breakpoint-up(md) {
+        width: 44px;
+        height: 44px;
+        font-size: 24px;
+      }
+    }
+  }
+  .uc-step_info {
+    text-align: left;
+    margin-right: 10%;
+    white-space: normal;
+  }
+}
