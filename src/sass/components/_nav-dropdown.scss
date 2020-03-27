@@ -21,12 +21,13 @@
   }
   .uc-dropdown_list-item {
     border-bottom: 1px solid #EDEDED;
-    &:last-child {
-      border-bottom: 0;
-    }
     .uc-btn {
+      font-size: 14px;
       padding: 12px 0;
       border-bottom: 1px solid transparent;
+    }
+    &:last-child {
+      border-bottom: 0;
     }
   }
   &.show {

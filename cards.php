@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-      <div class="uc-card card-type--horizontal">
+      <div class="uc-card card-type--horizontal mb-32">
         <a href="http://google.cl" class="uc-card_link"></a>
         <img src="http://via.placeholder.com/200x160" class="img-fluid" alt="">
         <div class="uc-card_body">
@@ -116,6 +116,22 @@
           </a>
           <h4 class="mt-16">Lorem ipsum dolor sit amet</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus asperiores consequuntur eaque esse eveniet iste iusto laborum maxime minus molestiae neque optio perspiciatis quae quibusdam.</p>
+        </div>
+      </div>
+      <div class="uc-card">
+        <div class="row no-gutters">
+          <div class="col-lg-4">
+            <img src="https://www.uc.cl/site/efs/files/10423/coronavirusenchile.385x530.jpg" class="card-img" alt="">
+          </div>
+          <div class="col-lg-8">
+            <div class="uc-card_body">
+              <a href="#" class="uc-tag">
+                Texto
+              </a>
+              <h4 class="mt-16">Lorem ipsum dolor sit amet</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus asperiores consequuntur eaque esse eveniet iste iusto laborum maxime minus molestiae neque optio perspiciatis quae quibusdam.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -262,6 +278,34 @@
         <a href="#" class="uc-btn btn-inline">
           Ver más<i class="uc-icon icon-shape--rounded">arrow_forward</i>
         </a>
+      </div>
+    </div>
+  </div>
+  <div class="uc-card my-80">
+    <div class="uc-card_body">
+      <p class="mb-4 text-weight--bold">Subir Imagen principal de la iniciativa</p>
+      <p class="p-size--sm text-color--gray">Sólo imágenes en alta resolución</p>
+      <div class="uc-card card-bg--gray card-shadow--none card-border--none mb-24">
+        <div class="uc-card_body--lg">
+          <div class="row justify-content-center">
+            <div class="col-lg-5 text-center">
+              <i class="uc-icon icon-size--xl">cloud_upload</i>
+              <p class="no-margin">Arrastrar el archivo aquí o haz click en este link</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="p-size--sm text-color--gray no-margin">Archivos subidos:</p>
+      <a href="#" class="uc-link">nombre_de_archivo...</a>
+    </div>
+  </div>
+  <div class="uc-card card-type--horizontal"><img src="https://dummyimage.com/150x100/edeaed/0076de.png" alt="">
+    <div class="uc-card_body">
+      <div class="row align-items-center">
+        <div class="col-lg-8"><a href="" class="uc-tag">Aprobada</a>
+          <div class="h4">Lorem ipsum dolor sit amet</div>
+        </div>
+        <div class="col-lg-4"><a href="" class="uc-btn btn-primary">Editar esta iniciativa<i class="uc-icon">edit</i></a></div>
       </div>
     </div>
   </div>

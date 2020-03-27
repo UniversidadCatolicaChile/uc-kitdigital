@@ -287,3 +287,12 @@ a.uc-card {
 .card-example {
   background-color: #cdcdcd;
 }
+
+
+/* Helper card-img de Bootstrap 4 */
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  flex-shrink: 0; // For IE: https://github.com/twbs/bootstrap/issues/29396
+  width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+}

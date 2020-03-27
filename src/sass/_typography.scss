@@ -186,16 +186,13 @@ p, .p, .uc-p {
   font-family: 'Roboto Slab', serif;
 }
 
-.uc-link {
-  color: $primaryblue;
-  &.external {
-    &::after {
-      content: 'launch';
-      font-family: 'Material Icons';
-      font-size: 10px;
-      vertical-align: text-top;
-      display: inline-block;
-    }
+.external, .uc-external {
+  &::after {
+    content: 'launch';
+    font-family: 'Material Icons';
+    font-size: 10px;
+    vertical-align: text-top;
+    display: inline-block;
   }
 }
 

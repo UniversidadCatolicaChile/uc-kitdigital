@@ -1,3 +1,64 @@
+/* Navbar Kit UC */
+.uc-navbar {
+  background-color: #fff;
+  border-bottom: $primary-border;
+  box-shadow: 0 0 8px 0 rgba(136,136,136,0.18);
+  @include media-breakpoint-up(lg) {
+    padding: 24px 0;
+  }
+  .uc-navbar_nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    .nav-item {
+      flex-grow: 1;
+      padding: 1px 0;
+      text-align: center;
+      border-right: $primary-border;
+      &:first-child {
+        border-left: $primary-border;
+      }
+      .btn-admission {
+        color: $blue;
+      }
+      .uc-btn {
+        color: $blue;
+      }
+      >.uc-btn {
+        border-radius: 0;
+        padding-bottom: 2px;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom-width .2s ease, border-bottom-color .2s ease;
+        &:hover {
+          border-bottom: 2px solid;
+        }
+      }
+    }
+  }
+  &.navbar-dark {
+    background-color: $darkblue;
+    .uc-navbar_nav {
+      .nav-item {
+        border-color: #fff;
+        .uc-btn {
+          color: #fff;
+        }
+      }
+    }
+    .uc-navbar_mobile-bar {
+      .uc-navbar_mobile-logo {
+        background-color: $darkblue;
+        color: #fff;
+      }
+    }
+  }
+}
+
+/* Navbar Portal UC */
 .uc-portal-navbar {
   padding: 0;
   position: relative;
@@ -48,57 +109,7 @@
     }
   }
 }
-.uc-navbar {
-  background-color: #fff;
-  border-bottom: $primary-border;
-  box-shadow: 0 0 8px 0 rgba(136,136,136,0.18);
-  @include media-breakpoint-up(lg) {
-    padding: 24px 0;
-  }
-  .uc-navbar_nav {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin-top: 24px;
-    list-style-type: none;
-    justify-content: space-between;
-    .nav-item {
-      flex-grow: 1;
-      padding: 1px 0;
-      text-align: center;
-      border-right: $primary-border;
-      &:first-child {
-        border-left: $primary-border;
-      }
-      .uc-btn {
-        border-radius: 0;
-        padding-bottom: 2px;
-        border-bottom: 2px solid transparent;
-        transition: border-bottom-width .2s ease, border-bottom-color .2s ease;
-        &:hover {
-          border-bottom: 2px solid;
-        }
-      }
-    }
-  }
-  &.navbar-dark {
-    background-color: $darkblue;
-    .uc-navbar_nav {
-      .nav-item {
-        border-color: #fff;
-        .uc-btn {
-          color: #fff;
-        }
-      }
-    }
-    .uc-navbar_mobile-bar {
-      .uc-navbar_mobile-logo {
-        background-color: $darkblue;
-        color: #fff;
-      }
-    }
-  }
-}
+
 // mobile menu
 .uc-navbar_mobile {
 

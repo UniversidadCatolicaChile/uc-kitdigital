@@ -446,6 +446,19 @@
           </label>
         </div>
       </form>
+
+      <form>
+        <div class="uc-form-group uc-radio-group uc-checkbox-group">
+          <input type="checkbox" id="check_1" value="yes" class="uc-orig-radio" checked/>
+          <label for="check_1" class="uc-radio-button">opción 1</label>
+          <input type="checkbox" id="check_2" value="no" class="uc-orig-radio"/>
+          <label for="check_2" class="uc-radio-button">opción 2</label>
+          <input type="checkbox" id="check_3" value="maybe" class="uc-orig-radio"/>
+          <label for="check_3" class="uc-radio-button">opción 3</label>
+          <input type="checkbox" id="check_4" value="maybe" class="uc-orig-radio"/>
+          <label for="check_4" class="uc-radio-button">opción 4</label>
+        </div>
+      </form>
     </div>
   </div>
   <hr class="uc-hr">

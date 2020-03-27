@@ -1,3 +1,7 @@
+#### Kit Digital v1.23.2
+* Refactoring de componente botón
+* Fix gráfico del dropdown en el componente navbar
+
 #### Kit Digital v1.23.0
 * Se agrega componente steps
 * Se aumenta compatibilidad con IE11

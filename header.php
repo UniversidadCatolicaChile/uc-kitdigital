@@ -160,7 +160,20 @@
           <a href="#" class="uc-btn btn-inline">Item 5</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="uc-btn btn-inline">Item 6</a>
+          <div class="uc-dropdown d-inline-flex">
+            <button class="uc-btn btn-inline btn-admission dropbtn" data-dtarget="prueba">
+              Cuenta <i class="uc-icon icon-size--sm">arrow_drop_down</i>
+            </button>
+            <div data-dropdown="prueba" class="uc-dropdown_list">
+              <div class="white-triangle"></div>
+              <div class="uc-dropdown_list-item">
+                <a href="#" class="uc-btn">Mi iniciativa</a>
+              </div>
+              <div class="uc-dropdown_list-item">
+                <a href="#" class="uc-btn">Salir</a>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
     </div>

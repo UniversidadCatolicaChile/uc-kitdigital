@@ -48,7 +48,7 @@ textarea.uc-input-style {
   height: auto;
 }
 
-.uc-radio-group {
+.uc-radio-group, .uc-checkbox-group {
   box-shadow: $primary-shadow;
   border-radius: $small-radius;
   display: inline-flex;
