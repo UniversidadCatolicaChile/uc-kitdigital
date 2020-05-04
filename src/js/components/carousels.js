@@ -25,6 +25,7 @@ class UcCarousel {
                 prevButton: data.prevButton ? data.prevButton : false,
                 nextButton: data.nextButton ? data.nextButton : false,
                 autoplayText: data.autoplayText ? autoPlayButtons : false,
+                autoplayTimeout: data.autoplayTimeout ? parseInt(data.autoplayTimeout) : 5000,
                 responsive: {
                     768: {
                         items: data.smItems ? parseInt(data.smItems) : 1,

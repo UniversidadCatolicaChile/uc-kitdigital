@@ -85,6 +85,19 @@
           <a href="#" class="list-item">Item 2</a>
           <a href="#" class="list-item">Item 3</a>
           <a href="#" class="list-item">Item 4</a>
+          <div class="collapse-nav-mobile">
+            <a href="javascript:void(0);" data-collapse="menu-collapse-1" class="list-item uc-collapse_heading">
+              Desplegable
+              <i class="uc-icon">keyboard_arrow_down</i>
+            </a>
+            <div data-toggle="menu-collapse-1">
+              <div class="uc-navbar_mobile-list">
+                <a href="#" class="list-item">Item 1</a>
+                <a href="#" class="list-item">Item 2</a>
+                <a href="#" class="list-item">Item 3</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

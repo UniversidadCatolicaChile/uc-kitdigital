@@ -15,7 +15,9 @@
      data-controls="false"
      data-navcontainer="#carousel-nav"
      data-autoplaybutton="#carousel-autoplay"
-     data-autoplay-text="true">
+     data-autoplay-text="true"
+     data-speed="1500"
+     data-autoplay-timeout="8000">
   <div class="uc-primary-carousel">
     <div class="primary-carousel_item uc-card card-bg--image card-gradient--bottom-black card-radius--none card-border--none" style="background-image: url('https://dummyimage.com/1440x508/e0e0e0/b8b8b8.jpg')">
       <div class="primary-carousel_item-content">

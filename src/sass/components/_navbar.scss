@@ -201,3 +201,38 @@
     }
   }
 }
+.collapse-nav-mobile {
+  overflow: hidden;
+  background-color: #fff;
+  .uc-collapse_heading, .uc-collapse_heading-mobile {
+    display: flex;
+    transition: .2s ease;
+    .uc-icon {
+      //font-size: 24px;
+      transition: .2s ease;
+      pointer-events: none;
+    }
+    &.js-accordion-active-element {
+      box-shadow: inset 4px 0 0 0 $primaryblue;
+      .uc-icon {
+        transform: rotate(180deg);
+      }
+    }
+    &:focus {
+      outline: none;
+      background-color: #fff;
+    }
+  }
+  .uc-collapse_body {
+    transition: height 0.25s linear;
+    background-color: $lightgrayc;
+  }
+}
+.uc-accordion-mobile {
+  border-top: $primary-border;
+  .btn-listed {
+    &:first-child {
+      border-top: none;
+    }
+  }
+}
