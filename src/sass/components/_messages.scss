@@ -71,6 +71,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  &.tie-error {
+    border: 0;
+    .uc-icon {
+      color: $error;
+    }
+  }
+  &.tie-info {
+    border: 0;
+    .uc-icon {
+      color: $info;
+    }
+  }
+  &.tie-warning {
+    border: 0;
+    .uc-icon {
+      color: $warning;
+    }
+  }
   &.error {
     border-color: $error;
     background-color: rgba($error, .1);
