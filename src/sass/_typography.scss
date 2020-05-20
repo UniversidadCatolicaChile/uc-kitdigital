@@ -12,7 +12,6 @@ body {
 
 a {
   @extend .uc-link;
-  color: inherit;
   text-decoration: underline;
   &.link-inline {
     text-decoration: underline;
