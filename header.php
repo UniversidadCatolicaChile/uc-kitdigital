@@ -527,7 +527,9 @@
         <div class="col-lg-9">
           <ul class="uc-navbar_nav">
             <li class="nav-item">
+              <div class="uc-dropdown">
               <a href="#" class="uc-btn btn-inline active">Item 1</a>
+              </div>
             </li>
             <li class="nav-item">
               <a href="#" class="uc-btn btn-inline">Item 2</a>

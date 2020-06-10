@@ -3,6 +3,37 @@
 <div class="container">
   <h1 class="mt-28">Cards UC</h1>
   <hr class="uc-hr my-60">
+  <div class="row mb-60">
+    <div class="col-md-4 mb-40">
+      <div class="uc-card">
+        <img src="https://dummyimage.com/300x190/edeaed/0076de.png" class="card-img" alt="imagen de card">
+        <div class="uc-card_body">
+          <p class="small gray condensed">18 Marzo 2018</p>
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <div class="uc-text-divider divider-primary my-12"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-5">
+      <div class="uc-card">
+        <div class="row no-gutters">
+          <div class="col-4">
+            <img src="https://dummyimage.com/190x260/edeaed/0076de.png" class="card-img" alt="Imagen de card">
+          </div>
+          <div class="col-8">
+            <div class="uc-card_body">
+              <a href="#" class="uc-tag">
+                Texto
+              </a>
+              <h4 class="mt-16 mb-12">Lorem ipsum dolor sit amet</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <h3 class="mb-28">cards vacías</h3>
   <div class="row mb-36">
     <div class="col-lg-3">
@@ -118,22 +149,6 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus asperiores consequuntur eaque esse eveniet iste iusto laborum maxime minus molestiae neque optio perspiciatis quae quibusdam.</p>
         </div>
       </div>
-      <div class="uc-card">
-        <div class="row no-gutters">
-          <div class="col-lg-4">
-            <img src="https://www.uc.cl/site/efs/files/10423/coronavirusenchile.385x530.jpg" class="card-img" alt="">
-          </div>
-          <div class="col-lg-8">
-            <div class="uc-card_body">
-              <a href="#" class="uc-tag">
-                Texto
-              </a>
-              <h4 class="mt-16">Lorem ipsum dolor sit amet</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus asperiores consequuntur eaque esse eveniet iste iusto laborum maxime minus molestiae neque optio perspiciatis quae quibusdam.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   <h3 class="mb-28">cards de evento</h3>
@@ -173,6 +188,7 @@
       </div>
     </div>
   </div>
+  <h3 class="mt-24 mb-12">Cards con imagen y texto </h3>
   <div class="row mb-32">
     <div class="col-md-4">
       <div class="uc-card card-height--same">
@@ -205,23 +221,6 @@
             Más información
             <i class="uc-icon icon-shape--rounded">arrow_forward</i>
           </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="uc-card card-height--same">
-        <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
-        <div class="uc-card_body">
-          <p class="small gray condensed">18 Marzo 2018</p>
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <div class="uc-text-divider divider-primary my-12"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. </p>
-          <div class="text-right mt-auto">
-            <a href="#" class="uc-btn btn-inline">
-              Ver más
-              <i class="uc-icon">keyboard_arrow_right</i>
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -265,8 +264,7 @@
       </div>
     </div>
   </div>
-  <div class="uc-card card-type--horizontal card-border--top mb-60">
-    <img src="https://via.placeholder.com/330x320" alt="Imagen">
+  <div class="uc-card card-type--horizontal card-border--top my-60">
     <div class="uc-card_body--xl">
       <a href="#" class="uc-tag">Tag UC</a>
       <div class="h3 my-16">
@@ -278,6 +276,28 @@
         <a href="#" class="uc-btn btn-inline">
           Ver más<i class="uc-icon icon-shape--rounded">arrow_forward</i>
         </a>
+      </div>
+    </div>
+  </div>
+  <div class="uc-card card-type--horizontal card-border--top mb-60">
+    <div class="row no-gutters">
+      <div class="col-lg-3">
+        <img src="https://dummyimage.com/330x330/edeaed/0076de.png" class="card-img" alt="imagen de card">
+      </div>
+      <div class="col-lg-9">
+        <div class="uc-card_body--xl h-full">
+          <a href="#" class="uc-tag">Tag UC</a>
+          <div class="h3 my-16">
+            <div class="uc-icon mr-12">notifications_active</div>
+            Título de la contingencia
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci alias autem est eum illum ipsum laudantium maxime minus nobis odio officiis omnis perferendis quos reprehenderit similique, suscipit vel voluptate.</p>
+          <div class="mt-auto">
+            <a href="#" class="uc-btn btn-inline">
+              Ver más<i class="uc-icon icon-shape--rounded">arrow_forward</i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

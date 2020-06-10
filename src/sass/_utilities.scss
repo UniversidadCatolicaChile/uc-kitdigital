@@ -149,11 +149,20 @@ a:focus, button:focus {
 }
 
 // Detector de ancho de scrollbar de David Walsh https://davidwalsh.name/detect-scrollbar-width
-
 .scrollbar-measure {
   width: 100px;
   height: 100px;
   overflow: scroll;
   position: absolute;
   top: -9999px;
+}
+
+
+// utilidades de altura y ancho 100%
+.w-full {
+  height: 100%;
+}
+
+.h-full {
+  height: 100%;
 }
