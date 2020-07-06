@@ -1,3 +1,16 @@
+#### Kit Digital v1.23.10
+* Se actualizan componentes Card
+* Se complementa documentación
+
+#### Kit Digital v1.23.8
+* Se agrega clase de utilidad `.uppercase`
+
+#### Kit Digital v1.23.7
+* Se corrige color de los links
+
+#### Kit Digital v1.23.3
+* Se agrega clase .active en items del Navbar
+
 #### Kit Digital v1.23.2
 * Refactoring de componente botón
 * Fix gráfico del dropdown en el componente navbar

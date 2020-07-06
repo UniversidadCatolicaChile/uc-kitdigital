@@ -81,27 +81,3 @@
 // wip
 @import 'components/related-content';
 @import 'components/carousels';
-
-
-
-.uc-card-event-featured_image {
-  height: calc(100% + 100px);
-  width: 73%;
-  margin-top: -50px;
-  position: absolute;
-  border-radius: $small-radius;
-  background-position: center;
-}
-
-.uc-card-event-featured {
-  float: right;
-  max-width: 280px
-}
-
-
-.item-carousel {
-  width: 100%;
-  height: 100px;
-  background-color: black;
-  margin: 5px 30px
-}

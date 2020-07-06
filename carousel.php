@@ -317,7 +317,7 @@
          data-next-button=".events-controls .next"
          data-counter="true"
          data-track="true">
-        <div class="uc-carousel-events">
+        <div class="uc-carousel-events d-flex">
             <div class="item">
                 <div class="featured-image-container">
                 <div class="uc-card-event-featured_image" style="background-image: url('https://via.placeholder.com/1200x600')"></div>
@@ -331,7 +331,7 @@
                     </div>
                     <div class="uc-card_body">
                         <a href="#" class="uc-tag my-20">Teatro</a>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h4>
+                        <a class="h3 color-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</a>
                         <div class="uc-card_event--content">
                             <div class="date">1 de Diciembre</div>
                             <div class="time">15:00 a 20:30 hrs.</div>
@@ -348,7 +348,7 @@
                     </div>
                     <div class="uc-card_body">
                         <a href="#" class="uc-tag my-20">Teatro</a>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h4>
+                        <a class="h3 color-black">Lorem ipsum dolor sit amet</a>
                         <div class="uc-card_event--content">
                             <div class="date">1 de Diciembre</div>
                             <div class="time">15:00 a 20:30 hrs.</div>
@@ -365,7 +365,7 @@
                     </div>
                     <div class="uc-card_body">
                         <a href="#" class="uc-tag my-20">Teatro</a>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h4>
+                        <a class="h3 color-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</a>
                         <div class="uc-card_event--content">
                             <div class="date">1 de Diciembre</div>
                             <div class="time">15:00 a 20:30 hrs.</div>
@@ -382,7 +382,7 @@
                     </div>
                     <div class="uc-card_body">
                         <a href="#" class="uc-tag my-20">Teatro</a>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h4>
+                        <a class="h3 color-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
                         <div class="uc-card_event--content">
                             <div class="date">1 de Diciembre</div>
                             <div class="time">15:00 a 20:30 hrs.</div>
@@ -399,41 +399,7 @@
                     </div>
                     <div class="uc-card_body">
                         <a href="#" class="uc-tag my-20">Teatro</a>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h4>
-                        <div class="uc-card_event--content">
-                            <div class="date">1 de Diciembre</div>
-                            <div class="time">15:00 a 20:30 hrs.</div>
-                            <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="uc-card card-type--event card-height--same">
-                    <div class="uc-card card-type--date">
-                        <div class="day">7</div>
-                        <div class="month">Nov</div>
-                    </div>
-                    <div class="uc-card_body">
-                        <a href="#" class="uc-tag my-20">Teatro</a>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h4>
-                        <div class="uc-card_event--content">
-                            <div class="date">1 de Diciembre</div>
-                            <div class="time">15:00 a 20:30 hrs.</div>
-                            <div class="venue"><a href="#" class="uc-link">Teatro UC</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="uc-card card-type--event card-height--same">
-                    <div class="uc-card card-type--date">
-                        <div class="day">7</div>
-                        <div class="month">Nov</div>
-                    </div>
-                    <div class="uc-card_body">
-                        <a href="#" class="uc-tag my-20">Teatro</a>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</h4>
+                        <a class="h3 color-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, minus.</a>
                         <div class="uc-card_event--content">
                             <div class="date">1 de Diciembre</div>
                             <div class="time">15:00 a 20:30 hrs.</div>
