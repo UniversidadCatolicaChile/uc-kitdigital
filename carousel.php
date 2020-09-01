@@ -437,5 +437,107 @@
         </div>
     </div>
 </div>
+<div class="container">
+<div class="uc-carousel mb-80"
+     data-carousel="uc-featured-carousel"
+     data-type="carousel"
+     data-items="1"
+     data-slideby="1"
+     data-loop="true"
+     data-nav="true"
+     data-autoplay="true"
+     data-controls="false"
+     data-navcontainer="#carousel-fetured-nav"
+     data-autoplaybutton="#carousel-featured-autoplay"
+     data-autoplay-text="true"
+     data-speed="1500"
+     data-autoplay-timeout="8000">
+  <div class="uc-featured-carousel d-flex">
+    <div class="item uc-card">
+      <div class="row no-gutters h-full">
+        <div class="col-lg-5">
+          <div class="uc-card_body--lg">
+            <a href="#" class="uc-tag mb-16">Texto tag</a>
+            <div class="h2">
+              Sol Serrano: la primera mujer galardonada con el Premio Nacional de Historia.
+            </div>
+            <p class="mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed purus et leo consequat pellentesque blandit nec augue. In at pellentesque risus. Sed luctus neque in dui feugiat gravida. Nunc efficitur faucibus orci, nec imperdiet dolor posuere scelerisque. Sed vitae egestas dui, et commodo velit. Quisque lobortis congue ex, vestibulum fringilla magna suscipit sit amet. Vivamus quis augue eu dolor auctor lacinia non vel est.</p>
+            <div class="text-right mt-16">
+              <a href="#" class="uc-link">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="uc-card card-bg--image card-gradient--bottom-blue card-shadow--none card-border--none card-radius--none card-height--same">
 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item uc-card">
+      <div class="row no-gutters h-full">
+        <div class="col-lg-5">
+          <div class="uc-card_body--lg">
+            <a href="#" class="uc-tag mb-16">Texto tag</a>
+            <div class="h2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </div>
+            <p class="mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed purus et leo consequat pellentesque blandit nec augue. In at pellentesque risus. Sed luctus neque in dui feugiat gravida. Nunc efficitur faucibus orci, nec imperdiet dolor posuere scelerisque. Sed vitae egestas dui, et commodo velit. Quisque lobortis congue ex, vestibulum fringilla magna suscipit sit amet. Vivamus quis augue eu dolor auctor lacinia non vel est.</p>
+            <div class="text-right">
+              <a href="#" class="uc-link">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="uc-card card-bg--image card-gradient--bottom-blue card-shadow--none card-border--none card-radius--none card-height--same">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="item uc-card">
+      <div class="row no-gutters h-full">
+        <div class="col-lg-5">
+          <div class="uc-card_body--lg">
+            <a href="#" class="uc-tag mb-16">Texto tag</a>
+            <div class="h2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam urna est facilisis
+            </div>
+            <p class="mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed purus et leo consequat pellentesque blandit nec augue. In at pellentesque risus. Sed luctus neque in dui feugiat gravida. Nunc efficitur faucibus orci, nec imperdiet dolor posuere scelerisque. Sed vitae egestas dui, et commodo velit. Quisque lobortis congue ex, vestibulum fringilla magna suscipit sit amet. Vivamus quis augue eu dolor auctor lacinia non vel est.</p>
+            <div class="text-right">
+              <a href="#" class="uc-link">Ver detalle</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="uc-card card-bg--image card-gradient--bottom-blue card-shadow--none card-border--none card-radius--none card-height--same">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uc-carousel-nav primary-carousel-nav">
+    <div class="container">
+      <div class="carousel-nav-container">
+        <ul class="carousel-nav-list" id="carousel-fetured-nav">
+          <li class="carousel-nav-item">
+            <div class="number">01</div>
+            <div class="indicator"></div>
+          </li>
+          <li class="carousel-nav-item">
+            <div class="number">02</div>
+            <div class="indicator"></div>
+          </li>
+          <li class="carousel-nav-item">
+            <div class="number">03</div>
+            <div class="indicator"></div>
+          </li>
+        </ul>
+        <div class="autoplay-buttons" id="carousel-featured-autoplay"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 <?php include 'inc/footer.php' ?>

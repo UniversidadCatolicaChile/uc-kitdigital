@@ -1,3 +1,11 @@
+#### Kit Digital v1.23.12
+* Se agrega estado Active en el menu portal UC
+* Se agrega ejemplo de carrusel (beta)
+
+#### Kit Digital v1.23.12
+* Se actualizan ejemplos de cards
+* Se ajusta carrusel de cards de eventos
+
 #### Kit Digital v1.23.10
 * Se actualizan componentes Card
 * Se complementa documentación
