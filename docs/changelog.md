@@ -1,4 +1,7 @@
-#### Kit Digital v1.23.12
+#### Kit Digital v1.23.14
+* se corrige funcionamiento de clase `.w-full`
+
+#### Kit Digital v1.23.13
 * Se agrega estado Active en el menu portal UC
 * Se agrega ejemplo de carrusel (beta)
 
