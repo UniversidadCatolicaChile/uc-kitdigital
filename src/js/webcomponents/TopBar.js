@@ -1,14 +1,18 @@
-import { property, render, html, define } from "hybrids";
+import { render, property, html, define } from "hybrids";
 
 const overwrite = [
-  {title: 'Biblioteca',url: '#',external: true,},
-  {title: 'Donaciones',url: '#',external: true}
+    {title: 'Biblioteca',url: '#',external: true,},
+    {title: 'Donaciones',url: '#',external: true}
 ];
 
+// Valida y parsea el string a Json, si no, array vacio
+function parseJSON(value = []) {
+    return typeof value === "string" ? JSON.parse(value) : overwrite;
+}
+
 export const TopBar = {
-  items: property(Array),
-  render: render(
-    ({ items }) => html`
+  items: property(parseJSON),
+  render: render(({ items }) => html`
       <header class="uc-header">
         <div class="uc-top-bar">
           <div class="container">
@@ -32,13 +36,13 @@ export const TopBar = {
                 </li>
               </ul>
               <ul class="top-bar_links">
-                ${overwrite.map(item => html`
+                ${items.map((item) => html`
                     <li>
-                      <a href="${item}" target="_blank" class="text-size--sm external">
+                      <a href="${item.url}" target="_blank" class="text-size--sm external" >
                         ${item.title}
                       </a>
                     </li>
-                  `)}
+                `)}
                 <li>
                   <a href="https://correo.uc.cl" target="_blank" class="text-size--sm external">
                     Correo
