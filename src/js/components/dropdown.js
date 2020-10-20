@@ -53,17 +53,16 @@ class Dropdown {
                 if (dropdowns == null){
                     return;
                 }
-                if (dropdowns.length <= 1){
-                    console.log(dropdowns[0]);
+                if (dropdowns.length === 1){
                     if (dropdowns[0].classList.contains(this.list_class.show)) {
                         dropdowns[0].classList.remove(this.list_class.show);
                     }
-                } else {
-                    for (let i = 0; i < dropdowns.length; i++) {
-                        let openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains(this.list_class.show)) {
-                            openDropdown.classList.remove(this.list_class.show);
-                        }
+                    return;
+                }
+                for (let i = 0; i < dropdowns.length; i++) {
+                    let openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains(this.list_class.show)) {
+                        openDropdown.classList.remove(this.list_class.show);
                     }
                 }
             }

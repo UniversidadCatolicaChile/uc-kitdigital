@@ -3,14 +3,15 @@
 }
 
 .uc-dropdown_list {
-  display: none;
-  position: absolute;
+  top: 30px;
   z-index: 100;
+  display: none;
+  min-width: 210px;
+  position: absolute;
+  padding: 12px 24px;
+  list-style-type: none;
   background-color: #fff;
   box-shadow: $menu-shadow;
-  padding: 12px 24px;
-  min-width: 210px;
-  top: 30px;
   border-radius: $small-radius;
   .uc-btn {
     color: $blue;
@@ -33,4 +34,103 @@
   &.show {
     display: block;
   }
+}
+
+.uc-navbar-dropdown_menu {
+  padding: 24px;
+  list-style-type: none;
+  background-color: #fff;
+  box-shadow: $menu-shadow;
+  border-radius: $small-radius;
+  position: relative;
+  &::before {
+    content: '';
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    background: transparent;
+    left: 0;
+    top: -20px;
+  }
+  &.cols-2 {
+    columns: 2;
+    column-width: 210px;
+    column-gap: 12px;
+  }
+  &.cols-3 {
+    columns: 3;
+    column-width: 210px;
+    column-gap: 12px;
+  }
+  &.cols-4 {
+    columns: 4;
+    column-width: 210px;
+    column-gap: 12px;
+  }
+  &.cols-5 {
+    columns: 5;
+    column-width: 210px;
+    column-gap: 12px;
+  }
+  .uc-navbar-dropdown_item {
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    min-width: 200px;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    border-bottom: $primary-border;
+    &.dropdown_item--heading {
+      padding: 12px 8px 12px 0;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .uc-btn {
+      color: #000;
+    }
+    &:last-child {
+      border: 0;
+    }
+  }
+}
+
+.uc-navbar-dropdown_menu {
+  display: none;
+}
+
+.uc-navbar-dropdown_menu[data-show] {
+  display: block;
+}
+
+#arrow,
+#arrow::before {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: -3px;
+  z-index: -1;
+  border-radius: 4px;
+}
+
+#arrow::before {
+  content: '';
+  transform: rotate(45deg);
+  background: #fff;
+}
+
+#menu[data-popper-placement^='top'] > #arrow {
+  bottom: -4px;
+}
+
+#menu[data-popper-placement^='bottom'] > #arrow {
+  top: -4px;
+}
+
+#menu[data-popper-placement^='left'] > #arrow {
+  right: -4px;
+}
+
+#menu[data-popper-placement^='right'] > #arrow {
+  left: -4px;
 }
