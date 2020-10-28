@@ -15289,17 +15289,22 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
           destroy();
         }
 
+        document.addEventListener('keyup', tabNav);
+
+        function tabNav(e) {
+          if (e.key === 'Tab' && !el.contains(document.activeElement)) {
+            hide();
+          }
+        }
+
         var showEvents = ['mouseenter', 'focus'];
-        var hideEvents = ['mouseleave', 'blur'];
         showEvents.forEach(function (event) {
           button.addEventListener(event, show);
         });
-        hideEvents.forEach(function (event) {
-          button.addEventListener(event, hide);
-        });
+        button.addEventListener('mouseleave', hide);
 
         function menuWidth(el) {
-          var items = el.childElementCount;
+          var items = el.querySelectorAll('li').length;
 
           if (items <= 10) {
             el.classList.add('cols-1');

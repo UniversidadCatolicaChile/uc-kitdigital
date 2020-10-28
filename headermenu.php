@@ -38,6 +38,8 @@
       </div>
     </div>
   </div>
+
+  <!--ul>li>a+(ul>li>a+(ul>li>a)*2)*3-->
   <nav class="uc-navbar">
     <!-- Menú para versión Escritorio -->
     <div class="container d-none d-lg-block">
@@ -51,61 +53,58 @@
         </div>
       </div>
       <ul class="uc-navbar_nav">
-        <li class="nav-item uc-navbar-dropdown">
+        <li class="nav-item uc-navbar-dropdown" tabindex="0">
           <a href="#" class="uc-btn btn-inline">Ítem del menú <i class="uc-icon">arrow_drop_down</i></a>
           <ul class="uc-navbar-dropdown_menu">
-            <li class="uc-navbar-dropdown_item dropdown_item--heading">
-              <a href="#" class="uc-btn">Imágenes, Laboratorios y Patologías</a>
+            <li class="dropdown_item--heading">
+              <a href="" class="uc-btn">Item 1</a>
             </li>
-            <li class="uc-navbar-dropdown_item">
-              <a href="#" class="uc-btn">Radiología</a>
+            <li class="dropdown_item--heading">
+              Radiología
+              <ul class="uc-navbar-dropdown_child">
+                <li class="uc-navbar-dropdown_item">
+                  <a href="#" class="uc-btn">Radiología</a>
+                </li>
+                <li class="uc-navbar-dropdown_item">
+                  <a href="#" class="uc-btn">Anatomía Patólogica</a>
+                </li>
+              </ul>
             </li>
-            <li class="uc-navbar-dropdown_item">
+            <li class="dropdown_item--heading">
               <a href="#" class="uc-btn">Anatomía Patólogica</a>
+              <ul class="uc-navbar-dropdown_child">
+                <li class="uc-navbar-dropdown_item">
+                  <a href="#" class="uc-btn">Radiología</a>
+                </li>
+                <li class="uc-navbar-dropdown_item">
+                  <a href="#" class="uc-btn">Anatomía Patólogica</a>
+                </li>
+              </ul>
             </li>
-            <li class="uc-navbar-dropdown_item">
+            <li class="dropdown_item--heading">
               <a href="#" class="uc-btn">Laboratorios Clínicos</a>
             </li>
-            <li class="uc-navbar-dropdown_item">
+            <li class="dropdown_item--heading">
               <a href="#" class="uc-btn">Medicina</a>
             </li>
-            <li class="uc-navbar-dropdown_item">
+            <li class="dropdown_item--heading">
               <a href="#" class="uc-btn">Dermatología</a>
             </li>
-            <li class="uc-navbar-dropdown_item">
-              <a href="#" class="uc-btn">Endrocrinología</a>
-            </li>
-            <li class="uc-navbar-dropdown_item">
-              <a href="#" class="uc-btn">Enfermedades Infecciosas del Adulto</a>
-            </li>
-            <li class="uc-navbar-dropdown_item">
+            <li class="dropdown_item--heading">
               <a href="#" class="uc-btn">Enfermedades Respiratorias</a>
             </li>
-            <li class="uc-navbar-dropdown_item">
+            <li class="dropdown_item--heading">
               <a href="#" class="uc-btn">Gastroenterología</a>
             </li>
-            <li class="uc-navbar-dropdown_item">
+            <li class="dropdown_item--heading">
               <a href="#" class="uc-btn">Especialidades Médicas</a>
             </li>
-            <li class="uc-navbar-dropdown_item">
-              <a href="#" class="uc-btn">Especialidades Primarias</a>
+            <li>
+              <div id="arrow" data-popper-arrow></div>
             </li>
-            <li class="uc-navbar-dropdown_item">
-              <a href="#" class="uc-btn">Especialidades Derivadas</a>
-            </li>
-            <li class="uc-navbar-dropdown_item">
-              <a href="#" class="uc-btn">Cómo Postular</a>
-            </li>
-            <li class="uc-navbar-dropdown_item">
-              <a href="#" class="uc-btn">Residentes</a>
-            </li>
-            <li class="uc-navbar-dropdown_item">
-              <a href="#" class="uc-btn">Reglamento e instructivos</a>
-            </li>
-            <li><div id="arrow" data-popper-arrow></div></li>
           </ul>
         </li>
-        <li class="nav-item uc-navbar-dropdown">
+        <li class="nav-item uc-navbar-dropdown" tabindex="0">
           <a href="#" class="uc-btn btn-inline">Ítem 1 <i class="uc-icon">arrow_drop_down</i></a>
           <ul class="uc-navbar-dropdown_menu">
             <li class="uc-navbar-dropdown_item dropdown_item--heading">
@@ -123,11 +122,13 @@
             <li class="uc-navbar-dropdown_item">
               <a href="#" class="uc-btn">Medicina</a>
             </li>
-            <li><div id="arrow" data-popper-arrow></div></li>
+            <li>
+              <div id="arrow" data-popper-arrow></div>
+            </li>
           </ul>
         </li>
         <li class="nav-item">
-          <a href="#" class="uc-btn btn-inline">Item 3</a>
+          <a href="http://google.com" class="uc-btn btn-inline" >Item 3</a>
         </li>
         <li class="nav-item">
           <a href="#" class="uc-btn btn-inline">Item 4</a>
@@ -255,7 +256,9 @@
             <li class="uc-navbar-dropdown_item">
               <a href="#" class="uc-btn">Médica y Ciencias de la Salud</a>
             </li>
-            <li><div id="arrow" data-popper-arrow></div></li>
+            <li>
+              <div id="arrow" data-popper-arrow></div>
+            </li>
           </ul>
         </li>
       </ul>

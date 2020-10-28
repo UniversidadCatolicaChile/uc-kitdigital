@@ -34,7 +34,6 @@ class Navbar {
                     ]
                 })
             }
-
             function destroy() {
                 if (popperInstance) {
                     popperInstance.destroy();
@@ -52,19 +51,24 @@ class Navbar {
                 destroy();
             }
 
+            document.addEventListener('keyup', tabNav);
+
+            function tabNav(e) {
+                if(e.key === 'Tab' && !el.contains(document.activeElement)) {
+                    hide();
+                }
+            }
+
             const showEvents = ['mouseenter', 'focus'];
-            const hideEvents = ['mouseleave', 'blur'];
 
             showEvents.forEach(event => {
                 button.addEventListener(event, show);
             });
 
-            hideEvents.forEach(event => {
-                button.addEventListener(event, hide);
-            });
+            button.addEventListener('mouseleave', hide);
 
             function menuWidth(el) {
-                const items = el.childElementCount;
+                const items = el.querySelectorAll('li').length;
                 if (items <= 10) {
                     el.classList.add('cols-1');
                 } else if (items > 10 && items <= 20) {

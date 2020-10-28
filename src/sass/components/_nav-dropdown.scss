@@ -36,21 +36,65 @@
   }
 }
 
+//dropdown container
 .uc-navbar-dropdown_menu {
   padding: 24px;
+  text-align: left;
+  position: relative;
   list-style-type: none;
   background-color: #fff;
   box-shadow: $menu-shadow;
   border-radius: $small-radius;
-  position: relative;
+  // top triangle
   &::before {
     content: '';
+    left: 0;
+    top: -20px;
     width: 100%;
     height: 20px;
     position: absolute;
     background: transparent;
-    left: 0;
-    top: -20px;
+  }
+  // second level children title/button
+  .dropdown_item--heading {
+    color: $blue;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 8px 12px 0;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    &:first-child {
+      padding-top: 0;
+    }
+    > .uc-btn {
+      text-decoration: underline;
+    }
+  }
+  // third level children container
+  .uc-navbar-dropdown_child {
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+    list-style-type: none;
+  }
+  // third level children link
+  .uc-navbar-dropdown_item {
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    min-width: 200px;
+    border-bottom: $primary-border;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    -webkit-column-break-inside: avoid;
+    &:first-child {
+      border-top: $primary-border;
+    }
+    .uc-btn {
+      font-weight: normal;
+      color: #000 !important;
+    }
   }
   &.cols-2 {
     columns: 2;
@@ -71,27 +115,6 @@
     columns: 5;
     column-width: 210px;
     column-gap: 12px;
-  }
-  .uc-navbar-dropdown_item {
-    padding: 8px;
-    font-size: 14px;
-    text-align: left;
-    min-width: 200px;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid-column;
-    border-bottom: $primary-border;
-    &.dropdown_item--heading {
-      padding: 12px 8px 12px 0;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    .uc-btn {
-      color: #000;
-    }
-    &:last-child {
-      border: 0;
-    }
   }
 }
 
