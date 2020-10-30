@@ -17,6 +17,7 @@
     .nav-item {
       flex-grow: 1;
       padding: 1px 0;
+      position: relative;
       text-align: center;
       border-right: $primary-border;
       &:first-child {
