@@ -3,6 +3,13 @@ if (!Element.prototype.matches) {
     Element.prototype.matches = Element.prototype.msMatchesSelector;
 }
 
+if (!!window.MSInputMethodContext && !!document.documentMode) {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.find,Promise,Object.assign";
+    document.body.appendChild(script);
+}
+
 import {Modal} from "./components/modal.js";
 import {Accordion} from "./components/accordion.js";
 import {Dropdown} from "./components/dropdown.js";
