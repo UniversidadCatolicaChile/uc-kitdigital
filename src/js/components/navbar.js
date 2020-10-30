@@ -9,6 +9,9 @@ class Navbar {
             const button = el;
             const submenu = el.querySelector('.uc-navbar-dropdown_menu');
 
+            button.setAttribute('tabindex', '0')
+            submenu.insertAdjacentHTML('beforeend', '<li><div class="uc-navbar_arrow" data-popper-arrow></div></li>')
+
             let popperInstance = null;
 
             function create() {
@@ -90,7 +93,6 @@ class Navbar {
             window.addEventListener('resize', function () {
                 menuWidth(submenu);
             });
-
         });
     }
 }

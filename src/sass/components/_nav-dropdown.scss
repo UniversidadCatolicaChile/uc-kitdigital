@@ -126,8 +126,8 @@
   display: block;
 }
 
-#arrow,
-#arrow::before {
+.uc-navbar_arrow,
+.uc-navbar_arrow::before {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -136,24 +136,8 @@
   border-radius: 4px;
 }
 
-#arrow::before {
+.uc-navbar_arrow::before {
   content: '';
   transform: rotate(45deg);
   background: #fff;
-}
-
-#menu[data-popper-placement^='top'] > #arrow {
-  bottom: -4px;
-}
-
-#menu[data-popper-placement^='bottom'] > #arrow {
-  top: -4px;
-}
-
-#menu[data-popper-placement^='left'] > #arrow {
-  right: -4px;
-}
-
-#menu[data-popper-placement^='right'] > #arrow {
-  left: -4px;
 }
