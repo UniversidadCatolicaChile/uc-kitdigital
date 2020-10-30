@@ -11,7 +11,13 @@ import {UcCarousel} from "./components/carousels.js";
 import {Tooltip} from "./components/tooltip.js";
 import {Navbar} from "./components/navbar.js";
 
-// componentes interactivos
+import {Footer} from "./globals/Footer.js";
+import {Topbar} from "./globals/Topbar.js";
+
+
+new Footer();
+new Topbar();
+
 const uc_kit_components = {
     ac: new Accordion(),
     modal: new Modal(),
