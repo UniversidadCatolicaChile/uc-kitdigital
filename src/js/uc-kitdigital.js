@@ -15,8 +15,8 @@ import {Footer} from "./globals/Footer.js";
 import {Topbar} from "./globals/Topbar.js";
 
 
-new Footer();
 new Topbar();
+new Footer();
 
 const uc_kit_components = {
     ac: new Accordion(),

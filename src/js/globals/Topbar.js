@@ -46,12 +46,13 @@ class Topbar {
       return;
 
     try {
-      let items = JSON.parse(target.dataset.items);
-      if (items) {
-          this.setItems(items)
+      if (target.dataset.items) {
+        let items = JSON.parse(target.dataset.items);
+        if (items) {
+            this.setItems(items)
+        }
       }
     } catch (error) {
-      console.error("Error on parse data-items")
       console.error(error)
     }
  
