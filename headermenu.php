@@ -1,44 +1,6 @@
 <?php include('inc/header.php') ?>
 <header class="uc-header">
-  <div class="uc-top-bar">
-    <div class="container">
-      <div class="top-bar_mobile-logo d-block d-lg-none">
-        <img src="https://kit-digital-uc-desa.s3.amazonaws.com/img/logo-uc-comprimido.svg" alt="Logo UC" class="img-fluid">
-      </div>
-      <div class="top-bar_links justify-content-between d-none d-lg-flex">
-        <ul class="top-bar_links">
-          <li>
-            <a href="http://uc.cl/" target="_blank" class="text-size--sm external">
-              ir al sitio UC
-            </a>
-          </li>
-        </ul>
-        <ul class="top-bar_links">
-          <li>
-            <a href="http://bibliotecas.uc.cl/" target="_blank" class="text-size--sm external">
-              Biblioteca
-            </a>
-          </li>
-          <li>
-            <a href="https://donaciones.uc.cl/" target="_blank" class="text-size--sm external">
-              Donaciones
-            </a>
-          </li>
-          <li>
-            <a href="https://sso.uc.cl/cas/login" target="_blank" class="text-size--sm external">
-              Mi Portal UC
-            </a>
-          </li>
-          <li>
-            <a href="https://correo.uc.cl" target="_blank" class="text-size--sm external">
-              Correo
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
+  <div id="uc-global-topbar"></div>
   <!--ul>li>a+(ul>li>a+(ul>li>a)*2)*3-->
   <nav class="uc-navbar">
     <!-- Menú para versión Escritorio -->
@@ -285,4 +247,5 @@
     </div>
   </nav>
 </header>
+<div id="uc-global-footer"></div>
 <?php include('inc/footer.php') ?>
