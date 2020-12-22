@@ -1,3 +1,13 @@
+#### Kit Digital v1.24.0
+* Se agregan nuevos grises a la paleta `$darkgraya` y `$darkgrayb`
+* Se corrigen márgenes y tamaño de tipografía en componente Footer
+* Cambio de estilos para componentes de formularios
+* Corrección en z-index de componente `uc-navbar`
+* Se agrega nuevo componente de botón `.btn-secondary`
+* Se agregan estilos de botón `disabled` usando la clase `.btn-disabled` o el atributo `disabled`
+* Se corrigen ejemplos de cards con textos
+* Se agrega menú desplegable opcional en componente `uc-navbar`
+
 #### Kit Digital v1.23.14
 * se corrige funcionamiento de clase `.w-full`
 

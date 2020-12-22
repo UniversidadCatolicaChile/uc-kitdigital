@@ -1,7 +1,9 @@
 <?php include 'inc/header.php' ?>
 <div class="container">
-  <h1>Componentes Kit UC</h1>
-  <hr class="uc-hr">
+  <div class="my-60">
+    <h1>Componentes Kit UC</h1>
+    <hr class="uc-hr">
+  </div>
   <h2 class="my-24">Botones</h2>
   <div class="row">
     <div class="col-md-3">
@@ -16,10 +18,15 @@
         <i class="uc-icon">launch</i>
       </a>
     </div>
-    <div class="col-md-6">
-      <a href="#" class="uc-btn btn-primary">
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-secondary text-center">
         Más Información
-        <i class="uc-icon icon-shape--rounded">arrow_forward</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-secondary">
+        Más Información
+        <i class="uc-icon">arrow_forward</i>
       </a>
     </div>
   </div>
@@ -85,6 +92,100 @@
     <div class="col-md-3">
       <a href="#" class="uc-pill">
         <div class="uc-btn btn-inline">
+          Mi cuenta
+          <div class="uc-icon">launch</div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <h2 class="my-24">Botones (Deshabilitados)</h2>
+  <div class="row">
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-primary btn-disabled">
+        Más información
+        <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-primary btn-disabled">
+        Ir al sitio
+        <i class="uc-icon">launch</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-secondary text-center btn-disabled">
+        Más Información
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-secondary btn-disabled">
+        Más Información
+        <i class="uc-icon">arrow_forward</i>
+      </a>
+    </div>
+  </div>
+  <div class="row my-24">
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-admission btn-inline btn-disabled">
+        Admisión <i class="uc-icon">launch</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-filter btn-inline btn-disabled">
+        Centro UC
+        <i class="uc-icon">fiber_manual_record</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-cta btn-disabled">
+        Texto
+      </a>
+    </div>
+  </div>
+  <div class="row my-24">
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-featured btn-disabled">
+        Text
+        <i class="uc-icon">launch</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-featured btn-disabled">
+        Text
+        <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-inline btn-disabled">
+        Texto
+        <i class="uc-icon icon-shape--rounded">add</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-listed btn-disabled">
+        Text
+        <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
+      </a>
+      <a href="#" class="uc-btn btn-listed btn-disabled">
+        Text
+        <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
+      </a>
+      <a href="#" class="uc-btn btn-listed btn-disabled">
+        Text
+        <i class="uc-icon icon-shape--rounded icon-size--sm">arrow_forward</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-btn btn-listed btn-disabled">
+        Text
+        <i class="uc-icon icon-size--sm">launch</i>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="uc-pill">
+        <div class="uc-btn btn-inline btn-disabled">
           Mi cuenta
           <div class="uc-icon">launch</div>
         </div>
@@ -411,8 +512,17 @@
           <input id="ucinput" type="text" class="uc-input-style" placeholder="Ejemplo: nombre">
         </div>
         <div class="uc-form-group">
+          <label for="ucinput">Etiqueta</label>
+          <input id="ucinput" type="text" class="uc-input-style" placeholder="Ejemplo: nombre" disabled>
+        </div>
+        <div class="uc-form-group">
           <label for="ucsearch">Buscar</label>
           <input id="ucsearch" type="text" class="uc-input-style w-icon search" placeholder="Buscar por">
+          <span class="w-icon search"></span>
+        </div>
+        <div class="uc-form-group">
+          <label for="ucsearch">Buscar</label>
+          <input id="ucsearch" type="text" class="uc-input-style w-icon search" placeholder="Buscar por" disabled>
           <span class="w-icon search"></span>
         </div>
       </form>

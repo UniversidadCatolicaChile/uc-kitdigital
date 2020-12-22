@@ -9,8 +9,10 @@
   .uc-navbar_nav {
     margin: 0;
     padding: 0;
+    z-index: 999;
     display: flex;
     margin-top: 24px;
+    position: relative;
     align-items: center;
     list-style-type: none;
     justify-content: space-between;

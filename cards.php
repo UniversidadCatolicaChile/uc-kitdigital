@@ -8,7 +8,7 @@
       <div class="uc-card">
         <img src="https://dummyimage.com/300x190/edeaed/0076de.png" class="card-img" alt="imagen de card">
         <div class="uc-card_body">
-          <p class="small gray condensed">18 Marzo 2018</p>
+          <p class="text-size--sm text-color--gray text--condensed">18 Marzo 2018</p>
           <h4>Lorem ipsum dolor sit amet</h4>
           <div class="uc-text-divider divider-primary my-12"></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. </p>
@@ -195,7 +195,7 @@
         <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
         <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
         <div class="uc-card_body">
-          <p class="small gray condensed">18 Marzo 2018</p>
+          <p class="text-size--sm text-color--gray text--condensed">18 Marzo 2018</p>
           <h4>Lorem ipsum dolor sit amet</h4>
           <div class="uc-text-divider divider-primary my-12"></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue.</p>
@@ -213,7 +213,7 @@
         <img src="http://via.placeholder.com/300x190" class="img-fluid" alt="">
         <a href="#" class="uc-tag tag-fixed">Carrera de Pregrado</a>
         <div class="uc-card_body">
-          <p class="small gray condensed">18 Marzo 2018</p>
+          <p class="text-size--sm text-color--gray text--condensed">18 Marzo 2018</p>
           <h4>Lorem ipsum dolor sit amet</h4>
           <div class="uc-text-divider divider-primary my-12"></div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. In porttitor est augue, at aliquet massa tristique in. Donec viverra enim eget lacus consectetur, eu scelerisque metus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta pellentesque finibus. Nullam porta pellentesque finibus. </p>

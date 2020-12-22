@@ -11,7 +11,7 @@
     color: #fff;
     text-decoration: underline;
   }
-  
+
   .uc-footer_social {
     margin: 0;
     padding: 0;
@@ -48,6 +48,7 @@
 .uc-footer_list-title {
   font-size: 14px;
   font-weight: 700;
+  margin-bottom: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
   &.footer-collapse-title {
@@ -144,6 +145,10 @@
   }
   .uc-icon {
     color: #fff;
+  }
+  p {
+    font-size: 0.875em;
+    line-height: 1.5;
   }
 }
 

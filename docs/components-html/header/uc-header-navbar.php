@@ -1,6 +1,4 @@
-<?php include('inc/header.php') ?>
 <header class="uc-header">
-  <div id="uc-global-topbar"></div>
   <nav class="uc-navbar">
     <!-- Menú para versión Escritorio -->
     <div class="container d-none d-lg-block">
@@ -18,7 +16,7 @@
           <a href="#" class="uc-btn btn-inline">Ítem del menú <i class="uc-icon">arrow_drop_down</i></a>
           <ul class="uc-navbar-dropdown_menu">
             <li class="dropdown_item--heading">
-              <a href="" class="uc-btn">Item</a>
+              <a href="" class="uc-btn">Item 1</a>
             </li>
             <li class="dropdown_item--heading">
               Radiología
@@ -62,8 +60,33 @@
             </li>
           </ul>
         </li>
+        <li class="nav-item uc-navbar-dropdown">
+          <a href="#" class="uc-btn btn-inline">Ítem 1 <i class="uc-icon">arrow_drop_down</i></a>
+          <ul class="uc-navbar-dropdown_menu">
+            <li class="dropdown_item--heading">
+              <a href="#" class="uc-btn">Anatomía Patólogica</a>
+              <ul class="uc-navbar-dropdown_child">
+                <li class="uc-navbar-dropdown_item">
+                  <a href="#" class="uc-btn">Radiología</a>
+                </li>
+                <li class="uc-navbar-dropdown_item">
+                  <a href="#" class="uc-btn">Anatomía Patólogica</a>
+                </li>
+                <li class="uc-navbar-dropdown_item">
+                  <a href="#" class="uc-btn">Anatomía Patólogica</a>
+                </li>
+                <li class="uc-navbar-dropdown_item">
+                  <a href="#" class="uc-btn">Anatomía Patólogica</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
         <li class="nav-item">
-          <a href="#" class="uc-btn btn-inline">Item</a>
+          <a href="http://google.com" class="uc-btn btn-inline">Item 3</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="uc-btn btn-inline">Item 4</a>
         </li>
         <li class="nav-item uc-navbar-dropdown">
           <a href="#" class="uc-btn btn-inline">Ítem del menú <i class="uc-icon">arrow_drop_down</i></a>
@@ -214,5 +237,3 @@
     </div>
   </nav>
 </header>
-<div id="uc-global-footer"></div>
-<?php include('inc/footer.php') ?>
