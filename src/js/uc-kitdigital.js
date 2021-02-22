@@ -17,6 +17,7 @@ import {Tab} from "./components/tab.js";
 import {UcCarousel} from "./components/carousels.js";
 import {Tooltip} from "./components/tooltip.js";
 import {Navbar} from "./components/navbar.js";
+import {mobileNavbar} from "./components/mobileNavbar.js";
 
 import {Footer} from "./globals/Footer.js";
 import {Topbar} from "./globals/Topbar.js";
@@ -32,5 +33,6 @@ const uc_kit_components = {
     tab: new Tab(),
     carousels: new UcCarousel(),
     tooltip: new Tooltip(),
-    navbar: new Navbar()
+    navbar: new Navbar(),
+    mobilenavbar: new mobileNavbar(),
 };
