@@ -80,33 +80,87 @@
         </div>
         <a href="javascript:void(0);" class="uc-navbar_mobile-button">
           <span class="uc-icon"></span>
-          Menú
         </a>
       </div>
       <div class="uc-navbar_mobile-content">
         <ul class="uc-navbar_mobile-list">
-          <li class="list-item has-children">
-            <a href="#">Item 1</a>
-            <ul class="list-item children">
-              <li class="list-item close">back</li>
+          <li class="list-item has-list-children">
+            <a class="list-open" href="#">
+              Pregrado
+              <i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+            </a>
+            <ul class="list-item list-children">
               <li class="list-item">
-                <a href="#">Item 1</a>
-                <ul class="children">
-                  <li class="list-item">Item child</li>
-                  <li class="list-item">Item child</li>
-                  <li class="list-item">Item child</li>
+                <a href="#" class="list-close">
+                  <div class="uc-icon icon-size--sm">
+                    arrow_back_ios
+                  </div>
+                  Pregrado
+                </a>
+              </li>
+              <!-- loop de elementos -->
+              <li class="list-item has-list-children">
+                <a href="#" class="list-open">
+                  Item 1
+                  <i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+                </a>
+                <ul class="list-children">
+                  <li class="list-item">
+                    <a href="#" class="list-close text-color--gray">
+                      <span class="uc-icon">arrow_back_ios</span>
+                      Item child
+                    </a>
+                  </li>
+                  <li class="list-item">
+                    <a href="/">Item child</a>
+                  </li>
+                  <li class="list-item">
+                    <a href="/">Item child</a>
+                  </li>
                 </ul>
               </li>
-              <li class="list-item">Item child</li>
-              <li class="list-item">Item child</li>
-              <li class="list-item">Item child</li>
+              <li class="list-item">
+                <a href="/">
+                  Item child
+                  <i class="uc-icon">launch</i>
+                </a>
+              </li>
+              <li class="list-item">
+                <a href="/">Item child</a>
+              </li>
+              <li class="list-item">
+                <a href="/">Item child</a>
+              </li>
             </ul>
           </li>
           <li class="list-item">
             <a href="#">Item 2</a>
           </li>
-          <li class="list-item">
-            <a href="#">Item 3</a>
+          <li class="list-item has-list-children">
+            <a class="list-open" href="#">
+              Desplegable 2
+              <i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+            </a>
+            <ul class="list-item list-children">
+              <li class="list-item">
+                <a href="#" class="list-close">
+                  <div class="uc-icon icon-size--sm">
+                    arrow_back_ios
+                  </div>
+                  Desplegable 2
+                </a>
+              </li>
+              <!-- loop de elementos -->
+              <li class="list-item">
+                <a href="#">Item 1</a>
+              </li>
+              <li class="list-item">
+                <a href="#">Item 2</a>
+              </li>
+              <li class="list-item">
+                <a href="#">Item 3</a>
+              </li>
+            </ul>
           </li>
           <li class="list-item">
             <a href="#">Item 4</a>
