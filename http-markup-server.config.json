@@ -1,0 +1,10 @@
+{
+    "port": 8000,
+    "host": null,
+    "static": [ "dist"],
+    "index_files": ["index.ejs" ],
+    "allowable_extensions": [".ejs" ],
+    "favicon": false,
+    "browse": true,
+    "security_log": false
+}
