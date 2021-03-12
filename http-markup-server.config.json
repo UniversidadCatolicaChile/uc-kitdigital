@@ -1,6 +1,6 @@
 {
     "port": 8000,
-    "host": null,
+    "host": "localhost",
     "static": [ "dist"],
     "index_files": ["index.ejs" ],
     "allowable_extensions": [".ejs" ],
