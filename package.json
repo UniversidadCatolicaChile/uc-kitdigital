@@ -13,7 +13,8 @@
     "watch": "mix watch",
     "watch-poll": "mix watch -- --watch-options-poll=1000",
     "hot": "mix watch --hot",
-    "production": "mix --production"
+    "production": "mix --production",
+    "prod": "npm run production"
   },
   "keywords": [
     "Design System",
