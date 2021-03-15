@@ -46,7 +46,7 @@
     }
   }
   &.navbar-dark {
-    background-color: $darkblue;
+    background-color: $primaryblue;
     .uc-navbar_nav {
       .nav-item {
         border-color: #fff;
@@ -57,7 +57,7 @@
     }
     .uc-navbar_mobile-bar {
       .uc-navbar_mobile-logo {
-        background-color: $darkblue;
+        background-color: $primaryblue;
         color: #fff;
       }
     }
