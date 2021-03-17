@@ -130,9 +130,6 @@ p, .p, .uc-p {
 .p-size--sm, .text-size--sm {
   font-size: 0.875em;
   line-height: 1.5;
-  @include media-breakpoint-up(lg) {
-    line-height: 1.1;
-  }
   &.mobile {
     line-height: 1.5;
   }

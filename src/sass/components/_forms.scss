@@ -20,8 +20,7 @@
 .uc-input-style {
   width: 100%;
   display: block;
-  border: 1px solid $lightgraya;
-  border-bottom: 2px solid $lightgraya;
+  border: 1px solid $darkgrayb;
   padding: 12px 16px;
   line-height: 1;
   transition: .2s ease;
@@ -41,6 +40,10 @@
       background-repeat: no-repeat;
       background-position: right 16px center;
     }
+  }
+  &:disabled {
+    cursor: not-allowed;
+    background: $lightgrayc;
   }
 }
 

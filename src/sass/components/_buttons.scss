@@ -28,9 +28,25 @@
       background-color: $lightgrayc;
     }
   }
+  &.btn-secondary {
+    color: #fff;
+    padding: 12px 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    background-color: $primary;
+    box-shadow: $primary-shadow;
+    .uc-icon {
+      color: #fff;
+    }
+    &:hover {
+      background-color: $blue;
+      text-decoration: none;
+    }
+  }
   &.btn-featured {
     width: 100%;
     color: #000;
+    background: #fff;
     padding: 24px 16px;
     border: $primary-border;
     border-radius: 0 4px 4px 0;
@@ -114,6 +130,31 @@
         color: $blue;
         background-color: $yellow;
       }
+    }
+  }
+  &.btn-disabled, &:disabled {
+    color: $darkgraya;
+    cursor: not-allowed;
+    background-color: $lightgrayc;
+    .uc-icon {
+      color: $darkgraya;
+    }
+    .uc-icon.icon-shape--rounded {
+      color: #fff;
+      background-color: $darkgraya;
+    }
+    &:hover {
+      border-color: inherit;
+      background-color: $lightgrayc;
+    }
+    &.btn-featured {
+      border-left-color: $darkgraya;
+    }
+    &.btn-inline {
+      background-color: inherit;
+    }
+    &.btn-admission {
+      border-color: $darkgraya;
     }
   }
 }

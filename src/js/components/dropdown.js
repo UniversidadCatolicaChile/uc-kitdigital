@@ -20,6 +20,7 @@ class Dropdown {
         let element = e.target;
         let target = document.querySelector("[data-dropdown='" + element.dataset.dtarget + "']");
         target.classList.toggle(this.list_class.show);
+        e.preventDefault();
     }
 
     prepareDropButtons(){
@@ -47,19 +48,17 @@ class Dropdown {
                 w_click(event);
             }
             if (!event.target.matches('.' + this.list_class.button)) {
-                let dropdowns = document.querySelector("[data-dropdown]");
+                let dropdowns = document.querySelectorAll("[data-dropdown]");
 
                 if (dropdowns == null){
                     return;
                 }
-
-                if (!Array.isArray(dropdowns)){
-                    if (dropdowns.classList.contains(this.list_class.show)) {
-                        dropdowns.classList.remove(this.list_class.show);
+                if (dropdowns.length === 1){
+                    if (dropdowns[0].classList.contains(this.list_class.show)) {
+                        dropdowns[0].classList.remove(this.list_class.show);
                     }
                     return;
                 }
-
                 for (let i = 0; i < dropdowns.length; i++) {
                     let openDropdown = dropdowns[i];
                     if (openDropdown.classList.contains(this.list_class.show)) {

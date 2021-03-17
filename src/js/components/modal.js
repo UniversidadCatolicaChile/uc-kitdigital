@@ -38,6 +38,11 @@ class Modal {
     }
 
     close(target){
+        // only this video has youtube content 
+        let frames = document.querySelectorAll('.uc-message_body iframe'),  i;
+        for (i = 0; i < frames.length; ++i) {
+            frames[i].contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+        }
         target.style.display = 'none';
         this.modalOpen = null;
     }

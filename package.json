@@ -1,6 +1,6 @@
 {
   "name": "@digitaluc/uc-kitdigital",
-  "version": "1.23.14",
+  "version": "1.24.1",
   "description": "Librería de componentes para la Pontificia Universidad Católica de Chile",
   "main": "uc-kitdigital.js",
   "repository": {
@@ -8,12 +8,13 @@
     "url": "git+https://bitbucket.org/asimovers/uc-kitdigital.git"
   },
   "scripts": {
-    "dev": "npm run development",
-    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "prod": "npm run production",
-    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "serve": "http-markup-server",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "prod": "npm run production"
   },
   "keywords": [
     "Design System",
@@ -27,19 +28,18 @@
   "author": "Asimov Consultores SpA",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "browser-sync-webpack-plugin": "2.0.1",
-    "laravel-mix": "^4.1.4",
-    "nvm": "0.0.4",
-    "resolve-url-loader": "^2.3.2",
+    "laravel-mix": "^6.0.13",
+    "resolve-url-loader": "^3.1.2",
     "sass": "^1.26.8",
     "sass-loader": "^7.3.1",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
+    "@popperjs/core": "^2.5.3",
     "bootstrap": "^4.5.0",
-    "core-js": "^3.6.5",
     "cross-env": "^5.2.1",
+    "http-markup-server": "^0.0.3",
+    "hybrids": "^4.3.1",
     "tiny-slider": "^2.9.2",
     "tippy.js": "^4.3.5"
   },
