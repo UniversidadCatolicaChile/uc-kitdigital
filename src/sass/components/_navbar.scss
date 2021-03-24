@@ -248,6 +248,7 @@
     position: fixed;
     transition: .5s ease-in-out;
     transform: translateX(100%);
+    overflow-y: scroll;
     .uc-navbar_mobile-list {
       list-style-type: none;
       padding: 0;
