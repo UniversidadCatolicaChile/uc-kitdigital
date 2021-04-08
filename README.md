@@ -8,7 +8,7 @@ Para ver los ejemplos localmente
 
 ```sh
 # http://localhost:8000/examples
-npm run server
+npm run serve
 ```
 
 ### Pendiente 
