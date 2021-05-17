@@ -7,8 +7,8 @@ Documentación disponible en https://kitdigital.uc.cl/
 Para ver los ejemplos localmente 
 
 ```sh
-# http://localhost:8000/examples
-npm run server
+# http://localhost:8000/examples/<filename>.ejs
+npm run serve
 ```
 
 ### Pendiente 
