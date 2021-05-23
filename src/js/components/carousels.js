@@ -1,16 +1,23 @@
 import {tns} from "tiny-slider/src/tiny-slider"
 
+console.log("...")
+
 class UcCarousel {
     constructor() {
-
         let carousels = document.querySelectorAll('[data-carousel]');
         let autoPlayButtons = ["<i class='uc-icon play-button'>play_circle_filled</i>", "<i class='uc-icon pause-button'>pause_circle_filled</i>"]
 
 
         carousels.forEach(e => {
-            var data = e.dataset;
+            // evalua si el carrousel ya fue inicializado.
+            // Para casos donde se pueda invocar carrouseles
+            // con dom como dependencia de datos externa (async data).
+            if (e.getElementsByClassName('tns-outer').length === 1)
+                return
 
-            var options = {
+            let data = e.dataset;
+
+            let options = {
                 container: '.' + data.carousel,
                 items: 1,
                 slideBy: data.slideby ? parseInt(data.slideby, 10) : 1,
@@ -37,7 +44,7 @@ class UcCarousel {
                 }
             };
 
-            var carousel = tns(options);
+            let carousel = tns(options);
             e.style.opacity = "1";
 
             if (data.counter && JSON.parse(data.counter)) {
@@ -63,10 +70,10 @@ class UcCarousel {
             // compensa ancho de scroll track, usando detector de ancho de scrollbar de David Walsh https://davidwalsh.name/detect-scrollbar-width
 
             function getScrollBarWidth () {
-                var scrollDiv = document.createElement("div");
+                let scrollDiv = document.createElement("div");
                 scrollDiv.className = "scrollbar-measure";
                 document.body.appendChild(scrollDiv);
-                var scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+                let scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
                 document.body.removeChild(scrollDiv);
                 return scrollbarWidth;
             }
