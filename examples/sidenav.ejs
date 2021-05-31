@@ -1,0 +1,72 @@
+<%- include('partials/header') %>
+
+<% 
+    let nav = [
+        {
+            label: 'Principios',
+            childs: [
+                'De experiencia de usuario'
+            ]
+        },
+        {
+            label: 'Color',
+            childs: [
+                'Paletas de color',
+                'Criterios de aplicación'
+            ]
+        },
+        {
+            label: 'Tipografía',
+            childs: [
+                'Escala tipográfica'
+            ]
+        },
+        {
+            label: 'Grilla',
+            childs: [
+                'Columnas',
+                'Espaciado'
+            ]
+        },
+        {
+            label: 'Formas',
+            childs: [
+                'Radio (Redondeado)',
+                'Sombreado'
+            ]
+        },
+        {
+            label: 'Recursos',
+            childs: [
+                'Librería Sketch',
+                'Librería de Iconos',
+                'Elementos institucionales'
+            ]
+        }
+    ]
+%>
+<div class="container">
+    <h2 class="mt-32">Sidenav</h2>
+    <hr class="uc-hr my-28">
+</div>
+<div class="container">
+    <ul class="nav uc-navbar-side">
+        <% nav.forEach(function(el){ %>
+            <li>
+                <a href="#" class="uc-navbar-side_label <%= el.active ? 'active' : '' %>">
+                    <%= el.label; %>
+                </a>
+                <ul class="uc-navbar-side">
+                    <% el.childs.forEach(function(child){ %>
+                        <li>
+                            <a href="#">
+                                <%= child; %>
+                            </a>
+                        </li>
+                    <% }); %>
+                </ul>
+            </li>
+        <% }); %>
+    </ul>
+</div>
+<%- include('partials/footer') %>
