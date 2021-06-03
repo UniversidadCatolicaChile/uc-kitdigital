@@ -8,7 +8,7 @@
     "url": "git+https://bitbucket.org/asimovers/uc-kitdigital.git"
   },
   "scripts": {
-    "serve": "http-server dist/",
+    "server": "http-server dist/",
     "development": "mix",
     "watch": "mix watch",
     "hot": "mix watch --hot",
