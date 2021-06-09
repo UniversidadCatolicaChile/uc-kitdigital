@@ -1,0 +1,110 @@
+<%- include('partials/header') %>
+    <div class="container mt-80">
+        <h1>Tabs</h1>
+        <div class="row">
+            <div class="col-lg-12 mb-80">
+                <div class="uc-tabpanel" data-tabpanel>
+                    <!-- Tabs mobile se muestran como Select -->
+                    <div class="uc-card card-bg--gray card-radius--none card-border--none d-block d-lg-none mb-32">
+                        <div class="uc-card_body">
+                            <label for="tabSelect"><strong>Seleccione tab</strong></label>
+                            <select name="tabSelect" id="tabSelect" class="uc-input-style" data-tabselect>
+                                <option value="tab-01">Tab 1</option>
+                                <option value="tab-02">Tab 2</option>
+                                <option value="tab-03">Tab 3</option>
+                                <option value="tab-04">Tab 4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Tabs en desktop se muestran como botones -->
+                    <ul class="uc-tabs d-none d-lg-flex">
+                        <li class="uc-tabs_item">
+                            <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-01"
+                                data-tabactive>Tab 1</a>
+                        </li>
+                        <li class="uc-tabs_item">
+                            <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-02">Tab 2</a>
+                        </li>
+                        <li class="uc-tabs_item">
+                            <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-03">Tab 3</a>
+                        </li>
+                        <li class="uc-tabs_item">
+                            <a href="javascript:void(0);" class="uc-tabs_item-link" data-tabtarget="tab-04">Tab 4</a>
+                        </li>
+                    </ul>
+                    <div class="uc-tab-body">
+                        <div data-tab="tab-01">
+                            <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aspernatur beatae
+                                consequatur cum dolorum eveniet in inventore, iusto magnam necessitatibus officia
+                                officiis provident, sint velit, vitae. In iste laboriosam vero.</p>
+                        </div>
+                        <div data-tab="tab-02">
+                            <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur exercitationem
+                                harum id!</p>
+                        </div>
+                        <div data-tab="tab-03">
+                            <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda autem blanditiis
+                                debitis dicta est et eum, excepturi ipsam iusto maiores, minima minus natus nulla
+                                numquam odit optio praesentium quas qui quis, quo recusandae rem repellat repellendus
+                                rerum? Earum, repudiandae!</p>
+                        </div>
+                        <div data-tab="tab-04">
+                            <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 mb-80">
+                <div class="uc-tabpanel" data-tabpanel>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <!-- Tabs mobile se muestran como Select -->
+                            <div
+                                class="uc-card card-bg--gray card-radius--none card-border--none d-block d-lg-none mb-32">
+                                <div class="uc-card_body">
+                                    <label for="tabSelect"><strong>Seleccione tab</strong></label>
+                                    <select name="tabSelect" id="tabSelect" class="uc-input-style" data-tabselect>
+                                        <option value="tab-10">Tab 1</option>
+                                        <option value="tab-11">Tab 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Tabs en desktop se muestran como botones -->
+                            <ul class="uc-vertical-tabs d-none d-lg-flex">
+                                <li class="uc-vertical-tabs_item">
+                                    <a href="javascript:void(0);" class="uc-vertical-tabs_item-link"
+                                        data-tabtarget="tab-10" data-tabactive>Tab 01</a>
+                                </li>
+                                <li class="uc-vertical-tabs_item">
+                                    <a href="javascript:void(0);" class="uc-vertical-tabs_item-link"
+                                        data-tabtarget="tab-11">Tab 02</a>
+                                </li>
+                                <li class="uc-vertical-tabs_item">
+                                    <a href="javascript:void(0);" class="uc-vertical-tabs_item-link"
+                                        data-tabtarget="tab-12">Tab 03</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="uc-tab-body">
+                                <div data-tab="tab-10">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores
+                                        assumenda, atque, culpa cumque dicta dolor fugiat magni molestiae officia quam
+                                        qui repellendus repudiandae sint tempora velit veritatis voluptas voluptatibus.
+                                    </p>
+                                </div>
+                                <div data-tab="tab-11">
+                                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                </div>
+                                <div data-tab="tab-12">
+                                    <h3>Tab 3</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('partials/footer') %>
