@@ -1,4 +1,4 @@
-#### Kit Digital v1.26.3
+#### Kit Digital v1.28
 * Se corrigen cambios menores
 * Se agregan componente Global Topbar 
 * Se agregan componente Global TopbarEn
