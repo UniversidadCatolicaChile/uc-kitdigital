@@ -58,7 +58,7 @@ class TopbarEn {
   }
 
   render() {
-    const target = document.getElementById("uc-global-topbar");
+    const target = document.getElementById("uc-global-topbar-en");
     if (!target)
       return;
 
