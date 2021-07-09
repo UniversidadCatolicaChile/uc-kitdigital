@@ -1,3 +1,12 @@
+#### Kit Digital v1.26.3
+* Se corrigen cambios menores
+* Se agregan componente Global Topbar 
+* Se agregan componente Global TopbarEn
+* Se agregan componente Global Footer
+* Se agregan componente Global FooterEn
+* Se agregan componente Menú principal 
+* Se agregan componente Menú movil
+
 #### Kit Digital v1.24.0
 * Se agregan nuevos grises a la paleta `$darkgraya` y `$darkgrayb`
 * Se corrigen márgenes y tamaño de tipografía en componente Footer
