@@ -1,6 +1,6 @@
 {
   "name": "@digitaluc/uc-kitdigital",
-  "version": "1.27.0",
+  "version": "1.28.0",
   "description": "Librería de componentes para la Pontificia Universidad Católica de Chile",
   "main": "uc-kitdigital.js",
   "repository": {
