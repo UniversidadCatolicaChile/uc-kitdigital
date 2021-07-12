@@ -1,10 +1,14 @@
 class mobileNavbar {
   constructor() {
     let navbarContainer = document.getElementsByClassName("navbar_mobile-slide")[0];
+    
+    if (navbarContainer.dataset.init) return
+    navbarContainer.dataset.init = true
 
     if(!navbarContainer) return
 
     const toggleButton = navbarContainer.getElementsByClassName("uc-navbar_mobile-button")[0];
+
 
     const nestedSlides = navbarContainer.querySelectorAll(".uc-navbar_mobile-list .has-list-children");
 
