@@ -1,3 +1,6 @@
+#### Kit Digital v1.28.2
+* Se corrige multi inicialización de componente de Menú Móvil
+
 #### Kit Digital v1.28
 * Se corrigen cambios menores
 * Se agregan componente Global Topbar 
