@@ -24,17 +24,14 @@ import {Footer} from "./globals/Footer.js";
 import {Topbar} from "./globals/Topbar.js";
 
 
-new Topbar();
-new Footer();
-
-const uc_kit_components = {
-    ac: new Accordion(),
-    modal: new Modal(),
-    drop: new Dropdown(),
-    tab: new Tab(),
-    carousels: new UcCarousel(),
-    tooltip: new Tooltip(),
-    navbar: new Navbar(),
-    mobilenavbar: new mobileNavbar(),
-    nav: new Nav(),
-};
+new Topbar()
+new Footer()
+new Accordion()
+new Modal()
+new Dropdown()
+new UcCarousel()
+new Tooltip()
+new Tab()
+new Navbar()
+new mobileNavbar()
+new Nav()
