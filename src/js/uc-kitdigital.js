@@ -17,7 +17,7 @@ import {Tab} from "./components/tab.js";
 import {UcCarousel} from "./components/carousels.js";
 import {Tooltip} from "./components/tooltip.js";
 import {Navbar} from "./components/navbar.js";
-import {mobileNavbar} from "./components/mobileNavbar.js";
+import {MobileNavbar} from "./components/mobileNavbar.js";
 import {Nav} from "./components/nav.js";
 
 import {Footer} from "./globals/Footer.js";
@@ -33,5 +33,5 @@ new UcCarousel()
 new Tooltip()
 new Tab()
 new Navbar()
-new mobileNavbar()
+new MobileNavbar()
 new Nav()

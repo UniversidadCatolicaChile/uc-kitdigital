@@ -1,4 +1,4 @@
-#### Kit Digital v1.28.2
+#### Kit Digital v1.28.3
 * Se corrige multi inicialización de componente de Menú Móvil
 
 #### Kit Digital v1.28
