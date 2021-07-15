@@ -4,13 +4,13 @@
     let nav = [
         {
             label: 'Principios',
+            active: true,
             childs: [
                 'De experiencia de usuario'
             ]
         },
         {
             label: 'Color',
-            disabled: true,
             childs: [
                 'Paletas de color',
                 'Criterios de aplicación'
@@ -18,6 +18,7 @@
         },
         {
             label: 'Tipografía',
+            disabled: true,
             childs: [
                 'Escala tipográfica'
             ]
@@ -47,11 +48,11 @@
     ]
 %>
 <div class="container">
-    <h2 class="mt-32">Sidenav</h2>
+    <h2 class="mt-32">Sidenav fit</h2>
     <hr class="uc-hr my-28">
 </div>
-<div class="container">
-    <ul class="nav uc-navbar-side">
+<div class="container" style="height: 400px;">
+    <ul class="nav uc-navbar-side uc-navbar-side-fit">
         <% nav.forEach(function(el){ %>
             <li class="<%= el.disabled ? 'disabled' : '' %>">
                 <a href="#" class="uc-navbar-side_label <%= el.active ? 'active' : '' %>">
