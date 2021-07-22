@@ -1,3 +1,6 @@
+#### Kit Digital v1.29
+* Se agrega componente de navegación lateral, más correcciones menores.
+
 #### Kit Digital v1.28.3
 * Se corrige multi inicialización de componente de Menú Móvil
 
