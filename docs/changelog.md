@@ -1,4 +1,4 @@
-#### Kit Digital v1.29
+#### Kit Digital v1.29.1
 * Se agrega componente de navegación lateral, más correcciones menores.
 
 #### Kit Digital v1.28.3
