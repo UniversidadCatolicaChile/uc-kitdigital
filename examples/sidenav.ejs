@@ -56,12 +56,14 @@
             <li class="<%= el.disabled ? 'disabled' : '' %>">
                 <a href="#" class="uc-navbar-side_label <%= el.active ? 'active' : '' %>">
                     <%= el.label; %>
+                    <i class="uc-icon">keyboard_arrow_right</i>
                 </a>
                 <ul class="uc-navbar-side">
                     <% el.childs.forEach(function(child){ %>
                         <li>
                             <a href="#">
                                 <%= child; %>
+                                <i class="uc-icon">keyboard_arrow_right</i>
                             </a>
                         </li>
                     <% }); %>
