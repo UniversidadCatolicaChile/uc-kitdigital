@@ -27,6 +27,7 @@
   "author": "Asimov Consultores SpA",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
     "laravel-mix": "^6.0.13",
     "laravel-mix-serve": "^2.2.1",
     "postcss": "^8.1",
