@@ -1,6 +1,6 @@
 import Base from '../base';
 
-export default class Rows extends Base {
+export default class Pagination extends Base {
   constructor (el) {
     super(el);
   }
@@ -16,7 +16,7 @@ export default class Rows extends Base {
         </li>
       `;
     }
-    
+
     return `
       <nav class="uc-pagination">
         <button onclick="window.pagination.goToPrev()" class="uc-pagination_prev mr-12">

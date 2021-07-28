@@ -5,7 +5,7 @@ class Navbar {
         const elements = document.querySelectorAll('.uc-navbar-dropdown');
         const boundary = document.querySelector('.uc-navbar_nav');
 
-        if (boundary.dataset.init) return
+        if (!boundary || boundary.dataset.init) return
         boundary.dataset.init = true
         
         elements.forEach(el => {
