@@ -16,9 +16,10 @@ export default class Base extends Card {
     '12': { full: 'diciembre', small: 'dic' }
   }
 
-  constructor (el) {
+  constructor (el, timestamp = +new Date()) {
     super();
     this.el = el;
+    this.timestamp = timestamp
     this.init();
   }
 

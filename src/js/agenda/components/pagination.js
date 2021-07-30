@@ -1,8 +1,8 @@
 import Base from '../base';
 
 export default class Pagination extends Base {
-  constructor (el) {
-    super(el);
+  constructor (el, timestamp) {
+    super(el, timestamp);
   }
 
   makePagination () {
@@ -12,20 +12,20 @@ export default class Pagination extends Base {
     for (let index = 1; index <= this.max_num_pages; index++) {
       pages += `
         <li class="page-item ${ this.page === index ? 'active' : '' }">
-          <a href="#" onclick="window.pagination.goToPage(${index})" class="page-link">${index}</a>
+          <a href="#" onclick="window.pagination[${this.timestamp}].goToPage(${index})" class="page-link">${index}</a>
         </li>
       `;
     }
 
     return `
       <nav class="uc-pagination">
-        <button onclick="window.pagination.goToPrev()" class="uc-pagination_prev mr-12">
+        <button onclick="window.pagination[${this.timestamp}].goToPrev()" class="uc-pagination_prev mr-12">
           <i class="uc-icon">keyboard_arrow_left</i>
         </button>
         <ul class="uc-pagination_pages">
           ${pages}
         </ul>
-        <button onclick="window.pagination.goToNext()" class="uc-pagination_next ml-12">
+        <button onclick="window.pagination[${this.timestamp}].goToNext()" class="uc-pagination_next ml-12">
           <i class="uc-icon">keyboard_arrow_right</i>
         </button>
       </nav>
@@ -65,7 +65,7 @@ export default class Pagination extends Base {
     Object.values(data.activities).forEach((activity) => {
       html += `
       <div class="col-sm-${this.sm} col-md-${this.md} mb-40">
-        ${this.make(activity)}
+        ${this.makeCard(activity)}
       </div>`;
     });
 

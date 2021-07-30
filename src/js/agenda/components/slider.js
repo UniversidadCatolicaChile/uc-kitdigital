@@ -27,17 +27,18 @@ export default class Slider extends Base {
     let html = '';
     Object.values(data.activities).forEach((activity) => {
       html += `
-      <div class="uc-carousel-events d-flex">
+      <div class="uc-carousel-events-${this.timestamp} d-flex">
         <div class="item w-full">
-          ${this.make(activity)}
+          ${this.makeCard(activity)}
         </div>
       </div>`;
     });
+
     this.el.innerHTML = `
       <div class="container my-60">
         <div
           class="uc-carousel-cards"
-          data-carousel="uc-carousel-events"
+          data-carousel="uc-carousel-events-${this.timestamp}"
           data-type="cards"
 
           data-items="${this.data_items}"
@@ -46,19 +47,19 @@ export default class Slider extends Base {
           data-controls="${this.data_controls}"
           data-speed="${this.data_speed}"
           data-autoplayText="${this.data_autoplayText}"
-          data-prev-button="${this.data_prev_button}"
-          data-next-button="${this.data_next_button}"
+          data-prev-button="${this.data_prev_button}-${this.timestamp}"
+          data-next-button="${this.data_next_button}-${this.timestamp}"
           data-counter="${this.data_counter}"
           data-track="${this.data_track}"
         >
-          <div class="uc-carousel-events d-flex">
+          <div class="uc-carousel-events-${this.timestamp} d-flex">
             ${html}
           </div>
           <div class="carousel-track d-block d-lg-none">
             <div class="carousel-progress-indicator"></div>
           </div>
           <div class="carousel-controls d-none d-lg-flex events-controls">
-            <div class="prev">
+            <div class="prev prev-${this.timestamp}">
               <svg width="48px" height="16px" viewBox="0 0 48 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <g transform="translate(-272.000000, 0.000000)" fill="#0176DE">
@@ -70,7 +71,7 @@ export default class Slider extends Base {
             <div class="uc-carousel_index">
               <span class="index-current current"></span> / <span class="index-total"></span>
             </div>
-            <div class="next">
+            <div class="next next-${this.timestamp}">
               <svg width="48px" height="16px" viewBox="0 0 48 16" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <g transform="translate(-272.000000, 0.000000)" fill="#0176DE">
@@ -83,6 +84,7 @@ export default class Slider extends Base {
         </div>
       </div>
     `;
+
     new UcCarousel();
   }
 }

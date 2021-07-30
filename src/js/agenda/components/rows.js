@@ -10,7 +10,7 @@ export default class Rows extends Base {
     Object.values(data.activities).forEach((activity) => {
       html += `
       <div class="col-sm-${this.sm} col-md-${this.md} mb-40">
-        ${this.make(activity)}
+        ${this.makeCard(activity)}
       </div>`;
     });
     this.el.innerHTML = `<div class="row">${html}</div>`;

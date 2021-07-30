@@ -1,5 +1,5 @@
 export default class Card {
-  make(activity) {
+  makeCard(activity) {
     // const year = activity.sort_date.slice(0,4)
     const month = activity.sort_date.slice(4,6);
     const day = activity.sort_date.slice(6,8);
