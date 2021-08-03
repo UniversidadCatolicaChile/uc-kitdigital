@@ -129,6 +129,13 @@ $card-bg-height: 532px;
     align-items: center;
     border-radius: 0 0 4px 4px;
     align-self: flex-start;
+    &.middle-date {
+      position: relative;
+      top: unset;
+      margin-top: -24px;
+      margin-bottom: -24px;
+      width: fit-content;
+    }
     .day {
       font-size: 34px;
       font-weight: bold;

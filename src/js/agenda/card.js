@@ -1,5 +1,5 @@
 export default class Card {
-  make(activity) {
+  makeCard(activity) {
     // const year = activity.sort_date.slice(0,4)
     const month = activity.sort_date.slice(4,6);
     const day = activity.sort_date.slice(6,8);
@@ -39,9 +39,9 @@ export default class Card {
 
     return `
       <div class="uc-card card-type--event card-height--same">
-        ${img}
         <div class="position-relative">
-          <div class="uc-card card-type--date">
+          ${img}
+          <div class="uc-card card-type--date ${this.middleDate ? 'middle-date' : ''}">
             <div class="day">
               <span>${day}</span>
             </div>
