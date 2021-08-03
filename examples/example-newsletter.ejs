@@ -1,0 +1,386 @@
+<%- include('partials/header') %>
+
+	<body>
+		<!-- Header global -->
+		<header class="uc-header">
+			<div id="uc-global-topbar"></div>
+			<nav class="uc-navbar">
+				<!-- Menú para versión Escritorio -->
+				<div class="container d-none d-lg-block">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-xl-2">
+							<img src="https://kit-digital-uc-desa.s3.amazonaws.com/img/logo-uc-color.svg"
+								alt="Logo de Facultad" class="img-fluid">
+						</div>
+						<div class="col-lg-8 col-xl-9">
+							<div class="h2 text-font--serif text-color--blue mt-24">Facultad o unidad </div>
+							<div class="text-color--gray p-size--lg">Bajada</div>
+						</div>
+					</div>
+					<ul class="uc-navbar_nav" style="position: relative; z-index: 99;">
+						<li class="nav-item ">
+							<a href="/" class="uc-btn btn-inline">Inicio </a>
+						</li>
+						<li class="nav-item uc-navbar-dropdown">
+							<a href="#" class="uc-btn btn-inline">Quienes somos <i class="uc-icon">arrow_drop_down</i>
+							</a>
+							<ul class="uc-navbar-dropdown_menu">
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Misión e Historia</a>
+								</li>
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Contacto</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item uc-navbar-dropdown">
+							<a href="/programas-de-estudio/" class="uc-btn btn-inline">Paginas <i
+									class="uc-icon">arrow_drop_down</i> </a>
+							<ul class="uc-navbar-dropdown_menu">
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Página padre</a>
+									<ul class="uc-navbar-dropdown_child">
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 1</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 2</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 3</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 4</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 5</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 6</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Página padre 2</a>
+									<ul class="uc-navbar-dropdown_child">
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 7</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 8</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 9</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 10</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="uc-btn btn-inline">Calendario</a>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="uc-btn btn-inline">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Menú para versión Móvil -->
+				<div class="uc-navbar_mobile navbar_mobile-slide d-block d-lg-none">
+					<div class="uc-navbar_mobile-bar navbar-brand">
+						<div class="uc-navbar_mobile-logo navbar-light">
+							<div class="h2 text-font--serif text-color--blue">Título</div>
+						</div>
+						<a href="javascript:void(0);" class="uc-navbar_mobile-button">
+							<span class="uc-icon"></span>
+						</a>
+					</div>
+					<div class="uc-navbar_mobile-content">
+						<ul class="uc-navbar_mobile-list">
+							<li class="list-item has-list-children">
+								<a class="list-open" href="#">
+									Pregrado
+									<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+								</a>
+								<ul class="list-item list-children">
+									<li class="list-item">
+										<a href="#" class="list-close">
+											<div class="uc-icon icon-size--sm">
+												arrow_back_ios
+											</div>
+											Pregrado
+										</a>
+									</li>
+									<!-- loop de elementos -->
+									<li class="list-item has-list-children">
+										<a href="#" class="list-open">
+											Item 1
+											<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+										</a>
+										<ul class="list-children">
+											<li class="list-item">
+												<a href="#" class="list-close text-color--gray">
+													<span class="uc-icon">arrow_back_ios</span>
+													Item child
+												</a>
+											</li>
+											<li class="list-item">
+												<a href="/">Item child</a>
+											</li>
+											<li class="list-item">
+												<a href="/">Item child</a>
+											</li>
+										</ul>
+									</li>
+									<li class="list-item">
+										<a href="/">
+											Item child
+											<i class="uc-icon">launch</i>
+										</a>
+									</li>
+									<li class="list-item">
+										<a href="/">Item child</a>
+									</li>
+									<li class="list-item">
+										<a href="/">Item child</a>
+									</li>
+								</ul>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 2</a>
+							</li>
+							<li class="list-item has-list-children">
+								<a class="list-open" href="#">
+									Desplegable 2
+									<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+								</a>
+								<ul class="list-item list-children">
+									<li class="list-item">
+										<a href="#" class="list-close">
+											<div class="uc-icon icon-size--sm">
+												arrow_back_ios
+											</div>
+											Desplegable 2
+										</a>
+									</li>
+									<!-- loop de elementos -->
+									<li class="list-item">
+										<a href="#">Item 1</a>
+									</li>
+									<li class="list-item">
+										<a href="#">Item 2</a>
+									</li>
+									<li class="list-item">
+										<a href="#">Item 3</a>
+									</li>
+								</ul>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 4</a>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 5</a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+		</header>
+		<div class="container mt-60">
+			<div class="row">
+				<div class="col-lg-12">
+					<ol role="navigation" class="uc-breadcrumb mb-32">
+						<li class="uc-breadcrumb_item d-none d-lg-flex">
+							<a href="/">Inicio</a><i class="uc-icon">keyboard_arrow_right</i>
+						</li>
+						<li class="uc-breadcrumb_item d-flex d-lg-none">
+							<a href="/">Inicio</a><i class="uc-icon">keyboard_arrow_right</i>
+						</li>
+						<li class="uc-breadcrumb_item current d-none d-lg-flex">Newsletter</li>
+					</ol>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="uc-card card-bg--gray" id="error-404">
+
+						<p class="p-24">
+							<!--  -->
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="uc-form-group">
+								<label for="name">Nombre</label>
+								<input id="name" type="text" class="uc-input-style" placeholder="Nombre">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="uc-form-group">
+								<label for="lastname">Apellido</label>
+								<input id="lastname" type="text" class="uc-input-style" placeholder="Apellido">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="uc-form-group">
+								<label for="lastname">Email</label>
+								<input id="lastname" type="email" class="uc-input-style" placeholder="Apellido">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="uc-form-group">
+								<label for="message">Redactar mensaje</label>
+								<textarea name="message" id="message" class="uc-input-style" rows="4"></textarea>
+								<p class="mt-8">(*) Campos obligatorios</p>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="">
+								<form action="">
+								<div class="form-group form-check align-items-center mb-32">
+									<input type="checkbox" class="form-check-input" />
+									<label  class="form-check-label m-0">
+									  Declaro que soy Estudiante de Pregrado, Académico o funcionario activo de la UC
+									</label>
+								  </div>
+								</form>
+								<label>
+									<input type="checkbox" id="cbox1" value="first_checkbox">
+									Investigación
+								</label>
+								<label><input type="checkbox" id="cbox1" value="first_checkbox"> Arte y
+									cultura</label>
+								<label><input type="checkbox" id="cbox1" value="first_checkbox"> Media
+									ambiente</label>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, magni quasi aliquam
+									id sint minus sequi est soluta, reiciendis deserunt non perferendis unde dolorem
+									quaerat modi optio quisquam ab tempora?</p>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="text-center">
+								<svg width="307px" height="80px" viewBox="0 0 307 80" version="1.1"
+									xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<title>default</title>
+									<defs>
+										<rect id="path-1" x="0" y="0" width="303" height="76" rx="3"></rect>
+										<filter x="-1.2%" y="-3.3%" width="102.3%" height="109.2%"
+											filterUnits="objectBoundingBox" id="filter-2">
+											<feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+											</feOffset>
+											<feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1"
+												result="shadowBlurOuter1">
+											</feGaussianBlur>
+											<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out"
+												result="shadowBlurOuter1"></feComposite>
+											<feColorMatrix
+												values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.101137908 0"
+												type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+										</filter>
+										<path
+											d="M16.3738145,0 C23.6125691,-3.36492738e-15 27.4243267,4.92597133 27.8070597,5.44671687 L30.5732748,2.6120061 L30.7281895,14.7091284 L18.8619963,14.6108153 L22.6918801,10.6873875 C22.3499681,10.1880157 20.4374015,7.65525566 16.5838145,7.27437191 C15.2406088,7.14161112 14.0331106,7.43595979 13.0084957,7.90232958 L8.73729489,2.04184726 C10.6352988,0.942263883 13.1904622,7.39888982e-16 16.3738145,0 Z"
+											id="path-3"></path>
+										<filter x="-6.8%" y="-10.2%" width="113.6%" height="120.4%"
+											filterUnits="objectBoundingBox" id="filter-4">
+											<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1">
+											</feOffset>
+											<feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1"
+												result="shadowBlurOuter1">
+											</feGaussianBlur>
+											<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+												type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+										</filter>
+										<path
+											d="M15.65001,0.0407786058 L15.5516969,11.9069718 L11.6736637,8.12000585 C11.2354354,8.41496305 8.62477342,10.3265314 8.23760351,14.2437184 C8.13618887,15.2697799 8.28400453,16.2166522 8.56734457,17.0633067 L1.22011545,17.2790992 C1.05708443,16.4004826 0.963231598,15.4583854 0.963231598,14.4537184 C0.963231598,7.09486389 6.05401496,3.27766598 6.43218744,3.00425493 L3.55288771,0.195693379 L15.65001,0.0407786058 Z"
+											id="path-5"></path>
+										<filter x="-10.2%" y="-8.7%" width="120.4%" height="117.4%"
+											filterUnits="objectBoundingBox" id="filter-6">
+											<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1">
+											</feOffset>
+											<feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1"
+												result="shadowBlurOuter1">
+											</feGaussianBlur>
+											<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"
+												type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+										</filter>
+										<path
+											d="M1,15.1726619 L12.8661932,15.270975 L9.03630947,19.1944028 C9.37822139,19.6937746 11.2907881,22.2265346 15.144375,22.6074184 C19.4229261,23.0303051 22.3245455,19.1196043 22.3245455,19.1196043 L22.3245455,19.1196043 L27.0189205,24.4505396 C27.0189205,24.4505396 22.9971023,29.8817903 15.354375,29.8817903 C8.11562045,29.8817903 4.30386286,24.9558189 3.92112982,24.4350734 L1.15491477,27.2697842 L1,15.1726619 Z"
+											id="path-7"></path>
+										<filter x="-5.8%" y="-10.2%" width="111.5%" height="120.4%"
+											filterUnits="objectBoundingBox" id="filter-8">
+											<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1">
+											</feOffset>
+											<feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1"
+												result="shadowBlurOuter1">
+											</feGaussianBlur>
+											<feColorMatrix
+												values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.382529438 0"
+												type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+										</filter>
+									</defs>
+									<g id="Main-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g id="Sticker-Sheet" transform="translate(-62.000000, -63.000000)">
+											<g id="default" transform="translate(64.000000, 64.000000)">
+												<g id="bg-box">
+													<use fill="black" fill-opacity="1" filter="url(#filter-2)"
+														xlink:href="#path-1">
+													</use>
+													<rect stroke="#D6D6D6" stroke-width="1" stroke-linejoin="square"
+														fill="#FAFAFA" fill-rule="evenodd" x="0.5" y="0.5" width="302"
+														height="75" rx="3"></rect>
+												</g>
+												<g id="reCAPTCHA" transform="translate(235.000000, 11.000000)">
+													<text font-family="ArialMT, Arial" font-size="9.57090909"
+														font-weight="normal" fill="#A5A5A5">
+														<tspan x="0" y="43.4460432">reCAPTCHA</tspan>
+													</text>
+													<text id="Privacy---Terms" font-family="ArialMT, Arial"
+														font-size="8.14545455" font-weight="normal" fill="#A5A5A5">
+														<tspan x="0" y="54.9784173">Privacy - Terms</tspan>
+													</text>
+													<g transform="translate(11.421818, 0.000000)" id="Combined-Shape">
+														<g>
+															<use fill="black" fill-opacity="1" filter="url(#filter-4)"
+																xlink:href="#path-3"></use>
+															<use fill="#2B4CB9" fill-rule="evenodd"
+																xlink:href="#path-3"></use>
+														</g>
+														<g>
+															<use fill="black" fill-opacity="1" filter="url(#filter-6)"
+																xlink:href="#path-5"></use>
+															<use fill="#5A96F6" fill-rule="evenodd"
+																xlink:href="#path-5"></use>
+														</g>
+														<g>
+															<use fill="black" fill-opacity="1" filter="url(#filter-8)"
+																xlink:href="#path-7"></use>
+															<use fill="#BEBEBE" fill-rule="evenodd"
+																xlink:href="#path-7"></use>
+														</g>
+													</g>
+												</g>
+												<text id="I’m-not-a-robot" font-family="Helvetica" font-size="14"
+													font-weight="normal" fill="#000000">
+													<tspan x="52" y="42">I’m not a robot</tspan>
+												</text>
+												<rect id="checkbox" stroke="#C1C1C1" stroke-width="2" fill="#FFFFFF"
+													x="13" y="25" width="26" height="26" rx="2"></rect>
+											</g>
+										</g>
+									</g>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<!-- Footer global -->
+		<div id="uc-global-footer"></div>
+	</body>
+	<%- include('partials/Footer') %>
