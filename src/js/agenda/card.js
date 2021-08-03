@@ -39,9 +39,9 @@ export default class Card {
 
     return `
       <div class="uc-card card-type--event card-height--same">
-        ${img}
         <div class="position-relative">
-          <div class="uc-card card-type--date">
+          ${img}
+          <div class="uc-card card-type--date ${this.middleDate ? 'middle-date' : ''}">
             <div class="day">
               <span>${day}</span>
             </div>

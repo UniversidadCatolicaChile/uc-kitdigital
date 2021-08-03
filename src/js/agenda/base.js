@@ -37,6 +37,8 @@ export default class Base extends Card {
   }
 
   getAttributes() {
+    const data = this.el.dataset;
+
     this.sm = this.el.getAttribute('sm');
     this.md = this.el.getAttribute('md');
     this.page = this.el.getAttribute('page') ? this.el.getAttribute('page') : 1;
@@ -49,6 +51,8 @@ export default class Base extends Card {
     this.to = this.el.getAttribute('to');
     this.hideImg = this.el.hasAttribute('hide-img');
     this.hideTag = this.el.hasAttribute('hide-tag');
+
+    this.middleDate = data.middleDate !== undefined ? 'middle-date' : false;
 
     this.base_url = this.el.getAttribute('base-url');
   }
