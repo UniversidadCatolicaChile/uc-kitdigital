@@ -1,0 +1,274 @@
+<%- include('partials/header') %>
+
+	<body>
+		<!-- Header global -->
+		<header class="uc-header">
+			<div id="uc-global-topbar"></div>
+			<nav class="uc-navbar">
+				<!-- Menú para versión Escritorio -->
+				<div class="container d-none d-lg-block">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-xl-2">
+							<img src="https://kit-digital-uc-desa.s3.amazonaws.com/img/logo-uc-color.svg"
+								alt="Logo de Facultad" class="img-fluid">
+						</div>
+						<div class="col-lg-8 col-xl-9">
+							<div class="h2 text-font--serif text-color--blue mt-24">Facultad o unidad </div>
+							<div class="text-color--gray p-size--lg">Bajada</div>
+						</div>
+					</div>
+					<ul class="uc-navbar_nav" style="position: relative; z-index: 99;">
+						<li class="nav-item ">
+							<a href="/" class="uc-btn btn-inline">Inicio </a>
+						</li>
+						<li class="nav-item uc-navbar-dropdown">
+							<a href="#" class="uc-btn btn-inline">Quienes somos <i class="uc-icon">arrow_drop_down</i>
+							</a>
+							<ul class="uc-navbar-dropdown_menu">
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Misión e Historia</a>
+								</li>
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Contacto</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item uc-navbar-dropdown">
+							<a href="/programas-de-estudio/" class="uc-btn btn-inline">Paginas <i
+									class="uc-icon">arrow_drop_down</i> </a>
+							<ul class="uc-navbar-dropdown_menu">
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Página padre</a>
+									<ul class="uc-navbar-dropdown_child">
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 1</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 2</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 3</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 4</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 5</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 6</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Página padre 2</a>
+									<ul class="uc-navbar-dropdown_child">
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 7</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 8</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 9</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 10</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="uc-btn btn-inline">Calendario</a>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="uc-btn btn-inline">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Menú para versión Móvil -->
+				<div class="uc-navbar_mobile navbar_mobile-slide d-block d-lg-none">
+					<div class="uc-navbar_mobile-bar navbar-brand">
+						<div class="uc-navbar_mobile-logo navbar-light">
+							<div class="h2 text-font--serif text-color--blue">Título</div>
+						</div>
+						<a href="javascript:void(0);" class="uc-navbar_mobile-button">
+							<span class="uc-icon"></span>
+						</a>
+					</div>
+					<div class="uc-navbar_mobile-content">
+						<ul class="uc-navbar_mobile-list">
+							<li class="list-item has-list-children">
+								<a class="list-open" href="#">
+									Pregrado
+									<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+								</a>
+								<ul class="list-item list-children">
+									<li class="list-item">
+										<a href="#" class="list-close">
+											<div class="uc-icon icon-size--sm">
+												arrow_back_ios
+											</div>
+											Pregrado
+										</a>
+									</li>
+									<!-- loop de elementos -->
+									<li class="list-item has-list-children">
+										<a href="#" class="list-open">
+											Item 1
+											<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+										</a>
+										<ul class="list-children">
+											<li class="list-item">
+												<a href="#" class="list-close text-color--gray">
+													<span class="uc-icon">arrow_back_ios</span>
+													Item child
+												</a>
+											</li>
+											<li class="list-item">
+												<a href="/">Item child</a>
+											</li>
+											<li class="list-item">
+												<a href="/">Item child</a>
+											</li>
+										</ul>
+									</li>
+									<li class="list-item">
+										<a href="/">
+											Item child
+											<i class="uc-icon">launch</i>
+										</a>
+									</li>
+									<li class="list-item">
+										<a href="/">Item child</a>
+									</li>
+									<li class="list-item">
+										<a href="/">Item child</a>
+									</li>
+								</ul>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 2</a>
+							</li>
+							<li class="list-item has-list-children">
+								<a class="list-open" href="#">
+									Desplegable 2
+									<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+								</a>
+								<ul class="list-item list-children">
+									<li class="list-item">
+										<a href="#" class="list-close">
+											<div class="uc-icon icon-size--sm">
+												arrow_back_ios
+											</div>
+											Desplegable 2
+										</a>
+									</li>
+									<!-- loop de elementos -->
+									<li class="list-item">
+										<a href="#">Item 1</a>
+									</li>
+									<li class="list-item">
+										<a href="#">Item 2</a>
+									</li>
+									<li class="list-item">
+										<a href="#">Item 3</a>
+									</li>
+								</ul>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 4</a>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 5</a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+		</header>
+		<div class="container mt-60">
+			<div class="row justify-content-center">
+				<div class="col-lg-9">
+					<div class="uc-card card-bg--gray" id="error-404">
+						<div class="uc-card_body--xl">
+							<div class="uc-subtitle">Error 404</div>
+							<div class="h1 mb-24">Lo sentimos, no pudimos llevarte a la página que querías.</div>
+							<p>La página que estás buscando ha sido modificada, borrada o no existe. Te sugerimos
+								usar nuestro buscador para seguir navegando</p>
+							<a href="/" class="uc-link text-weight--medium">
+								Volver a la página de inicio <i class="uc-icon">keyboard_arrow_right</i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="mb-160">
+			<div class="container">
+
+				<div class="heading-container mb-60 mt-80">
+					<h3>¿Tienes dudas? Contáctanos</h3>
+					<div class="uc-heading-decoration"></div>
+				</div>
+				<div class="row justify-content-between">
+					<div class="col-lg-3 mb-40">
+						<div class="uc-subtitle mb-40">
+							Mesa Central </div>
+						<div>
+							<i class="uc-icon">phone</i>
+							<a href="tel:5600004000" class="h4 text-weight--bold color-black uc-btn btn-inline">(56)
+								20000 4000</a>
+						</div>
+					</div>
+
+					<div class="col-lg-3 mb-40">
+						<div class="uc-subtitle mb-20">
+							Consultas en Línea </div>
+						<a href="#" target="_blank" class="uc-btn btn-featured">
+							Consultas en Línea <i class="uc-icon">launch</i>
+						</a>
+					</div>
+					<div class="col-lg-4">
+						<div class="uc-subtitle mb-40">
+							Redes sociales
+						</div>
+						<ul class="uc-social-icons">
+							<li>
+								<a href="#" target="_blank">
+									<img src="https://uc.cl/site/templates/dist/images/social/twitter.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="https://uc.cl/site/templates/dist/images/social/facebook.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="https://uc.cl/site/templates/dist/images/social/instagram.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+										<img src="https://uc.cl/site/templates/dist/images/social/flickr.svg" alt="">
+									</a>
+								</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="https://uc.cl/site/templates/dist/images/social/youtube.svg" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="https://uc.cl/site/templates/dist/images/social/linkedin.svg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+		</section>
+		<!-- Footer global -->
+		<div id="uc-global-footer"></div>
+	</body>
+	<%- include('partials/Footer') %>

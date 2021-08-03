@@ -1,0 +1,426 @@
+<%- include('partials/header') %>
+	<!-- 
+	v1.0
+	Header global
+	Menú para versión Escritorio
+	Menú para versión Móvil
+	Footer global
+	-->
+	<style>
+		.image-top {
+			height: 0;
+			position: relative;
+			z-index: 1;
+			background-size: cover
+		}
+
+		@media (min-width: 992px) {
+			.image-top {
+				height: 360px
+			}
+		}
+
+		.image-top .image-top-overlay {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background-image: -webkit-gradient(linear, left bottom, left top, color-stop(30%, rgba(43, 76, 137, 0)), color-stop(90%, rgba(0, 0, 0, .7)));
+			background-image: linear-gradient(0deg, rgba(43, 76, 137, 0) 30%, rgba(0, 0, 0, .7) 90%)
+		}
+
+		.absolute-title>.container {
+			background: #fff;
+			box-shadow: 0 -15px 15px 0 rgba(0, 0, 0, .03);
+			border-radius: 8px 8px 0 0
+		}
+
+		@media (min-width: 992px) {
+			.absolute-title {
+				margin-top: -55px;
+				position: relative;
+				z-index: 5
+			}
+		}
+	</style>
+
+	<body>
+		<!-- Header global -->
+		<header class="uc-header">
+			<div id="uc-global-topbar"></div>
+			<nav class="uc-navbar">
+				<!-- Menú para versión Escritorio -->
+				<div class="container d-none d-lg-block">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-xl-2">
+							<img src="https://kit-digital-uc-desa.s3.amazonaws.com/img/logo-uc-color.svg"
+								alt="Logo de Facultad" class="img-fluid">
+						</div>
+						<div class="col-lg-8 col-xl-9">
+							<div class="h2 text-font--serif text-color--blue mt-24">Facultad o unidad </div>
+							<div class="text-color--gray p-size--lg">Bajada</div>
+						</div>
+					</div>
+					<ul class="uc-navbar_nav" style="position: relative; z-index: 99;">
+						<li class="nav-item ">
+							<a href="/" class="uc-btn btn-inline">Inicio </a>
+						</li>
+						<li class="nav-item uc-navbar-dropdown">
+							<a href="#" class="uc-btn btn-inline">Quienes somos <i class="uc-icon">arrow_drop_down</i>
+							</a>
+							<ul class="uc-navbar-dropdown_menu">
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Misión e Historia</a>
+								</li>
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Contacto</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item uc-navbar-dropdown">
+							<a href="/programas-de-estudio/" class="uc-btn btn-inline">Paginas <i
+									class="uc-icon">arrow_drop_down</i> </a>
+							<ul class="uc-navbar-dropdown_menu">
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Página padre</a>
+									<ul class="uc-navbar-dropdown_child">
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 1</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 2</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 3</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 4</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 5</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 6</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown_item--heading">
+									<a href="#" class="uc-btn">Página padre 2</a>
+									<ul class="uc-navbar-dropdown_child">
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 7</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 8</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 9</a>
+										</li>
+										<li class="uc-navbar-dropdown_item">
+											<a href="#" class="uc-btn">Pagina 10</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="uc-btn btn-inline">Calendario</a>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="uc-btn btn-inline">Contacto</a>
+						</li>
+					</ul>
+				</div>
+				<!-- Menú para versión Móvil -->
+				<div class="uc-navbar_mobile navbar_mobile-slide d-block d-lg-none">
+					<div class="uc-navbar_mobile-bar navbar-brand">
+						<div class="uc-navbar_mobile-logo navbar-light">
+							<div class="h2 text-font--serif text-color--blue">Título</div>
+						</div>
+						<a href="javascript:void(0);" class="uc-navbar_mobile-button">
+							<span class="uc-icon"></span>
+						</a>
+					</div>
+					<div class="uc-navbar_mobile-content">
+						<ul class="uc-navbar_mobile-list">
+							<li class="list-item has-list-children">
+								<a class="list-open" href="#">
+									Pregrado
+									<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+								</a>
+								<ul class="list-item list-children">
+									<li class="list-item">
+										<a href="#" class="list-close">
+											<div class="uc-icon icon-size--sm">
+												arrow_back_ios
+											</div>
+											Pregrado
+										</a>
+									</li>
+									<!-- loop de elementos -->
+									<li class="list-item has-list-children">
+										<a href="#" class="list-open">
+											Item 1
+											<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+										</a>
+										<ul class="list-children">
+											<li class="list-item">
+												<a href="#" class="list-close text-color--gray">
+													<span class="uc-icon">arrow_back_ios</span>
+													Item child
+												</a>
+											</li>
+											<li class="list-item">
+												<a href="/">Item child</a>
+											</li>
+											<li class="list-item">
+												<a href="/">Item child</a>
+											</li>
+										</ul>
+									</li>
+									<li class="list-item">
+										<a href="/">
+											Item child
+											<i class="uc-icon">launch</i>
+										</a>
+									</li>
+									<li class="list-item">
+										<a href="/">Item child</a>
+									</li>
+									<li class="list-item">
+										<a href="/">Item child</a>
+									</li>
+								</ul>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 2</a>
+							</li>
+							<li class="list-item has-list-children">
+								<a class="list-open" href="#">
+									Desplegable 2
+									<i class="uc-icon icon-size--sm">arrow_forward_ios</i>
+								</a>
+								<ul class="list-item list-children">
+									<li class="list-item">
+										<a href="#" class="list-close">
+											<div class="uc-icon icon-size--sm">
+												arrow_back_ios
+											</div>
+											Desplegable 2
+										</a>
+									</li>
+									<!-- loop de elementos -->
+									<li class="list-item">
+										<a href="#">Item 1</a>
+									</li>
+									<li class="list-item">
+										<a href="#">Item 2</a>
+									</li>
+									<li class="list-item">
+										<a href="#">Item 3</a>
+									</li>
+								</ul>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 4</a>
+							</li>
+							<li class="list-item">
+								<a href="#">Item 5</a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+		</header>
+		<div class="image-top" style="background-image: url(&quot;#&quot;); background-position: 50% 50%;">
+			<div class="image-top-overlay"></div>
+		</div>
+		<div class="container">
+			<div class="absolute-title">
+				<div class="container pt-60">
+					<div class="row">
+						<div class="col-md-11 offset-lg-1">
+							<ol role="navigation" class="uc-breadcrumb mb-32">
+								<li class="uc-breadcrumb_item d-none d-lg-flex">
+									<a href="/">Inicio</a><i class="uc-icon">keyboard_arrow_right</i>
+								</li>
+								<li class="uc-breadcrumb_item d-flex d-lg-none"><a href="/">Inicio</a><i
+										class="uc-icon">keyboard_arrow_right</i></li>
+								<li class="uc-breadcrumb_item d-none d-lg-flex"><a href="/noticias/">Noticias</a><i
+										class="uc-icon">keyboard_arrow_right</i></li>
+								<li class="uc-breadcrumb_item d-flex d-lg-none"><a href="/noticias/">Noticias</a><i
+										class="uc-icon">keyboard_arrow_right</i></li>
+								<li class="uc-breadcrumb_item current d-none d-lg-flex">Lorem ipsum dolor sit amet
+									consectetur adipisicing elit</li>
+								<li class="uc-breadcrumb_item current d-flex d-lg-none">Estudio de MINSAL y UC:</li>
+							</ol>
+							<div class="uc-subtitle mb-16"></div>
+							<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit
+							</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container mt-60">
+				<div class="row">
+					<div class="col-lg-7 offset-lg-1">
+						<div class="row align-items-center mb-60">
+							<div class="col-md-auto">
+								<p class="no-margin"><span>1 Julio 2021</span></p>
+							</div>
+							<div class="col">
+								<hr class="uc-hr">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at pariatur
+									voluptates alias modi magnam illum animi omnis et, sapiente quos ratione quod
+									dignissimos consectetur laborum commodi distinctio vitae rerum.
+								</p>
+							</div>
+						</div>
+						<div class="uc-text-divider divider-secondary my-32"></div>
+						<div class="body-article">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+								has been the industry's standard dummy text ever since the 1500s, when an unknown
+								printer took a galley of type and scrambled it to make a type specimen book. It has
+								survived not only five centuries, but also the leap into electronic typesetting,
+								remaining essentially unchanged. It was popularised in the 1960s with the release of
+								Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+								publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</p>
+							<img class="img-fluid mb-32" src="https://dummyimage.com/800x600/edeaed/0076de.png" alt="">
+							<p>There are many variations of passages of Lorem Ipsum available, but the majority have
+								suffered alteration in some form, by injected humour, or randomised words which don't
+								look even slightly believable. If you are going to use a passage of Lorem Ipsum, <b>you
+									need to be sure there isn't anything</b> embarrassing hidden in the middle of text.
+								All the Lorem Ipsum generators on the Internet
+							</p>
+							<blockquote class="my-32">
+								<p><span class="uc-quote quote-lg">"Lorem ipsum dolor sit amet consectetur adipisicing
+										elit. Dolor at pariatur
+										voluptates alias modi magnam illum animi omnis et, sapiente quos ratione quod
+										dignissimos consectetur laborum commodi distinctio vitae rerum." - Autor,
+										Cargo.</span>
+								</p>
+								<a href="https://twitter.com/intent/tweet?text=“Lorem ipsum.... https://www.uc.cl/# @uc_twitter_user"
+								target="_blank"
+									class="uc-share-quote-btn">Compartir</a>
+							</blockquote>
+							<p> tend to repeat predefined chunks as necessary, making this the first true generator on
+								the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of
+								model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated
+								Lorem Ipsum is therefore always free from repetition, injected humour, or
+								non-characteristic words etc.
+							</p>
+							<p> tend to repeat predefined chunks as necessary, making this the first true generator on
+								the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of
+								model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated
+								Lorem Ipsum is therefore always free from repetition, injected humour, or
+								non-characteristic words etc.
+							</p>
+						</div>
+						<hr class="uc-hr mt-80 mb-40">
+						<div class="row">
+							<!-- <div class="col-lg-6">
+							<div class="uc-subtitle mb-12">¿te gusta esta publicación?</div>
+							<div class="uc-like-container"><button class="uc-like-btn"><svg width="44px"
+										height="44px" viewBox="0 0 44 40" xmlns="http://www.w3.org/2000/svg"
+										class="like-indicator-svg">
+										<g id="like" transform="translate(2,4)">
+											<path
+												d="M19.8803976,6.35947826 C21.4948298,2.61626087 25.1829032,0.000782608696 29.4725886,0.000782608696 C35.2511037,0.000782608696 39.4127866,4.83652174 39.935997,10.5996522 C39.935997,10.5996522 40.2184026,12.0302609 39.5967902,14.6058261 C38.7503734,18.1134783 36.7607338,21.2298261 34.0782803,23.6081739 L19.8803976,36 L5.92171966,23.6073913 C3.23926624,21.2298261 1.24962663,18.1126957 0.403209771,14.6050435 C-0.218402607,12.0294783 0.0640030161,10.5988696 0.0640030161,10.5988696 C0.587213435,4.83573913 4.74889631,0 10.5274114,0 C14.8178968,0 18.2659655,2.61626087 19.8803976,6.35947826 Z"
+												id="Path" class="like-indicator-clone"></path>
+											<path
+												d="M19.8803976,6.35947826 C21.4948298,2.61626087 25.1829032,0.000782608696 29.4725886,0.000782608696 C35.2511037,0.000782608696 39.4127866,4.83652174 39.935997,10.5996522 C39.935997,10.5996522 40.2184026,12.0302609 39.5967902,14.6058261 C38.7503734,18.1134783 36.7607338,21.2298261 34.0782803,23.6081739 L19.8803976,36 L5.92171966,23.6073913 C3.23926624,21.2298261 1.24962663,18.1126957 0.403209771,14.6050435 C-0.218402607,12.0294783 0.0640030161,10.5988696 0.0640030161,10.5988696 C0.587213435,4.83573913 4.74889631,0 10.5274114,0 C14.8178968,0 18.2659655,2.61626087 19.8803976,6.35947826 Z"
+												id="Path" class="like-indicator"></path>
+										</g>
+									</svg></button>
+								<div class="h2 ml-16">
+									1
+								</div>
+							</div>
+							</div> -->
+							<div class="col-lg-6">
+								<div class="uc-subtitle mb-12">Comparte esta publicación</div>
+								<div><a href="#"
+										onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;"
+										target="_blank" class="shared-facebook"><img
+											src="https://www.uc.cl/site/templates/dist/images/social/facebook-share.svg"
+											alt="Compartir en Facebook"></a> <a
+										href="https://twitter.com/intent/tweet?text=Texto &amp;url=https://www.uc.cl/#url /&amp;via=uc_user_twitter"
+										class="ml-24 shared-twitter"><img
+											src="https://www.uc.cl/site/templates/dist/images/social/twitter-share.svg"
+											alt="Compartir en Twitter"></a> <a
+										href="mailto:?subject=Texto&amp;body=https://www.uc.cl/#url"
+										class="ml-24 shared-email"><img
+											src="https://www.uc.cl/site/templates/dist/images/social/email-share.svg"
+											alt="Compartir por email"></a></div>
+							</div>
+						</div>
+						<div class=" mb-60 mt-40"></div>
+					</div>
+					<div class="col-lg-3 offset-lg-1">
+						<aside id="sidebar" class="mb-60">
+							<div class="uc-card card-border--none">
+								<div class="uc-card_body">
+									<h6 class="uppercase">Información</h6>
+									<div class="uc-text-divider divider-secondary my-16"></div>
+									<div class="mb-32">
+										<p class="p-size--sm p-text--extended text-weight--medium mb-12"><i
+												class="uc-icon icon-color--gray icon-size--sm">face</i>
+											Información periodística
+										</p>
+										<div class="text-weight--bold">Nombre periodista</div>
+										<div class="my-4">Editor</div>
+										<div><a href="mailto:#" class="text-color--gray">correo@uc.cl</a>
+										</div>
+									</div>
+									<div class="mb-32">
+										<p class="p-size--sm p-text--extended text-weight--medium mb-12"><i
+												class="uc-icon icon-color--gray icon-size--sm">insert_drive_file</i>
+											Unidad
+										</p>
+										<div>
+										</div>
+										<div class="uc-tags">
+											<a href="#" class="uc-tag">Texto Tag</a>
+											<a href="#" class="uc-tag">Texto Tag</a>
+											<a href="#" class="uc-tag">Texto Tag</a>
+											<a href="#" class="uc-tag">Texto Tag</a>
+										</div>
+									</div>
+									<div class="mb-32">
+										<p class="p-size--sm p-text--extended text-weight--medium mb-12"><i
+												class="uc-icon icon-color--gray icon-size--sm">check_circle_outline</i>
+											Eje estratégico
+										</p>
+										<div class="uc-tags">
+											<a href="#" class="uc-tag">Texto Tag</a>
+											<a href="#" class="uc-tag">Texto Tag</a>
+											<a href="#" class="uc-tag">Texto Tag</a>
+											<a href="#" class="uc-tag">Texto Tag</a>
+										</div>
+									</div>
+									<p class="p-size--sm p-text--extended text-weight--medium mb-12"><i
+											class="uc-icon icon-color--gray icon-size--sm">local_offer</i>
+										Temas
+									</p>
+									<div class="uc-tags">
+										<a href="#" class="uc-tag">Texto Tag</a>
+										<a href="#" class="uc-tag">Texto Tag</a>
+										<a href="#" class="uc-tag">Texto Tag</a>
+										<a href="#" class="uc-tag">Texto Tag</a>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer global -->
+		<div id="uc-global-footer"></div>
+	</body>
+	<%- include('partials/Footer') %>
