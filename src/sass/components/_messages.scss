@@ -130,12 +130,16 @@
   right: 0;
   z-index: 20;
 }
+
+.tie-border-success {
+  border-top: 3px solid $success;
+}
 .tie-border-info {
-  border-top: 3px solid #0176de;
+  border-top: 3px solid $info;
 }
 .tie-border-warning {
-  border-top: 3px solid #fec60d;
+  border-top: 3px solid $warning;
 }
 .tie-border-error {
-  border-top: 3px solid #f24f4f;
+  border-top: 3px solid $error;
 }
