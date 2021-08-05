@@ -121,3 +121,21 @@
     color: $gray;
   }
 }
+
+#tie {
+  position: fixed;
+  background: white;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+.tie-border-info {
+  border-top: 3px solid #0176de;
+}
+.tie-border-warning {
+  border-top: 3px solid #fec60d;
+}
+.tie-border-error {
+  border-top: 3px solid #f24f4f;
+}
