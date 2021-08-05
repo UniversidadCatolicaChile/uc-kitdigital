@@ -51,6 +51,7 @@ export default class Base extends Card {
     this.to = this.el.getAttribute('to');
     this.hideImg = this.el.hasAttribute('hide-img');
     this.hideTag = this.el.hasAttribute('hide-tag');
+    this.type = data.type;
 
     this.middleDate = data.middleDate !== undefined ? 'middle-date' : false;
 

@@ -27,14 +27,18 @@ export default class Card {
     if (this.hideTag) {
       tags = '';
     } else {
-      tags = `
-        <a
-          href="https://uc.cl/agenda/?types_of_activities=${activity.type[0].id}"
-          class="uc-tag my-20"
-        >
-          ${activity.type[0].name}
-        </a>
-      `;
+      if (this.type === 'tag') {
+        tags = `
+          <a
+            href="https://uc.cl/agenda/?types_of_activities=${activity.type[0].id}"
+            class="uc-tag my-20"
+          >
+            ${activity.type[0].name}
+          </a>
+        `;
+      } else {
+        tags = `<span class="uc-subtitle my-20">${activity.type[0].name}</span>`;
+      }
     }
 
     return `
