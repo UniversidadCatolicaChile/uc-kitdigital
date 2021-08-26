@@ -44,6 +44,7 @@ export default class Base extends Card {
   getAttributes() {
     const data = this.el.dataset;
 
+    this.host = data.host ? data.host : 'https://agenda.uc.cl/';
     this.token = data.token;
     this.base_url = data.dataUrl ? data.dataUrl : '';
     this.titleContent = data.titleContent ? data.titleContent : '';
@@ -100,7 +101,7 @@ export default class Base extends Card {
 
   async getData() {
     await this.makeQuery();
-    return await fetch(`https://api.agenda.uc.asimov.cl/api/v1/activities?${this.query}`)
+    return await fetch(`${this.host}/api/v1/activities?${this.query}`)
       .then(response => response.json())
       .then(data => {
         this.total = data.total_count;

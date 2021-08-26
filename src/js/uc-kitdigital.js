@@ -1,4 +1,4 @@
-if (window.NodeList && !NodeList.prototype.forEach) {NodeList.prototype.forEach = Array.prototype.forEach; }
+if (window.NodeList && !NodeList.prototype.forEach) { NodeList.prototype.forEach = Array.prototype.forEach; }
 if (!Element.prototype.matches) {
     Element.prototype.matches = Element.prototype.msMatchesSelector;
 }
@@ -10,23 +10,24 @@ if (!!window.MSInputMethodContext && !!document.documentMode) {
     document.body.appendChild(script);
 }
 
-import {Modal} from "./components/modal.js";
-import {Accordion} from "./components/accordion.js";
-import {Dropdown} from "./components/dropdown.js";
-import {Tab} from "./components/tab.js";
-import {UcCarousel} from "./components/carousels.js";
-import {Tooltip} from "./components/tooltip.js";
-import {Navbar} from "./components/navbar.js";
-import {MobileNavbar} from "./components/mobileNavbar.js";
-import {Nav} from "./components/nav.js";
+import { Modal } from "./components/modal.js";
+import { Accordion } from "./components/accordion.js";
+import { Dropdown } from "./components/dropdown.js";
+import { Tab } from "./components/tab.js";
+import { UcCarousel } from "./components/carousels.js";
+import { Tooltip } from "./components/tooltip.js";
+import { Navbar } from "./components/navbar.js";
+import { MobileNavbar } from "./components/mobileNavbar.js";
+import { Nav } from "./components/nav.js";
 
-import {Footer} from "./globals/Footer.js";
-import {Topbar} from "./globals/Topbar.js";
-import {AgendaSlider, AgendaRows, AgendaPagination} from "./agenda";
+import { Footer } from "./globals/Footer.js";
+import { Topbar } from "./globals/Topbar.js";
 
-new AgendaSlider();
-new AgendaRows();
-new AgendaPagination();
+import { AgendaSlider, AgendaRows, AgendaPagination } from "./agenda";
+
+new AgendaSlider()
+new AgendaRows()
+new AgendaPagination()
 new Topbar()
 new Footer()
 new Accordion()
