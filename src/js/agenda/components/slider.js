@@ -12,7 +12,7 @@ export default class Slider extends Base {
     this.data_loop = this.el.getAttribute('data-loop') ? this.el.getAttribute('data-loop') : "false";
     this.data_controls = this.el.getAttribute('data-controls') ? this.el.getAttribute('data-controls') : "true";
     this.data_speed = this.el.getAttribute('data-speed') ? this.el.getAttribute('data-speed') : "500";
-    this.data_autoplayText = this.el.getAttribute('data-autoplayText') ? this.el.getAttribute('data-autoplayText') : "true";
+    this.data_autoplayText = this.el.getAttribute('data-autoplay-text') ? this.el.getAttribute('data-autoplayText') : "true";
     this.data_prev_button = this.el.getAttribute('data-prev-button') ? this.el.getAttribute('data-prev-button') : ".events-controls .prev";
     this.data_next_button = this.el.getAttribute('data-next-button') ? this.el.getAttribute('data-next-button') : ".events-controls .next";
     this.data_counter = this.el.getAttribute('data-counter') ? this.el.getAttribute('data-counter') : "true";
@@ -46,7 +46,7 @@ export default class Slider extends Base {
           data-loop="${this.data_loop}"
           data-controls="${this.data_controls}"
           data-speed="${this.data_speed}"
-          data-autoplayText="${this.data_autoplayText}"
+          data-autoplay-text="${this.data_autoplayText}"
           data-prev-button="${this.data_prev_button}-${this.timestamp}"
           data-next-button="${this.data_next_button}-${this.timestamp}"
           data-counter="${this.data_counter}"

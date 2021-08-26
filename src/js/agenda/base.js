@@ -36,26 +36,30 @@ export default class Base extends Card {
     }, false);
   }
 
+  getAttribute (type, defaultVal) {
+    const attr = this.el.getAttribute(type);
+    return attr ? attr : defaultVal;
+  }
+
   getAttributes() {
     const data = this.el.dataset;
 
-    this.sm = this.el.getAttribute('sm');
-    this.md = this.el.getAttribute('md');
-    this.page = this.el.getAttribute('page') ? this.el.getAttribute('page') : 1;
-    this.limit = this.el.getAttribute('limit');
-    this.title_content = this.el.getAttribute('title_content');
-    this.types_of_activities = this.el.getAttribute('types_of_activities');
-    this.organizers = this.el.getAttribute('organizers');
-    this.audience = this.el.getAttribute('audience');
-    this.from = this.el.getAttribute('from');
-    this.to = this.el.getAttribute('to');
+    this.sm = this.getAttribute('sm', 2);
+    this.md = this.getAttribute('md', 3);
+    this.page = this.getAttribute('page', 1);
+    this.limit = this.getAttribute('limit', 12);
+    this.title_content = this.getAttribute('title_content', '');
+    this.types_of_activities = this.getAttribute('types_of_activities', []);
+    this.organizers = this.getAttribute('organizers', []);
+    this.audience = this.getAttribute('audience', []);
+    this.from = this.getAttribute('from', '');
+    this.to = this.getAttribute('to', '');
+    this.base_url = this.getAttribute('base-url', null);
+    
     this.hideImg = this.el.hasAttribute('hide-img');
     this.hideTag = this.el.hasAttribute('hide-tag');
     this.type = data.type;
-
     this.middleDate = data.middleDate !== undefined ? 'middle-date' : false;
-
-    this.base_url = this.el.getAttribute('base-url');
   }
 
   makeQuery () {
@@ -92,7 +96,7 @@ export default class Base extends Card {
   async getData () {
     await this.makeQuery();
 
-    return await fetch(`https://api.agenda.uc.asimov.cl/api/v1/activities?${this.query}`)
+    return await fetch(`https://api.agenda.uc.asimov.cl/api/v1/activities?api_token=s1F4cfPwKPurccC0ZL04wG7wJgoiIB0i3oZnOfVugqCKvhiBEvdJUrIE8JmzfSHukf0T0mQkFCf2nKwZ&${this.query}`)
       .then(response => response.json())
       .then(data => {
         this.total = data.total_count;
