@@ -36,24 +36,32 @@ export default class Base extends Card {
     }, false);
   }
 
+  getAttribute (type, defaultVal) {
+    const attr = this.el.getAttribute(type);
+    return attr ? attr : defaultVal;
+  }
+
   getAttributes() {
     const data = this.el.dataset;
+    
     this.token = data.token;
-    this.title_content = data.titleContent;
-    this.limit = data.limit;
-    this.sm = data.sm;
-    this.md = data.md;
+    this.titleContent = data.titleContent ? data.titleContent ? '';
+    this.limit = data.limit ? data.limit : 12;
+    this.sm = data.sm ? data.sm : 2;
+    this.md = data.md ? data.md : 3;
     this.page = data.page ? data.page : 1;
-    this.typesOfActivities = data.typesOfActivities;
-    this.organizers = data.organizers
-    this.audience = data.audience
-    this.from = data.from;
-    this.to = data.to;
+    this.typesOfActivities = data.typesOfActivities ? data.typesOfActivities : '' ;
+    this.organizers = data.organizers ? data.organizers : []; 
+    this.audience = data.audience ? data.audience : [];
+    this.from = data.from ? data.from : '';
+    this.to = data.to ? data.to : '';;
     this.hideImg = this.el.hasAttribute('hide-img');
     this.hideTag = this.el.hasAttribute('hide-tag');
     this.type = data.type;
     this.middleDate = data.middleDate !== undefined ? 'middle-date' : false;
-    this.base_url = data.dataUrl;
+    this.base_url = data.dataUrl ? data.dataUrl : '';
+
+    console.log(data)
   }
 
   makeQuery () {
@@ -66,8 +74,8 @@ export default class Base extends Card {
       this.query += `&api_token=${this.token}`;
     }
 
-    if (this.title_content) {
-      this.query += `&title_content=${this.title_content}`;
+    if (this.titleContent) {
+      this.query += `&title_content=${this.titleContent}`;
     }
 
     if (this.typesOfActivities) {
