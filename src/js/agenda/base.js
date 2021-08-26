@@ -16,53 +16,54 @@ export default class Base extends Card {
     '12': { full: 'diciembre', small: 'dic' }
   }
 
-  constructor (el, timestamp = +new Date()) {
+  constructor(el, timestamp = +new Date()) {
     super();
     this.el = el;
     this.timestamp = timestamp
     this.init();
   }
 
-  init (getAttrinutes = true) {
+  init(getAttrinutes = true) {
     if (getAttrinutes) {
       this.getAttributes();
     }
     this.makeComponent();
   }
 
-  listen () {
+  listen() {
     elem.addEventListener('reload', () => {
       this.init();
     }, false);
   }
 
-  getAttribute (type, defaultVal) {
+  getAttribute(type, defaultVal) {
     const attr = this.el.getAttribute(type);
     return attr ? attr : defaultVal;
   }
 
   getAttributes() {
     const data = this.el.dataset;
-    
+
     this.token = data.token;
+    this.base_url = data.dataUrl ? data.dataUrl : '';
     this.titleContent = data.titleContent ? data.titleContent : '';
     this.limit = data.limit ? data.limit : 12;
     this.sm = data.sm ? data.sm : 2;
     this.md = data.md ? data.md : 3;
     this.page = data.page ? data.page : 1;
-    this.typesOfActivities = data.typesOfActivities ? data.typesOfActivities : '' ;
-    this.organizers = data.organizers ? data.organizers : []; 
-    this.audience = data.audience ? data.audience : [];
+    this.typesOfActivities = data.typesOfActivities ? data.typesOfActivities : '';
+    this.organizers = data.organizers ? data.organizers : '';
+    this.audience = data.audience ? data.audience : '';
     this.from = data.from ? data.from : '';
     this.to = data.to ? data.to : '';;
     this.hideImg = this.el.hasAttribute('hide-img');
     this.hideTag = this.el.hasAttribute('hide-tag');
     this.type = data.type;
     this.middleDate = data.middleDate !== undefined ? 'middle-date' : false;
-    this.base_url = data.dataUrl ? data.dataUrl : '';
+
   }
 
-  makeQuery () {
+  makeQuery() {
     this.query = `page_=${this.page}`;
     if (this.limit) {
       this.query += `&limit=${this.limit}`;
@@ -97,7 +98,7 @@ export default class Base extends Card {
     }
   }
 
-  async getData () {
+  async getData() {
     await this.makeQuery();
     return await fetch(`https://api.agenda.uc.asimov.cl/api/v1/activities?${this.query}`)
       .then(response => response.json())
