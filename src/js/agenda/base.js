@@ -45,7 +45,7 @@ export default class Base extends Card {
     const data = this.el.dataset;
     
     this.token = data.token;
-    this.titleContent = data.titleContent ? data.titleContent ? '';
+    this.titleContent = data.titleContent ? data.titleContent : '';
     this.limit = data.limit ? data.limit : 12;
     this.sm = data.sm ? data.sm : 2;
     this.md = data.md ? data.md : 3;
@@ -60,8 +60,6 @@ export default class Base extends Card {
     this.type = data.type;
     this.middleDate = data.middleDate !== undefined ? 'middle-date' : false;
     this.base_url = data.dataUrl ? data.dataUrl : '';
-
-    console.log(data)
   }
 
   makeQuery () {
