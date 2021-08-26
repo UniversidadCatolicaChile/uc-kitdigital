@@ -7,7 +7,7 @@ export default class Slider extends Base {
   }
 
   sliderAttributes () {
-    this.data_items = this.el.getAttribute('data-items') ? this.el.getAttribute('data-items') : "3";
+    this.data_items = this.el.getAttribute('data-items') ? this.el.getAttribute('data-items') : "4";
     this.data_slideby = this.el.getAttribute('data-slideby') ? this.el.getAttribute('data-slideby') : "1";
     this.data_loop = this.el.getAttribute('data-loop') ? this.el.getAttribute('data-loop') : "false";
     this.data_controls = this.el.getAttribute('data-controls') ? this.el.getAttribute('data-controls') : "true";
@@ -35,7 +35,7 @@ export default class Slider extends Base {
     });
 
     this.el.innerHTML = `
-      <div class="container my-60">
+      <div class="container">
         <div
           class="uc-carousel-cards"
           data-carousel="uc-carousel-events-${this.timestamp}"

@@ -38,24 +38,22 @@ export default class Base extends Card {
 
   getAttributes() {
     const data = this.el.dataset;
-
-    this.sm = this.el.getAttribute('sm');
-    this.md = this.el.getAttribute('md');
-    this.page = this.el.getAttribute('page') ? this.el.getAttribute('page') : 1;
-    this.limit = this.el.getAttribute('limit');
-    this.title_content = this.el.getAttribute('title_content');
-    this.types_of_activities = this.el.getAttribute('types_of_activities');
-    this.organizers = this.el.getAttribute('organizers');
-    this.audience = this.el.getAttribute('audience');
-    this.from = this.el.getAttribute('from');
-    this.to = this.el.getAttribute('to');
+    this.token = data.token;
+    this.title_content = data.titleContent;
+    this.limit = data.limit;
+    this.sm = data.sm;
+    this.md = data.md;
+    this.page = data.page ? data.page : 1;
+    this.typesOfActivities = data.typesOfActivities;
+    this.organizers = data.organizers
+    this.audience = data.audience
+    this.from = data.from;
+    this.to = data.to;
     this.hideImg = this.el.hasAttribute('hide-img');
     this.hideTag = this.el.hasAttribute('hide-tag');
     this.type = data.type;
-
     this.middleDate = data.middleDate !== undefined ? 'middle-date' : false;
-
-    this.base_url = this.el.getAttribute('base-url');
+    this.base_url = data.dataUrl;
   }
 
   makeQuery () {
@@ -64,12 +62,16 @@ export default class Base extends Card {
       this.query += `&limit=${this.limit}`;
     }
 
+    if (this.token) {
+      this.query += `&api_token=${this.token}`;
+    }
+
     if (this.title_content) {
       this.query += `&title_content=${this.title_content}`;
     }
 
-    if (this.types_of_activities) {
-      this.query += `&types_of_activities=${this.types_of_activities}`;
+    if (this.typesOfActivities) {
+      this.query += `&types_of_activities=${this.typesOfActivities}`;
     }
 
     if (this.organizers) {
@@ -91,7 +93,6 @@ export default class Base extends Card {
 
   async getData () {
     await this.makeQuery();
-
     return await fetch(`https://api.agenda.uc.asimov.cl/api/v1/activities?${this.query}`)
       .then(response => response.json())
       .then(data => {
