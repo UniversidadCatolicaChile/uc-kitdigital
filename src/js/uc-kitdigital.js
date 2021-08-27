@@ -23,11 +23,9 @@ import { Nav } from "./components/nav.js";
 import { Footer } from "./globals/Footer.js";
 import { Topbar } from "./globals/Topbar.js";
 
-import { AgendaSlider, AgendaRows, AgendaPagination } from "./agenda";
+import { AgendaDomContentLoad } from "./agenda";
 
-new AgendaSlider()
-new AgendaRows()
-new AgendaPagination()
+new AgendaDomContentLoad()
 new Topbar()
 new Footer()
 new Accordion()

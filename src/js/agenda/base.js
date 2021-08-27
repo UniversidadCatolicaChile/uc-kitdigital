@@ -1,23 +1,23 @@
 import Card from './card'
 
 export default class Base extends Card {
-  months = {
-    '01': { full: 'enero', small: 'ene' },
-    '02': { full: 'febrero', small: 'feb' },
-    '03': { full: 'marzo', small: 'mar' },
-    '04': { full: 'abril', small: 'abr' },
-    '05': { full: 'mayo', small: 'may' },
-    '06': { full: 'junio', small: 'jun' },
-    '07': { full: 'julio', small: 'jul' },
-    '08': { full: 'agosto', small: 'ago' },
-    '09': { full: 'septiembre', small: 'sep' },
-    '10': { full: 'octubre', small: 'oct' },
-    '11': { full: 'noviembre', small: 'nov' },
-    '12': { full: 'diciembre', small: 'dic' }
-  }
 
   constructor(el, timestamp = +new Date()) {
     super();
+    this.months = {
+      '01': { full: 'enero', small: 'ene' },
+      '02': { full: 'febrero', small: 'feb' },
+      '03': { full: 'marzo', small: 'mar' },
+      '04': { full: 'abril', small: 'abr' },
+      '05': { full: 'mayo', small: 'may' },
+      '06': { full: 'junio', small: 'jun' },
+      '07': { full: 'julio', small: 'jul' },
+      '08': { full: 'agosto', small: 'ago' },
+      '09': { full: 'septiembre', small: 'sep' },
+      '10': { full: 'octubre', small: 'oct' },
+      '11': { full: 'noviembre', small: 'nov' },
+      '12': { full: 'diciembre', small: 'dic' }
+    }
     this.el = el;
     this.timestamp = timestamp
     this.init();
