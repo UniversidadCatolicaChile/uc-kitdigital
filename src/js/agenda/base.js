@@ -59,6 +59,7 @@ export default class Base extends Card {
     this.to = data.to ? data.to : '';;
     this.hideImg = this.el.hasAttribute('hide-img');
     this.hideTag = this.el.hasAttribute('hide-tag');
+    this.featured = this.el.hasAttribute('featured');
     this.type = data.type;
     this.middleDate = data.middleDate !== undefined ? 'middle-date' : false;
 
@@ -96,6 +97,10 @@ export default class Base extends Card {
 
     if (this.to) {
       this.query += `&to=${this.to}`;
+    }
+    
+    if (this.featured) {
+      this.query += `&featured=1`;
     }
   }
 
