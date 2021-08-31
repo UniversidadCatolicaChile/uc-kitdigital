@@ -36,17 +36,12 @@ export default class Base extends Card {
     }, false);
   }
 
-  getAttribute(type, defaultVal) {
-    const attr = this.el.getAttribute(type);
-    return attr ? attr : defaultVal;
-  }
-
   getAttributes() {
     const data = this.el.dataset;
 
     this.host = data.host ? data.host : 'https://agenda.uc.cl/';
     this.token = data.token;
-    this.base_url = data.dataUrl ? data.dataUrl : '';
+    this.base_url = data.baseUrl ? data.baseUrl : '';
     this.titleContent = data.titleContent ? data.titleContent : '';
     this.limit = data.limit ? data.limit : 12;
     this.sm = data.sm ? data.sm : 2;
@@ -106,7 +101,7 @@ export default class Base extends Card {
 
   async getData() {
     await this.makeQuery();
-    return await fetch(`${this.host}/api/v1/activities?${this.query}`)
+    return await fetch(`${this.host}/api/v2/activities?${this.query}`)
       .then(response => response.json())
       .then(data => {
         this.total = data.total_count;
