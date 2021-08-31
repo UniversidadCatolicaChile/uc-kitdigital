@@ -7,3 +7,45 @@
     width: 100%;
   }
 }
+
+$primaryblue: #0176DE;
+  $loader-colors: dodgerblue;
+  $loader-dash: 63;
+  $loader-duration: length($loader-colors) * 2s;
+  $loader-duration-alt: $loader-duration / length($loader-colors);
+  $loader-keyframe: 1 / (length($loader-colors) * 2) * 100;
+
+  .uc-loader {
+    animation: loader-turn $loader-duration-alt linear infinite;
+    padding: 1rem;
+    max-width: 60px;
+    width: 100%;
+
+    @keyframes loader-turn {
+      50% {
+        transform: rotate(180deg)
+      }
+      100% {
+        transform: rotate(720deg)
+      }
+    }
+  }
+
+  .uc-loader_value {
+    animation: loader-stroke $loader-duration linear infinite;
+    fill: none;
+    stroke-dasharray: $loader-dash;
+    stroke-dashoffset: $loader-dash;
+    stroke-linecap: round;
+    stroke-width: 4;
+    stroke: $primaryblue;
+
+    @keyframes loader-stroke {
+      #{$loader-keyframe * 1%} {
+        stroke-dashoffset: 0
+      }
+      #{$loader-keyframe * 2%}, 100% {
+        stroke-dashoffset: $loader-dash
+      }
+    }
+  }
