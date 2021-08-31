@@ -4,9 +4,14 @@ import Pagination from './components/pagination';
 
 export class AgendaRows {
   constructor() {
-    const agendaRows = document.querySelector('#agenda-rows');
-    if (agendaRows) {
-      window.rows = new Rows(agendaRows);
+    const agendaRowsEls = document.querySelectorAll('.agenda-rows');
+    window.rows = {};
+    let timestamp = +new Date();
+    if (agendaRowsEls.length) {
+      agendaRowsEls.forEach((agendaRow) => {
+        timestamp++;
+        window.rows[timestamp] = new Rows(agendaRow, timestamp);
+      });
     }
   }
 }
@@ -16,10 +21,10 @@ export class AgendaSlider {
   constructor() {
     const agendaSliderEls = document.querySelectorAll('.agenda-slider');
     window.slider = {};
-    let timestamp;
+    let timestamp = +new Date();
     if (agendaSliderEls.length) {
       agendaSliderEls.forEach((agendaSlider) => {
-        timestamp = +new Date();
+        timestamp++;
         window.slider[timestamp] = new Slider(agendaSlider, timestamp);
       });
     }
@@ -30,10 +35,10 @@ export class AgendaPagination {
   constructor() {
     const agendaPaginationEls = document.querySelectorAll('.agenda-pagination');
     window.pagination = {};
-
+    let timestamp = +new Date();
     if (agendaPaginationEls.length) {
       agendaPaginationEls.forEach((agendaPagination) => {
-        timestamp = +new Date();
+        timestamp++;
         window.pagination[timestamp] = new Pagination(agendaPagination, timestamp);
       });
     }
