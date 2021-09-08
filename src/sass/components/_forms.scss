@@ -23,20 +23,21 @@
   border: 1px solid $darkgrayb;
   padding: 12px 16px;
   line-height: 1;
-  transition: .2s ease;
+  transition: 0.2s ease;
   position: relative;
   height: 45px;
   background-color: #ffffff;
   min-width: 250px;
   border-radius: $small-radius;
-  &:active, &:focus {
+  &:active,
+  &:focus {
     border: $secondary-border;
     box-shadow: $secondary-shadow;
     outline: none;
   }
   &.w-icon {
     &.search {
-      background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjYgKDY3NDkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5NYXNrPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+CiAgICAgICAgPHBhdGggZD0iTTE1LjUwMiw5LjQ5MSBMMTQuNzA4LDkuNDkxIEwxNC40MzIsOS43NjUgQzE1LjQwNywxMC45MDIgMTYsMTIuMzc2IDE2LDEzLjk5MSBDMTYsMTcuNTgxIDEzLjA5LDIwLjQ5MSA5LjUsMjAuNDkxIEM1LjkxLDIwLjQ5MSAzLDE3LjU4MSAzLDEzLjk5MSBDMywxMC40MDEgNS45MSw3LjQ5MSA5LjUsNy40OTEgQzExLjExNSw3LjQ5MSAxMi41ODgsOC4wODMgMTMuNzI1LDkuMDU3IEwxNC4wMDEsOC43ODMgTDE0LjAwMSw3Ljk5MSBMMTguOTk5LDMgTDIwLjQ5LDQuNDkxIEwxNS41MDIsOS40OTEgTDE1LjUwMiw5LjQ5MSBaIE05LjUsOS40OTEgQzcuMDE0LDkuNDkxIDUsMTEuNTA1IDUsMTMuOTkxIEM1LDE2LjQ3NiA3LjAxNCwxOC40OTEgOS41LDE4LjQ5MSBDMTEuOTg1LDE4LjQ5MSAxNCwxNi40NzYgMTQsMTMuOTkxIEMxNCwxMS41MDUgMTEuOTg1LDkuNDkxIDkuNSw5LjQ5MSBMOS41LDkuNDkxIFoiIGlkPSJwYXRoLTEiPjwvcGF0aD4KICAgIDwvZGVmcz4KICAgIDxnIGlkPSJTeW1ib2xzIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iSWNvbi0vLVNlYXJjaC0vLUZpbGxlZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMuMDAwMDAwLCAtMy4wMDAwMDApIj4KICAgICAgICAgICAgPG1hc2sgaWQ9Im1hc2stMiIgZmlsbD0id2hpdGUiPgogICAgICAgICAgICAgICAgPHVzZSB4bGluazpocmVmPSIjcGF0aC0xIj48L3VzZT4KICAgICAgICAgICAgPC9tYXNrPgogICAgICAgICAgICA8dXNlIGlkPSJNYXNrIiBmaWxsPSIjMDE3NkRFIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS43NDUwMDAsIDExLjc0NTUwMCkgc2NhbGUoMSwgLTEpIHRyYW5zbGF0ZSgtMTEuNzQ1MDAwLCAtMTEuNzQ1NTAwKSAiIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+');
+      background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMThweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTggMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjYgKDY3NDkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5NYXNrPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+CiAgICAgICAgPHBhdGggZD0iTTE1LjUwMiw5LjQ5MSBMMTQuNzA4LDkuNDkxIEwxNC40MzIsOS43NjUgQzE1LjQwNywxMC45MDIgMTYsMTIuMzc2IDE2LDEzLjk5MSBDMTYsMTcuNTgxIDEzLjA5LDIwLjQ5MSA5LjUsMjAuNDkxIEM1LjkxLDIwLjQ5MSAzLDE3LjU4MSAzLDEzLjk5MSBDMywxMC40MDEgNS45MSw3LjQ5MSA5LjUsNy40OTEgQzExLjExNSw3LjQ5MSAxMi41ODgsOC4wODMgMTMuNzI1LDkuMDU3IEwxNC4wMDEsOC43ODMgTDE0LjAwMSw3Ljk5MSBMMTguOTk5LDMgTDIwLjQ5LDQuNDkxIEwxNS41MDIsOS40OTEgTDE1LjUwMiw5LjQ5MSBaIE05LjUsOS40OTEgQzcuMDE0LDkuNDkxIDUsMTEuNTA1IDUsMTMuOTkxIEM1LDE2LjQ3NiA3LjAxNCwxOC40OTEgOS41LDE4LjQ5MSBDMTEuOTg1LDE4LjQ5MSAxNCwxNi40NzYgMTQsMTMuOTkxIEMxNCwxMS41MDUgMTEuOTg1LDkuNDkxIDkuNSw5LjQ5MSBMOS41LDkuNDkxIFoiIGlkPSJwYXRoLTEiPjwvcGF0aD4KICAgIDwvZGVmcz4KICAgIDxnIGlkPSJTeW1ib2xzIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iSWNvbi0vLVNlYXJjaC0vLUZpbGxlZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMuMDAwMDAwLCAtMy4wMDAwMDApIj4KICAgICAgICAgICAgPG1hc2sgaWQ9Im1hc2stMiIgZmlsbD0id2hpdGUiPgogICAgICAgICAgICAgICAgPHVzZSB4bGluazpocmVmPSIjcGF0aC0xIj48L3VzZT4KICAgICAgICAgICAgPC9tYXNrPgogICAgICAgICAgICA8dXNlIGlkPSJNYXNrIiBmaWxsPSIjMDE3NkRFIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMS43NDUwMDAsIDExLjc0NTUwMCkgc2NhbGUoMSwgLTEpIHRyYW5zbGF0ZSgtMTEuNzQ1MDAwLCAtMTEuNzQ1NTAwKSAiIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+");
       background-repeat: no-repeat;
       background-position: right 16px center;
     }
@@ -51,7 +52,8 @@ textarea.uc-input-style {
   height: auto;
 }
 
-.uc-radio-group, .uc-checkbox-group {
+.uc-radio-group,
+.uc-checkbox-group {
   box-shadow: $primary-shadow;
   border-radius: $small-radius;
   display: inline-flex;
@@ -71,7 +73,7 @@ textarea.uc-input-style {
   .uc-radio-button {
     outline: none;
     position: relative;
-    transition: .2s ease;
+    transition: 0.2s ease;
     background-color: #fff;
     cursor: pointer;
     padding: 10px;
@@ -84,6 +86,68 @@ textarea.uc-input-style {
     }
     &:last-of-type {
       border-radius: 0 4px 4px 0;
+    }
+  }
+}
+
+/*
+  
+  Docs
+  
+  https://uxplanet.org/radio-buttons-ux-design-588e5c0a50dc
+  https://blog.bitsrc.io/customise-radio-buttons-without-compromising-accessibility-b03061b5ba93
+  https://webaim.org/techniques/css/invisiblecontent/
+  
+*/
+.uc-radio {
+  label {
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    display: inline-block;
+    padding-left: 26px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 18px;
+    &:before,
+    &:after {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 18px;
+      height: 18px;
+      // box-sizing: border-box;
+      content: " ";
+      border-radius: 100%;
+    }
+    &:before {
+      border: 1px solid $darkgrayb;
+    }
+  }
+  input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+    &:checked + label {
+      font-weight: 500;
+    }
+    &:focus + label:after {
+      box-shadow: 0 0 6px 0px $primaryblue;
+    }
+    &:checked + label:after {
+      border: 6px solid $primaryblue;
+      background: white;
+    }
+    &:disabled + label:after {
+      background-color: $lightgrayb;
+    }
+    &:disabled + label:before {
+      background-color: $lightgrayb;
+    }
+    &:checked:disabled + label:after {
+      border: 6px solid $lightgrayb;
+      box-shadow: 0 0 0 1px $darkgrayb;
+      background-color: $darkgrayb;
     }
   }
 }
