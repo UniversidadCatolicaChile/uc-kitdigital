@@ -99,7 +99,7 @@ textarea.uc-input-style {
   https://webaim.org/techniques/css/invisiblecontent/
   
 */
-.uc-radio {
+.uc-form-check {
   label {
     font-weight: 400;
     line-height: 18px;
@@ -118,8 +118,8 @@ textarea.uc-input-style {
       width: 18px;
       height: 18px;
       // box-sizing: border-box;
-      content: " ";
-      border-radius: 100%;
+      content: "";
+      // border-radius: 100%;
     }
     &:before {
       border: 1px solid $darkgrayb;
@@ -128,11 +128,44 @@ textarea.uc-input-style {
   input[type="radio"] {
     opacity: 0;
     position: absolute;
+    + label:after,+label:before {
+      border-radius: 100%;
+    }
     &:checked + label {
       font-weight: 500;
     }
     &:focus + label:after {
       box-shadow: 0 0 6px 0px $primaryblue;
+    }
+    &:checked + label:after {
+      border: 6px solid $primaryblue;
+      background: white;
+    }
+    &:disabled + label:after {
+      background-color: $lightgrayb;
+    }
+    &:disabled + label:before {
+      background-color: $lightgrayb;
+    }
+    &:checked:disabled + label:after {
+      border: 6px solid $lightgrayb;
+      box-shadow: 0 0 0 1px $darkgrayb;
+      background-color: $darkgrayb;
+    }
+  }
+  input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    + label:after,+label:before {
+      border-radius: 5px;
+      content: "✔";
+    }
+    &:checked + label {
+      font-weight: 500;
+    }
+    &:focus + label:after {
+      box-shadow: 0 0 6px 0px $primaryblue;
+      outline: solid red;
     }
     &:checked + label:after {
       border: 6px solid $primaryblue;
