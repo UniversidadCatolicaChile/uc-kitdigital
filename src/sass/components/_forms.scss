@@ -130,7 +130,7 @@ textarea.uc-input-style {
     &:checked + label {
       font-weight: 500;
     }
-    &:focus + label:after {
+    &:focus + label::before {
       box-shadow: 0 0 6px 0px $primaryblue;
     }
     &:disabled + label:after,
