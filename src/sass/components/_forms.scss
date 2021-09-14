@@ -262,9 +262,13 @@ $uc-form-focus: 0 0 6px 0px $primaryblue;
 
 */
 
-  label.disabled {
-      color: $darkgrayb;
-	  pointer-events: none;
+  label{
+	  font-weight: 400;
+	  &.disabled {
+		color: $darkgrayb;
+		font-weight: normal !important;
+		pointer-events: none;
+	}
   }
 
   $form-range-track-width: 100%;
