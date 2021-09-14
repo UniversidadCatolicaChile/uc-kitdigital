@@ -99,6 +99,9 @@ textarea.uc-input-style {
   https://webaim.org/techniques/css/invisiblecontent/
   
 */
+
+$uc-form-focus: 0 0 6px 0px $primaryblue;
+
 .uc-form-check {
   label {
     font-weight: 400;
@@ -131,7 +134,7 @@ textarea.uc-input-style {
       font-weight: 500;
     }
     &:focus + label::before {
-      box-shadow: 0 0 6px 0px $primaryblue;
+      box-shadow: $uc-form-focus;
     }
     &:disabled + label:after,
     &:disabled + label:before {
@@ -181,7 +184,7 @@ textarea.uc-input-style {
   }
   // Switch
   &.uc-form-switch {
-    &input { 
+    &input {
       display: none;
     }
     & > label {
@@ -232,7 +235,8 @@ textarea.uc-input-style {
       &:checked + label::before {
         background-color: $primaryblue;
       }
-      &:disabled + label::after, &:checked + label::after {
+      &:disabled + label::after,
+      &:checked + label::after {
         background-color: white;
       }
       &:checked:disabled + label::before {
@@ -243,6 +247,136 @@ textarea.uc-input-style {
       }
       &:checked + label::after {
         transform: translateX(22px);
+      }
+    }
+  }
+}
+
+.uc-form-slider {
+  /*
+	Basado en la implementación de input-range 
+	de boostrap 5.
+
+	https://getbootstrap.com/docs/5.0/forms/range/#variables
+	https://github.com/twbs/bootstrap/blob/main/scss/forms/_form-range.scss
+
+*/
+
+  label.disabled {
+      color: $darkgrayb;
+	  pointer-events: none;
+  }
+
+  $form-range-track-width: 100%;
+  $form-range-track-height: 4px;
+  $form-range-track-cursor: pointer;
+  $form-range-track-bg: $darkgrayb;
+  $form-range-track-border-radius: 4px;
+  $form-range-track-box-shadow: none;
+
+  $form-range-thumb-width: 18px;
+  $form-range-thumb-height: 18px;
+  $form-range-thumb-bg: white;
+  $form-range-thumb-border: solid 6px $primary;
+  $form-range-thumb-border-radius: 100%;
+  $form-range-thumb-box-shadow: none;
+  $form-range-thumb-focus-box-shadow: $uc-form-focus;
+  $form-range-thumb-focus-box-shadow-width: 24px; // For focus box shadow issue in Edge
+  $form-range-thumb-active-bg: tint-color(green, 70%);
+  $form-range-thumb-disabled-bg: #f0f0f0;
+  $form-range-thumb-transition: background-color 0.15s ease-in-out,
+    red 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  input[type="range"] {
+    width: 100%;
+    height: 18px;
+    margin-bottom: 18px;
+    padding: 0; // Need to reset padding
+    background-color: transparent;
+    appearance: none;
+
+    &:focus {
+      outline: 0;
+
+      // Pseudo-elements must be split across multiple rulesets to have an effect.
+      // No box-shadow() mixin for focus accessibility.
+      &::-webkit-slider-thumb {
+        box-shadow: $form-range-thumb-focus-box-shadow;
+      }
+      &::-moz-range-thumb {
+        box-shadow: $form-range-thumb-focus-box-shadow;
+      }
+    }
+
+    &::-moz-focus-outer {
+      border: 0;
+    }
+
+    &::-webkit-slider-thumb {
+      width: $form-range-thumb-width;
+      height: $form-range-thumb-height;
+      margin-top: ($form-range-track-height - $form-range-thumb-height) * 0.5; // Webkit specific
+      @include gradient-bg($form-range-thumb-bg);
+      border: $form-range-thumb-border;
+      @include border-radius($form-range-thumb-border-radius);
+      @include box-shadow($form-range-thumb-box-shadow);
+      @include transition($form-range-thumb-transition);
+      appearance: none;
+      &:active {
+        @include gradient-bg($form-range-thumb-active-bg);
+      }
+    }
+
+    &::-webkit-slider-runnable-track {
+      width: $form-range-track-width;
+      height: $form-range-track-height;
+      color: transparent; // Why?
+      cursor: $form-range-track-cursor;
+      background-color: $form-range-track-bg;
+      border-color: transparent;
+      @include border-radius($form-range-track-border-radius);
+      @include box-shadow($form-range-track-box-shadow);
+    }
+
+    &::-moz-range-thumb {
+      width: $form-range-thumb-width;
+      height: $form-range-thumb-height;
+      @include gradient-bg($form-range-thumb-bg);
+      border: $form-range-thumb-border;
+      @include border-radius($form-range-thumb-border-radius);
+      @include box-shadow($form-range-thumb-box-shadow);
+      @include transition($form-range-thumb-transition);
+      appearance: none;
+
+      &:active {
+        @include gradient-bg($form-range-thumb-active-bg);
+      }
+    }
+
+    &::-moz-range-track {
+      width: $form-range-track-width;
+      height: $form-range-track-height;
+      color: transparent;
+      cursor: $form-range-track-cursor;
+      background-color: $form-range-track-bg;
+      border-color: transparent; // Firefox specific?
+      @include border-radius($form-range-track-border-radius);
+      @include box-shadow($form-range-track-box-shadow);
+    }
+
+    &:disabled {
+      pointer-events: none;
+
+      &::-webkit-slider-thumb {
+        border: 6px solid $lightgrayb;
+        box-shadow: 0 0 0 1px $darkgrayb;
+        background-color: $darkgrayb;
+      }
+
+      &::-moz-range-thumb {
+        border: 6px solid $lightgrayb;
+        box-shadow: 0 0 0 1px $darkgrayb;
+        background-color: $darkgrayb;
       }
     }
   }
