@@ -262,13 +262,13 @@ $uc-form-focus: 0 0 6px 0px $primaryblue;
 
 */
 
-  label{
-	  font-weight: 400;
-	  &.disabled {
-		color: $darkgrayb;
-		font-weight: normal !important;
-		pointer-events: none;
-	}
+  label {
+    font-weight: 400;
+    &.disabled {
+      color: $darkgrayb;
+      font-weight: normal !important;
+      pointer-events: none;
+    }
   }
 
   $form-range-track-width: 100%;
@@ -285,8 +285,7 @@ $uc-form-focus: 0 0 6px 0px $primaryblue;
   $form-range-thumb-border-radius: 100%;
   $form-range-thumb-box-shadow: none;
   $form-range-thumb-focus-box-shadow: $uc-form-focus;
-  $form-range-thumb-focus-box-shadow-width: 24px; // For focus box shadow issue in Edge
-  $form-range-thumb-active-bg: tint-color(green, 70%);
+  $form-range-thumb-focus-box-shadow-width: 14px; // For focus box shadow issue in Edge
   $form-range-thumb-disabled-bg: #f0f0f0;
   $form-range-thumb-transition: background-color 0.15s ease-in-out,
     red 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -301,7 +300,6 @@ $uc-form-focus: 0 0 6px 0px $primaryblue;
 
     &:focus {
       outline: 0;
-
       // Pseudo-elements must be split across multiple rulesets to have an effect.
       // No box-shadow() mixin for focus accessibility.
       &::-webkit-slider-thumb {
@@ -326,9 +324,6 @@ $uc-form-focus: 0 0 6px 0px $primaryblue;
       @include box-shadow($form-range-thumb-box-shadow);
       @include transition($form-range-thumb-transition);
       appearance: none;
-      &:active {
-        @include gradient-bg($form-range-thumb-active-bg);
-      }
     }
 
     &::-webkit-slider-runnable-track {
@@ -343,18 +338,14 @@ $uc-form-focus: 0 0 6px 0px $primaryblue;
     }
 
     &::-moz-range-thumb {
-      width: $form-range-thumb-width;
-      height: $form-range-thumb-height;
+      width: $form-range-thumb-width / 3;
+      height: $form-range-thumb-height / 3;
       @include gradient-bg($form-range-thumb-bg);
       border: $form-range-thumb-border;
       @include border-radius($form-range-thumb-border-radius);
       @include box-shadow($form-range-thumb-box-shadow);
       @include transition($form-range-thumb-transition);
       appearance: none;
-
-      &:active {
-        @include gradient-bg($form-range-thumb-active-bg);
-      }
     }
 
     &::-moz-range-track {
@@ -370,17 +361,16 @@ $uc-form-focus: 0 0 6px 0px $primaryblue;
 
     &:disabled {
       pointer-events: none;
-
-      &::-webkit-slider-thumb {
+      @mixin disable-thumb {
         border: 6px solid $lightgrayb;
         box-shadow: 0 0 0 1px $darkgrayb;
         background-color: $darkgrayb;
       }
-
+      &::-webkit-slider-thumb {
+        @include disable-thumb;
+      }
       &::-moz-range-thumb {
-        border: 6px solid $lightgrayb;
-        box-shadow: 0 0 0 1px $darkgrayb;
-        background-color: $darkgrayb;
+        @include disable-thumb;
       }
     }
   }
